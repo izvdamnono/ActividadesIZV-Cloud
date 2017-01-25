@@ -1,0 +1,313 @@
+# Translation of Themes - Lovecraft in Spanish (Spain)
+# This file is distributed under the same license as the Themes - Lovecraft package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-11-12 12:33:06+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Themes - Lovecraft\n"
+
+#. Description of the plugin/theme
+msgid "Lovecraft is a beautiful two-column theme for bloggers. It features a responsive design, great typography, a full-width header image (which is replaced with the post thumbnail on single posts/pages), custom accent color support, custom logo support, editor style support, a Flickr widget, recent posts and recent comments widgets with thumbnails, and a full-width template. Included translations: Swedish/svenska."
+msgstr "Lovecraft es un bonito tema de dos columnas para bloggers. Cuenta con un diseño adaptable, buena tipografía, imagen de cabecera de ancho total (que es reemplazada con la imagen destacada de la entrada en las entradas individuales/páginas), soporte de color destacado personalizado, soporte de logotipo personalizado, soporte de editor de estilo, widget de Flicker, widgets de entradas y comentarios recientes con imágenes destacadas, y una plantilla de anchura completa. Traducciones incluidas: sueco/svenska."
+
+#. Theme Name of the plugin/theme
+msgid "Lovecraft"
+msgstr "Lovecraft"
+
+#. Template Name of the plugin/theme
+msgid "Full Width Page Template"
+msgstr "Plantilla de página de ancho completo"
+
+#: widgets/recent-posts.php:147
+msgid "Number of posts to display"
+msgstr "Número de entradas que deseas mostrar"
+
+#: widgets/recent-posts.php:6
+msgid "Displays recent blog entries."
+msgstr "Muestra las entradas de blog recientes."
+
+#: widgets/recent-comments.php:116 widgets/recent-posts.php:149
+msgid "Defaults to 5 if empty"
+msgstr "Si está vacío, el valor por defecto es 5"
+
+#: widgets/recent-comments.php:114
+msgid "Number of comments to display"
+msgstr "Número de comentarios a mostrar"
+
+#: widgets/recent-comments.php:54
+msgid "posted"
+msgstr "Publicado"
+
+#: widgets/recent-comments.php:54
+msgid "Comment to"
+msgstr "Comentario a"
+
+#: widgets/recent-comments.php:6
+msgid "Displays recent comments with user avatars."
+msgstr "Muestra comentarios recientes con los avatares de los usuarios."
+
+#: widgets/recent-comments.php:7
+msgid "Recent Comments"
+msgstr "Comentarios recientes"
+
+#: widgets/flickr-widget.php:79
+msgid "Number of images to display"
+msgstr "Número de imágenes a mostrar"
+
+#: widgets/flickr-widget.php:73
+msgid "Flickr ID (use <a target=\"_blank\" href=\"http://www.idgettr.com\">idGettr</a>)"
+msgstr "Flickr ID (usa <a target=\"_blank\" href=\"http://www.idgettr.com\">idGettr</a>)"
+
+#: widgets/flickr-widget.php:67 widgets/recent-comments.php:109
+#: widgets/recent-posts.php:142
+msgid "Title"
+msgstr "Título"
+
+#: widgets/flickr-widget.php:6
+msgid "Displays your latest Flickr photos."
+msgstr "Muestra tus últimas fotos en Flickr."
+
+#: widgets/flickr-widget.php:7
+msgid "Flickr Widget"
+msgstr "Widget de Flickr"
+
+#: single.php:98
+msgid "Next post"
+msgstr "Entrada siguiente"
+
+#: single.php:85
+msgid "Previous post"
+msgstr "Entrada anterior"
+
+#: single.php:40
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: sidebar.php:27 widgets/recent-posts.php:7
+msgid "Recent Posts"
+msgstr "Mensajes recientes"
+
+#: searchform.php:2
+msgid "Search form"
+msgstr "Formulario de búsqueda"
+
+#: search.php:56
+msgid "No results. Try again, would you kindly?"
+msgstr "No hay resultados. Puedes intentarlo de nuevo."
+
+#: search.php:13 search.php:45
+msgid "Search results:"
+msgstr "Resultados de la búsqueda:"
+
+#: image.php:30
+msgid "Resolution:"
+msgstr "Resolución:"
+
+#: functions.php:412
+msgid "Accent Color"
+msgstr "Color de énfasis"
+
+#: functions.php:386
+msgid "Upload a logo to replace the default site title in the header."
+msgstr "Subir un logo para reemplazar el título del sitio por defecto en la cabecera."
+
+#: functions.php:384 functions.php:420
+msgid "Logo"
+msgstr "Logotipo"
+
+#: functions.php:379
+msgid "Allows you to customize theme settings for Lovecraft."
+msgstr "Te permite personalizar los ajustes del tema de Lovecraft."
+
+#: functions.php:376
+msgid "Options for Lovecraft"
+msgstr "Opciones de Lovecraft"
+
+#: functions.php:342
+msgid "Reply"
+msgstr "Respuesta"
+
+#: functions.php:335
+msgid "Your comment is awaiting moderation."
+msgstr "Tu comentario está esperando ser moderado."
+
+#: functions.php:303
+msgid "Post author"
+msgstr "Autor"
+
+#: functions.php:287 functions.php:329
+msgid "Edit"
+msgstr "Editar"
+
+#: functions.php:287
+msgid "Pingback:"
+msgstr "Pingback: "
+
+#: functions.php:221
+msgid "Read More"
+msgstr "Leer más"
+
+#: functions.php:181 index.php:21
+msgid "Page %s of %s"
+msgstr "Página %s de %s"
+
+#: functions.php:137
+msgid "Widgets in this area will be shown in the right footer column."
+msgstr "Widgets en este área serán mostrados en la columna derecha del pie de página."
+
+#: functions.php:135
+msgid "Footer Three"
+msgstr "Pie de página tres"
+
+#: functions.php:128
+msgid "Widgets in this area will be shown in the middle footer column."
+msgstr "Widgets en este área serán mostrados en la columna del medio del pie de página."
+
+#: functions.php:126
+msgid "Footer Two"
+msgstr "Pie de página dos"
+
+#: functions.php:119
+msgid "Widgets in this area will be shown in the left footer column."
+msgstr "Widgets en este área serán mostrados en la columna izquierda del pie de página."
+
+#: functions.php:117
+msgid "Footer One"
+msgstr "Pie de página uno"
+
+#: functions.php:110
+msgid "Widgets in this area will be shown in the sidebar."
+msgstr "Los widgets en esta zona aparecerán en la barra lateral."
+
+#: functions.php:108
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+#: functions.php:56
+msgid "Primary Menu"
+msgstr "Menú Primario"
+
+#: full-width-page-template.php:59 image.php:52 page.php:51 single.php:118
+msgid "We couldn't find any posts that matched your query. Please try again."
+msgstr "No hemos encontrado ninguna entrada relacionada con tu búsqueda. Por favor, inténtalo de nuevo."
+
+#: footer.php:37
+msgid "Theme by"
+msgstr "Tema de"
+
+#: footer.php:37
+msgid "Powered by"
+msgstr "Creado con"
+
+#: content.php:25
+msgid "Sticky post"
+msgstr "Entrada fija"
+
+#: content-aside.php:32 content.php:36 single.php:24
+msgid "In"
+msgstr "en"
+
+#: content-aside.php:30 content.php:34 image.php:28 single.php:22
+msgid "On"
+msgstr "en"
+
+#: content-aside.php:29 content.php:33 image.php:27 single.php:21
+msgid "By"
+msgstr "por"
+
+#: comments.php:133
+msgid "Website"
+msgstr "Sitio web"
+
+#: comments.php:127
+msgid "Email"
+msgstr "Email"
+
+#: comments.php:121
+msgid "Name"
+msgstr "Nombre"
+
+#: comments.php:95
+msgid "Comments are closed."
+msgstr "Comentarios cerrados."
+
+#: comments.php:71 functions.php:201 single.php:96
+msgid "Next"
+msgstr "Siguiente"
+
+#: comments.php:65 functions.php:191 single.php:83
+msgid "Previous"
+msgstr "Anterior"
+
+#: comments.php:47
+msgid "Pingback"
+msgid_plural "Pingbacks"
+msgstr[0] "Pingback"
+msgstr[1] "Pingbacks"
+
+#: comments.php:24
+msgid "Add Comment"
+msgstr "Añadir comentario"
+
+#: comments.php:16 comments.php:113
+msgid "Comment"
+msgid_plural "Comments"
+msgstr[0] "Comentario"
+msgstr[1] "Comentarios"
+
+#: archive.php:35 search.php:20
+msgid "(Page %s of %s)"
+msgstr "(Página %s de %s)"
+
+#: archive.php:27
+msgid "Archive"
+msgstr "Archivo"
+
+#: archive.php:25
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: archive.php:22
+msgid "Tag: %s"
+msgstr "Etiqueta: %s"
+
+#: archive.php:20
+msgid "Category: %s"
+msgstr "Categoría: %s"
+
+#: archive.php:18
+msgid "Year: %s"
+msgstr "Año: %s"
+
+#: archive.php:16
+msgid "Month: %s"
+msgstr "Mes: %s"
+
+#: archive.php:14
+msgid "Date: %s"
+msgstr "Fecha: %s "
+
+#: 404.php:21
+msgid "It seems like you have tried to open a page that doesn't exist. It could have been deleted, moved, or it never existed at all. You are welcome to search for what you are looking for with the form below."
+msgstr "Parece que has intentado abrir una página que no existe, o tal vez,  haya sido borrada o movida. Puede que encuentres lo que buscas usando el formulario de abajo."
+
+#: 404.php:15
+msgid "Error 404"
+msgstr "Error 404 "
+
+#. Author URI of the plugin/theme
+msgid "http://www.andersnoren.se"
+msgstr "http://www.andersnoren.se"
+
+#. Author of the plugin/theme
+msgid "Anders Norén"
+msgstr "Anders Norén"
+
+#. Theme URI of the plugin/theme
+msgid "http://www.andersnoren.se/teman/lovecraft-wordpress-theme/"
+msgstr "http://www.andersnoren.se/teman/lovecraft-wordpress-theme/"

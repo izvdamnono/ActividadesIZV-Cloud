@@ -1,0 +1,321 @@
+[18-Jan-2017 09:55:27 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/ios/api.php on line 9
+[21-Jan-2017 15:48:18 UTC] PHP Warning:  require_once(../clases/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/doctrine/bootstrap.php on line 6
+[21-Jan-2017 15:48:18 UTC] PHP Stack trace:
+[21-Jan-2017 15:48:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/bin/doctrine:0
+[21-Jan-2017 15:48:18 UTC] PHP   2. include() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/bin/doctrine:4
+[21-Jan-2017 15:48:18 UTC] PHP   3. require() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/bin/doctrine.php:48
+[21-Jan-2017 15:48:18 UTC] PHP   4. require_once() /home/ubuntu/workspace/doctrine/cli-config.php:2
+[21-Jan-2017 15:48:18 UTC] PHP Fatal error:  require_once(): Failed opening required '../clases/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/doctrine/bootstrap.php on line 6
+[21-Jan-2017 15:48:18 UTC] PHP Stack trace:
+[21-Jan-2017 15:48:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/bin/doctrine:0
+[21-Jan-2017 15:48:18 UTC] PHP   2. include() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/bin/doctrine:4
+[21-Jan-2017 15:48:18 UTC] PHP   3. require() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/bin/doctrine.php:48
+[21-Jan-2017 15:48:18 UTC] PHP   4. require_once() /home/ubuntu/workspace/doctrine/cli-config.php:2
+[21-Jan-2017 15:49:21 UTC] PHP Fatal error:  Cannot redeclare class Autor in /home/ubuntu/workspace/doctrine/src/Profesor.php on line 9
+[21-Jan-2017 15:49:21 UTC] PHP Stack trace:
+[21-Jan-2017 15:49:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/bin/doctrine:0
+[21-Jan-2017 15:49:21 UTC] PHP   2. include() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/bin/doctrine:4
+[21-Jan-2017 15:49:21 UTC] PHP   3. Doctrine\ORM\Tools\Console\ConsoleRunner::run() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/bin/doctrine.php:59
+[21-Jan-2017 15:49:21 UTC] PHP   4. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/ConsoleRunner.php:64
+[21-Jan-2017 15:49:21 UTC] PHP   5. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/doctrine/vendor/symfony/console/Application.php:122
+[21-Jan-2017 15:49:21 UTC] PHP   6. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/doctrine/vendor/symfony/console/Application.php:191
+[21-Jan-2017 15:49:21 UTC] PHP   7. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/doctrine/vendor/symfony/console/Application.php:846
+[21-Jan-2017 15:49:21 UTC] PHP   8. Doctrine\ORM\Tools\Console\Command\SchemaTool\AbstractCommand->execute() /home/ubuntu/workspace/doctrine/vendor/symfony/console/Command/Command.php:264
+[21-Jan-2017 15:49:21 UTC] PHP   9. Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->getAllMetadata() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/Command/SchemaTool/AbstractCommand.php:59
+[21-Jan-2017 15:49:21 UTC] PHP  10. Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->getMetadataFor() /home/ubuntu/workspace/doctrine/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:115
+[21-Jan-2017 15:49:21 UTC] PHP  11. Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->loadMetadata() /home/ubuntu/workspace/doctrine/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:216
+[21-Jan-2017 15:49:21 UTC] PHP  12. Doctrine\ORM\Mapping\ClassMetadataFactory->doLoadMetadata() /home/ubuntu/workspace/doctrine/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:332
+[21-Jan-2017 15:49:21 UTC] PHP  13. Doctrine\ORM\Mapping\ClassMetadataFactory->validateRuntimeMetadata() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/ClassMetadataFactory.php:177
+[21-Jan-2017 15:49:21 UTC] PHP  14. Doctrine\ORM\Mapping\ClassMetadataInfo->validateAssociations() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/ClassMetadataFactory.php:198
+[21-Jan-2017 15:49:21 UTC] PHP  15. Doctrine\Common\ClassLoader::classExists() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/ClassMetadataInfo.php:952
+[21-Jan-2017 15:49:21 UTC] PHP  16. Doctrine\Common\ClassLoader::typeExists() /home/ubuntu/workspace/doctrine/vendor/doctrine/common/lib/Doctrine/Common/ClassLoader.php:240
+[21-Jan-2017 15:49:21 UTC] PHP  17. class_exists() /home/ubuntu/workspace/doctrine/vendor/doctrine/common/lib/Doctrine/Common/ClassLoader.php:276
+[21-Jan-2017 15:49:21 UTC] PHP  18. spl_autoload_call() /home/ubuntu/workspace/doctrine/vendor/doctrine/common/lib/Doctrine/Common/ClassLoader.php:276
+[21-Jan-2017 15:49:21 UTC] PHP  19. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/doctrine/vendor/doctrine/common/lib/Doctrine/Common/ClassLoader.php:276
+[21-Jan-2017 15:49:21 UTC] PHP  20. Composer\Autoload\includeFile() /home/ubuntu/workspace/doctrine/vendor/composer/ClassLoader.php:301
+[21-Jan-2017 15:49:21 UTC] PHP  21. include() /home/ubuntu/workspace/doctrine/vendor/composer/ClassLoader.php:414
+[21-Jan-2017 16:49:19 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/ios/api_pruebas.php on line 25
+[21-Jan-2017 17:01:16 UTC] PHP Fatal error:  Class 'Bootstrap' not found in /home/ubuntu/workspace/ios/api_pruebas.php on line 35
+[21-Jan-2017 17:01:16 UTC] PHP Stack trace:
+[21-Jan-2017 17:01:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[21-Jan-2017 17:02:19 UTC] PHP Fatal error:  Class 'Bootstrap' not found in /home/ubuntu/workspace/ios/api_pruebas.php on line 35
+[21-Jan-2017 17:02:19 UTC] PHP Stack trace:
+[21-Jan-2017 17:02:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[21-Jan-2017 17:04:05 UTC] PHP Fatal error:  Class 'Bootstrap' not found in /home/ubuntu/workspace/ios/api_pruebas.php on line 36
+[21-Jan-2017 17:04:05 UTC] PHP Stack trace:
+[21-Jan-2017 17:04:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[21-Jan-2017 17:04:34 UTC] PHP Warning:  require_once(../doctrine/AutosLoad.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ios/api_pruebas.php on line 35
+[21-Jan-2017 17:04:34 UTC] PHP Stack trace:
+[21-Jan-2017 17:04:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[21-Jan-2017 17:04:34 UTC] PHP Fatal error:  require_once(): Failed opening required '../doctrine/AutosLoad.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ios/api_pruebas.php on line 35
+[21-Jan-2017 17:04:34 UTC] PHP Stack trace:
+[21-Jan-2017 17:04:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[21-Jan-2017 17:04:40 UTC] PHP Fatal error:  Class 'Bootstrap' not found in /home/ubuntu/workspace/ios/api_pruebas.php on line 36
+[21-Jan-2017 17:04:40 UTC] PHP Stack trace:
+[21-Jan-2017 17:04:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[21-Jan-2017 17:05:46 UTC] PHP Fatal error:  Class 'Bootstrap' not found in /home/ubuntu/workspace/ios/api_pruebas.php on line 36
+[21-Jan-2017 17:05:46 UTC] PHP Stack trace:
+[21-Jan-2017 17:05:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[21-Jan-2017 17:12:29 UTC] PHP Fatal error:  Class 'Bootstrap' not found in /home/ubuntu/workspace/ios/api_pruebas.php on line 36
+[21-Jan-2017 17:12:29 UTC] PHP Stack trace:
+[21-Jan-2017 17:12:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[21-Jan-2017 17:21:37 UTC] PHP Warning:  require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/doctrine/Bootstrap.php on line 20
+[21-Jan-2017 17:21:37 UTC] PHP Stack trace:
+[21-Jan-2017 17:21:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[21-Jan-2017 17:21:37 UTC] PHP   2. Bootstrap->__construct() /home/ubuntu/workspace/ios/api_pruebas.php:36
+[21-Jan-2017 17:21:37 UTC] PHP Fatal error:  require_once(): Failed opening required '../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/doctrine/Bootstrap.php on line 20
+[21-Jan-2017 17:21:37 UTC] PHP Stack trace:
+[21-Jan-2017 17:21:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[21-Jan-2017 17:21:37 UTC] PHP   2. Bootstrap->__construct() /home/ubuntu/workspace/ios/api_pruebas.php:36
+[21-Jan-2017 17:28:06 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/ios/api_pruebas.php on line 51
+[21-Jan-2017 17:28:55 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/ios/api_pruebas.php on line 50
+[21-Jan-2017 18:00:12 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/ubuntu/workspace/ios/api_pruebas.php on line 52
+[21-Jan-2017 18:00:12 UTC] PHP Stack trace:
+[21-Jan-2017 18:00:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[21-Jan-2017 18:00:12 UTC] PHP   2. json_decode() /home/ubuntu/workspace/ios/api_pruebas.php:52
+[21-Jan-2017 18:06:09 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message 'SELECT r FROM actividad r WHERE r.id = ' in /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError('SELECT r FROM a...')
+#1 /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2586): Doctrine\ORM\Query\Parser->syntaxError('Literal')
+#2 /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2774): Doctrine\ORM\Query\Parser->Literal()
+#3 /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2708): Doctrine\ORM\Query\Parser->ArithmeticPrimary()
+#4 /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2676): Doctrine\ORM\Query\Parser->ArithmeticFactor()
+#5 /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Quer in /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[21-Jan-2017 18:06:18 UTC] PHP Parse error:  syntax error, unexpected 'Content' (T_STRING) in /home/ubuntu/workspace/ios/api_pruebas.php on line 72
+[21-Jan-2017 18:30:37 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message 'SELECT * FROM actividad a, profesor p WHERE p.id = 1' in /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError('SELECT * FROM a...')
+#1 /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2167): Doctrine\ORM\Query\Parser->syntaxError('IdentificationV...', Array)
+#2 /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1158): Doctrine\ORM\Query\Parser->SelectExpression()
+#3 /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(874): Doctrine\ORM\Query\Parser->SelectClause()
+#4 /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(843): Doctrine\ORM\Query\Parser->SelectStatement()
+#5 /home/ubuntu/workspace/doctrine/vendor/do in /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[21-Jan-2017 18:33:04 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message 'SELECT a FROM actividad a, profesor p WHERE a.idprofesor = p.id and p.id = 1' in /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(483): Doctrine\ORM\Query\QueryException::dqlError('SELECT a FROM a...')
+#1 /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(759): Doctrine\ORM\Query\Parser->semanticalError('Class Actividad...', Array)
+#2 /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(279): Doctrine\ORM\Query\Parser->processDeferredPathExpressions(Object(Doctrine\ORM\Query\AST\SelectStatement))
+#3 /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(351): Doctrine\ORM\Query\Parser->getAST()
+#4 /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Query.php(255): Doctrine\ORM\Que in /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 63
+[22-Jan-2017 08:30:24 UTC] PHP Fatal error:  Class 'ArrayCollection' not found in /home/ubuntu/workspace/doctrine/src/Actividad.php on line 53
+[22-Jan-2017 08:30:24 UTC] PHP Stack trace:
+[22-Jan-2017 08:30:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[22-Jan-2017 08:30:24 UTC] PHP   2. Actividad->__construct() /home/ubuntu/workspace/ios/api_pruebas.php:34
+[22-Jan-2017 08:45:20 UTC] PHP Parse error:  syntax error, unexpected '"descripcion"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/doctrine/src/Actividad.php on line 146
+[22-Jan-2017 08:45:20 UTC] PHP Stack trace:
+[22-Jan-2017 08:45:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[22-Jan-2017 08:45:20 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/ios/api_pruebas.php:34
+[22-Jan-2017 08:45:20 UTC] PHP   3. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/ios/api_pruebas.php:34
+[22-Jan-2017 08:45:20 UTC] PHP   4. Composer\Autoload\includeFile() /home/ubuntu/workspace/doctrine/vendor/composer/ClassLoader.php:301
+[22-Jan-2017 08:49:24 UTC] PHP Fatal error:  Call to undefined method DoctrineProxies\__CG__\Grupo::getIdGrupo() in /home/ubuntu/workspace/doctrine/src/Actividad.php on line 152
+[22-Jan-2017 08:49:24 UTC] PHP Stack trace:
+[22-Jan-2017 08:49:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[22-Jan-2017 08:49:24 UTC] PHP   2. Actividad->getArray() /home/ubuntu/workspace/ios/api_pruebas.php:58
+[22-Jan-2017 09:14:09 UTC] PHP Fatal error:  Call to a member function persist() on a non-object in /home/ubuntu/workspace/ios/api_pruebas.php on line 166
+[22-Jan-2017 09:14:09 UTC] PHP Stack trace:
+[22-Jan-2017 09:14:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[22-Jan-2017 09:15:12 UTC] PHP Fatal error:  Call to a member function persist() on a non-object in /home/ubuntu/workspace/ios/api_pruebas.php on line 169
+[22-Jan-2017 09:15:12 UTC] PHP Stack trace:
+[22-Jan-2017 09:15:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[22-Jan-2017 09:17:07 UTC] PHP Fatal error:  Call to a member function persist() on a non-object in /home/ubuntu/workspace/ios/api_pruebas.php on line 168
+[22-Jan-2017 09:17:07 UTC] PHP Stack trace:
+[22-Jan-2017 09:17:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[22-Jan-2017 09:17:55 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Mapping\MappingException' with message 'Class "stdClass" is not a valid entity or mapped super class.' in /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/MappingException.php:336
+Stack trace:
+#0 /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Driver/AnnotationDriver.php(89): Doctrine\ORM\Mapping\MappingException::classIsNotAValidEntityOrMappedSuperClass('stdClass')
+#1 /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/ClassMetadataFactory.php(116): Doctrine\ORM\Mapping\Driver\AnnotationDriver->loadMetadataForClass('stdClass', Object(Doctrine\ORM\Mapping\ClassMetadata))
+#2 /home/ubuntu/workspace/doctrine/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php(332): Doctrine\ORM\Mapping\ClassMetadataFactory->doLoadMetadata(Object(Doctrine\ORM\Mapping\ClassMetadata), NULL, false, Array)
+#3 /home/ubuntu/workspace/doctrine/vendor/doctrine/common/lib/Doctrine/C in /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/MappingException.php on line 336
+[22-Jan-2017 09:35:55 UTC] PHP Fatal error:  Call to a member function setIdProfesor() on a non-object in /home/ubuntu/workspace/doctrine/src/Actividad.php on line 166
+[22-Jan-2017 09:35:55 UTC] PHP Stack trace:
+[22-Jan-2017 09:35:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[22-Jan-2017 09:35:55 UTC] PHP   2. Actividad->jsonToObject() /home/ubuntu/workspace/ios/api_pruebas.php:163
+[22-Jan-2017 09:37:29 UTC] PHP Warning:  spl_object_hash() expects parameter 1 to be object, string given in /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 1389
+[22-Jan-2017 09:37:29 UTC] PHP Stack trace:
+[22-Jan-2017 09:37:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[22-Jan-2017 09:37:29 UTC] PHP   2. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/ios/api_pruebas.php:176
+[22-Jan-2017 09:37:29 UTC] PHP   3. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:340
+[22-Jan-2017 09:37:29 UTC] PHP   4. Doctrine\ORM\UnitOfWork->computeChangeSets() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:297
+[22-Jan-2017 09:37:29 UTC] PHP   5. Doctrine\ORM\UnitOfWork->computeScheduleInsertsChangeSets() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:711
+[22-Jan-2017 09:37:29 UTC] PHP   6. Doctrine\ORM\UnitOfWork->computeChangeSet() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:404
+[22-Jan-2017 09:37:29 UTC] PHP   7. Doctrine\ORM\UnitOfWork->computeAssociationChanges() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:687
+[22-Jan-2017 09:37:29 UTC] PHP   8. Doctrine\ORM\UnitOfWork->getEntityState() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:788
+[22-Jan-2017 09:37:29 UTC] PHP   9. spl_object_hash() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:1389
+[22-Jan-2017 09:37:29 UTC] PHP Warning:  get_class() expects parameter 1 to be object, string given in /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 794
+[22-Jan-2017 09:37:29 UTC] PHP Stack trace:
+[22-Jan-2017 09:37:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[22-Jan-2017 09:37:29 UTC] PHP   2. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/ios/api_pruebas.php:176
+[22-Jan-2017 09:37:29 UTC] PHP   3. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:340
+[22-Jan-2017 09:37:29 UTC] PHP   4. Doctrine\ORM\UnitOfWork->computeChangeSets() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:297
+[22-Jan-2017 09:37:29 UTC] PHP   5. Doctrine\ORM\UnitOfWork->computeScheduleInsertsChangeSets() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:711
+[22-Jan-2017 09:37:29 UTC] PHP   6. Doctrine\ORM\UnitOfWork->computeChangeSet() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:404
+[22-Jan-2017 09:37:29 UTC] PHP   7. Doctrine\ORM\UnitOfWork->computeAssociationChanges() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:687
+[22-Jan-2017 09:37:29 UTC] PHP   8. get_class() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:794
+[22-Jan-2017 09:37:29 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\ORMException' with message 'Found entity of type  on association Actividad#idap, but expecting Profesor' in /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:791
+Stack trace:
+#0 /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php(687): Doctrine\ORM\UnitOfWork->computeAssociationChanges(Array, '8')
+#1 /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php(404): Doctrine\ORM\UnitOfWork->computeChangeSet(Object(Doctrine\ORM\Mapping\ClassMetadata), Object(Actividad))
+#2 /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php(711): Doctrine\ORM\UnitOfWork->computeScheduleInsertsChangeSets()
+#3 /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php(297): Doctrine\ORM\UnitOfWork->computeChangeSets()
+#4 /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php(340): Doctrine\ORM\UnitOfWork->commit(NULL)
+#5  in /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 791
+[22-Jan-2017 09:39:07 UTC] PHP Fatal error:  Call to a member function setId() on a non-object in /home/ubuntu/workspace/doctrine/src/Actividad.php on line 166
+[22-Jan-2017 09:39:07 UTC] PHP Stack trace:
+[22-Jan-2017 09:39:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[22-Jan-2017 09:39:07 UTC] PHP   2. Actividad->jsonToObject() /home/ubuntu/workspace/ios/api_pruebas.php:163
+[22-Jan-2017 09:45:18 UTC] PHP Fatal error:  Call to a member function addIdap() on a non-object in /home/ubuntu/workspace/doctrine/src/Actividad.php on line 93
+[22-Jan-2017 09:45:18 UTC] PHP Stack trace:
+[22-Jan-2017 09:45:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[22-Jan-2017 09:45:18 UTC] PHP   2. Actividad->setIdProfesor() /home/ubuntu/workspace/ios/api_pruebas.php:166
+[22-Jan-2017 09:59:34 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\Common\Persistence\Mapping\MappingException' with message 'Class '../doctrine/Profesor' does not exist' in /home/ubuntu/workspace/doctrine/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/doctrine/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/RuntimeReflectionService.php(41): Doctrine\Common\Persistence\Mapping\MappingException::nonExistingClass('../doctrine/Pro...')
+#1 /home/ubuntu/workspace/doctrine/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php(281): Doctrine\Common\Persistence\Mapping\RuntimeReflectionService->getParentClasses('../doctrine/Pro...')
+#2 /home/ubuntu/workspace/doctrine/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php(311): Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->getParentClasses('../doctrine/Pro...')
+#3 /home/ubuntu/workspace/doctrine/vendor/doctrine/ in /home/ubuntu/workspace/doctrine/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[22-Jan-2017 09:59:53 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\Common\Persistence\Mapping\MappingException' with message 'Class '../doctrine/src/Profesor.php' does not exist' in /home/ubuntu/workspace/doctrine/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/doctrine/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/RuntimeReflectionService.php(41): Doctrine\Common\Persistence\Mapping\MappingException::nonExistingClass('../doctrine/src...')
+#1 /home/ubuntu/workspace/doctrine/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php(281): Doctrine\Common\Persistence\Mapping\RuntimeReflectionService->getParentClasses('../doctrine/src...')
+#2 /home/ubuntu/workspace/doctrine/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php(311): Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->getParentClasses('../doctrine/src...')
+#3 /home/ubuntu/workspace/doctrine/vendor/d in /home/ubuntu/workspace/doctrine/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[22-Jan-2017 10:01:13 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\Common\Persistence\Mapping\MappingException' with message 'Class '../doctrine/src/Profesor.php' does not exist' in /home/ubuntu/workspace/doctrine/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/doctrine/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/RuntimeReflectionService.php(41): Doctrine\Common\Persistence\Mapping\MappingException::nonExistingClass('../doctrine/src...')
+#1 /home/ubuntu/workspace/doctrine/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php(281): Doctrine\Common\Persistence\Mapping\RuntimeReflectionService->getParentClasses('../doctrine/src...')
+#2 /home/ubuntu/workspace/doctrine/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php(311): Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->getParentClasses('../doctrine/src...')
+#3 /home/ubuntu/workspace/doctrine/vendor/d in /home/ubuntu/workspace/doctrine/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[22-Jan-2017 10:02:20 UTC] PHP Fatal error:  Call to a member function addIdap() on a non-object in /home/ubuntu/workspace/doctrine/src/Actividad.php on line 93
+[22-Jan-2017 10:02:20 UTC] PHP Stack trace:
+[22-Jan-2017 10:02:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[22-Jan-2017 10:02:20 UTC] PHP   2. Actividad->setIdProfesor() /home/ubuntu/workspace/ios/api_pruebas.php:168
+[22-Jan-2017 10:04:56 UTC] PHP Fatal error:  Call to a member function addIdap() on a non-object in /home/ubuntu/workspace/doctrine/src/Actividad.php on line 93
+[22-Jan-2017 10:04:56 UTC] PHP Stack trace:
+[22-Jan-2017 10:04:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[22-Jan-2017 10:04:56 UTC] PHP   2. Actividad->setIdProfesor() /home/ubuntu/workspace/ios/api_pruebas.php:168
+[22-Jan-2017 10:06:48 UTC] PHP Fatal error:  Call to a member function addIdap() on a non-object in /home/ubuntu/workspace/doctrine/src/Actividad.php on line 95
+[22-Jan-2017 10:06:48 UTC] PHP Stack trace:
+[22-Jan-2017 10:06:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[22-Jan-2017 10:06:48 UTC] PHP   2. Actividad->setIdProfesor() /home/ubuntu/workspace/ios/api_pruebas.php:168
+[22-Jan-2017 10:07:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'descripcion' cannot be null' in /home/ubuntu/workspace/doctrine/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php:91
+Stack trace:
+#0 /home/ubuntu/workspace/doctrine/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php(91): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/doctrine/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php(168): Doctrine\DBAL\Driver\PDOStatement->execute(NULL)
+#2 /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php(279): Doctrine\DBAL\Statement->execute()
+#3 /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php(966): Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts()
+#4 /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php(335): Doctrine\ORM\UnitOfWork->executeInserts(Object(Doctrine\ORM\Mapping\ClassMetadata))
+#5 /home/ubuntu in /home/ubuntu/workspace/doctrine/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 112
+[22-Jan-2017 10:09:07 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/doctrine/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[22-Jan-2017 10:09:07 UTC] PHP Stack trace:
+[22-Jan-2017 10:09:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[22-Jan-2017 10:09:07 UTC] PHP   2. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/ios/api_pruebas.php:188
+[22-Jan-2017 10:09:07 UTC] PHP   3. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:340
+[22-Jan-2017 10:09:07 UTC] PHP   4. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:335
+[22-Jan-2017 10:09:07 UTC] PHP   5. Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:966
+[22-Jan-2017 10:09:07 UTC] PHP   6. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:275
+[22-Jan-2017 10:09:07 UTC] PHP   7. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/doctrine/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[22-Jan-2017 10:11:30 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/doctrine/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[22-Jan-2017 10:11:30 UTC] PHP Stack trace:
+[22-Jan-2017 10:11:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[22-Jan-2017 10:11:30 UTC] PHP   2. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/ios/api_pruebas.php:188
+[22-Jan-2017 10:11:30 UTC] PHP   3. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:340
+[22-Jan-2017 10:11:30 UTC] PHP   4. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:335
+[22-Jan-2017 10:11:30 UTC] PHP   5. Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:966
+[22-Jan-2017 10:11:30 UTC] PHP   6. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:275
+[22-Jan-2017 10:11:30 UTC] PHP   7. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/doctrine/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[22-Jan-2017 10:12:10 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/doctrine/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[22-Jan-2017 10:12:10 UTC] PHP Stack trace:
+[22-Jan-2017 10:12:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[22-Jan-2017 10:12:10 UTC] PHP   2. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/ios/api_pruebas.php:188
+[22-Jan-2017 10:12:10 UTC] PHP   3. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:340
+[22-Jan-2017 10:12:10 UTC] PHP   4. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:335
+[22-Jan-2017 10:12:10 UTC] PHP   5. Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:966
+[22-Jan-2017 10:12:10 UTC] PHP   6. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:275
+[22-Jan-2017 10:12:10 UTC] PHP   7. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/doctrine/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[22-Jan-2017 10:17:18 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/doctrine/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/TimeType.php on line 53
+[22-Jan-2017 10:17:18 UTC] PHP Stack trace:
+[22-Jan-2017 10:17:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[22-Jan-2017 10:17:18 UTC] PHP   2. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/ios/api_pruebas.php:188
+[22-Jan-2017 10:17:18 UTC] PHP   3. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:340
+[22-Jan-2017 10:17:18 UTC] PHP   4. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:335
+[22-Jan-2017 10:17:18 UTC] PHP   5. Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:966
+[22-Jan-2017 10:17:18 UTC] PHP   6. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:275
+[22-Jan-2017 10:17:18 UTC] PHP   7. Doctrine\DBAL\Types\TimeType->convertToDatabaseValue() /home/ubuntu/workspace/doctrine/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[22-Jan-2017 10:17:40 UTC] PHP Warning:  Missing argument 1 for Actividad::setFecha(), called in /home/ubuntu/workspace/ios/api_pruebas.php on line 172 and defined in /home/ubuntu/workspace/doctrine/src/Actividad.php on line 114
+[22-Jan-2017 10:17:40 UTC] PHP Stack trace:
+[22-Jan-2017 10:17:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[22-Jan-2017 10:17:40 UTC] PHP   2. Actividad->setFecha() /home/ubuntu/workspace/ios/api_pruebas.php:172
+[22-Jan-2017 10:17:40 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/doctrine/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/TimeType.php on line 53
+[22-Jan-2017 10:17:40 UTC] PHP Stack trace:
+[22-Jan-2017 10:17:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[22-Jan-2017 10:17:40 UTC] PHP   2. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/ios/api_pruebas.php:188
+[22-Jan-2017 10:17:40 UTC] PHP   3. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:340
+[22-Jan-2017 10:17:40 UTC] PHP   4. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:335
+[22-Jan-2017 10:17:40 UTC] PHP   5. Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:966
+[22-Jan-2017 10:17:40 UTC] PHP   6. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:275
+[22-Jan-2017 10:17:40 UTC] PHP   7. Doctrine\DBAL\Types\TimeType->convertToDatabaseValue() /home/ubuntu/workspace/doctrine/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[22-Jan-2017 10:17:57 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/doctrine/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[22-Jan-2017 10:17:57 UTC] PHP Stack trace:
+[22-Jan-2017 10:17:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[22-Jan-2017 10:17:57 UTC] PHP   2. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/ios/api_pruebas.php:188
+[22-Jan-2017 10:17:57 UTC] PHP   3. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:340
+[22-Jan-2017 10:17:57 UTC] PHP   4. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:335
+[22-Jan-2017 10:17:57 UTC] PHP   5. Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:966
+[22-Jan-2017 10:17:57 UTC] PHP   6. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:275
+[22-Jan-2017 10:17:57 UTC] PHP   7. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/doctrine/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[22-Jan-2017 10:19:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`basedatos`.`actividad`, CONSTRAINT `FK_8DF2BD06F1A14ED4` FOREIGN KEY (`idprofesor`) REFERENCES `profesor` (`id`))' in /home/ubuntu/workspace/doctrine/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php:91
+Stack trace:
+#0 /home/ubuntu/workspace/doctrine/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php(91): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/doctrine/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php(168): Doctrine\DBAL\Driver\PDOStatement->execute(NULL)
+#2 /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php(279): Doctrine\DBAL\Statement->execute()
+#3 /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php(966): Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts()
+#4 /home/ubuntu/workspace/doctrine/vendor/doctr in /home/ubuntu/workspace/doctrine/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 60
+[22-Jan-2017 10:25:35 UTC] PHP Warning:  require_once(../AutoLoad.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/doctrine/src/Actividad.php on line 170
+[22-Jan-2017 10:25:35 UTC] PHP Stack trace:
+[22-Jan-2017 10:25:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[22-Jan-2017 10:25:35 UTC] PHP   2. Actividad->jsonToObject() /home/ubuntu/workspace/ios/api_pruebas.php:163
+[22-Jan-2017 10:25:35 UTC] PHP Fatal error:  require_once(): Failed opening required '../AutoLoad.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/doctrine/src/Actividad.php on line 170
+[22-Jan-2017 10:25:35 UTC] PHP Stack trace:
+[22-Jan-2017 10:25:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[22-Jan-2017 10:25:35 UTC] PHP   2. Actividad->jsonToObject() /home/ubuntu/workspace/ios/api_pruebas.php:163
+[22-Jan-2017 10:35:57 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/doctrine/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[22-Jan-2017 10:35:57 UTC] PHP Stack trace:
+[22-Jan-2017 10:35:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[22-Jan-2017 10:35:57 UTC] PHP   2. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/ios/api_pruebas.php:183
+[22-Jan-2017 10:35:57 UTC] PHP   3. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:340
+[22-Jan-2017 10:35:57 UTC] PHP   4. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:335
+[22-Jan-2017 10:35:57 UTC] PHP   5. Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:966
+[22-Jan-2017 10:35:57 UTC] PHP   6. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/doctrine/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:275
+[22-Jan-2017 10:35:57 UTC] PHP   7. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/doctrine/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[22-Jan-2017 10:48:14 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/ubuntu/workspace/ios/api_pruebas.php on line 219
+[22-Jan-2017 10:48:14 UTC] PHP Stack trace:
+[22-Jan-2017 10:48:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[22-Jan-2017 10:48:40 UTC] PHP Fatal error:  Call to a member function remove() on a non-object in /home/ubuntu/workspace/ios/api_pruebas.php on line 220
+[22-Jan-2017 10:48:40 UTC] PHP Stack trace:
+[22-Jan-2017 10:48:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[22-Jan-2017 10:55:35 UTC] PHP Fatal error:  Call to a member function jsonToObject() on a non-object in /home/ubuntu/workspace/ios/api_pruebas.php on line 229
+[22-Jan-2017 10:55:35 UTC] PHP Stack trace:
+[22-Jan-2017 10:55:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[22-Jan-2017 10:57:59 UTC] PHP Fatal error:  Call to a member function jsonToObject() on a non-object in /home/ubuntu/workspace/ios/api_pruebas.php on line 229
+[22-Jan-2017 10:57:59 UTC] PHP Stack trace:
+[22-Jan-2017 10:57:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[22-Jan-2017 10:59:37 UTC] PHP Fatal error:  Call to a member function jsonToObject() on a non-object in /home/ubuntu/workspace/ios/api_pruebas.php on line 229
+[22-Jan-2017 10:59:37 UTC] PHP Stack trace:
+[22-Jan-2017 10:59:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[24-Jan-2017 09:36:09 UTC] PHP Fatal error:  Class 'Bootstrap' not found in /home/ubuntu/workspace/ios/api_pruebas.php on line 272
+[24-Jan-2017 09:36:09 UTC] PHP Stack trace:
+[24-Jan-2017 09:36:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[24-Jan-2017 09:36:35 UTC] PHP Fatal error:  Class 'Bootstrap' not found in /home/ubuntu/workspace/ios/api_pruebas.php on line 34
+[24-Jan-2017 09:36:35 UTC] PHP Stack trace:
+[24-Jan-2017 09:36:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[24-Jan-2017 09:37:07 UTC] PHP Fatal error:  Class 'Bootstrap' not found in /home/ubuntu/workspace/ios/api_pruebas.php on line 34
+[24-Jan-2017 09:37:07 UTC] PHP Stack trace:
+[24-Jan-2017 09:37:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[24-Jan-2017 09:37:32 UTC] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/Bootstrap.php on line 20
+[24-Jan-2017 09:37:32 UTC] PHP Stack trace:
+[24-Jan-2017 09:37:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[24-Jan-2017 09:37:32 UTC] PHP   2. Bootstrap->__construct() /home/ubuntu/workspace/ios/api_pruebas.php:34
+[24-Jan-2017 09:37:32 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/clases/Bootstrap.php on line 20
+[24-Jan-2017 09:37:32 UTC] PHP Stack trace:
+[24-Jan-2017 09:37:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[24-Jan-2017 09:37:32 UTC] PHP   2. Bootstrap->__construct() /home/ubuntu/workspace/ios/api_pruebas.php:34

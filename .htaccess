@@ -1,0 +1,4 @@
+#reglas de reescritura 
+RewriteEngine On
+RewriteRule ^api/(.*)$ ios/api.php?url=$1 [QSA]
+RewriteRule ^api_pruebas/(.*)$ ios/api_pruebas.php?url=$1 [QSA]
