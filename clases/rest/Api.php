@@ -19,7 +19,7 @@ class Api {
             $rest_0 = $rest[0];
             //Cargamos las clases de forma dinamica
             $class = ucfirst($rest_0);
-            $apiClass = "Api" . $class;
+            $apiClass = "Gestor" . $class;
             if (class_exists($apiClass)){
                 ${"api".$class} = new $apiClass($this->metodo, $this->json, $this->parametros, $this->get);
             }else{

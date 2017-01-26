@@ -1,5 +1,5 @@
 <?php
-class ApiActividad {
+class GestorActividad {
     private $gestor;
     
     function __construct() {
