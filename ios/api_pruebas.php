@@ -17,6 +17,7 @@ $objeto = json_decode($json)
 /**
  * FRONT CONTROLLER
  */
+    $time_start = microtime(true);
 
 
 $parametros = explode('/', $_GET['url']);
@@ -50,6 +51,10 @@ if(!is_null($api[0])) {
         case 'grupo':
             $grupo = new Grupo();
             break;
+        case 'departamento':
+            $departamento = new Departamento();
+            break;
+            
     }
     
     // Cabeceras de tipo json
@@ -60,6 +65,7 @@ if(!is_null($api[0])) {
     $object = json_decode($json);
     $id     = $api[1];
 }
+
 switch($metodo) {
     
     /**
@@ -71,45 +77,49 @@ switch($metodo) {
              * Consultar una actividad por id 
              * Ejemplo https://iosapplication-fernan13.c9users.io/api_pruebas/actividad/4
              */
-            $query = $gestor->createQuery('SELECT r FROM actividad r WHERE r.id = ' . $api[1]);
-            $actividades = $query->getResult();
-            $data_to_json = array();
-            foreach($actividades as $item){
-                $data_to_json[] = $item->getArray();
-            }
-            echo (json_encode($data_to_json));
+            //$actividades = $gestor->find('actividad' , $api[1]);
+            $actividad = $gestor->getRepository('Actividad')->findOneBy(array('id' => $api[1]));
+            echo !is_null($actividad) ? json_encode(array($actividad->getArray())) : '{"response":"error"}';
+            
         } else if ($api[0]=="actividad" and is_null($api[1])) {
             /**
              * Consultar todas las actividades
              * Ejemplo https://iosapplication-fernan13.c9users.io/api_pruebas/actividad
              */
-            $query = $gestor->createQuery("SELECT r FROM actividad r");
-            $actividades = $query->getResult();
+            $query = $gestor->getRepository('Actividad');
+            $actividades = $query->findAll();
             $data_to_json = array();
             foreach($actividades as $item){
                 $data_to_json[] = $item->getArray();
             }
             echo (json_encode($data_to_json));
+            
         } else if ($api[0]=="actividad" and $api[1]=="profesor" and is_numeric($api[2]) and $api[2]>=1) {
             /**
              * Consultar todas las actividades de un profesor en concreto
              * Ejemplo https://iosapplication-fernan13.c9users.io/api_pruebas/actividad/profesor/1
              */
-            $profesor = new Profesor();
-            $query = $gestor->createQuery("SELECT a FROM actividad a, profesor p WHERE a.idap = p.id and p.id = ".$api[2]);
-            $actividades = $query->getResult();
-            $data_to_json = array();
-            foreach($actividades as $item){
-                $data_to_json[] = $item->getArray();
+            
+            //$profesor = $gestor->find('profesor', $api[2]); // $profesor = new Profesor();
+            
+            $actividades = $gestor->getRepository('Actividad')->findBy(array('idap' => $api[2]));
+            if ( !is_null($actividades) ) {
+                    
+                $data_to_json = array();
+                foreach($actividades as $item){
+                    $data_to_json[] = $item->getArray();
+                }
+                
+                echo (json_encode($data_to_json));
+            } else {
+                echo '{"response":"error"}';
             }    
-            echo (json_encode($data_to_json));
         } else if ($api[0]=="actividad" and  !is_null($api[1]) and preg_match("/^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])$/", $api[1])) {
             /**
              * Consultar todas las actividades de un dia en concreto YYYY-MM-DD
-             * Ejemplo https://iosapplication-fernan13.c9users.io/api_pruebas/actividad/profesor/1
+             * Ejemplo https://iosapplication-fernan13.c9users.io/api_pruebas/actividad/2017-01-29
              */
-            $query = $gestor->createQuery("SELECT a FROM actividad a WHERE a.fecha = '" . $api[1] . "'");
-            $actividades = $query->getResult();
+            $actividades = $gestor->getRepository('Actividad')->findBy(array('fecha' => date_create($api[1])));
             $data_to_json = array();
             foreach($actividades as $item){
                 $data_to_json[] = $item->getArray();
@@ -125,20 +135,16 @@ switch($metodo) {
              * Consultar un profesor por su id
              * Ejemplo https://iosapplication-fernan13.c9users.io/api_pruebas/profesor/1
              */
-            $query = $gestor->createQuery('SELECT r FROM profesor r WHERE r.id = ' . $api[1]);
-            $profesores = $query->getResult();
-            $data_to_json = array();
-            foreach($profesores as $item){
-                $data_to_json[] = $item->getArray();
-            }
-            echo (json_encode($data_to_json));
+            $profesor = $gestor->getRepository('Profesor')->findOneBy(array('id' => $api[1]));
+            echo !is_null($profesor) ? json_encode(array($profesor->getArray())) : '{"response":"error"}';
+            
         } else if ($api[0]=="profesor" and is_null($api[1])) {
             /**
              * Consultar todos los profesores
              * Ejemplo https://iosapplication-fernan13.c9users.io/api_pruebas/profesor
              */
-            $query = $gestor->createQuery("SELECT r FROM profesor r");
-            $profesores = $query->getResult();
+            $query = $gestor->getRepository('Profesor');
+            $profesores = $query->findAll();
             $data_to_json = array();
             foreach($profesores as $item){
                 $data_to_json[] = $item->getArray();
@@ -154,26 +160,64 @@ switch($metodo) {
              * Consultar un grupo por su id
              * Ejemplo https://iosapplication-fernan13.c9users.io/api_pruebas/grupo/1
              */
-            $query = $gestor->createQuery('SELECT r FROM grupo r WHERE r.id = ' . $api[1]);
-            $grupos = $query->getResult();
-            $data_to_json = array();
-            foreach($grupos as $item){
-                $data_to_json[] = $item->getArray();//Todos los datos 
-            }
-            echo (json_encode($data_to_json));
+            $grupo = $gestor->getRepository('Grupo')->findOneBy(array('id' => $api[1]));
+            echo !is_null($grupo) ? json_encode(array($grupo->getArray())) : '{"response":"error"}';
+            
         } else if ($api[0]=="grupo" and is_null($api[1])) {
             /**
              * Consultar todos los grupos
              * Ejemplo https://iosapplication-fernan13.c9users.io/api_pruebas/grupo
              */
-            $query = $gestor->createQuery("SELECT r FROM grupo r");
-            $grupos = $query->getResult();
+            $query = $gestor->getRepository('Grupo');
+            $grupos = $query->findAll();
             $data_to_json = array();
             foreach($grupos as $item){
                 $data_to_json[] = $item->getArray();
             }
             echo (json_encode($data_to_json));
         }
+        
+        /**
+         * Departamento
+         */ 
+        if ($api[0]=="departamento" and is_numeric($api[1]) and $api[1]>=1 and count($api) == 2 ) {
+            /**
+             * Consultar un departamento por su id
+             * Ejemplo https://iosapplication-fernan13.c9users.io/api_pruebas/departamento/1
+             */
+            $grupo = $gestor->getRepository('Departamento')->findOneBy(array('id' => $api[1]));
+            echo !is_null($grupo) ? json_encode(array($grupo->getArray())) : '{"response":"error"}';
+            
+        } else if ($api[0]=="departamento" and is_null($api[1])) {
+            /**
+             * Consultar todos los departamentos
+             * Ejemplo https://iosapplication-fernan13.c9users.io/api_pruebas/departamento
+             */
+            $query = $gestor->getRepository('Departamento');
+            $grupos = $query->findAll();
+            $data_to_json = array();
+            foreach($grupos as $item){
+                $data_to_json[] = $item->getArray();
+            }
+            echo (json_encode($data_to_json));
+        } else if ( $api[0] == "departamento" and is_numeric($api[1]) and $api[2] == "profesor") {
+            /**
+             *  Consultar los profesores de un departamento
+             *  Ejemplo https://iosapplication-fernan13.c9users.io/api_pruebas/departamento/1/profesor
+             */
+            
+            $profesores = $gestor->getRepository('Profesor')->findBy(array('idpd' => $api[1]));
+            
+            $data_to_json = array();
+            
+            foreach ( $profesores as $item ) {
+                
+                $data_to_json[] = $item->getArray();
+            }
+            
+            echo json_encode($data_to_json);
+        }
+        
         
         break;
     }
@@ -186,6 +230,8 @@ switch($metodo) {
             if (!is_null($object)) {
                 try {
                     if ( $api[0] == "actividad" ) {
+                        //Ya funciona las claves xDD era un error de nombre de variable T T
+                        //ok
                         /**
                          * ARC -> Content-Type: application/json
                          * https://iosapplication-fernan13.c9users.io/api_pruebas/actividad
@@ -210,7 +256,10 @@ switch($metodo) {
                          * {"response": "ok"} o {"response": "error"}
                          */
                         $profesor = new Profesor();
+                        $departamento = $gestor->getReference('Departamento', $object->idpd);
                         $profesor = $profesor->jsonToObject($object);
+                        $profesor->setIdDepartamento($departamento);
+                        
                         $gestor->persist($profesor);
                     } else if ( $api[0] == "grupo" ) {
                         /**
@@ -223,6 +272,16 @@ switch($metodo) {
                         $grupo = $grupo->jsonToObject($object);
                         $gestor->persist($grupo);
                         
+                    } else if ( $api[0] == "departamento" ) {
+                        /**
+                         * ARC -> Content-Type: application/json
+                         * https://iosapplication-fernan13.c9users.io/api_pruebas/departamento
+                         * {"nombre": "Fisica"}
+                         * {"response": "ok"} o {"response": "error"}
+                         */
+                        $departamento = new Departamento();
+                        $departamento = $departamento->jsonToObject($object);
+                        $gestor->persist($departamento);
                     }
                     
                     //Finalizamos y validamos la operacion
@@ -262,17 +321,30 @@ switch($metodo) {
                         $actividad = $actividad->jsonToObject($object);
                         $actividad->setIdProfesor($profesor)->setIdGrupo($grupo);
                     } else if ( $api[0] == "profesor" ) {
+                        
                         $profesor  = $gestor->find("Profesor", $id);
                         
                         if ( is_null($profesor) ) {
                             throw new Exception('Profesor no encontrado');
                         }
-                        $profesor  = $profesor->jsonToObject($object);
+                        
+                        $departamento   = $gestor->getReference('Departamento', $object->idpd);
+                        $profesor       = $profesor->jsonToObject($object);
+                        $profesor->setIdDepartamento($departamento);
+                        
                     } else if ( $api[0] == "grupo" ) {
+                        
                         $grupo  = $gestor->find('Grupo', $id);
                         
                         if ( is_null($grupo) ) throw new Exception('Grupo no encontrado');
                         $grupo  = $grupo->jsonToObject($object);
+                        
+                    } else if ( $api[0] == "departamento" ) {
+                        
+                        $departamento  = $gestor->find('Departamento', $id);
+                        
+                        if ( is_null($departamento) ) throw new Exception('Departamento no encontrado');
+                        $departamento  = $departamento->jsonToObject($object);
                     }
                         
                     //Finalizamos y validamos la operacion
@@ -307,6 +379,9 @@ switch($metodo) {
                 } else if ( $api[0] == "grupo" ) {
                     $grupo  = $gestor->find('Grupo', $id);
                     $gestor->remove($grupo);//borro provisional
+                } else if ( $api[0] == "departamento" ) {
+                    $departamento  = $gestor->find('Departamento', $id);
+                    $gestor->remove($departamento);//borro provisional
                 } 
                     
                 //Finalizamos y validamos la operacion
@@ -325,6 +400,8 @@ switch($metodo) {
         break;
     }
  }
-
+    $time_end = microtime(true);
+    $time = $time_end - $time_start;
+   // echo "Process Time: {$time}";
 
 // print_r(json_decode(json_encode($data_to_json)));

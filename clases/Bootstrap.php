@@ -1,5 +1,4 @@
 <?php
-
 use Doctrine\ORM\Tools\Setup;
 use Doctrine\ORM\EntityManager;
 
@@ -18,7 +17,7 @@ class Bootstrap {
     
     function __construct() {
         require_once 'vendor/autoload.php';
-        $this->config = Setup::createAnnotationMetadataConfiguration(array(__DIR__ . '/src'), $this->isDevMode);
+        $this->config = Setup::createAnnotationMetadataConfiguration(array(__DIR__ . '/datos'), $this->isDevMode);
         $this->entityManager = EntityManager::create($this->conn, $this->config);
     }
 
