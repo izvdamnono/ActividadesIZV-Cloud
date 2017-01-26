@@ -29,7 +29,6 @@ class Api {
             switch ($this->metodo) {
                 case "GET":
                     if ($rest_0 == "actividad") {
-                        
                         if (is_numeric($rest[1])) {
                             $actividades = $apiActividad->consultarId($rest[1]);
                         } elseif (!is_null($rest[1]) and $rest[1] == "profesor" and is_numeric($rest[2]) ) {
@@ -41,12 +40,28 @@ class Api {
                         }
                         $this->response = $actividades;
                     }
+                    
+                    if ($rest_0 == "departamento") {
+                        if (!is_null($rest[1]) and is_numeric($rest[1])and ($rest[2]) == "profesor" ) {
+                            $departamento = $apiDepartamento->consultarProfesor($rest[1]);
+                        } elseif (is_numeric($rest[1])) {
+                            $departamento = $apiDepartamento->consultarId($rest[1]);
+                        } elseif(!is_null($rest[1])) {
+                            $departamento = $apiDepartamento->consultarTodos();
+                        }
+                        $this->response = $departamento;
+                    }
                     break;
                 
                 case "POST":
                     if ($rest_0 == "actividad") {
                         $actividad = $apiActividad->insertar($this->json);
                         $this->response = $actividad;
+                    }
+                    
+                    if ($rest_0 == "departamento") {
+                        $departamento = $apiDepartamento->insertar($this->json);
+                        $this->response = $departamento;
                     }
                     break;
                
@@ -55,12 +70,20 @@ class Api {
                         $actividad = $apiActividad->actualizar($this->json);
                         $this->response = $actividad;
                     }
+                    if ($rest_0 == "departamento") {
+                        $departamento = $apiDepartamento->actualizar($this->json);
+                        $this->response = $departamento;
+                    }
                     break;
                
                 case "DELETE": 
                     if ($rest_0 == "actividad") {
                         $actividad = $apiActividad->borrar($this->json);
                         $this->response = $actividad;
+                    }
+                    if ($rest_0 == "departamento") {
+                        $departamento = $apiDepartamento->borrar($this->json);
+                        $this->response = $departamento;
                     }
                     break;
             }

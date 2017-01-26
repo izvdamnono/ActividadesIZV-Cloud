@@ -27,7 +27,6 @@ class GestorActividad {
      * Ejemplo https://iosapplication-fernan13.c9users.io/api/actividad/4
      */
     public function consultarId($id) {
-        $this->gestor = $bootstrap->getEntityManager();
         $query = $this->gestor->getRepository('Actividad');
         $actividad = $query->findOneBy(array('id' => $id));
         
@@ -84,7 +83,6 @@ class GestorActividad {
             $actividad->setIdProfesor($profesor)->setIdGrupo($grupo);
             $this->gestor->persist($actividad);
 
-            var_dump($object);//Error
             $this->gestor->flush();
         
             return '{"response":"ok"}';
