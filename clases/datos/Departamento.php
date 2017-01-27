@@ -69,7 +69,7 @@ class Departamento {
     public function getArray() {
         return array(
             "id" => $this->id, 
-            "nombre" => $this->nombre, 
+            "nombreDepartamento" => $this->nombre, 
             //"idap" => $this->idap, 
         );
     }
@@ -81,7 +81,7 @@ class Departamento {
     */
     public function jsonToObject($json){
         
-        $this->nombre = $json->nombre;
+        $this->nombre = $json->nombreDepartamento;
         return $this;
     }
 }

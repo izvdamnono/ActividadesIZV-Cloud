@@ -69,7 +69,7 @@ class Grupo {
     public function getArray() {
         return array(
             "id" => $this->id, 
-            "nombre" => $this->nombre, 
+            "nombreGrupo" => $this->nombre, 
             //"idag" => $this->idap, 
         );
     }
@@ -81,7 +81,7 @@ class Grupo {
     */
     public function jsonToObject($json){
         
-        $this->nombre = $json->nombre;
+        $this->nombre = $json->nombreGrupo;
         return $this;
     }
 }

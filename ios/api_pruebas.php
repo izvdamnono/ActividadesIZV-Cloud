@@ -400,8 +400,8 @@ switch($metodo) {
         break;
     }
  }
-    $time_end = microtime(true);
-    $time = $time_end - $time_start;
-   // echo "Process Time: {$time}";
+$time_end = microtime(true);
+$time = $time_end - $time_start;
+// echo "Process Time: {$time}";
 
 // print_r(json_decode(json_encode($data_to_json)));

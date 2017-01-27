@@ -93,14 +93,14 @@ class GestorActividad {
     
     /**
      * ARC -> Content-Type: application/json --> PUT
-     * https://iosapplication-fernan13.c9users.io/api/actividad
+     * https://iosapplication-fernan13.c9users.io/api/actividad/1
      * {"idap":3,"descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lobortis libero id ipsum consectetur feugiat. Donec iaculis convallis lorem, at.","resumen":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lobortis libero id ipsum consectetur feugiat. Donec iaculis convallis lorem, at.","idag":2,"fecha":"2017-01-26 00:00:00","hini":"1970-01-01 00:03:01","hfin":"1970-01-01 00:04:02"}
      * {"response": "ok"} o {"response": "error"}
      */
-    public function actualizar($object) {
+    public function actualizar($object, $id) {
         try {
             $actividad = new Actividad();
-            
+            $actividad = $this->gestor->find("Actividad", $id);
             if ( is_null($actividad) ) throw new Exception('Actividad no encontrada');
             
             //Debemos de obtener las referencias a las Entidades de cada objeto
@@ -120,13 +120,13 @@ class GestorActividad {
     
     /**
      * ARC -> Content-Type: application/json --> DELETE
-     * https://iosapplication-fernan13.c9users.io/api/actividad
+     * https://iosapplication-fernan13.c9users.io/api/actividad/1
      * {"id":3}
      * {"response": "ok"} o {"response": "error"}
      */ 
-    public function borrar($object) {
+    public function borrar($object, $id) {
         try {  
-            $actividad  = $this->gestor->find('Actividad', $object->id);
+            $actividad  = $this->gestor->find('Actividad', $id);
             $this->gestor->remove($actividad);
             $this->gestor->flush();
                 

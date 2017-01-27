@@ -168,10 +168,10 @@ class Actividad {
         return array(
             "id" => $this->id, 
             "idap" => $this->idap->getId(),
+            "idag" => $this->idag->getId(), 
             "titulo" => $this->titulo,
             "descripcion" => $this->descripcion, 
             "resumen" => $this->resumen, 
-            "idag" => $this->idag->getId(), 
             "fecha" => $this->fecha, 
             "hini" => $this->hini, 
             "hfin" => $this->hfin, 

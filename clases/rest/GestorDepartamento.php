@@ -9,7 +9,7 @@ class GestorDepartamento {
     
     /**
      * Consultar todos los departamentos
-     * Ejemplo https://iosapplication-fernan13.c9users.io/api_pruebas/departamento
+     * Ejemplo https://iosapplication-fernan13.c9users.io/api/departamento
      */
     public function consultarTodos() {
         $query = $this->gestor->getRepository('Departamento');
@@ -23,7 +23,7 @@ class GestorDepartamento {
     
     /**
      * Consultar una actividad por id 
-     * Ejemplo https://iosapplication-fernan13.c9users.io/api/actividad/4
+     * Ejemplo https://iosapplication-fernan13.c9users.io/api/departamento/4
      */
     public function consultarId($id) {
         $grupo = $this->gestor->getRepository('Departamento')->findOneBy(array('id' => $id));
@@ -33,7 +33,7 @@ class GestorDepartamento {
    
     /**
      *  Consultar los profesores de un departamento
-     *  Ejemplo https://iosapplication-fernan13.c9users.io/api_pruebas/departamento/1/profesor
+     *  Ejemplo https://iosapplication-fernan13.c9users.io/api/departamento/1/profesor
      */
     public function consultarProfesor($id_profesor) {
         $profesores = $this->gestor->getRepository('Profesor')->findBy(array('idpd' => $id_profesor));
@@ -46,9 +46,9 @@ class GestorDepartamento {
     }
 
     /**
-     * ARC -> Content-Type: application/json
+     * ARC -> Content-Type: application/json --> POST
      * https://iosapplication-fernan13.c9users.io/api/departamento
-     * {"nombre": "Fisica"}
+     * {"nombreDepartamento": "Fisica"}
      * {"response": "ok"} o {"response": "error"}
      */
     public function insertar($object) {
@@ -67,14 +67,14 @@ class GestorDepartamento {
     
     /**
      * ARC -> Content-Type: application/json --> PUT
-     * https://iosapplication-fernan13.c9users.io/api/actividad
-     * {"idap":3,"descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lobortis libero id ipsum consectetur feugiat. Donec iaculis convallis lorem, at.","resumen":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lobortis libero id ipsum consectetur feugiat. Donec iaculis convallis lorem, at.","idag":2,"fecha":"2017-01-26 00:00:00","hini":"1970-01-01 00:03:01","hfin":"1970-01-01 00:04:02"}
+     * https://iosapplication-fernan13.c9users.io/api/departamento/2
+     * {"id":3,"nombreDepartamento":"Ciencias"}
      * {"response": "ok"} o {"response": "error"}
      */
-    public function actualizar($object) {
+    public function actualizar($object, $id) {
         try {
             $departamento = new Departamento();
-            $departamento  = $this->gestor->find('Departamento', $object->id);
+            $departamento  = $this->gestor->find('Departamento', $id);
             if ( is_null($departamento) ) throw new Exception('Departamento no encontrado');
             $departamento  = $departamento->jsonToObject($object);
             $this->gestor->flush();
@@ -87,13 +87,13 @@ class GestorDepartamento {
     
     /**
      * ARC -> Content-Type: application/json --> DELETE
-     * https://iosapplication-fernan13.c9users.io/api/departamento
+     * https://iosapplication-fernan13.c9users.io/api/departamento/2
      * {"id":3}
      * {"response": "ok"} o {"response": "error"}
      */ 
-    public function borrar($object) {
-        try {  
-            $departamento  = $this->gestor->find('Departamento', $object->id);
+    public function borrar($object, $id) {
+        try {
+            $departamento  = $this->gestor->find('Departamento', $id);
             $this->gestor->remove($departamento);
             $this->gestor->flush();
                 
