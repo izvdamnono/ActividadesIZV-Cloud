@@ -83,7 +83,7 @@ class Profesor {
         return array(
             "id" => $this->id, 
             "nombreProfesor" => $this->nombre,
-            "idpd" => $this->idpd->getId()
+            "idpd" => $this->idpd->getArray()
             //"idap" => $this->idap, 
         );
     }

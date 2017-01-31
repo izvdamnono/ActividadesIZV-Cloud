@@ -58,6 +58,11 @@ class Actividad {
      */
     protected $hfin;
     
+    /**
+     * @Column(type="string", length=200, nullable=true)
+     */
+    protected $imagen;
+    
     public function getId() {
         return $this->id;
     }
@@ -92,6 +97,10 @@ class Actividad {
     
     public function getTitulo(){
         return $this->titulo;
+    }
+    
+    public function getImagen(){
+        return $this->imagen;
     }
     
     public function setId($id) {
@@ -145,7 +154,12 @@ class Actividad {
         return $this;
     }
     
-
+    public function setImagen($imagen){
+    
+        $this->imagen = $imagen;
+        return $this;
+    }
+    
     //Metodo utilizado para obtener el valor JSON de un este objeto
     function getJsonData(){
         $var = get_object_vars($this);
@@ -163,18 +177,21 @@ class Actividad {
      * Doctrine en las variables que almacenan la relacion entre las clases
      * almacena la referencia completo del objeto al que apunta, de modo que
      * para que se inicialize debemos de acceder a sus propiedades!!
+     * 
+     * Agregado el formato de fecha utilizado desde la app
      */ 
     public function getArray() {
         return array(
             "id" => $this->id, 
             "idap" => $this->idap->getId(),
+            "idag" => $this->idag->getId(), 
             "titulo" => $this->titulo,
             "descripcion" => $this->descripcion, 
             "resumen" => $this->resumen, 
-            "idag" => $this->idag->getId(), 
-            "fecha" => $this->fecha, 
-            "hini" => $this->hini, 
-            "hfin" => $this->hfin, 
+            "fecha" => date_format($this->fecha, 'Y-m-d'), 
+            "hini" => date_format($this->hini, 'H:i:s'),
+            "hfin" => date_format($this->hfin,'H:i:s'),
+            "imagen" => $this->imagen
         );
     }
     
@@ -191,6 +208,32 @@ class Actividad {
         $this->fecha        = date_create($json->fecha);
         $this->hini         = date_create($json->hini);
         $this->hfin         = date_create($json->hfin);
+        
+        //Comprobamos la imagen
+        $patternimg = '\.(jpe?g|png|gif|bmp)$';
+        
+        if ( preg_match( $patternimg, $json->imagen) ){
+            
+            $this->imagen = $json->imagen;
+        }
+        elseif ( $json->imagen )
+        {
+            $data    = base64_decode($json->imagen);
+            $archivo = md5(time()).'.png';
+            
+            file_put_contents("../assets/img/".$archivo, $data);
+            
+            $scheme = $_SERVER['REQUEST_SCHEME'];
+            $domain = $_SERVER['SERVER_NAME'];
+            
+
+            $this->imagen = $archivo;
+            
+        }
+        else
+        {
+            $this->imagen = "";    
+        }
         
         return $this;
     }

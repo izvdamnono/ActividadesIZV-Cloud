@@ -7,27 +7,53 @@
     ----------------------------------------------------------------- 
 </pre>
 
-Hi there! Welcome to Cloud9 IDE!
+<table border="1">
+    <tr>
+        <th>Consultar</th>
+        <th>Insertar</th>
+        <th>Actualizar</th>
+        <th>Borrar por id</th>
+        <th>Borrar conjunto</th>
+    </tr>
+    <tr>
+        <td>https://iosapplication-fernan13.c9users.io/api/actividad/4</td>
+        <td>https://iosapplication-fernan13.c9users.io/api/actividad/</td>
+        <td>https://iosapplication-fernan13.c9users.io/api/actividad/3</td>
+        <td>https://iosapplication-fernan13.c9users.io/api/actividad/3</td>
+        <td>https://iosapplication-fernan13.c9users.io/api/actividad/delete</td>
+    </tr>
+    <tr>
+        <th> </th>
+        <th>Enviar json</th>
+        <th>Enviar json</th>
+        <th>Enviar conjunto de id por json</th>
+    </tr>
+    <tr>
+        <td> </td>
+        <td>{"idap":3,"descripcion":"Lorem ipsum dolor sit amet, lorem, at.","resumen":"Lorem ipsum dolor sit amet.","idag":2,"fecha":"2017-01-26 00:00:00","hini":"1970-01-01 00:03:01","hfin":"1970-01-01 00:04:02"}</td>
+        <td>{"idap":3,"descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lobortis libero id ipsum consectetur feugiat. Donec iaculis convallis lorem, at.","resumen":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lobortis libero id ipsum consectetur feugiat. Donec iaculis convallis lorem, at.","idag":2,"fecha":"2017-01-26 00:00:00","hini":"1970-01-01 00:03:01","hfin":"1970-01-01 00:04:02"}</td>
+        <td>{"id":3}</td>
+        <td>[{"id":3},{"id":4},{"id":6}]</td>
+    </tr>
+    
+    <tr>
+        <th>Recibe json</th>
+        <th>Recibe confirmación</th>
+        <th>Recibe confirmación</th>
+        <th>Recibe confirmación</th>
+    </tr>
+    <tr>
+        <td><pre>[{"id":4,"idap":{"id":1,"nombreProfesor":"Carmelo","idpd":{"id":1,"nombreDepartamento":"Informatica"}},"idag":{"id":1,"nombreGrupo":"DAM"},"titulo":"Titulo id Modificado jsjsjsjs","descripcion":"Descripcion actividad\t\t","resumen":"Resumen id 4 Modificadoo !!!!!!","fecha":"2017-02-28","hini":"00:00:00","hfin":"12:07:56","imagen":"701868d2ebaf9dce1382996e2739a113.png"}]</pre></td>
+        <td>{"response": "ok"} o {"response": "error"}</td>
+        <td>{"response": "ok"} o {"response": "error"}</td>
+        <td>{"response": "ok"} o {"response": "error"}</td>
+        <td>{"response": "ok"} o {"response": "error"}</td>
+    </tr>
+</table>
+## Consultas a actividades
+<p>https://iosapplication-fernan13.c9users.io/api/actividad/4</p>
+<img src="/assets/Actividades.png" alt="">
 
-To get you started, we have created a small hello world application.
-
-1) Open the hello-world.php file
-
-2) Follow the run instructions in the file's comments
-
-3) If you want to look at the Apache logs, check out ~/lib/apache2/log
-
-And that's all there is to it! Just have fun. Go ahead and edit the code, 
-or add new files. It's all up to you! 
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
 <pre>
 
 REST 1.0

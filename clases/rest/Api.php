@@ -83,7 +83,7 @@ class Api {
                     break;
                
                 case "PUT":
-                    $id = $rest_1;
+                    $id = $rest[1];
                     if ($rest_0 == "actividad" and !is_null($id)) {
                         $return = $apiActividad->actualizar($this->json, $id);
                     }
@@ -99,9 +99,12 @@ class Api {
                     break;
                
                 case "DELETE": 
-                    $id = $rest_1;
+                    $id = $rest[1];
                     if ($rest_0 == "actividad") {
                         $return = $apiActividad->borrar($this->json, $id);
+                    }
+                    if ($rest_0 == "actividad" and $rest[1] == "delete") {
+                        $return = $apiActividad->borrarJson($this->json);
                     }
                     if ($rest_0 == "departamento") {
                         $return = $apiDepartamento->borrar($this->json, $id);

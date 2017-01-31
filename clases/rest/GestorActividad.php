@@ -19,7 +19,8 @@ class GestorActividad {
         foreach ($actividades as $item) {
             $data_to_json[] = $item->getArray();
         }
-        return (json_encode($data_to_json));
+        header("HTTP/1.1 200 OK");
+        return (json_encode($data_to_json));                                                                           
     } 
     
     /**
@@ -29,6 +30,7 @@ class GestorActividad {
     public function consultarId($id) {
         $query = $this->gestor->getRepository('Actividad');
         $actividad = $query->findOneBy(array('id' => $id));
+        header("HTTP/1.1 200 OK");
         
         return !is_null($actividad) ? json_encode(array($actividad->getArray())) : '{"response":"error"}';
     }
@@ -44,6 +46,7 @@ class GestorActividad {
         foreach ($actividades as $item) {
             $data_to_json[] = $item->getArray();
         }    
+        header("HTTP/1.1 200 OK");
         return (json_encode($data_to_json));
     }
     
@@ -58,6 +61,7 @@ class GestorActividad {
             foreach ($actividades as $item) {
                 $data_to_json[] = $item->getArray();
             }
+            header("HTTP/1.1 200 OK");
             return (json_encode($data_to_json));
         } else {
             return '{"response":"error"}';
@@ -67,7 +71,7 @@ class GestorActividad {
     /**
      * ARC -> Content-Type: application/json --> POST
      * https://iosapplication-fernan13.c9users.io/api/actividad
-     * {"idap":3,"descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lobortis libero id ipsum consectetur feugiat. Donec iaculis convallis lorem, at.","resumen":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lobortis libero id ipsum consectetur feugiat. Donec iaculis convallis lorem, at.","idag":2,"fecha":"2017-01-26 00:00:00","hini":"1970-01-01 00:03:01","hfin":"1970-01-01 00:04:02"}
+     * {"idap":3,"descripcion":"Lorem ipsum dolor sit amet, lorem, at.","resumen":"Lorem ipsum dolor sit amet.","idag":2,"fecha":"2017-01-26 00:00:00","hini":"1970-01-01 00:03:01","hfin":"1970-01-01 00:04:02"}
      * {"response": "ok"} o {"response": "error"}
      * 
      * {"titulo":"1","idap":2,"idag":2,"fecha":"2017-01-26 00:00:00","hini":"1970-01-01 00:03:01","hfin":"1970-01-01 00:04:02","descripcion":"String descripcion","resumen":"String resumen"}
@@ -84,7 +88,8 @@ class GestorActividad {
             $this->gestor->persist($actividad);
 
             $this->gestor->flush();
-        
+            header("HTTP/1.1 201 Created");
+
             return '{"response":"ok"}';
         } catch(Exception $e) {
             return '{"response":"error"}';
@@ -110,10 +115,12 @@ class GestorActividad {
             $actividad = $actividad->jsonToObject($object);
             $actividad->setIdProfesor($profesor)->setIdGrupo($grupo);
             //Finalizamos y validamos la operacion
-            $this->gestor->flush();        
+            $this->gestor->flush();
             
+            header("HTTP/1.1 200 Updated");
             return '{"response":"ok"}';
         } catch( Exception $e ) {
+            header("HTTP/1.1 304 Not Modified");
             return '{"response":"error"}';
         }
     }    
@@ -129,6 +136,31 @@ class GestorActividad {
             $actividad  = $this->gestor->find('Actividad', $id);
             $this->gestor->remove($actividad);
             $this->gestor->flush();
+                
+            return '{"response":"ok"}';
+        } catch(Exception $e) {
+            return '{"response":"error"}';
+        }
+    }
+    
+    /**
+     * ARC -> Content-Type: application/json --> DELETE
+     * https://iosapplication-fernan13.c9users.io/api/actividad/delete
+     * [{"id":3},{"id":4},{"id":6}]
+     * {"response": "ok"} o {"response": "error"}
+     */ 
+    public function borrarJson($object) {
+        try {  
+            $jsonID = json_decode($object);
+            var_dump($jsonID);
+            foreach (array() as $value) {
+                echo $value;
+                //$actividad  = $this->gestor->find('Actividad', $id);
+                //$this->gestor->remove($actividad);
+                //$this->gestor->flush();
+
+            }
+           
                 
             return '{"response":"ok"}';
         } catch(Exception $e) {
