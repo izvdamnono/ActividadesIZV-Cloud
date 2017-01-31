@@ -43,7 +43,7 @@
         <th>Recibe confirmación</th>
     </tr>
     <tr>
-        <td><pre>[{"id":4,"idap":{"id":1,"nombreProfesor":"Carmelo","idpd":{"id":1,"nombreDepartamento":"Informatica"}},"idag":{"id":1,"nombreGrupo":"DAM"},"titulo":"Titulo id Modificado jsjsjsjs","descripcion":"Descripcion actividad\t\t","resumen":"Resumen id 4 Modificadoo !!!!!!","fecha":"2017-02-28","hini":"00:00:00","hfin":"12:07:56","imagen":"701868d2ebaf9dce1382996e2739a113.png"}]</pre></td>
+        <td>[{"id":4,"idap":{"id":1,"nombreProfesor":"Carmelo","idpd":{"id":1,"nombreDepartamento":"Informatica"}},"idag":{"id":1,"nombreGrupo":"DAM"},"titulo":"Titulo id Modificado jsjsjsjs","descripcion":"Descripcion actividad\t\t","resumen":"Resumen id 4 Modificadoo !!!!!!","fecha":"2017-02-28","hini":"00:00:00","hfin":"12:07:56","imagen":"701868d2ebaf9dce1382996e2739a113.png"}]</td>
         <td>{"response": "ok"} o {"response": "error"}</td>
         <td>{"response": "ok"} o {"response": "error"}</td>
         <td>{"response": "ok"} o {"response": "error"}</td>
