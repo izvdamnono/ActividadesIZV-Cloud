@@ -41,6 +41,7 @@
         <th>Recibe confirmación</th>
         <th>Recibe confirmación</th>
         <th>Recibe confirmación</th>
+        <th>Recibe confirmación</th>
     </tr>
     <tr>
         <td>
@@ -69,6 +70,38 @@
                 "imagen":"701868d2ebaf9dce1382996e2739a113.png"
             }
         ]
+        </pre></td>
+        <td><pre>
+        {
+            "response": "ok"
+        }
+        {
+            "response": "error"    
+        }
+        </pre></td>
+        <td><pre>
+        {
+            "response": "ok"
+        }
+        {
+            "response": "error"    
+        }
+        </pre></td>
+        <td><pre>
+        {
+            "response": "ok"
+        }
+        {
+            "response": "error"    
+        }
+        </pre></td>
+        <td><pre>
+        {
+            "response": "ok"
+        }
+        {
+            "response": "error"    
+        }
         </pre></td>
         <td><pre>
         {
