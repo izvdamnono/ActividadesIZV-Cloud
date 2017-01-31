@@ -33,7 +33,20 @@
         <td>{"idap":3,"descripcion":"Lorem ipsum dolor sit amet, lorem, at.","resumen":"Lorem ipsum dolor sit amet.","idag":2,"fecha":"2017-01-26 00:00:00","hini":"1970-01-01 00:03:01","hfin":"1970-01-01 00:04:02"}</td>
         <td>{"idap":3,"descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lobortis libero id ipsum consectetur feugiat. Donec iaculis convallis lorem, at.","resumen":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lobortis libero id ipsum consectetur feugiat. Donec iaculis convallis lorem, at.","idag":2,"fecha":"2017-01-26 00:00:00","hini":"1970-01-01 00:03:01","hfin":"1970-01-01 00:04:02"}</td>
         <td>{"id":3}</td>
-        <td>[{"id":3},{"id":4},{"id":6}]</td>
+        <td>
+        <pre>
+        [
+          {
+               "id":3
+          },
+          {
+               "id":4
+          },
+          {
+               "id":6
+          }
+        ]
+        </pre></td>
     </tr>
     
     <tr>
