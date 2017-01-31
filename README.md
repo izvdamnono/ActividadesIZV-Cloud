@@ -70,10 +70,14 @@
             }
         ]
         </pre></td>
-        <td>{"response": "ok"} o {"response": "error"}</td>
-        <td>{"response": "ok"} o {"response": "error"}</td>
-        <td>{"response": "ok"} o {"response": "error"}</td>
-        <td>{"response": "ok"} o {"response": "error"}</td>
+        <td><pre>
+        {
+            "response": "ok"
+        }
+        {
+            "response": "error"    
+        }
+        </pre></td>
     </tr>
 </table>
 ## Consultas a actividades
