@@ -103,14 +103,6 @@
             "response": "error"    
         }
         </pre></td>
-        <td><pre>
-        {
-            "response": "ok"
-        }
-        {
-            "response": "error"    
-        }
-        </pre></td>
     </tr>
 </table>
 ## Consultas a actividades
