@@ -208,33 +208,31 @@ class Actividad {
         $this->fecha        = date_create($json->fecha);
         $this->hini         = date_create($json->hini);
         $this->hfin         = date_create($json->hfin);
-        
+        $this->imagen       = "";    
         //Comprobamos la imagen
         //La imagen ya viene codificada sin los valores data:image....
-        $patternimg = '\.(jpe?g|png|gif|bmp)$';
-        
-        if ( preg_match( $patternimg, $json->imagen) ){
-            
-            $this->imagen = $json->imagen;
-        }
-        elseif ( $json->imagen )
-        {
-            $data    = base64_decode($json->imagen);
-            $archivo = md5("actividad_".$this->getId()).'.png';
-            
-            file_put_contents("../assets/img/".$archivo, $data);
-            
-            $scheme = $_SERVER['REQUEST_SCHEME'];
-            $domain = $_SERVER['SERVER_NAME'];
-            
 
-            $this->imagen = $archivo;
+        if (!empty($json->imagen)) {
+            $patternimg = '/\.(jpe?g|png|gif|bmp)$/';
+            if ( base64_encode(base64_decode($json->imagen, true)) === $json->imagen) {
+                $data    = base64_decode($json->imagen);
+                $archivo = md5("actividad_".time()).'.png';
+                
+                file_put_contents("../assets/img/".$archivo, $data);
+                
+                $scheme = $_SERVER['REQUEST_SCHEME'];
+                $domain = $_SERVER['SERVER_NAME'];
+                
+                $this->imagen = $archivo;
+                    
+            } elseif ( preg_match( $patternimg, $json->imagen) ) {
+                    
+                $this->imagen = $json->imagen;
+            }
             
-        }
-        else
-        {
-            $this->imagen = "";    
-        }
+        } 
+            
+        
         
         return $this;
     }

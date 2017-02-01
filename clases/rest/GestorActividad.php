@@ -30,9 +30,14 @@ class GestorActividad {
     public function consultarId($id) {
         $query = $this->gestor->getRepository('Actividad');
         $actividad = $query->findOneBy(array('id' => $id));
-        header("HTTP/1.1 200 OK");
         
-        return !is_null($actividad) ? json_encode(array($actividad->getArray())) : '{"response":"error"}';
+        if ( !is_null($actividad) ) {
+            header("HTTP/1.1 200 OK");
+            return json_encode(array($actividad->getArray()));
+        } else {
+            header("HTTP/1.1 404 Not found");
+            return '{"response":"error"}'; 
+        }
     }
     
     /**
@@ -42,12 +47,17 @@ class GestorActividad {
      */
     public function consultarFecha($fecha) {
         $actividades = $this->gestor->getRepository('Actividad')->findBy(array('fecha' => date_create($fecha)));
-        $data_to_json = array();
-        foreach ($actividades as $item) {
-            $data_to_json[] = $item->getArray();
-        }    
-        header("HTTP/1.1 200 OK");
-        return (json_encode($data_to_json));
+        if ( !is_null($actividades) ) {
+            $data_to_json = array();
+            foreach ($actividades as $item) {
+                $data_to_json[] = $item->getArray();
+            }    
+            header("HTTP/1.1 200 OK");
+            return (json_encode($data_to_json));
+        } else {
+            header("HTTP/1.1 404 Not found");
+            return '{"response":"error"}'; 
+        }
     }
     
     /**
@@ -64,6 +74,7 @@ class GestorActividad {
             header("HTTP/1.1 200 OK");
             return (json_encode($data_to_json));
         } else {
+            header("HTTP/1.1 404 Not found");
             return '{"response":"error"}';
         }
     }
@@ -88,10 +99,11 @@ class GestorActividad {
             $this->gestor->persist($actividad);
 
             $this->gestor->flush();
+            
             header("HTTP/1.1 201 Created");
-
             return '{"response":"ok"}';
         } catch(Exception $e) {
+            header("HTTP/1.1 400 Bad Request");
             return '{"response":"error"}';
         }
     }
@@ -128,7 +140,7 @@ class GestorActividad {
     /**
      * ARC -> Content-Type: application/json --> DELETE
      * https://iosapplication-fernan13.c9users.io/api/actividad/1
-     * {"id":3}
+     * {"id":1}
      * {"response": "ok"} o {"response": "error"}
      */ 
     public function borrar($object, $id) {
@@ -136,9 +148,11 @@ class GestorActividad {
             $actividad  = $this->gestor->find('Actividad', $id);
             $this->gestor->remove($actividad);
             $this->gestor->flush();
-                
+            
+            header("HTTP/1.1 204 Delete");
             return '{"response":"ok"}';
         } catch(Exception $e) {
+            header("HTTP/1.1 400 Bad Request");
             return '{"response":"error"}';
         }
     }
@@ -151,19 +165,21 @@ class GestorActividad {
      */ 
     public function borrarJson($object) {
         try {  
-            $jsonID = json_decode($object);
-            var_dump($jsonID);
-            foreach (array() as $value) {
-                echo $value;
-                //$actividad  = $this->gestor->find('Actividad', $id);
-                //$this->gestor->remove($actividad);
-                //$this->gestor->flush();
-
+            $objectArray = json_decode(json_encode($object), true);
+            foreach ($objectArray as $value) {
+                $actividad  = $this->gestor->find('Actividad', $value["id"]);
+                $nameIMG = $actividad->getImagen();
+                if(!isEmpty($nameIMG)) {
+                    unlink("../assets/img/".$nameIMG);
+                }
+                $this->gestor->remove($actividad);
+                $this->gestor->flush();
             }
-           
                 
+            header("HTTP/1.1 204 Delete all rows");
             return '{"response":"ok"}';
         } catch(Exception $e) {
+            header("HTTP/1.1 400 Bad Request");
             return '{"response":"error"}';
         }
     }

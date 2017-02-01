@@ -16,11 +16,17 @@
         <th>Borrar conjunto</th>
     </tr>
     <tr>
+        <td>Methods GET</td>
+        <td>Methods POST</td>
+        <td>Methods PUT</td>
+        <td>Methods DELETE</td>
+    </tr>
+    <tr>
         <td>https://iosapplication-fernan13.c9users.io/api/actividad/4</td>
         <td>https://iosapplication-fernan13.c9users.io/api/actividad/</td>
         <td>https://iosapplication-fernan13.c9users.io/api/actividad/3</td>
         <td>https://iosapplication-fernan13.c9users.io/api/actividad/3</td>
-        <td>https://iosapplication-fernan13.c9users.io/api/actividad/delete</td>
+        <td>https://iosapplication-fernan13.c9users.io/api/actividad/</td>
     </tr>
     <tr>
         <th> </th>
@@ -30,10 +36,54 @@
     </tr>
     <tr>
         <td> </td>
-        <td>{"idap":3,"descripcion":"Lorem ipsum dolor sit amet, lorem, at.","resumen":"Lorem ipsum dolor sit amet.","idag":2,"fecha":"2017-01-26 00:00:00","hini":"1970-01-01 00:03:01","hfin":"1970-01-01 00:04:02"}</td>
-        <td>{"idap":3,"descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lobortis libero id ipsum consectetur feugiat. Donec iaculis convallis lorem, at.","resumen":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lobortis libero id ipsum consectetur feugiat. Donec iaculis convallis lorem, at.","idag":2,"fecha":"2017-01-26 00:00:00","hini":"1970-01-01 00:03:01","hfin":"1970-01-01 00:04:02"}</td>
-        <td>{"id":3}</td>
-        <td>[{"id":3},{"id":4},{"id":6}]</td>
+        <td>
+          <pre>
+               {
+                    "idap":3,
+                    "idag":2,
+                    "descripcion":"Lorem ipsum dolor sit amet, lorem, at.",
+                    "resumen":"Lorem ipsum dolor sit amet.",
+                    "fecha":"2017-01-26 00:00:00",
+                    "hini":"1970-01-01 00:03:01",
+                    "hfin":"1970-01-01 00:04:02"
+               }
+          </pre>
+        </td>
+        <td>
+          <pre>
+               {
+                    "idap":3,
+                    "idag":2,
+                    "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "resumen":"Lorem ipsum dolor sit amet.",
+                    "fecha":"2017-01-26 00:00:00",
+                    "hini":"1970-01-01 00:03:01",
+                    "hfin":"1970-01-01 00:04:02"
+               }
+          </pre>
+        </td>
+        <td>
+          <pre>
+               {
+                    "id":3
+               }
+          </pre>
+        </td>
+        <td>
+          <pre>
+          [
+               {
+                    "id":3
+               },
+               {
+                    "id":4
+               },
+               {
+                    "id":6
+               }
+          ]
+          </pre>
+        </td>
     </tr>
     
     <tr>
@@ -71,38 +121,56 @@
             }
         ]
         </pre></td>
-        <td><pre>
+        <td>
+        <pre>
+        Codigos de respuesta HTTP: 200 ok
         {
             "response": "ok"
         }
+        
+        Para elementos no encontrados
+        Codigos de respuesta HTTP: 404 Not found
         {
             "response": "error"    
         }
         </pre></td>
-        <td><pre>
-        {
-            "response": "ok"
-        }
-        {
-            "response": "error"    
-        }
-        </pre></td>
-        <td><pre>
-        {
-            "response": "ok"
-        }
-        {
-            "response": "error"    
-        }
-        </pre></td>
-        <td><pre>
-        {
-            "response": "ok"
-        }
-        {
-            "response": "error"    
-        }
-        </pre></td>
+        <td>
+          <pre>
+          Codigos de respuesta HTTP: 201 Created        
+          {
+               "response": "ok"
+          }
+          No se ha podido actualizar
+          Codigos de respuesta HTTP: 304 Not Modified
+          {
+               "response": "error"    
+          }
+          </pre>
+        </td>
+        <td>
+          <pre>
+          Codigos de respuesta HTTP: 200 Bad Request        
+          {
+               "response": "ok"
+          }
+          Codigos de respuesta HTTP: 400 Bad Request
+          {
+               "response": "error"    
+          }
+          </pre>
+        </td>
+        <td>
+          <pre>
+          Codigos de respuesta HTTP: 204 Delete all rows        
+          {
+               "response": "ok"
+          }
+          Codigos de respuesta HTTP: 400 Bad Request
+          {
+               "response": "error"    
+          }
+          </pre>
+        </td>
     </tr>
 </table>
 ## Consultas a actividades
@@ -137,12 +205,6 @@ json -> json_encode
     3º Obtener los parámetros json: php://input
     4º Operar: Cuando se tengan los datos se trabajan con ellos
     5º Respuesta json
-
-    //BD Proyecto
-    Nombre BD: wp
-    Usuario: uwp
-    Clave: cwp
-    
     
     Doctrine -> Aplicación para melomanos
     disco 

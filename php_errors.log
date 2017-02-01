@@ -1289,3 +1289,240 @@ Stack trace:
 [31-Jan-2017 12:00:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
 [31-Jan-2017 12:00:13 UTC] PHP   2. Actividad->jsonToObject() /home/ubuntu/workspace/ios/api_pruebas.php:321
 [31-Jan-2017 12:00:13 UTC] PHP   3. preg_match() /home/ubuntu/workspace/clases/datos/Actividad.php:216
+[31-Jan-2017 12:31:30 UTC] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /home/ubuntu/workspace/clases/datos/Actividad.php on line 216
+[31-Jan-2017 12:31:30 UTC] PHP Stack trace:
+[31-Jan-2017 12:31:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[31-Jan-2017 12:31:30 UTC] PHP   2. Actividad->jsonToObject() /home/ubuntu/workspace/ios/api_pruebas.php:247
+[31-Jan-2017 12:31:30 UTC] PHP   3. preg_match() /home/ubuntu/workspace/clases/datos/Actividad.php:216
+[31-Jan-2017 12:32:49 UTC] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /home/ubuntu/workspace/clases/datos/Actividad.php on line 216
+[31-Jan-2017 12:32:49 UTC] PHP Stack trace:
+[31-Jan-2017 12:32:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[31-Jan-2017 12:32:49 UTC] PHP   2. Actividad->jsonToObject() /home/ubuntu/workspace/ios/api_pruebas.php:247
+[31-Jan-2017 12:32:49 UTC] PHP   3. preg_match() /home/ubuntu/workspace/clases/datos/Actividad.php:216
+[31-Jan-2017 12:36:19 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/ubuntu/workspace/clases/rest/GestorActividad.php on line 154
+[31-Jan-2017 12:36:19 UTC] PHP Stack trace:
+[31-Jan-2017 12:36:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[31-Jan-2017 12:36:19 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[31-Jan-2017 12:36:19 UTC] PHP   3. GestorActividad->borrarJson() /home/ubuntu/workspace/clases/rest/Api.php:107
+[31-Jan-2017 12:36:19 UTC] PHP   4. json_decode() /home/ubuntu/workspace/clases/rest/GestorActividad.php:154
+[31-Jan-2017 12:53:51 UTC] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /home/ubuntu/workspace/clases/datos/Actividad.php on line 216
+[31-Jan-2017 12:53:51 UTC] PHP Stack trace:
+[31-Jan-2017 12:53:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[31-Jan-2017 12:53:51 UTC] PHP   2. Actividad->jsonToObject() /home/ubuntu/workspace/ios/api_pruebas.php:321
+[31-Jan-2017 12:53:51 UTC] PHP   3. preg_match() /home/ubuntu/workspace/clases/datos/Actividad.php:216
+[31-Jan-2017 12:55:34 UTC] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /home/ubuntu/workspace/clases/datos/Actividad.php on line 216
+[31-Jan-2017 12:55:34 UTC] PHP Stack trace:
+[31-Jan-2017 12:55:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[31-Jan-2017 12:55:34 UTC] PHP   2. Actividad->jsonToObject() /home/ubuntu/workspace/ios/api_pruebas.php:321
+[31-Jan-2017 12:55:34 UTC] PHP   3. preg_match() /home/ubuntu/workspace/clases/datos/Actividad.php:216
+[31-Jan-2017 12:57:15 UTC] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /home/ubuntu/workspace/clases/datos/Actividad.php on line 216
+[31-Jan-2017 12:57:15 UTC] PHP Stack trace:
+[31-Jan-2017 12:57:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[31-Jan-2017 12:57:15 UTC] PHP   2. Actividad->jsonToObject() /home/ubuntu/workspace/ios/api_pruebas.php:321
+[31-Jan-2017 12:57:15 UTC] PHP   3. preg_match() /home/ubuntu/workspace/clases/datos/Actividad.php:216
+[31-Jan-2017 13:00:17 UTC] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /home/ubuntu/workspace/clases/datos/Actividad.php on line 216
+[31-Jan-2017 13:00:17 UTC] PHP Stack trace:
+[31-Jan-2017 13:00:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[31-Jan-2017 13:00:17 UTC] PHP   2. Actividad->jsonToObject() /home/ubuntu/workspace/ios/api_pruebas.php:321
+[31-Jan-2017 13:00:17 UTC] PHP   3. preg_match() /home/ubuntu/workspace/clases/datos/Actividad.php:216
+[31-Jan-2017 13:17:17 UTC] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /home/ubuntu/workspace/clases/datos/Actividad.php on line 216
+[31-Jan-2017 13:17:17 UTC] PHP Stack trace:
+[31-Jan-2017 13:17:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[31-Jan-2017 13:17:17 UTC] PHP   2. Actividad->jsonToObject() /home/ubuntu/workspace/ios/api_pruebas.php:247
+[31-Jan-2017 13:17:17 UTC] PHP   3. preg_match() /home/ubuntu/workspace/clases/datos/Actividad.php:216
+[31-Jan-2017 13:17:52 UTC] PHP Warning:  unlink(): http does not allow unlinking in /home/ubuntu/workspace/clases/rest/GestorActividad.php on line 158
+[31-Jan-2017 13:17:52 UTC] PHP Stack trace:
+[31-Jan-2017 13:17:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[31-Jan-2017 13:17:52 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[31-Jan-2017 13:17:52 UTC] PHP   3. GestorActividad->borrarJson() /home/ubuntu/workspace/clases/rest/Api.php:107
+[31-Jan-2017 13:17:52 UTC] PHP   4. unlink() /home/ubuntu/workspace/clases/rest/GestorActividad.php:158
+[31-Jan-2017 13:20:17 UTC] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /home/ubuntu/workspace/clases/datos/Actividad.php on line 216
+[31-Jan-2017 13:20:17 UTC] PHP Stack trace:
+[31-Jan-2017 13:20:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[31-Jan-2017 13:20:17 UTC] PHP   2. Actividad->jsonToObject() /home/ubuntu/workspace/ios/api_pruebas.php:247
+[31-Jan-2017 13:20:17 UTC] PHP   3. preg_match() /home/ubuntu/workspace/clases/datos/Actividad.php:216
+[31-Jan-2017 13:21:23 UTC] PHP Warning:  unlink(../assets/img70e0f0d0db0dbfbd39c10eb64a1a8622.png): No such file or directory in /home/ubuntu/workspace/clases/rest/GestorActividad.php on line 158
+[31-Jan-2017 13:21:23 UTC] PHP Stack trace:
+[31-Jan-2017 13:21:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[31-Jan-2017 13:21:23 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[31-Jan-2017 13:21:23 UTC] PHP   3. GestorActividad->borrarJson() /home/ubuntu/workspace/clases/rest/Api.php:107
+[31-Jan-2017 13:21:23 UTC] PHP   4. unlink() /home/ubuntu/workspace/clases/rest/GestorActividad.php:158
+[31-Jan-2017 13:22:54 UTC] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /home/ubuntu/workspace/clases/datos/Actividad.php on line 216
+[31-Jan-2017 13:22:54 UTC] PHP Stack trace:
+[31-Jan-2017 13:22:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[31-Jan-2017 13:22:54 UTC] PHP   2. Actividad->jsonToObject() /home/ubuntu/workspace/ios/api_pruebas.php:247
+[31-Jan-2017 13:22:54 UTC] PHP   3. preg_match() /home/ubuntu/workspace/clases/datos/Actividad.php:216
+[31-Jan-2017 15:01:04 UTC] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /home/ubuntu/workspace/clases/datos/Actividad.php on line 216
+[31-Jan-2017 15:01:04 UTC] PHP Stack trace:
+[31-Jan-2017 15:01:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[31-Jan-2017 15:01:04 UTC] PHP   2. Actividad->jsonToObject() /home/ubuntu/workspace/ios/api_pruebas.php:321
+[31-Jan-2017 15:01:04 UTC] PHP   3. preg_match() /home/ubuntu/workspace/clases/datos/Actividad.php:216
+[31-Jan-2017 15:06:36 UTC] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /home/ubuntu/workspace/clases/datos/Actividad.php on line 216
+[31-Jan-2017 15:06:36 UTC] PHP Stack trace:
+[31-Jan-2017 15:06:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[31-Jan-2017 15:06:36 UTC] PHP   2. Actividad->jsonToObject() /home/ubuntu/workspace/ios/api_pruebas.php:321
+[31-Jan-2017 15:06:36 UTC] PHP   3. preg_match() /home/ubuntu/workspace/clases/datos/Actividad.php:216
+[31-Jan-2017 15:12:02 UTC] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /home/ubuntu/workspace/clases/datos/Actividad.php on line 216
+[31-Jan-2017 15:12:02 UTC] PHP Stack trace:
+[31-Jan-2017 15:12:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[31-Jan-2017 15:12:02 UTC] PHP   2. Actividad->jsonToObject() /home/ubuntu/workspace/ios/api_pruebas.php:321
+[31-Jan-2017 15:12:02 UTC] PHP   3. preg_match() /home/ubuntu/workspace/clases/datos/Actividad.php:216
+[31-Jan-2017 15:15:38 UTC] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /home/ubuntu/workspace/clases/datos/Actividad.php on line 216
+[31-Jan-2017 15:15:38 UTC] PHP Stack trace:
+[31-Jan-2017 15:15:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[31-Jan-2017 15:15:38 UTC] PHP   2. Actividad->jsonToObject() /home/ubuntu/workspace/ios/api_pruebas.php:321
+[31-Jan-2017 15:15:38 UTC] PHP   3. preg_match() /home/ubuntu/workspace/clases/datos/Actividad.php:216
+[31-Jan-2017 15:21:01 UTC] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /home/ubuntu/workspace/clases/datos/Actividad.php on line 216
+[31-Jan-2017 15:21:01 UTC] PHP Stack trace:
+[31-Jan-2017 15:21:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[31-Jan-2017 15:21:01 UTC] PHP   2. Actividad->jsonToObject() /home/ubuntu/workspace/ios/api_pruebas.php:321
+[31-Jan-2017 15:21:01 UTC] PHP   3. preg_match() /home/ubuntu/workspace/clases/datos/Actividad.php:216
+[31-Jan-2017 15:25:10 UTC] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /home/ubuntu/workspace/clases/datos/Actividad.php on line 216
+[31-Jan-2017 15:25:10 UTC] PHP Stack trace:
+[31-Jan-2017 15:25:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[31-Jan-2017 15:25:10 UTC] PHP   2. Actividad->jsonToObject() /home/ubuntu/workspace/ios/api_pruebas.php:321
+[31-Jan-2017 15:25:10 UTC] PHP   3. preg_match() /home/ubuntu/workspace/clases/datos/Actividad.php:216
+[31-Jan-2017 15:29:47 UTC] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /home/ubuntu/workspace/clases/datos/Actividad.php on line 216
+[31-Jan-2017 15:29:47 UTC] PHP Stack trace:
+[31-Jan-2017 15:29:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[31-Jan-2017 15:29:47 UTC] PHP   2. Actividad->jsonToObject() /home/ubuntu/workspace/ios/api_pruebas.php:321
+[31-Jan-2017 15:29:47 UTC] PHP   3. preg_match() /home/ubuntu/workspace/clases/datos/Actividad.php:216
+[31-Jan-2017 15:54:38 UTC] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /home/ubuntu/workspace/clases/datos/Actividad.php on line 216
+[31-Jan-2017 15:54:38 UTC] PHP Stack trace:
+[31-Jan-2017 15:54:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[31-Jan-2017 15:54:38 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[31-Jan-2017 15:54:38 UTC] PHP   3. GestorActividad->actualizar() /home/ubuntu/workspace/clases/rest/Api.php:88
+[31-Jan-2017 15:54:38 UTC] PHP   4. Actividad->jsonToObject() /home/ubuntu/workspace/clases/rest/GestorActividad.php:115
+[31-Jan-2017 15:54:38 UTC] PHP   5. preg_match() /home/ubuntu/workspace/clases/datos/Actividad.php:216
+[31-Jan-2017 15:54:56 UTC] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /home/ubuntu/workspace/clases/datos/Actividad.php on line 216
+[31-Jan-2017 15:54:56 UTC] PHP Stack trace:
+[31-Jan-2017 15:54:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[31-Jan-2017 15:54:56 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[31-Jan-2017 15:54:56 UTC] PHP   3. GestorActividad->actualizar() /home/ubuntu/workspace/clases/rest/Api.php:88
+[31-Jan-2017 15:54:56 UTC] PHP   4. Actividad->jsonToObject() /home/ubuntu/workspace/clases/rest/GestorActividad.php:115
+[31-Jan-2017 15:54:56 UTC] PHP   5. preg_match() /home/ubuntu/workspace/clases/datos/Actividad.php:216
+[01-Feb-2017 04:32:35 UTC] PHP Warning:  unlink(../assets/img/): Is a directory in /home/ubuntu/workspace/clases/rest/GestorActividad.php on line 158
+[01-Feb-2017 04:32:35 UTC] PHP Stack trace:
+[01-Feb-2017 04:32:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[01-Feb-2017 04:32:35 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[01-Feb-2017 04:32:35 UTC] PHP   3. GestorActividad->borrarJson() /home/ubuntu/workspace/clases/rest/Api.php:107
+[01-Feb-2017 04:32:35 UTC] PHP   4. unlink() /home/ubuntu/workspace/clases/rest/GestorActividad.php:158
+[01-Feb-2017 04:32:35 UTC] PHP Warning:  unlink(../assets/img/): Is a directory in /home/ubuntu/workspace/clases/rest/GestorActividad.php on line 158
+[01-Feb-2017 04:32:35 UTC] PHP Stack trace:
+[01-Feb-2017 04:32:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[01-Feb-2017 04:32:35 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[01-Feb-2017 04:32:35 UTC] PHP   3. GestorActividad->borrarJson() /home/ubuntu/workspace/clases/rest/Api.php:107
+[01-Feb-2017 04:32:35 UTC] PHP   4. unlink() /home/ubuntu/workspace/clases/rest/GestorActividad.php:158
+[01-Feb-2017 04:32:35 UTC] PHP Warning:  unlink(../assets/img/): Is a directory in /home/ubuntu/workspace/clases/rest/GestorActividad.php on line 158
+[01-Feb-2017 04:32:35 UTC] PHP Stack trace:
+[01-Feb-2017 04:32:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[01-Feb-2017 04:32:35 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[01-Feb-2017 04:32:35 UTC] PHP   3. GestorActividad->borrarJson() /home/ubuntu/workspace/clases/rest/Api.php:107
+[01-Feb-2017 04:32:35 UTC] PHP   4. unlink() /home/ubuntu/workspace/clases/rest/GestorActividad.php:158
+[01-Feb-2017 04:32:35 UTC] PHP Warning:  unlink(../assets/img/): Is a directory in /home/ubuntu/workspace/clases/rest/GestorActividad.php on line 158
+[01-Feb-2017 04:32:35 UTC] PHP Stack trace:
+[01-Feb-2017 04:32:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[01-Feb-2017 04:32:35 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[01-Feb-2017 04:32:35 UTC] PHP   3. GestorActividad->borrarJson() /home/ubuntu/workspace/clases/rest/Api.php:107
+[01-Feb-2017 04:32:35 UTC] PHP   4. unlink() /home/ubuntu/workspace/clases/rest/GestorActividad.php:158
+[01-Feb-2017 04:32:35 UTC] PHP Warning:  unlink(../assets/img/): Is a directory in /home/ubuntu/workspace/clases/rest/GestorActividad.php on line 158
+[01-Feb-2017 04:32:35 UTC] PHP Stack trace:
+[01-Feb-2017 04:32:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[01-Feb-2017 04:32:35 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[01-Feb-2017 04:32:35 UTC] PHP   3. GestorActividad->borrarJson() /home/ubuntu/workspace/clases/rest/Api.php:107
+[01-Feb-2017 04:32:35 UTC] PHP   4. unlink() /home/ubuntu/workspace/clases/rest/GestorActividad.php:158
+[01-Feb-2017 04:32:35 UTC] PHP Warning:  unlink(../assets/img/): Is a directory in /home/ubuntu/workspace/clases/rest/GestorActividad.php on line 158
+[01-Feb-2017 04:32:35 UTC] PHP Stack trace:
+[01-Feb-2017 04:32:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[01-Feb-2017 04:32:35 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[01-Feb-2017 04:32:35 UTC] PHP   3. GestorActividad->borrarJson() /home/ubuntu/workspace/clases/rest/Api.php:107
+[01-Feb-2017 04:32:35 UTC] PHP   4. unlink() /home/ubuntu/workspace/clases/rest/GestorActividad.php:158
+[01-Feb-2017 04:32:35 UTC] PHP Warning:  unlink(../assets/img/): Is a directory in /home/ubuntu/workspace/clases/rest/GestorActividad.php on line 158
+[01-Feb-2017 04:32:35 UTC] PHP Stack trace:
+[01-Feb-2017 04:32:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[01-Feb-2017 04:32:35 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[01-Feb-2017 04:32:35 UTC] PHP   3. GestorActividad->borrarJson() /home/ubuntu/workspace/clases/rest/Api.php:107
+[01-Feb-2017 04:32:35 UTC] PHP   4. unlink() /home/ubuntu/workspace/clases/rest/GestorActividad.php:158
+[01-Feb-2017 04:32:35 UTC] PHP Warning:  unlink(../assets/img/): Is a directory in /home/ubuntu/workspace/clases/rest/GestorActividad.php on line 158
+[01-Feb-2017 04:32:35 UTC] PHP Stack trace:
+[01-Feb-2017 04:32:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[01-Feb-2017 04:32:35 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[01-Feb-2017 04:32:35 UTC] PHP   3. GestorActividad->borrarJson() /home/ubuntu/workspace/clases/rest/Api.php:107
+[01-Feb-2017 04:32:35 UTC] PHP   4. unlink() /home/ubuntu/workspace/clases/rest/GestorActividad.php:158
+[01-Feb-2017 04:32:35 UTC] PHP Warning:  unlink(../assets/img/): Is a directory in /home/ubuntu/workspace/clases/rest/GestorActividad.php on line 158
+[01-Feb-2017 04:32:35 UTC] PHP Stack trace:
+[01-Feb-2017 04:32:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[01-Feb-2017 04:32:35 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[01-Feb-2017 04:32:35 UTC] PHP   3. GestorActividad->borrarJson() /home/ubuntu/workspace/clases/rest/Api.php:107
+[01-Feb-2017 04:32:35 UTC] PHP   4. unlink() /home/ubuntu/workspace/clases/rest/GestorActividad.php:158
+[01-Feb-2017 04:32:35 UTC] PHP Warning:  unlink(../assets/img/): Is a directory in /home/ubuntu/workspace/clases/rest/GestorActividad.php on line 158
+[01-Feb-2017 04:32:35 UTC] PHP Stack trace:
+[01-Feb-2017 04:32:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[01-Feb-2017 04:32:35 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[01-Feb-2017 04:32:35 UTC] PHP   3. GestorActividad->borrarJson() /home/ubuntu/workspace/clases/rest/Api.php:107
+[01-Feb-2017 04:32:35 UTC] PHP   4. unlink() /home/ubuntu/workspace/clases/rest/GestorActividad.php:158
+[01-Feb-2017 04:32:35 UTC] PHP Warning:  unlink(../assets/img/): Is a directory in /home/ubuntu/workspace/clases/rest/GestorActividad.php on line 158
+[01-Feb-2017 04:32:35 UTC] PHP Stack trace:
+[01-Feb-2017 04:32:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[01-Feb-2017 04:32:35 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[01-Feb-2017 04:32:35 UTC] PHP   3. GestorActividad->borrarJson() /home/ubuntu/workspace/clases/rest/Api.php:107
+[01-Feb-2017 04:32:35 UTC] PHP   4. unlink() /home/ubuntu/workspace/clases/rest/GestorActividad.php:158
+[01-Feb-2017 04:41:55 UTC] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /home/ubuntu/workspace/clases/datos/Actividad.php on line 216
+[01-Feb-2017 04:41:55 UTC] PHP Stack trace:
+[01-Feb-2017 04:41:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[01-Feb-2017 04:41:55 UTC] PHP   2. Actividad->jsonToObject() /home/ubuntu/workspace/ios/api_pruebas.php:321
+[01-Feb-2017 04:41:55 UTC] PHP   3. preg_match() /home/ubuntu/workspace/clases/datos/Actividad.php:216
+[01-Feb-2017 07:28:52 UTC] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /home/ubuntu/workspace/clases/datos/Actividad.php on line 216
+[01-Feb-2017 07:28:52 UTC] PHP Stack trace:
+[01-Feb-2017 07:28:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api_pruebas.php:0
+[01-Feb-2017 07:28:52 UTC] PHP   2. Actividad->jsonToObject() /home/ubuntu/workspace/ios/api_pruebas.php:321
+[01-Feb-2017 07:28:52 UTC] PHP   3. preg_match() /home/ubuntu/workspace/clases/datos/Actividad.php:216
+[01-Feb-2017 07:31:40 UTC] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /home/ubuntu/workspace/clases/datos/Actividad.php on line 216
+[01-Feb-2017 07:31:40 UTC] PHP Stack trace:
+[01-Feb-2017 07:31:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[01-Feb-2017 07:31:40 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[01-Feb-2017 07:31:40 UTC] PHP   3. GestorActividad->actualizar() /home/ubuntu/workspace/clases/rest/Api.php:88
+[01-Feb-2017 07:31:40 UTC] PHP   4. Actividad->jsonToObject() /home/ubuntu/workspace/clases/rest/GestorActividad.php:115
+[01-Feb-2017 07:31:40 UTC] PHP   5. preg_match() /home/ubuntu/workspace/clases/datos/Actividad.php:216
+[01-Feb-2017 07:41:25 UTC] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /home/ubuntu/workspace/clases/datos/Actividad.php on line 216
+[01-Feb-2017 07:41:25 UTC] PHP Stack trace:
+[01-Feb-2017 07:41:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[01-Feb-2017 07:41:25 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[01-Feb-2017 07:41:25 UTC] PHP   3. GestorActividad->actualizar() /home/ubuntu/workspace/clases/rest/Api.php:88
+[01-Feb-2017 07:41:25 UTC] PHP   4. Actividad->jsonToObject() /home/ubuntu/workspace/clases/rest/GestorActividad.php:115
+[01-Feb-2017 07:41:25 UTC] PHP   5. preg_match() /home/ubuntu/workspace/clases/datos/Actividad.php:216
+[01-Feb-2017 07:49:00 UTC] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /home/ubuntu/workspace/clases/datos/Actividad.php on line 216
+[01-Feb-2017 07:49:00 UTC] PHP Stack trace:
+[01-Feb-2017 07:49:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[01-Feb-2017 07:49:00 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[01-Feb-2017 07:49:00 UTC] PHP   3. GestorActividad->actualizar() /home/ubuntu/workspace/clases/rest/Api.php:88
+[01-Feb-2017 07:49:00 UTC] PHP   4. Actividad->jsonToObject() /home/ubuntu/workspace/clases/rest/GestorActividad.php:115
+[01-Feb-2017 07:49:00 UTC] PHP   5. preg_match() /home/ubuntu/workspace/clases/datos/Actividad.php:216
+[01-Feb-2017 07:52:14 UTC] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /home/ubuntu/workspace/clases/datos/Actividad.php on line 216
+[01-Feb-2017 07:52:14 UTC] PHP Stack trace:
+[01-Feb-2017 07:52:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[01-Feb-2017 07:52:14 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[01-Feb-2017 07:52:14 UTC] PHP   3. GestorActividad->actualizar() /home/ubuntu/workspace/clases/rest/Api.php:88
+[01-Feb-2017 07:52:14 UTC] PHP   4. Actividad->jsonToObject() /home/ubuntu/workspace/clases/rest/GestorActividad.php:115
+[01-Feb-2017 07:52:14 UTC] PHP   5. preg_match() /home/ubuntu/workspace/clases/datos/Actividad.php:216
+[01-Feb-2017 07:52:52 UTC] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /home/ubuntu/workspace/clases/datos/Actividad.php on line 216
+[01-Feb-2017 07:52:52 UTC] PHP Stack trace:
+[01-Feb-2017 07:52:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[01-Feb-2017 07:52:52 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[01-Feb-2017 07:52:52 UTC] PHP   3. GestorActividad->actualizar() /home/ubuntu/workspace/clases/rest/Api.php:88
+[01-Feb-2017 07:52:52 UTC] PHP   4. Actividad->jsonToObject() /home/ubuntu/workspace/clases/rest/GestorActividad.php:115
+[01-Feb-2017 07:52:52 UTC] PHP   5. preg_match() /home/ubuntu/workspace/clases/datos/Actividad.php:216
+[01-Feb-2017 07:54:34 UTC] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /home/ubuntu/workspace/clases/datos/Actividad.php on line 216
+[01-Feb-2017 07:54:34 UTC] PHP Stack trace:
+[01-Feb-2017 07:54:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[01-Feb-2017 07:54:34 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[01-Feb-2017 07:54:34 UTC] PHP   3. GestorActividad->actualizar() /home/ubuntu/workspace/clases/rest/Api.php:88
+[01-Feb-2017 07:54:34 UTC] PHP   4. Actividad->jsonToObject() /home/ubuntu/workspace/clases/rest/GestorActividad.php:115
+[01-Feb-2017 07:54:34 UTC] PHP   5. preg_match() /home/ubuntu/workspace/clases/datos/Actividad.php:216
+[01-Feb-2017 07:57:03 UTC] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /home/ubuntu/workspace/clases/datos/Actividad.php on line 216
+[01-Feb-2017 07:57:03 UTC] PHP Stack trace:
+[01-Feb-2017 07:57:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[01-Feb-2017 07:57:03 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[01-Feb-2017 07:57:03 UTC] PHP   3. GestorActividad->actualizar() /home/ubuntu/workspace/clases/rest/Api.php:88
+[01-Feb-2017 07:57:03 UTC] PHP   4. Actividad->jsonToObject() /home/ubuntu/workspace/clases/rest/GestorActividad.php:115
+[01-Feb-2017 07:57:03 UTC] PHP   5. preg_match() /home/ubuntu/workspace/clases/datos/Actividad.php:216

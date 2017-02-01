@@ -287,7 +287,7 @@ switch($metodo) {
                     //Finalizamos y validamos la operacion
                     $gestor->flush();
                     
-                    echo '{"response": "ok"}';
+                    echo json_encode(array(array("response"=>"ok")));
                     
                     break;
                 } catch(Exception $e){
@@ -298,7 +298,7 @@ switch($metodo) {
             
         }
         
-        echo '{ "response" : "error" }';
+        echo json_encode(array("response"=>"error"));
         
         break;
     }
@@ -350,7 +350,7 @@ switch($metodo) {
                     //Finalizamos y validamos la operacion
                     $gestor->flush();
                         
-                    echo '{"response": "ok"}';
+                    echo json_encode(array("r"=>"ok"));
                         
                     break;
                 } catch( Exception $e ){
@@ -361,7 +361,7 @@ switch($metodo) {
             
         }
         
-        echo '{ "response" : "error" }';
+        echo json_encode(array("response"=>"error"));
         
         break;
     }
@@ -387,7 +387,7 @@ switch($metodo) {
                 //Finalizamos y validamos la operacion
                 $gestor->flush();
                     
-                echo '{"response": "ok"}';
+                echo json_encode(array("response"=>"ok"));
                     
                 break;
             } catch(Exception $e){
@@ -395,7 +395,7 @@ switch($metodo) {
             }
         }
         
-        echo '{ "response" : "error" }';
+        echo json_encode(array("response"=>"error"));
         
         break;
     }

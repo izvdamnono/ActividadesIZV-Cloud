@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.7.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-12-30 11:20:49+0000\n"
+"PO-Revision-Date: 2017-01-26 15:41:05+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -40,169 +40,171 @@ msgstr "."
 msgid "This address is used for admin purposes, like new user notification."
 msgstr "Esta dirección se utiliza para fines de administración, por ejemplo notificación de nuevo usuario."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:809
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:101
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:832
 msgid "Unique identifier for the term."
 msgstr "Identificador único del término."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:237
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:53
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:243
 msgid "An alphanumeric identifier for the post type."
 msgstr "Un identificador alfanumérico del tipo de contenido."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:225
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:231
 msgid "Human-readable labels for the post type for various contexts."
 msgstr "Etiquetas legibles del tipo de contenido en varios contextos."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:252
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:258
 msgid "REST base route for the post type."
 msgstr "Ruta base REST del tipo de contenido."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:213
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:219
 msgid "A human-readable description of the post type."
 msgstr "Descripción legible del tipo de contenido."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:207
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:213
 msgid "All capabilities used by the post type."
 msgstr "Todas las capacidades utilizadas por el tipo de contenido."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:219
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:225
 msgid "Whether or not the post type should have children."
 msgstr "Si el tipo de contenido debería tener hijo o no."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:121
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:127
 msgid "Required to be true, as terms do not support trashing."
 msgstr "Se requiere que sea true, ya que los términos no son compatibles con el envío a la papelera."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:100
-msgid "Required to be true, as revisions do not support trashing."
-msgstr "Se requiere que sea true, ya que las revisioines no son compatibles con el envío a la papelera."
-
-#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:268
+#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:53
+#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:274
 msgid "An alphanumeric identifier for the taxonomy."
 msgstr "Un identificador alfanumérico de la taxonomía."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:287
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:116
+msgid "Required to be true, as revisions do not support trashing."
+msgstr "Se requiere que sea true, ya que las revisiones no son compatibles con el envío a la papelera."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:53
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:293
 msgid "An alphanumeric identifier for the status."
 msgstr "Un identificador alfanumérico del estado."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1330
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1349
 msgid "Limit response to comments published before a given ISO8601 compliant date."
 msgstr "Limita la respuesta a comentarios publicados antes de una fecha dada compatible con ISO8601."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1301
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1320
 msgid "Limit response to comments published after a given ISO8601 compliant date."
 msgstr "Limita la respuesta a comentarios publicados después de una fecha dada compatible con ISO8601."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1261
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1291
 msgid "Avatar URLs for the user."
 msgstr "Enlaces del avatar del usuario."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1214
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1244
 msgid "Roles assigned to the user."
 msgstr "Perfiles asignados al usuario."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1173
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1203
 msgid "Description of the user."
 msgstr "Descripción del usuario."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1178
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1208
 msgid "Author URL of the user."
 msgstr "Enlace de autor del usuario."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1167
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1197
 msgid "URL of the user."
 msgstr "Enlace del usuario."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1185
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1215
 msgid "Locale for the user."
 msgstr "Configuración local del usuario."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1191
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1221
 msgid "The nickname for the user."
 msgstr "Alias del usuario."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1136
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1166
 msgid "Display name for the user."
 msgstr "Muestra el nombre del usuario."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1144
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1174
 msgid "First name for the user."
 msgstr "Nombre del usuario."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1152
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1182
 msgid "Last name for the user."
 msgstr "Apellidos del usuario."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1127
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1157
 msgid "Login name for the user."
 msgstr "Nombre de inicio de sesión del usuario."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:706
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:740
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:738
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:770
 msgid "The user cannot be deleted."
 msgstr "El usuario no puede ser eliminado."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:472
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:496
 msgid "Error creating new user."
 msgstr "Error al crear un nuevo usuario."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:863
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:886
 msgid "The parent term ID."
 msgstr "Identificador del término superior."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:833
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:856
 msgid "HTML title for the term."
 msgstr "Título HTML del término."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:826
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:849
 msgid "URL of the term."
 msgstr "URL del término."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:377
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:484
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:406
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:512
 msgid "Parent term doesn't exist."
 msgstr "El término superior no existe."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:371
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:478
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:400
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:506
 msgid "Can not set parent term, taxonomy is not hierarchical."
 msgstr "No se puede establecer el término superior, la taxonomía no es jerárquica."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:582
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:605
 msgid "The term cannot be deleted."
 msgstr "El término no puede eliminarse."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:324
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:456
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:545
-msgid "Term doesn't exist."
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:305
+msgid "Term does not exist."
 msgstr "El término no existe."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:262
+#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:268
 msgid "The title for the taxonomy."
 msgstr "Título de la taxonomía."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:280
+#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:286
 msgid "Types associated with the taxonomy."
 msgstr "Tipos asociados a la taxonomia."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:231
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:237
 msgid "The title for the post type."
 msgstr "El título del tipo de contenido."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:126
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:132
 msgid "Cannot view post type."
 msgstr "No puedes ver el tipo de contenido."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:251
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:257
 msgid "The title for the status."
 msgstr "Título del estado."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:134
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:140
 msgid "Cannot view status."
 msgstr "No puedes ver el estado."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:128
-#: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:180
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:134
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:186
 msgid "Invalid status."
 msgstr "Estado no válido."
 
@@ -258,25 +260,25 @@ msgstr "[%1$s] activó a %2$s"
 msgid "RSS Error:"
 msgstr "Error RSS:"
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:471
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:495
 msgid "Cannot create a comment with that type."
 msgstr "No se puede crear un comentario con ese tipo."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:576
-#: wp-includes/rest-api.php:1053
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:606
+#: wp-includes/rest-api.php:1061
 msgid "Invalid email address."
 msgstr "Correo electrónico no valido"
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:486
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:687
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:510
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:710
 msgid "Invalid comment content."
 msgstr "Contenido del comentario no válido"
 
-#: wp-includes/post.php:3131 wp-includes/rest-api.php:1043
+#: wp-includes/post.php:3131 wp-includes/rest-api.php:1051
 msgid "Invalid date."
 msgstr "Fecha incorrecta."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:584
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:614
 msgid "Invalid slug."
 msgstr "Slug no válido."
 
@@ -346,63 +348,63 @@ msgctxt "Theme starter content"
 msgid "Meta"
 msgstr "Meta"
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:658
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:681
 msgid "Sorry, you are not allowed to change the comment type."
 msgstr "Lo siento, no tienes permisos para cambiar el tipo de comentario."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1034
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1044
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1064
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1074
 msgid "Sorry, you are not allowed to give users that role."
 msgstr "Lo siento, no tienes permisos para dar ese perfil a los usuarios."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:184
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:190
 msgid "Sorry, you are not allowed to order users by this parameter."
 msgstr "Lo siento, no tienes permisos para ordenar usuarios con ese parámetro."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:176
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:182
 msgid "Sorry, you are not allowed to filter users by role."
 msgstr "Lo siento, no tienes permisos para filtrar usuarios por perfil."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:327
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:360
 msgid "Sorry, you are not allowed to read this comment."
 msgstr "Lo siento, no tienes permisos para ver este comentario."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:120
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:331
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:445
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:126
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:364
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:469
 msgid "Sorry, you are not allowed to read the post for this comment."
 msgstr "Lo siento, no tienes permisos para leer la entrada de este comentario."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:126
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:164
 msgid "Sorry, you are not allowed to view revisions of this post."
 msgstr "Lo siento, no tienes permisos para ver las revisiones de esta entrada."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:437
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:441
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:461
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:465
 msgid "Sorry, you are not allowed to create a comment on this post."
 msgstr "Lo siento, no tienes permisos para crear un comentario en esta entrada."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:428
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:433
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:452
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:457
 msgid "Sorry, you are not allowed to create this comment without a post."
 msgstr "Lo siento, no tienes permisos para crear este comentario sin una entrada."
 
 #. translators: %s: request parameter
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:404
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:413
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:422
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:428
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:437
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:446
 msgid "Sorry, you are not allowed to edit '%s' for comments."
 msgstr "Lo siento, no tienes permisos para editar '%s' de los comentarios."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:755
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:776
 msgid "Sorry, you are not allowed to delete this comment."
 msgstr "Lo siento, no tienes permisos para borrar este comentario."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:353
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:382
 msgid "Sorry, you are not allowed to create new terms."
 msgstr "Lo siento, no tienes permisos para crear nuevos términos."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:122
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:128
 msgid "Sorry, you are not allowed to read comments without a post."
 msgstr "Lo siento, no tienes permisos para leer comentarios sin una entrada."
 
@@ -448,19 +450,19 @@ msgstr "Acerca de este sitio"
 msgid "Sorry, you are not allowed to edit the %s custom field."
 msgstr "Lo siento, no tienes permisos para editar el campo personalizado %s."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:474
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:611
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:505
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:645
 msgid "Sorry, you are not allowed to assign the provided terms."
 msgstr "Lo siento, no tienes permisos para asignar los términos ofrecidos."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1273
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:466
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:607
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:497
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:641
 msgid "Sorry, you are not allowed to make posts sticky."
 msgstr "Lo siento, no tienes permisos para hacer fijas entradas."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:94
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:129
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:100
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:135
 msgid "Reassign the deleted user's posts and links to this user ID."
 msgstr "Reasignando las entradas y los enlaces del usuario borrado a la ID de ese usuario."
 
@@ -580,20 +582,20 @@ msgctxt "Theme starter content"
 msgid "Find Us"
 msgstr "Encuéntranos"
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1100
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1130
 msgid "Passwords cannot contain the \"\\\" character."
 msgstr "Las contraseñas no pueden tener el carácter \"\\\"."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1096
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1126
 msgid "Passwords cannot be empty."
 msgstr "Las contraseñas no puedes estar vacías."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1067
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1097
 msgid "Username contains invalid characters."
 msgstr "El nombre de usuario contiene caracteres no válidos. "
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:161
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:455
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:167
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:479
 msgid "Invalid user parameter(s)."
 msgstr "Parámetro(s) de usuario no válidos."
 
@@ -620,7 +622,7 @@ msgstr "Cabecera multimedia"
 msgid "+ %s"
 msgstr "+ %s"
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:289
+#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:295
 msgid "REST base route for the taxonomy."
 msgstr "Ruta base REST para la taxonomía."
 
@@ -665,23 +667,23 @@ msgstr "Contraer menú principal"
 msgid "Or, enter a YouTube URL:"
 msgstr "O escribe una URL de YouTube:"
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:570
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:595
 msgid "Terms do not support trashing. Set force=true to delete."
 msgstr "Los términos no se pueden enviar a la papelera. Establece force=true para borrar."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:715
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:751
 msgid "Users do not support trashing. Set force=true to delete."
 msgstr "Los usuarios no se pueden enviar a la papelera. Establece force=true para borrar."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:232
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:302
 msgid "Revisions do not support trashing. Set force=true to delete."
 msgstr "Las revisiones no se pueden enviar a la papelera. Establece force=true para borrar."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:782
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:815
 msgid "The post does not support trashing. Set force=true to delete."
 msgstr "La entrada no se puede enviar a la papelera. Establece force=true para borrar."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:801
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:820
 msgid "The comment does not support trashing. Set force=true to delete."
 msgstr "El comentario no se puede enviar a la papelera. Establece force=true para borrar."
 
@@ -690,16 +692,16 @@ msgid "Invalid JSON body passed."
 msgstr "El cuerpo JSON no válido pasó."
 
 #. translators: %s: taxonomy name
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2136
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2174
 msgid "Limit result set to all items except those that have the specified term assigned in the %s taxonomy."
 msgstr "Limitar el conjunto de resultados a todos los elementos excepto a aquellos que tienen el término especificado asignado en la taxonomía %s."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2110
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2148
 msgid "Limit result set to posts assigned one or more statuses."
 msgstr "Limitar el conjunto de resultados a las entradas asignadas a uno o más estados."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:531
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:695
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:555
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:718
 msgid "Comment field exceeds maximum length allowed."
 msgstr "El campo de comentario excede la longitud máxima permitida."
 
@@ -707,11 +709,11 @@ msgstr "El campo de comentario excede la longitud máxima permitida."
 msgid "Display Location"
 msgstr "Mostrar ubicación"
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:243
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:249
 msgid "Taxonomies associated with post type."
 msgstr "Taxonomías asociadas al tipo de contenido."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2100
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2138
 msgid "Limit result set to posts with one or more specific slugs."
 msgstr "Limitar el conjunto de resultados a las entradas con uno o más slugs específicos."
 
@@ -760,59 +762,59 @@ msgid "Item selected."
 msgstr "Elemento seleccionado."
 
 #. translators: 1: parameter, 2: minimum number, 3: maximum number
-#: wp-includes/rest-api.php:1101
+#: wp-includes/rest-api.php:1109
 msgid "%1$s must be between %2$d (inclusive) and %3$d (inclusive)"
 msgstr "%1$s debe estar entre %2$d (incluido) y %3$d (incluido)"
 
 #. translators: 1: parameter, 2: minimum number, 3: maximum number
-#: wp-includes/rest-api.php:1096
+#: wp-includes/rest-api.php:1104
 msgid "%1$s must be between %2$d (exclusive) and %3$d (inclusive)"
 msgstr "%1$s debe estar entre %2$d (excluido) y %3$d (incluido)"
 
 #. translators: 1: parameter, 2: minimum number, 3: maximum number
-#: wp-includes/rest-api.php:1091
+#: wp-includes/rest-api.php:1099
 msgid "%1$s must be between %2$d (inclusive) and %3$d (exclusive)"
 msgstr "%1$s debe estar entre %2$d (incluido) y %3$d (excluido)"
 
 #. translators: 1: parameter, 2: minimum number, 3: maximum number
-#: wp-includes/rest-api.php:1086
+#: wp-includes/rest-api.php:1094
 msgid "%1$s must be between %2$d (exclusive) and %3$d (exclusive)"
 msgstr "%1$s debe estar entre %2$d (excluido) y %3$d (excluido)"
 
 #. translators: 1: parameter, 2: maximum number
-#: wp-includes/rest-api.php:1077
+#: wp-includes/rest-api.php:1085
 msgid "%1$s must be less than %2$d (exclusive)"
 msgstr "%1$s debe ser menor que %2$d (incluido)"
 
 #. translators: 1: parameter, 2: maximum number
-#: wp-includes/rest-api.php:1080
+#: wp-includes/rest-api.php:1088
 msgid "%1$s must be less than %2$d (inclusive)"
 msgstr "%1$s debe ser menor que %2$d (incluido)"
 
 #. translators: 1: parameter, 2: minimum number
-#: wp-includes/rest-api.php:1072
+#: wp-includes/rest-api.php:1080
 msgid "%1$s must be greater than %2$d (inclusive)"
 msgstr "%1$s debe ser mayor que %2$d (incluido)"
 
 #. translators: 1: parameter, 2: minimum number
-#: wp-includes/rest-api.php:1069
+#: wp-includes/rest-api.php:1077
 msgid "%1$s must be greater than %2$d (exclusive)"
 msgstr "%1$s debe ser mayor que %2$d (excluido)"
 
 #. translators: %s: IP address
-#: wp-includes/rest-api.php:1059
+#: wp-includes/rest-api.php:1067
 msgid "%s is not a valid IP address."
 msgstr "%s no es una dirección de IP válida."
 
 #. translators: 1: parameter, 2: type name
-#: wp-includes/rest-api.php:1003 wp-includes/rest-api.php:1021
-#: wp-includes/rest-api.php:1026 wp-includes/rest-api.php:1031
-#: wp-includes/rest-api.php:1036
+#: wp-includes/rest-api.php:1011 wp-includes/rest-api.php:1029
+#: wp-includes/rest-api.php:1034 wp-includes/rest-api.php:1039
+#: wp-includes/rest-api.php:1044
 msgid "%1$s is not of type %2$s."
 msgstr "%1$s no es del tipo %2$s."
 
 #. translators: 1: parameter, 2: list of valid values
-#: wp-includes/rest-api.php:1015
+#: wp-includes/rest-api.php:1023
 msgid "%1$s is not one of %2$s."
 msgstr "%1$s no es ninguna de las siguientes %2$s."
 
@@ -830,104 +832,105 @@ msgstr "Campos meta."
 msgid "Could not delete meta value from database."
 msgstr "No se ha podido borrar de la base de datos el valor meta."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1237
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1267
 msgid "Any extra capabilities assigned to the user."
 msgstr "Cualquier capacidad extra asignada al usuario."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1338
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1368
 msgid "Limit result set to users matching at least one specific role provided. Accepts csv list or single role."
 msgstr "Limita el resultado a usuarios que se ajusten al menos a un perfil específico facilitado. Acepta listas en csv o un solo perfil."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1160
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1190
 msgid "The email address for the user."
 msgstr "La dirección de correo electrónico del usuario."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1207
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1237
 msgid "Registration date for the user."
 msgstr "Fecha de registro del usuario."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1231
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1261
 msgid "All capabilities assigned to the user."
 msgstr "Todas las capacidades asignadas al usuario."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1222
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1252
 msgid "Password for the user (never included)."
 msgstr "Contraseña del usuario (no incluida)."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:580
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:610
 msgid "Username isn't editable."
 msgstr "El nombre de usuario no es editable."
 
 #. translators: %s: role key
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1020
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1050
 msgid "The role %s does not exist."
 msgstr "El rol %s no existe."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:726
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:756
 msgid "Invalid user ID for reassignment."
 msgstr "ID de usuario no válido para su reasignación."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:688
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:720
 msgid "Sorry, you are not allowed to delete this user."
 msgstr "Lo siento, no tienes permisos para borrar este usuario."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:396
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:420
 msgid "You are not currently logged in."
 msgstr "No estás conectado."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:436
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:460
 msgid "Cannot create existing user."
 msgstr "No se puede crear un usuario existente."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:552
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:578
 msgid "Sorry, you are not allowed to edit roles of this user."
 msgstr "Lo siento, no tienes permisos para editar perfiles de este usuario."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:842
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:865
 msgid "An alphanumeric identifier for the term unique to its type."
 msgstr "Un identificador alfanumérico del término único de este tipo."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:958
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:981
 msgid "Limit result set to terms with a specific slug."
 msgstr "Limita el resultado a términos con un slug específico."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:952
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:975
 msgid "Limit result set to terms assigned to a specific post."
 msgstr "Limita el resultado a términos asignados a una entrada específica."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:946
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:969
 msgid "Limit result set to terms assigned to a specific parent."
 msgstr "Limita el resultado a términos asignados a un superior específico."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:939
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:962
 msgid "Whether to hide terms not assigned to any posts."
 msgstr "Si se ocultarán o no los términos asignados a cualquier entrada."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:924
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:947
 msgid "Sort collection by term attribute."
 msgstr "Ordenar la colección por atributo de término."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:850
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:873
 msgid "Type attribution for the term."
 msgstr "Tipo de atribución del término."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:821
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:844
 msgid "HTML description of the term."
 msgstr "Descripción HTML del término."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:815
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:838
 msgid "Number of published posts for the term."
 msgstr "Número de entradas publicadas con el término."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1121
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:70
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1151
 msgid "Unique identifier for the user."
 msgstr "Identificador único del usuario."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2147
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2185
 msgid "Limit result set to items that are sticky."
 msgstr "Limitar el conjunto de resultados a elementos que sean fijos."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:274
+#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:280
 msgid "Whether or not the term cloud should be displayed."
 msgstr "Si la nube de términos debería mostrarse o no."
 
@@ -935,269 +938,268 @@ msgstr "Si la nube de términos debería mostrarse o no."
 msgid "The %s property has an invalid stored value, and cannot be updated to null."
 msgstr "La propiedad %s tiene un valor no válido guardado y no puede ser actualizado a un valor nulo."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2202
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2240
 msgid "Status is forbidden."
 msgstr "Estado no permitido."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:187
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:212
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:179
 msgid "Invalid revision ID."
 msgstr "ID de la revisión no válido."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:311
+#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:317
 msgid "Limit results to taxonomies associated with a specific post type."
 msgstr "Limita los resultados a taxonomías asociadas con un tipo de contenido específico."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:90
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:125
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:96
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:131
 msgid "Required to be true, as users do not support trashing."
 msgstr "Se requiere que sea true, ya que los usuarios no son compatibles con el envío a la papelera."
 
 #. translators: %s: taxonomy name
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1967
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2005
 msgid "The terms assigned to the object in the %s taxonomy."
 msgstr "Los términos asignados al objeto en la taxonomía %s."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2090
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2128
 msgid "Limit result set to all items except those of a particular parent ID."
 msgstr "Limitar los resultados a todos los elementos excepto aquellos con un identificador padre específico."
 
 #. translators: %s: taxonomy name
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2126
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2164
 msgid "Limit result set to all items that have the specified term assigned in the %s taxonomy."
 msgstr "Limitar los resultados a todos los elementos que tengan el término especificado asignado en la taxonomía %s."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1354
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2049
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:908
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1306
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1373
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2087
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:931
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1336
 msgid "Offset the result set by a specific number of items."
 msgstr "Desplazar el conjunto de resultados un número específico de elementos."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2008
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2046
 msgid "Ensure result set excludes posts assigned to specific authors."
 msgstr "Asegúra que el conjunto de resultados excluye las publicaciones asignadas a autores específicos."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2000
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2038
 msgid "Limit result set to posts assigned to specific authors."
 msgstr "Limitar el conjunto de resultados a las publicaciones asignadas a autores específicos."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2082
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2120
 msgid "Limit result set to those of particular parent IDs."
 msgstr "Limitar los resultados a los que tengan IDs superiores concretos."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1333
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1363
 msgid "Limit result set to users with a specific slug."
 msgstr "Limita el resultado a usuarios con un slug específico."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2043
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2081
 msgid "Limit result set to posts with a specific menu_order value."
 msgstr "Limita los resultados a entradas con un valor específico menu_order."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1933
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1971
 msgid "The format for the object."
 msgstr "El formato del objeto."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1878
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1916
 msgid "HTML excerpt for the object, transformed for display."
 msgstr "Extracto HTML para el objeto, transformado para visualización."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1956
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1994
 msgid "The theme file to use to display the object."
 msgstr "El fichero del tema a usar para mostrar el objeto."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1732
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1770
 msgid "A password to protect access to the content and excerpt."
 msgstr "Una contraseña para proteger el acceso al contenido y al extracto."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1949
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1987
 msgid "Whether or not the object should be treated as sticky."
 msgstr "Sea o no el objeto debe ser tratado como fijo."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1918
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1956
 msgid "The order of the object in relation to other object of its type."
 msgstr "El orden del objeto en relación con otro objeto de su tipo."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1909
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1947
 msgid "Whether or not the object can be pinged."
 msgstr "Se puede o no hacer ping al objeto."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1903
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1941
 msgid "Whether or not comments are open on the object."
 msgstr "Si los comentarios están abiertos en el objeto o no."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1884
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1922
 msgid "Whether the excerpt is protected with a password."
 msgstr "Si el extracto está protegido con una contraseña."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1895
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1933
 msgid "The ID of the featured media for the object."
 msgstr "El ID de la imagen destacada para el objeto."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1865
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1903
 msgid "The excerpt for the object."
 msgstr "El extracto del objeto."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1873
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1911
 msgid "Excerpt for the object, as it exists in the database."
 msgstr "Extracto para el objeto, como si existiera en la base de datos."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1803
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1841
 msgid "The title for the object."
 msgstr "El título para el objeto."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1846
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1884
 msgid "Whether the content is protected with a password."
 msgstr "Si el contenido está protegido con contraseña o no."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1816
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1854
 msgid "HTML title for the object, transformed for display."
 msgstr "Título HTML para el objeto, transformado para visualización."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1811
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1849
 msgid "Title for the object, as it exists in the database."
 msgstr "Título para el objeto, tal y como existe en la base de datos."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1726
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1764
 msgid "Type of Post for the object."
 msgstr "Tipo de entrada para el objeto."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1720
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1758
 msgid "A named status for the object."
 msgstr "Un nombre de estado para el objeto."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1712
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:446
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1750
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:515
 msgid "An alphanumeric identifier for the object unique to its type."
 msgstr "Un identificador alfanumérico para el objeto único para su tipo."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1857
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:402
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1895
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:471
 msgid "The ID for the author of the object."
 msgstr "El ID del autor del objeto."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1010
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1048
 msgid "A password protected post can not be set to sticky."
 msgstr "Una entrada protegida con contraseña no puede ser marcada como fija."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1003
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1041
 msgid "A sticky post can not be password protected."
 msgstr "Una entrada fija no puede estar protegida por contraseña."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1698
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:429
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1736
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:498
 msgid "The date the object was last modified, in the site's timezone."
 msgstr "La fecha en la que se modificó el objeto por última vez, en el huso horario del sitio."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1705
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:435
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1743
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:504
 msgid "The date the object was last modified, as GMT."
 msgstr "La fecha en que el objeto fue modificado por última vez, como GMT."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1677
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1715
 msgid "GUID for the object, transformed for display."
 msgstr "GUID para el objeto, transformado para su visualización."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1671
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:419
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1709
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:488
 msgid "GUID for the object, as it exists in the database."
 msgstr "GUID para el objeto, tal como existe en la base de datos."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1218
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1659
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:413
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1237
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1697
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:482
 msgid "The date the object was published, as GMT."
 msgstr "La fecha de publicación del objeto, como GMT."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1212
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1653
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:407
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1231
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1691
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:476
 msgid "The date the object was published, in the site's timezone."
 msgstr "La fecha de publicación del objeto, en el huso horario del sitio."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1665
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1703
 msgid "The globally unique identifier for the object."
 msgstr "El identificador global único para el objeto."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1112
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1150
 msgid "Invalid featured media ID."
 msgstr "ID del medio destacado no válido."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1021
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:144
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:182
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1059
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:134
 msgid "Invalid post parent ID."
 msgstr "ID de publicación superior no válido."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:999
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1037
 msgid "A post can not be sticky and have a password."
 msgstr "Una entrada no puede ser fija y tener contraseña."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:787
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:820
 msgid "The post has already been deleted."
 msgstr "La entrada ya ha sido borrada previamente."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:491
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:487
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:522
 msgid "Cannot create existing post."
 msgstr "No se puede crear una entrada existente."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:128
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:321
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:134
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:354
 msgid "Sorry, you are not allowed to edit comments."
 msgstr "Lo siento, no tienes permisos para editar comentarios."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:419
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:443
 msgid "Sorry, you are not allowed to create new users."
 msgstr "Lo siento, no tienes permisos para crear nuevos usuarios."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:372
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:402
 msgid "Incorrect post password."
 msgstr "Contraseña de entrada incorrecta."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:152
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:158
 msgid "You need to define a search term to order by relevance."
 msgstr "Necesitas definir un término de búsqueda para ordenar por relevancia."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:73
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:95
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1427
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:79
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:101
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1446
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:86
 msgid "The password for the post if it is password protected."
 msgstr "La contraseña para la entrada si está protegida por contraseña."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:281
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:287
 msgid "Whether to include posts in the edit listing for their post type."
 msgstr "Si incluir publicaciones en la lista de edición para su tipo de contenido."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:238
+#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:244
 msgid "All capabilities used by the taxonomy."
 msgstr "Todas las capacidades utilizadas por la taxonomía."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1199
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1229
 msgid "An alphanumeric identifier for the user."
 msgstr "Un identificador alfanumérico del usuario."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:275
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:281
 msgid "Whether posts with this status should be publicly-queryable."
 msgstr "Si las entradas con este estado deberían poderse buscar públicamente."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:269
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:275
 msgid "Whether posts of this status should be shown in the front end of the site."
 msgstr "Si las entradas con este estado deberían mostrarse en la portada del sitio."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:263
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:269
 msgid "Whether posts with this status should be protected."
 msgstr "Si las entradas con este estado deberían ser protegidas."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:244
+#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:250
 msgid "A human-readable description of the taxonomy."
 msgstr "Descripción legible de la taxonomía."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:256
+#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:262
 msgid "Human-readable labels for the taxonomy for various contexts."
 msgstr "Etiquetas legibles de la taxonomía en diversos contextos."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:250
+#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:256
 msgid "Whether or not the taxonomy should have children."
 msgstr "Si la taxonomía debería tener hijas o no."
 
@@ -1232,28 +1234,28 @@ msgstr "Número máximo de elementos que se devolverán en el conjunto de result
 msgid "Scope under which the request is made; determines fields present in response."
 msgstr "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:257
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:263
 msgid "Whether posts with this status should be private."
 msgstr "Si las entradas con este estado deberían ser privadas."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1369
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2061
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1319
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1388
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2099
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1349
 msgid "Sort collection by object attribute."
 msgstr "Ordenar la colección por atributo de objeto."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1359
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2054
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:914
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1312
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1378
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2092
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:937
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1342
 msgid "Order sort attribute ascending or descending."
 msgstr "Orden de clasificación de atributos ascendente o descendente."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1412
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1431
 msgid "Limit result set to comments assigned a specific status. Requires authorization."
 msgstr "Limitar el conjunto de resultados a los comentarios asignados a un estado específico. Requiere autorización."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1420
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1439
 msgid "Limit result set to comments assigned a specific type. Requires authorization."
 msgstr "Limitar el conjunto de resultados a los comentarios asignados a un tipo específico. Requiere autorización."
 
@@ -1261,169 +1263,174 @@ msgstr "Limitar el conjunto de resultados a los comentarios asignados a un tipo 
 msgid "The register_routes() method must be overridden"
 msgstr "El método register_routes() debe ser reemplazado"
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1394
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1413
 msgid "Ensure result set excludes specific parent IDs."
 msgstr "Asegúrate de que el conjunto de resultados excluya los IDs superiores específicos."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1403
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1422
 msgid "Limit result set to comments assigned to specific post IDs."
 msgstr "Limita el resultado a comentarios asignados a ID de entrada específicos."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1385
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1404
 msgid "Limit result set to comments of specific parent IDs."
 msgstr "Limita el resultado a comentarios con ID superiores específicos."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1274
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1293
 msgid "Avatar URLs for the object author."
 msgstr "URL del avatar del autor del objeto."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1324
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1343
 msgid "Limit result set to that from a specific author email. Requires authorization."
 msgstr "Limitar el conjunto de resultados a aquellos con un correo electrónico de autor específico. Requiere autorización."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1251
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1270
 msgid "Type of Comment for the object."
 msgstr "Tipo de comentario para el objeto."
 
 #. translators: %d: avatar image size in pixels
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1266
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1253
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1285
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1283
 msgid "Avatar URL with image size of %d pixels."
 msgstr "URL del Avatar con un tamaño de imagen de %d píxeles."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1345
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2033
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:898
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1297
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1364
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2071
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:921
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1327
 msgid "Limit result set to specific IDs."
 msgstr "Limitar el conjunto de resultados a IDs específicos."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1336
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2024
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:889
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1288
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1355
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2062
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:912
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1318
 msgid "Ensure result set excludes specific IDs."
 msgstr "Asegurarse de que el conjunto de resultados excluye IDs específicos."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1315
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1334
 msgid "Ensure result set excludes comments assigned to specific user IDs. Requires authorization."
 msgstr "Asegurarse de que el conjunto de resultados excluye los comentarios asignados a IDs de usuario específicos. Requiere autorización."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1307
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1326
 msgid "Limit result set to comments assigned to specific user IDs. Requires authorization."
 msgstr "Limitar el conjunto de resultados a comentarios asignados a identificadores de usuario específicos. Requier autorización."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2018
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2056
 msgid "Limit response to posts published before a given ISO8601 compliant date."
 msgstr "Limita la respuesta a entradas publicadas antes de  una fecha dada compatible con ISO9601."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1993
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2031
 msgid "Limit response to posts published after a given ISO8601 compliant date."
 msgstr "Limita la respuesta a entradas publicadas después de una fecha dada compatible con ISO9601."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1243
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1262
 msgid "State of the object."
 msgstr "Estado del objeto."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1224
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1691
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1243
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1729
 msgid "URL to the object."
 msgstr "URL del objeto."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1204
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1840
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1223
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1878
 msgid "HTML content for the object, transformed for display."
 msgstr "Contenido HTML para el objeto, transformado para su visualización."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1199
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1835
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1218
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1873
 msgid "Content for the object, as it exists in the database."
 msgstr "Contenido del objeto, tal como existe en la base de datos."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1191
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1827
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1210
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1865
 msgid "The content for the object."
 msgstr "El contenido para el objeto."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1237
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1256
 msgid "The ID of the associated post object."
 msgstr "El ID del objeto asociado a la publicación."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1231
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1743
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:441
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1250
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1781
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:76
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:92
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:510
 msgid "The ID for the parent of the object."
 msgstr "El ID del superior del objeto."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:814
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:833
 msgid "The comment cannot be deleted."
 msgstr "El comentario no puede ser borrado."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1177
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1196
 msgid "URL for the object author."
 msgstr "URL del autor del objeto."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1153
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1172
 msgid "Email address for the object author."
 msgstr "Dirección de correo electrónico del autor del objeto."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1142
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1685
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:424
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:68
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1161
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:93
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1723
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:96
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:493
 msgid "Unique identifier for the object."
 msgstr "Identificador único para el objeto."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:805
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:824
 msgid "The comment has already been trashed."
 msgstr "El comentario ya ha sido enviado a la papelera."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1169
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1188
 msgid "Display name for the object author."
 msgstr "Muestra el nombre del autor del objeto."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1163
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1182
 msgid "IP address for the object author."
 msgstr "Dirección IP del autor del objeto."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1183
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1202
 msgid "User agent for the object author."
 msgstr "User agent para el autor del objeto."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1070
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1089
 msgid "Invalid comment author ID."
 msgstr "ID de autor de comentario no válido."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1148
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1167
 msgid "The ID of the user object, if author was a user."
 msgstr "El ID del objeto del usuario, si el autor era un usuario."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:701
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:724
 msgid "Updating comment failed."
 msgstr "La actualización del comentario falló."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:679
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:702
 msgid "Updating comment status failed."
 msgstr "La actualización del estado del comentario falló."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:566
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:590
 msgid "Creating comment failed."
 msgstr "Falló la creación del comentario."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:512
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:536
 msgid "Creating a comment requires valid author name and email values."
 msgstr "Se necesita un nombre de autor y una dirección de correo electrónico válidos para crear un comentario."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:466
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:490
 msgid "Cannot create existing comment."
 msgstr "No se puede crear un comentario ya existente."
 
 #: wp-includes/comment.php:3057
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:379
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:396
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:403
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:420
 msgid "Sorry, you must be logged in to comment."
 msgstr "Lo siento, debes estar conectado para comentar."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:150
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:156
 msgid "Query parameter not permitted: %s"
 msgstr "El parámetro de consulta no está permitido : %s"
 
@@ -1432,8 +1439,8 @@ msgstr "El parámetro de consulta no está permitido : %s"
 msgid "No data supplied."
 msgstr "No se suministraron datos."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:92
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:111
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:98
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:117
 msgid "Whether to bypass trash and force deletion."
 msgstr "Si evitar la papelera y forzar la eliminación."
 
@@ -1677,10 +1684,6 @@ msgstr "Haz clic para editar este menú."
 msgid "While you can crop images to your liking after clicking <strong>Add new image</strong>, we recommend matching the size of your video."
 msgstr "Aunque puedes recortar las imágenes que te gustan después de hacer clic en <strong>Añadir imagen</strong>, recomendamos que se ajuste al tamaño de tu vídeo."
 
-#: wp-includes/customize/class-wp-customize-custom-css-setting.php:219
-msgid "Imbalanced/unclosed character errors can be caused by <code>content: \"\";</code> declarations. You may need to remove this or add it to a custom CSS file."
-msgstr "Errores de caracteres desequilibrados o sin cerrar son causados por declaraciones como <code>contenido: \"\";</code>. Pues que necesites eliminarlo o añadirlo en un fichero CSS personalizado."
-
 #: wp-includes/customize/class-wp-customize-custom-css-setting.php:215
 msgid "There is an extra <code>*/</code>, indicating an end to a comment.  Be sure that there is an opening <code>/*</code> for every closing <code>*/</code>."
 msgstr "Hay un <code>*/</code> de más, indicando el final de un comentario. Asegúrate de que hay un <code>/*</code> abierto para cada <code>*/</code> cerrado."
@@ -1694,6 +1697,10 @@ msgstr[1] "Existen %s comentarios de código sin cerrar. Cierra cada comentario 
 #: wp-includes/customize/class-wp-customize-custom-css-setting.php:196
 msgid "Your double quotes <code>\"</code> are uneven. Make sure there is a closing <code>\"</code> for every opening <code>\"</code>."
 msgstr "Tus comillas dobles <code>\"</code> son desiguales. Asegurarse que exista un cierre <code>\"</code> para cada código abierto <code>\"</code>."
+
+#: wp-includes/customize/class-wp-customize-custom-css-setting.php:219
+msgid "Imbalanced/unclosed character errors can be caused by <code>content: \"\";</code> declarations. You may need to remove this or add it to a custom CSS file."
+msgstr "Los errores de caracteres sin balancear o sin cerrar los provocan por declaraciones como <code>contenido: \"\";</code>. Puede que necesites quitar esto o añadirlo en un fichero CSS personalizado."
 
 #: wp-includes/customize/class-wp-customize-custom-css-setting.php:171
 msgid "Markup is not allowed in CSS."
@@ -1724,13 +1731,13 @@ msgid "Sorry, you are not allowed to assign this term."
 msgstr "Lo siento, no tienes permisos para asignar este término."
 
 #: wp-includes/class-wp-xmlrpc-server.php:2073
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:549
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:570
 msgid "Sorry, you are not allowed to delete this term."
 msgstr "Lo siento, no tienes permisos para borrar este término."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1982
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:305
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:460
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:339
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:483
 msgid "Sorry, you are not allowed to edit this term."
 msgstr "Lo siento, no tienes permisos para editar este término."
 
@@ -2093,7 +2100,7 @@ msgid "Number of plugins found: %d"
 msgstr "Número de plugins encontrados: %d"
 
 #: wp-includes/class-wp-xmlrpc-server.php:2421
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:548
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:574
 msgid "Sorry, you are not allowed to edit this user."
 msgstr "Lo siento, no tienes permisos para modificar este usuario."
 
@@ -2158,8 +2165,8 @@ msgstr "Instalación fallida: %s"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1640
 #: wp-includes/class-wp-xmlrpc-server.php:4777
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:721
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:767
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:755
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:800
 msgid "Sorry, you are not allowed to delete this post."
 msgstr "Lo siento, no tienes permisos para borrar esta entrada."
 
@@ -2303,9 +2310,9 @@ msgid "Sorry, you are not allowed to add a category."
 msgstr "Lo siento, no tienes permisos para añadir una categoría."
 
 #: wp-includes/class-wp-xmlrpc-server.php:2479
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:180
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:352
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:354
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:186
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:378
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:380
 msgid "Sorry, you are not allowed to list users."
 msgstr "Lo siento, no tienes permisos para listar usuarios."
 
@@ -2685,7 +2692,7 @@ msgstr "Utiliza %s en su lugar."
 msgid "There doesn't seem to be a %s file. I need this before we can get started."
 msgstr "No parece que sea un archivo %s. Necesito saber esto antes de empezar."
 
-#: wp-includes/class-wp-term.php:167
+#: wp-includes/class-wp-term.php:166
 msgid "Term ID is shared between multiple taxonomies"
 msgstr "El ID del término se ha compartido entre varias taxonomías."
 
@@ -2743,12 +2750,6 @@ msgid "off"
 msgstr "off"
 
 #. translators: month name, genitive
-#: wp-includes/class-wp-locale.php:172
-msgctxt "genitive"
-msgid "January"
-msgstr "enero"
-
-#. translators: month name, genitive
 #: wp-includes/class-wp-locale.php:176
 msgctxt "genitive"
 msgid "May"
@@ -2771,6 +2772,12 @@ msgstr "Marzo"
 msgctxt "genitive"
 msgid "February"
 msgstr "Febrero"
+
+#. translators: month name, genitive
+#: wp-includes/class-wp-locale.php:172
+msgctxt "genitive"
+msgid "January"
+msgstr "Enero"
 
 #: wp-includes/embed.php:992
 msgid "Sharing options"
@@ -2956,12 +2963,12 @@ msgid "<strong>ERROR</strong>: Invalid username."
 msgstr "<strong>ERROR</strong>: Nombre de usuario no válido."
 
 #. translators: 1: function name, 2: WordPress version number, 3: error message
-#: wp-includes/rest-api.php:495
+#: wp-includes/rest-api.php:503
 msgid "%1$s (since %2$s; %3$s)"
 msgstr "%1$s (desde %2$s; %3$s)"
 
 #. translators: 1: function name, 2: WordPress version number
-#: wp-includes/rest-api.php:477 wp-includes/rest-api.php:498
+#: wp-includes/rest-api.php:485 wp-includes/rest-api.php:506
 msgid "%1$s (since %2$s; no alternative available)"
 msgstr "%1$s (desde %2$s; sin alternativa disponible)"
 
@@ -2969,7 +2976,7 @@ msgstr "%1$s (desde %2$s; sin alternativa disponible)"
 msgid "Invalid shortcode name: Empty name given."
 msgstr "Nombre de shortcode no válido: Has dado un nombre vacío."
 
-#: wp-includes/rest-api.php:714
+#: wp-includes/rest-api.php:722
 msgid "Cookie nonce is invalid"
 msgstr "La cookie nonce no es válida"
 
@@ -2989,7 +2996,7 @@ msgstr "El nombre de espacio que has especificado no está disponible."
 
 #. translators: 1: function name, 2: WordPress version number, 3: new function
 #. name
-#: wp-includes/rest-api.php:474
+#: wp-includes/rest-api.php:482
 msgid "%1$s (since %2$s; use %3$s instead)"
 msgstr "%1$s (desde %2$s; usa en su lugar %3$s)"
 
@@ -3002,7 +3009,7 @@ msgid "JSONP support is disabled on this site."
 msgstr "El soporte JSONP está deshabilitado en este sitio."
 
 #: wp-includes/rest-api/class-wp-rest-request.php:890
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:157
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:163
 msgid "Missing parameter(s): %s"
 msgstr "Parámetro(s) que falta(n): %s"
 
@@ -3054,7 +3061,7 @@ msgid "Filter pages list"
 msgstr "Lista de páginas filtradas"
 
 #: wp-includes/ms-functions.php:434 wp-includes/ms-functions.php:441
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1074
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1104
 #: wp-includes/user.php:1465
 msgid "Sorry, that username is not allowed."
 msgstr "Lo sentimos, ese nombre de usuario no está permitido."
@@ -6067,10 +6074,8 @@ msgid "Site Address (URL)"
 msgstr "Dirección del sitio (URL)"
 
 #: wp-includes/class-wp-xmlrpc-server.php:2426
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:344
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:374
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:572
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:721
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:343
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:602
 #: wp-includes/user.php:1417 wp-includes/user.php:1738
 #: wp-includes/user.php:1744
 msgid "Invalid user ID."
@@ -6628,7 +6633,7 @@ msgstr "Cambiar imagen"
 msgid "Remove image"
 msgstr "Eliminar imagen"
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:633
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:657
 msgid "Sorry, you are not allowed to edit this comment."
 msgstr "Lo siento, no estás autorizado a editar este comentario."
 
@@ -6674,14 +6679,14 @@ msgid "This taxonomy is not hierarchical so you can't set a parent."
 msgstr "Esta taxonomía no es jerárquica por lo que no se puede establecer un padre."
 
 #: wp-includes/class-wp-tax-query.php:565
-#: wp-includes/class-wp-tax-query.php:572 wp-includes/class-wp-term.php:180
+#: wp-includes/class-wp-tax-query.php:572 wp-includes/class-wp-term.php:179
 #: wp-includes/class-wp-xmlrpc-server.php:1876
 #: wp-includes/class-wp-xmlrpc-server.php:1964
 #: wp-includes/class-wp-xmlrpc-server.php:2061
 #: wp-includes/class-wp-xmlrpc-server.php:2132
 #: wp-includes/class-wp-xmlrpc-server.php:2191
 #: wp-includes/class-wp-xmlrpc-server.php:2286
-#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:163
+#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:169
 #: wp-includes/taxonomy.php:419 wp-includes/taxonomy.php:639
 #: wp-includes/taxonomy.php:730 wp-includes/taxonomy.php:894
 #: wp-includes/taxonomy.php:1114 wp-includes/taxonomy.php:1867
@@ -6713,7 +6718,7 @@ msgstr "Lo siento, fallo editando el término."
 msgid "Sorry, you are not allowed to create terms in this taxonomy."
 msgstr "Lo siento, no tienes permisos para crear términos en esta taxonomía."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:144
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:150
 msgid "Sorry, you are not allowed to edit terms in this taxonomy."
 msgstr "Lo siento, no tienes permisos para editar términos en esta taxonomía."
 
@@ -6722,8 +6727,8 @@ msgstr "Lo siento, no tienes permisos para editar términos en esta taxonomía."
 msgid "Sorry, you are not allowed to assign terms in this taxonomy."
 msgstr "Lo siento, no tienes permisos para asignar términos a esta taxonomía. "
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:84
-#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:144
+#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:90
+#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:150
 msgid "Sorry, you are not allowed to manage terms in this taxonomy."
 msgstr "Lo siento, no tienes permisos para gestionar términos en esta taxonomía. "
 
@@ -6825,8 +6830,8 @@ msgstr "Tipo de enlace de imagen por defecto"
 #: wp-includes/class-wp-xmlrpc-server.php:5850
 #: wp-includes/class-wp-xmlrpc-server.php:6021
 #: wp-includes/class-wp-xmlrpc-server.php:6075
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:366
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:599
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:396
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:633
 msgid "Sorry, you are not allowed to edit this post."
 msgstr "Perdón, no tienes permisos para editar esta entrada."
 
@@ -6855,14 +6860,14 @@ msgstr "Nombre de término ambiguo usado en una taxonomía jerárquica. Por favo
 
 #: wp-includes/class-wp-xmlrpc-server.php:1646
 #: wp-includes/class-wp-xmlrpc-server.php:4783
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:798
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:253
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:831
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:322
 msgid "The post cannot be deleted."
 msgstr "La entrada no puede borrarse."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1351
 #: wp-includes/class-wp-xmlrpc-server.php:4941
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:986
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1024
 msgid "Invalid author ID."
 msgstr "ID de autor no válido."
 
@@ -6872,8 +6877,8 @@ msgstr "Lo siento, no tienes permisos para borrar una categoría. "
 
 #: wp-includes/class-wp-xmlrpc-server.php:1346
 #: wp-includes/class-wp-xmlrpc-server.php:4930
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:462
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:470
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:493
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:501
 msgid "Sorry, you are not allowed to create posts as this user."
 msgstr "Lo siento, no tienes permisos con este usuario para crear entradas. "
 
@@ -6887,16 +6892,16 @@ msgid "Sorry, you are not allowed to create password protected posts in this pos
 msgstr "Lo siento, no tienes permisos para crear publicaciones protegidas con contraseña en este tipo de contenido."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1327
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1075
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1113
 msgid "Sorry, you are not allowed to create private posts in this post type."
 msgstr "Lo siento, no tienes permisos para crear publicaciones privadas en este tipo de contenido."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1798
 #: wp-includes/class-wp-xmlrpc-server.php:4120
-#: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:81
-#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:79
-#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:130
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:133
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:87
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:85
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:136
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:139
 msgid "Sorry, you are not allowed to edit posts in this post type."
 msgstr "Lo siento, no tienes permisos para editar publicaciones en este tipo de contenido. "
 
@@ -8128,11 +8133,9 @@ msgstr "Zona horaria"
 #: wp-includes/class-wp-xmlrpc-server.php:6072
 #: wp-includes/class-wp-xmlrpc-server.php:6191 wp-includes/post.php:3012
 #: wp-includes/post.php:3546
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:357
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:670
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:435
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:631
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:743
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:331
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:693
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:367
 #: wp-includes/revision.php:292
 msgid "Invalid post ID."
 msgstr "El ID de la entrada no es válido."
@@ -8206,10 +8209,7 @@ msgstr "La URL de destino especificada no existe."
 #: wp-includes/class-wp-xmlrpc-server.php:3231
 #: wp-includes/class-wp-xmlrpc-server.php:3363
 #: wp-includes/class-wp-xmlrpc-server.php:3430
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:351
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:654
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:751
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:776
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:317
 msgid "Invalid comment ID."
 msgstr "El ID del comentario no es válido."
 
@@ -8277,7 +8277,7 @@ msgstr "El nombre y correo electrónico del autor del comentario son obligatorio
 msgid "A valid email address is required."
 msgstr "Se requiere un correo electrónico válido."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:603
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:637
 msgid "Sorry, you are not allowed to update posts as this user."
 msgstr "Lo siento, no tienes permisos para actualizar entradas con este usuario."
 
@@ -8289,12 +8289,12 @@ msgstr "Lo siento, no tienes permisos para actualizar entradas con este usuario.
 #: wp-includes/class-wp-xmlrpc-server.php:4937
 #: wp-includes/class-wp-xmlrpc-server.php:5215
 #: wp-includes/class-wp-xmlrpc-server.php:5279 wp-includes/post.php:1160
-#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:122
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:128
 msgid "Invalid post type."
 msgstr "Tipo de contenido no válido."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1332
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1081
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1119
 msgid "Sorry, you are not allowed to publish posts in this post type."
 msgstr "Lo siento, no tienes permisos para publicar publicaciones de este tipo de contenido."
 
@@ -9846,7 +9846,7 @@ msgid "Widgets"
 msgstr "Widgets"
 
 #: wp-includes/class-wp-xmlrpc-server.php:3553 wp-includes/comment.php:2983
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:449
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:473
 msgid "Sorry, comments are closed for this item."
 msgstr "Disculpa, los comentarios están cerrados."
 

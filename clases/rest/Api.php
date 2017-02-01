@@ -35,7 +35,7 @@ class Api {
                             $return = $apiActividad->consultarProfesor($rest[2]);
                         } elseif (!is_null($rest[1]) and preg_match("/^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])$/", $rest[1])) {
                             $return = $apiActividad->consultarFecha($rest[1]);
-                        } elseif(!is_null($rest[1])) {
+                        } elseif (!is_null($rest[1])) {
                             $return = $apiActividad->consultarTodos();
                         }
                     }
@@ -103,7 +103,7 @@ class Api {
                     if ($rest_0 == "actividad") {
                         $return = $apiActividad->borrar($this->json, $id);
                     }
-                    if ($rest_0 == "actividad" and $rest[1] == "delete") {
+                    if ($rest_0 == "actividad" and $rest[1] == "") {
                         $return = $apiActividad->borrarJson($this->json);
                     }
                     if ($rest_0 == "departamento") {
