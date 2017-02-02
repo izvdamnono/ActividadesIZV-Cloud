@@ -71,17 +71,17 @@
         </td>
         <td>
           <pre>          
-          [
-               {
-                    "id":3
-               },
-               {
-                    "id":4
-               },
-               {
-                    "id":6
-               }
-          ]
+[
+     {
+          "id":3
+     },
+     {
+          "id":4
+     },
+     {
+          "id":6
+     }
+]
           </pre>
         </td>
     </tr>
@@ -91,64 +91,72 @@
     </tr>
     <tr>
         <td colspan="2">
-        <pre>        [
-            {
-                "id":4,
-                "idap":{
-                        "id":1,
-                        "nombreProfesor":"Carmelo",
-                        "idpd":{
-                                "id":1,
-                                "nombreDepartamento":"Informatica"
-                        }
-                },
-                "idag":{
-                        "id":1,
-                        "nombreGrupo":"DAM"
-                },
-                "titulo":"Titulo id Modificado",
-                "descripcion":"Descripcion actividad\t\t",
-                "resumen":"Resumen id 4 Modificadoo !!!!!!",
-                "fecha":"2017-02-28",
-                "hini":"00:00:00",
-                "hfin":"12:07:56",
-                "imagen":"701868d2ebaf9dce1382996e2739a113.png"
-            }
-        ]
-        </pre></td>
-        <td>
-        <pre>        
-        Codigos de respuesta HTTP: 200 ok
-        {
-            "response": "ok"
-        }
-        
-        Para elementos no encontrados
-        Codigos de respuesta HTTP: 404 Not found
-        {
-            "response": "error"    
-        }
-        </pre></td>
-        <td>
-          <pre>          
-          Codigos de respuesta HTTP: 201 Created        
-          {
-               "response": "ok"
+          <pre>        
+[
+     {
+     "id":4,
+     "idap":{
+          "id":1,
+          "nombreProfesor":"Carmelo",
+          "idpd":{
+               "id":1,
+               "nombreDepartamento":"Informatica"
           }
-          No se ha podido actualizar
-          Codigos de respuesta HTTP: 304 Not Modified
+     },
+     "idag":{
+          "id":1,
+          "nombreGrupo":"DAM"
+     },
+     "titulo":"Titulo id Modificado",
+     "descripcion":"Descripcion actividad\t\t",
+     "resumen":"Resumen id 4 Modificadoo !!!!!!",
+     "fecha":"2017-02-28",
+     "hini":"00:00:00",
+     "hfin":"12:07:56",
+     "imagen":"701868d2ebaf9dce1382996e2739a113.png"
+     }
+]
+          </pre>
+        </td>
+        <td>
+          <p>Codigos de respuesta HTTP: 200 ok</p> 
+          <pre>        
+{
+  "response": "ok"
+}
+          </pre>
+<p>Para elementos no encontrados</p>
+<p>Codigos de respuesta HTTP: 404 Not found</p>
+          <pre>
+{
+  "response": "error"    
+}
+          </pre>
+        </td>
+        <td>      
+          <p>Codigos de respuesta HTTP: 201 Created</p> 
+          <pre>
+{
+     "response": "ok"
+}
+          </pre>
+          <p>No se ha podido actualizar</p>
+          <p>Codigos de respuesta HTTP: 304 Not Modified</p>
+          <pre>
           {
                "response": "error"    
           }
           </pre>
         </td>
-        <td colspan="2">
-          <pre>          
-          Codigos de respuesta HTTP: 200 Bad Request        
-          {
-               "response": "ok"
-          }
-          Codigos de respuesta HTTP: 400 Bad Request
+        <td colspan="2">        
+          <p>Codigos de respuesta HTTP: 200 Bad Request</p>
+          <pre>
+{
+     "response": "ok"
+}
+          </pre>
+          <p>Codigos de respuesta HTTP: 400 Bad Request</p>
+          <pre>
           {
                "response": "error"    
           }
