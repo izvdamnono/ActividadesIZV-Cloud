@@ -8,7 +8,7 @@
 </pre>
 
 <table border="1">
-    <tr>
+    <tbody><tr>
         <th>Consultar todos</th>
         <th>Consultar por Id</th>
         <th>Insertar</th>
@@ -20,27 +20,26 @@
         <td colspan="2">Methods GET</td>
         <td>Methods POST</td>
         <td>Methods PUT</td>
-        <td>Methods DELETE</td>
+        <td colspan="2">Methods DELETE</td>
     </tr>
     <tr>
-        <td>https://iosapplication-fernan13.c9users.io/api/actividad/</td>
-        <td>https://iosapplication-fernan13.c9users.io/api/actividad/4</td>
-        <td>https://iosapplication-fernan13.c9users.io/api/actividad/</td>
-        <td>https://iosapplication-fernan13.c9users.io/api/actividad/3</td>
-        <td>https://iosapplication-fernan13.c9users.io/api/actividad/3</td>
-        <td>https://iosapplication-fernan13.c9users.io/api/actividad/</td>
+        <td><a href="https://iosapplication-fernan13.c9users.io/api/actividad/">https://iosapplication-fernan13.c9users.io/api/actividad/</a></td>
+        <td><a href="https://iosapplication-fernan13.c9users.io/api/actividad/4">https://iosapplication-fernan13.c9users.io/api/actividad/4</a></td>
+        <td><a href="https://iosapplication-fernan13.c9users.io/api/actividad/">https://iosapplication-fernan13.c9users.io/api/actividad/</a></td>
+        <td><a href="https://iosapplication-fernan13.c9users.io/api/actividad/3">https://iosapplication-fernan13.c9users.io/api/actividad/3</a></td>
+        <td><a href="https://iosapplication-fernan13.c9users.io/api/actividad/3">https://iosapplication-fernan13.c9users.io/api/actividad/3</a></td>
+        <td><a href="https://iosapplication-fernan13.c9users.io/api/actividad/">https://iosapplication-fernan13.c9users.io/api/actividad/</a></td>
     </tr>
     <tr>
-        <th> </th>
-        <th>Enviar json</th>
-        <th>Enviar json</th>
+        
+        
+        <th colspan="5">Enviar json</th>
         <th>Enviar conjunto de id por json</th>
     </tr>
     <tr>
-        <td> </td>
+        <td colspan="2"> </td>
         <td>
-          <pre>
-               {
+          <pre>               {
                     "idap":3,
                     "idag":2,
                     "descripcion":"Lorem ipsum dolor sit amet, lorem, at.",
@@ -51,6 +50,112 @@
                }
           </pre>
         </td>
+        <td>
+          <pre>               {
+                    "idap":3,
+                    "idag":2,
+                    "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "resumen":"Lorem ipsum dolor sit amet.",
+                    "fecha":"2017-01-26 00:00:00",
+                    "hini":"1970-01-01 00:03:01",
+                    "hfin":"1970-01-01 00:04:02"
+               }
+          </pre>
+        </td>
+        <td>
+          <pre>               {
+                    "id":3
+               }
+          </pre>
+        </td>
+        <td>
+          <pre>          [
+               {
+                    "id":3
+               },
+               {
+                    "id":4
+               },
+               {
+                    "id":6
+               }
+          ]
+          </pre>
+        </td>
+    </tr>
+    
+    <tr>
+        <th colspan="2">Recibe json</th>
+        <th colspan="4">Recibe confirmación</th>
+        
+        
+        
+    </tr>
+    <tr>
+        <td colspan="2">
+        <pre>        [
+            {
+                "id":4,
+                "idap":{
+                        "id":1,
+                        "nombreProfesor":"Carmelo",
+                        "idpd":{
+                                "id":1,
+                                "nombreDepartamento":"Informatica"
+                        }
+                },
+                "idag":{
+                        "id":1,
+                        "nombreGrupo":"DAM"
+                },
+                "titulo":"Titulo id Modificado",
+                "descripcion":"Descripcion actividad\t\t",
+                "resumen":"Resumen id 4 Modificadoo !!!!!!",
+                "fecha":"2017-02-28",
+                "hini":"00:00:00",
+                "hfin":"12:07:56",
+                "imagen":"701868d2ebaf9dce1382996e2739a113.png"
+            }
+        ]
+        </pre></td>
+        <td>
+        <pre>        Codigos de respuesta HTTP: 200 ok
+        {
+            "response": "ok"
+        }
+        
+        Para elementos no encontrados
+        Codigos de respuesta HTTP: 404 Not found
+        {
+            "response": "error"    
+        }
+        </pre></td>
+        <td>
+          <pre>          Codigos de respuesta HTTP: 201 Created        
+          {
+               "response": "ok"
+          }
+          No se ha podido actualizar
+          Codigos de respuesta HTTP: 304 Not Modified
+          {
+               "response": "error"    
+          }
+          </pre>
+        </td>
+        <td colspan="2">
+          <pre>
+          Codigos de respuesta HTTP: 200 Bad Request        
+          {
+               "response": "ok"
+          }
+          Codigos de respuesta HTTP: 400 Bad Request
+          {
+               "response": "error"    
+          }
+          </pre>
+        </td>
+    </tr>
+</tbody></table>
         <td>
           <pre>
                {
