@@ -117,7 +117,8 @@
         ]
         </pre></td>
         <td>
-        <pre>        Codigos de respuesta HTTP: 200 ok
+        <pre>        
+        Codigos de respuesta HTTP: 200 ok
         {
             "response": "ok"
         }
@@ -129,7 +130,8 @@
         }
         </pre></td>
         <td>
-          <pre>          Codigos de respuesta HTTP: 201 Created        
+          <pre>          
+          Codigos de respuesta HTTP: 201 Created        
           {
                "response": "ok"
           }
@@ -140,19 +142,9 @@
           }
           </pre>
         </td>
-        <td>
-          <pre>          Codigos de respuesta HTTP: 200 Bad Request        
-          {
-               "response": "ok"
-          }
-          Codigos de respuesta HTTP: 400 Bad Request
-          {
-               "response": "error"    
-          }
-          </pre>
-        </td>
-        <td>
-          <pre>          Codigos de respuesta HTTP: 204 Delete all rows        
+        <td colspan="2">
+          <pre>          
+          Codigos de respuesta HTTP: 200 Bad Request        
           {
                "response": "ok"
           }
