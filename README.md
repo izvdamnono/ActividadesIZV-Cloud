@@ -9,19 +9,21 @@
 
 <table border="1">
     <tr>
-        <th>Consultar</th>
+        <th>Consultar todos</th>
+        <th>Consultar por Id</th>
         <th>Insertar</th>
         <th>Actualizar</th>
         <th>Borrar por id</th>
         <th>Borrar conjunto</th>
     </tr>
     <tr>
-        <td>Methods GET</td>
+        <td colspan="2">Methods GET</td>
         <td>Methods POST</td>
         <td>Methods PUT</td>
         <td>Methods DELETE</td>
     </tr>
     <tr>
+        <td>https://iosapplication-fernan13.c9users.io/api/actividad/</td>
         <td>https://iosapplication-fernan13.c9users.io/api/actividad/4</td>
         <td>https://iosapplication-fernan13.c9users.io/api/actividad/</td>
         <td>https://iosapplication-fernan13.c9users.io/api/actividad/3</td>
@@ -36,7 +38,7 @@
     </tr>
     <tr>
         <td> </td>
-        <td>
+        <td colspan="2">
           <pre>
                {
                     "idap":3,
