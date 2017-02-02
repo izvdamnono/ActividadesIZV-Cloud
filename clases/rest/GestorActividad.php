@@ -19,8 +19,13 @@ class GestorActividad {
         foreach ($actividades as $item) {
             $data_to_json[] = $item->getArray();
         }
-        header("HTTP/1.1 200 OK");
-        return (json_encode($data_to_json));                                                                           
+        if ( !is_null($actividades) ) {
+            header("HTTP/1.1 200 OK");
+            return (json_encode($data_to_json));      
+        } else {
+            header("HTTP/1.1 404 Not found");
+            return '{"response":"error"}'; 
+        }
     } 
     
     /**
@@ -30,7 +35,6 @@ class GestorActividad {
     public function consultarId($id) {
         $query = $this->gestor->getRepository('Actividad');
         $actividad = $query->findOneBy(array('id' => $id));
-        
         if ( !is_null($actividad) ) {
             header("HTTP/1.1 200 OK");
             return json_encode(array($actividad->getArray()));
@@ -71,6 +75,7 @@ class GestorActividad {
             foreach ($actividades as $item) {
                 $data_to_json[] = $item->getArray();
             }
+            
             header("HTTP/1.1 200 OK");
             return (json_encode($data_to_json));
         } else {
@@ -168,15 +173,18 @@ class GestorActividad {
             $objectArray = json_decode(json_encode($object), true);
             foreach ($objectArray as $value) {
                 $actividad  = $this->gestor->find('Actividad', $value["id"]);
-                $nameIMG = $actividad->getImagen();
-                if(!isEmpty($nameIMG)) {
-                    unlink("../assets/img/".$nameIMG);
+                if(!is_null($actividad)) {
+                    $nameIMG = $actividad->getImagen();
+                    if(!empty($nameIMG) and file_exists("../assets/img/".$nameIMG)) {
+                        unlink("../assets/img/".$nameIMG);
+                    }
+                    $this->gestor->remove($actividad);
+                    $this->gestor->flush();
                 }
-                $this->gestor->remove($actividad);
-                $this->gestor->flush();
             }
                 
-            header("HTTP/1.1 204 Delete all rows");
+            //Esta comentado porque con esta cabecera no le llega ninguna respuesta al dispositivo iO
+            //header("HTTP/1.1 204 No content");
             return '{"response":"ok"}';
         } catch(Exception $e) {
             header("HTTP/1.1 400 Bad Request");

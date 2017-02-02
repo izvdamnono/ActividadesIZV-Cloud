@@ -18,7 +18,13 @@ class GestorDepartamento {
         foreach($grupos as $item){
             $data_to_json[] = $item->getArray();
         }
-        return (json_encode($data_to_json));
+        if ( !is_null($grupos) ) {
+            header("HTTP/1.1 200 OK");
+            return (json_encode($data_to_json));      
+        } else {
+            header("HTTP/1.1 404 Not found");
+            return '{"response":"error"}'; 
+        }    
     } 
     
     /**
@@ -27,7 +33,13 @@ class GestorDepartamento {
      */
     public function consultarId($id) {
         $grupo = $this->gestor->getRepository('Departamento')->findOneBy(array('id' => $id));
-        return !is_null($grupo) ? json_encode(array($grupo->getArray())) : '{"response":"error"}';
+        if ( !is_null($grupo) ) {
+            header("HTTP/1.1 200 OK");
+            return json_encode(array($grupo->getArray()));
+        } else {
+            header("HTTP/1.1 404 Not found");
+            return '{"response":"error"}'; 
+        }    
     }
     
    
@@ -37,12 +49,17 @@ class GestorDepartamento {
      */
     public function consultarProfesor($id_profesor) {
         $profesores = $this->gestor->getRepository('Profesor')->findBy(array('idpd' => $id_profesor));
-        $data_to_json = array();
-        foreach ( $profesores as $item ) {
-            $data_to_json[] = $item->getArray();
+        if ( !is_null($profesores) ) {
+            $data_to_json = array();
+            foreach ($profesores as $item) {
+                $data_to_json[] = $item->getArray();
+            }    
+            header("HTTP/1.1 200 OK");
+            return (json_encode($data_to_json));
+        } else {
+            header("HTTP/1.1 404 Not found");
+            return '{"response":"error"}'; 
         }
-        
-        return json_encode($data_to_json);
     }
 
     /**
@@ -56,11 +73,12 @@ class GestorDepartamento {
             $departamento = new Departamento();
             $departamento = $departamento->jsonToObject($object);
             $this->gestor->persist($departamento);
-
             $this->gestor->flush();
-        
+         
+            header("HTTP/1.1 201 Created");
             return '{"response":"ok"}';
         } catch(Exception $e) {
+            header("HTTP/1.1 400 Bad Request");
             return '{"response":"error"}';
         }
     }
@@ -79,8 +97,10 @@ class GestorDepartamento {
             $departamento  = $departamento->jsonToObject($object);
             $this->gestor->flush();
              
+            header("HTTP/1.1 200 Updated");
             return '{"response":"ok"}';
         } catch( Exception $e ) {
+            header("HTTP/1.1 304 Not Modified");
             return '{"response":"error"}';
         }
     }    
@@ -97,8 +117,10 @@ class GestorDepartamento {
             $this->gestor->remove($departamento);
             $this->gestor->flush();
                 
+            header("HTTP/1.1 204 Delete");
             return '{"response":"ok"}';
         } catch(Exception $e) {
+            header("HTTP/1.1 400 Bad Request");
             return '{"response":"error"}';
         }
     }

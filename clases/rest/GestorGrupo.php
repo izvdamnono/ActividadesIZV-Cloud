@@ -13,12 +13,18 @@ class GestorGrupo {
      */
     public function consultarTodos() {
         $query = $this->gestor->getRepository('Grupo');
-        $Profesores = $query->findAll();
+        $profesores = $query->findAll();
         $data_to_json = array();
-        foreach($Profesores as $item){
+        foreach($profesores as $item){
             $data_to_json[] = $item->getArray();
         }
-        return (json_encode($data_to_json));
+        if ( !is_null($profesores) ) {
+            header("HTTP/1.1 200 OK");
+            return (json_encode($data_to_json));      
+        } else {
+            header("HTTP/1.1 404 Not found");
+            return '{"response":"error"}'; 
+        }
     } 
     
     /**
@@ -27,7 +33,13 @@ class GestorGrupo {
      */
     public function consultarId($id) {
         $grupo = $this->gestor->find('Grupo',$id);
-        return !is_null($grupo) ? json_encode(array($grupo->getArray())) : '{"response":"error"}';
+        if ( !is_null($grupo) ) {
+            header("HTTP/1.1 200 OK");
+            return json_encode(array($grupo->getArray()));
+        } else {
+            header("HTTP/1.1 404 Not found");
+            return '{"response":"error"}'; 
+        }
     }
     
 
@@ -45,8 +57,10 @@ class GestorGrupo {
             $this->gestor->persist($grupo);
             $this->gestor->flush();
 
+            header("HTTP/1.1 201 Created");
             return '{"response":"ok"}';
         } catch(Exception $e) {
+            header("HTTP/1.1 400 Bad Request");
             return '{"response":"error"}';
         }
     }
@@ -66,8 +80,10 @@ class GestorGrupo {
             $grupo  = $grupo->jsonToObject($object);
             $this->gestor->flush();
              
+            header("HTTP/1.1 200 Updated");
             return '{"response":"ok"}';
         } catch( Exception $e ) {
+            header("HTTP/1.1 304 Not Modified");
             return '{"response":"error"}';
         }
     }    
@@ -84,8 +100,10 @@ class GestorGrupo {
             $this->gestor->remove($grupo);
             $this->gestor->flush();
                 
+            header("HTTP/1.1 204 Delete");
             return '{"response":"ok"}';
         } catch(Exception $e) {
+            header("HTTP/1.1 400 Bad Request");
             return '{"response":"error"}';
         }
     }
