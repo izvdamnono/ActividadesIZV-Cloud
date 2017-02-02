@@ -38,7 +38,7 @@
     </tr>
     <tr>
         <td> </td>
-        <td colspan="2">
+        <td>
           <pre>
                {
                     "idap":3,
@@ -96,7 +96,7 @@
         <th>Recibe confirmación</th>
     </tr>
     <tr>
-        <td>
+        <td colspan="2">
         <pre>
         [
             {
