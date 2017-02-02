@@ -37,40 +37,40 @@
     <tr>
         <td colspan="2"> </td>
         <td>
-          <pre>               
-               {
-                    "idap":3,
-                    "idag":2,
-                    "descripcion":"Lorem ipsum dolor sit amet, lorem, at.",
-                    "resumen":"Lorem ipsum dolor sit amet.",
-                    "fecha":"2017-01-26 00:00:00",
-                    "hini":"1970-01-01 00:03:01",
-                    "hfin":"1970-01-01 00:04:02"
-               }
+            <pre>               
+{
+    "idap":3,
+    "idag":2,
+    "descripcion":"Lorem ipsum dolor sit amet, lorem, at.",
+    "resumen":"Lorem ipsum dolor sit amet.",
+    "fecha":"2017-01-26 00:00:00",
+    "hini":"1970-01-01 00:03:01",
+    "hfin":"1970-01-01 00:04:02"
+}
+            </pre>
+        </td>
+        <td>
+            <pre>               
+{
+    "idap":3,
+    "idag":2,
+    "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "resumen":"Lorem ipsum dolor sit amet.",
+    "fecha":"2017-01-26 00:00:00",
+    "hini":"1970-01-01 00:03:01",
+    "hfin":"1970-01-01 00:04:02"
+}
           </pre>
         </td>
         <td>
-          <pre>               
-               {
-                    "idap":3,
-                    "idag":2,
-                    "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "resumen":"Lorem ipsum dolor sit amet.",
-                    "fecha":"2017-01-26 00:00:00",
-                    "hini":"1970-01-01 00:03:01",
-                    "hfin":"1970-01-01 00:04:02"
-               }
-          </pre>
+            <pre>               
+{
+    "id":3
+}
+            </pre>
         </td>
         <td>
-          <pre>               
-               {
-                    "id":3
-               }
-          </pre>
-        </td>
-        <td>
-          <pre>          
+            <pre>          
 [
      {
           "id":3
@@ -82,7 +82,7 @@
           "id":6
      }
 ]
-          </pre>
+            </pre>
         </td>
     </tr>
     <tr>
@@ -91,7 +91,7 @@
     </tr>
     <tr>
         <td colspan="2">
-          <pre>        
+            <pre>        
 [
      {
      "id":4,
@@ -119,48 +119,48 @@
           </pre>
         </td>
         <td>
-          <p>Codigos de respuesta HTTP: 200 ok</p> 
-          <pre>        
+            <p>Codigos de respuesta HTTP: 200 ok</p> 
+            <pre>        
 {
   "response": "ok"
 }
-          </pre>
-<p>Para elementos no encontrados</p>
-<p>Codigos de respuesta HTTP: 404 Not found</p>
-          <pre>
+            </pre>
+            <p>Para elementos no encontrados</p>
+            <p>Codigos de respuesta HTTP: 404 Not found</p>
+            <pre>
 {
   "response": "error"    
 }
-          </pre>
+            </pre>
         </td>
         <td>      
-          <p>Codigos de respuesta HTTP: 201 Created</p> 
-          <pre>
+            <p>Codigos de respuesta HTTP: 201 Created</p> 
+            <pre>
 {
      "response": "ok"
 }
-          </pre>
-          <p>No se ha podido actualizar</p>
-          <p>Codigos de respuesta HTTP: 304 Not Modified</p>
-          <pre>
-          {
-               "response": "error"    
-          }
-          </pre>
+            </pre>
+            <p>No se ha podido actualizar</p>
+            <p>Codigos de respuesta HTTP: 304 Not Modified</p>
+            <pre>
+{
+   "response": "error"    
+}
+            </pre>
         </td>
         <td colspan="2">        
-          <p>Codigos de respuesta HTTP: 200 Bad Request</p>
-          <pre>
+            <p>Codigos de respuesta HTTP: 200 Bad Request</p>
+            <pre>
 {
      "response": "ok"
 }
-          </pre>
-          <p>Codigos de respuesta HTTP: 400 Bad Request</p>
-          <pre>
-          {
-               "response": "error"    
-          }
-          </pre>
+            </pre>
+            <p>Codigos de respuesta HTTP: 400 Bad Request</p>
+            <pre>
+{
+   "response": "error"    
+}
+            </pre>
         </td>
     </tr>
 </tbody>
