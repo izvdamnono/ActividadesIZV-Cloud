@@ -230,11 +230,10 @@ class Actividad {
                 $this->imagen = $json->imagen;
             }
             
-        } 
-            
-        
+        }
         
         return $this;
     }
+    
     
 }

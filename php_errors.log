@@ -1577,3 +1577,680 @@ Stack trace:
 [02-Feb-2017 08:35:00 UTC] PHP Stack trace:
 [02-Feb-2017 08:35:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
 [02-Feb-2017 08:35:00 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[03-Feb-2017 09:08:20 UTC] PHP Fatal error:  Call to undefined function size() in /home/ubuntu/workspace/graficos/pruebas2.php on line 41
+[03-Feb-2017 09:08:20 UTC] PHP Stack trace:
+[03-Feb-2017 09:08:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/graficos/pruebas2.php:0
+[03-Feb-2017 09:08:31 UTC] PHP Fatal error:  Call to undefined function size() in /home/ubuntu/workspace/graficos/pruebas2.php on line 41
+[03-Feb-2017 09:08:31 UTC] PHP Stack trace:
+[03-Feb-2017 09:08:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/graficos/pruebas2.php:0
+[03-Feb-2017 09:08:32 UTC] PHP Fatal error:  Call to undefined function size() in /home/ubuntu/workspace/graficos/pruebas2.php on line 41
+[03-Feb-2017 09:08:32 UTC] PHP Stack trace:
+[03-Feb-2017 09:08:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/graficos/pruebas2.php:0
+[03-Feb-2017 09:10:14 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/graficos/pruebas2.php on line 41
+[03-Feb-2017 09:10:15 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/graficos/pruebas2.php on line 41
+[03-Feb-2017 09:14:33 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[03-Feb-2017 09:14:33 UTC] PHP Stack trace:
+[03-Feb-2017 09:14:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/graficos/pruebas2.php:0
+[03-Feb-2017 09:14:33 UTC] PHP   2. Doctrine\ORM\EntityRepository->findBy() /home/ubuntu/workspace/graficos/pruebas2.php:38
+[03-Feb-2017 09:14:33 UTC] PHP   3. Doctrine\ORM\Persisters\BasicEntityPersister->loadAll() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityRepository.php:181
+[03-Feb-2017 09:14:33 UTC] PHP   4. Doctrine\DBAL\Connection->executeQuery() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:930
+[03-Feb-2017 09:14:33 UTC] PHP   5. Doctrine\DBAL\Connection->_bindTypedValues() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php:846
+[03-Feb-2017 09:14:33 UTC] PHP   6. Doctrine\DBAL\Connection->getBindingInfo() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php:1488
+[03-Feb-2017 09:14:33 UTC] PHP   7. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php:1523
+[03-Feb-2017 09:15:23 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[03-Feb-2017 09:15:23 UTC] PHP Stack trace:
+[03-Feb-2017 09:15:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/graficos/pruebas2.php:0
+[03-Feb-2017 09:15:23 UTC] PHP   2. Doctrine\ORM\EntityRepository->findBy() /home/ubuntu/workspace/graficos/pruebas2.php:38
+[03-Feb-2017 09:15:23 UTC] PHP   3. Doctrine\ORM\Persisters\BasicEntityPersister->loadAll() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityRepository.php:181
+[03-Feb-2017 09:15:23 UTC] PHP   4. Doctrine\DBAL\Connection->executeQuery() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:930
+[03-Feb-2017 09:15:23 UTC] PHP   5. Doctrine\DBAL\Connection->_bindTypedValues() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php:846
+[03-Feb-2017 09:15:23 UTC] PHP   6. Doctrine\DBAL\Connection->getBindingInfo() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php:1488
+[03-Feb-2017 09:15:23 UTC] PHP   7. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php:1523
+[03-Feb-2017 09:15:43 UTC] PHP Fatal error:  Uncaught exception 'BadMethodCallException' with message 'Undefined method 'groupBy'. The method name must start with either findBy or findOneBy!' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityRepository.php:226
+Stack trace:
+#0 /home/ubuntu/workspace/graficos/pruebas2.php(38): Doctrine\ORM\EntityRepository->__call('groupBy', Array)
+#1 /home/ubuntu/workspace/graficos/pruebas2.php(38): Doctrine\ORM\EntityRepository->groupBy('fecha')
+#2 {main}
+  thrown in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityRepository.php on line 226
+[03-Feb-2017 09:16:38 UTC] PHP Fatal error:  Uncaught exception 'BadMethodCallException' with message 'Undefined method 'groupBy'. The method name must start with either findBy or findOneBy!' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityRepository.php:226
+Stack trace:
+#0 /home/ubuntu/workspace/graficos/pruebas2.php(38): Doctrine\ORM\EntityRepository->__call('groupBy', Array)
+#1 /home/ubuntu/workspace/graficos/pruebas2.php(38): Doctrine\ORM\EntityRepository->groupBy('fecha')
+#2 {main}
+  thrown in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityRepository.php on line 226
+[03-Feb-2017 09:17:46 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\ORMException' with message 'Unrecognized field: 0' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/ORMException.php:100
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php(1686): Doctrine\ORM\ORMException::unrecognizedField(0)
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php(1615): Doctrine\ORM\Persisters\BasicEntityPersister->getSelectConditionStatementColumnSQL(0, NULL)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php(1706): Doctrine\ORM\Persisters\BasicEntityPersister->getSelectConditionStatementSQL(0, 'fecha', NULL)
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php(1115): Doctrine\ORM\Persisters\BasicEntityPersister->getSelectConditionSQL(Array, NULL)
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/OR in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/ORMException.php on line 100
+[03-Feb-2017 09:18:10 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/ubuntu/workspace/graficos/pruebas2.php on line 38
+[03-Feb-2017 09:18:40 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/ubuntu/workspace/graficos/pruebas2.php on line 38
+[03-Feb-2017 09:18:42 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/ubuntu/workspace/graficos/pruebas2.php on line 38
+[03-Feb-2017 09:18:53 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[03-Feb-2017 09:18:53 UTC] PHP Stack trace:
+[03-Feb-2017 09:18:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/graficos/pruebas2.php:0
+[03-Feb-2017 09:18:53 UTC] PHP   2. Doctrine\ORM\EntityRepository->findOneBy() /home/ubuntu/workspace/graficos/pruebas2.php:38
+[03-Feb-2017 09:18:53 UTC] PHP   3. Doctrine\ORM\Persisters\BasicEntityPersister->load() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityRepository.php:196
+[03-Feb-2017 09:18:53 UTC] PHP   4. Doctrine\DBAL\Connection->executeQuery() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:748
+[03-Feb-2017 09:18:53 UTC] PHP   5. Doctrine\DBAL\Connection->_bindTypedValues() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php:846
+[03-Feb-2017 09:18:53 UTC] PHP   6. Doctrine\DBAL\Connection->getBindingInfo() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php:1488
+[03-Feb-2017 09:18:53 UTC] PHP   7. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php:1523
+[03-Feb-2017 09:21:55 UTC] PHP Fatal error:  Call to a member function getArray() on a non-object in /home/ubuntu/workspace/graficos/pruebas2.php on line 41
+[03-Feb-2017 09:21:55 UTC] PHP Stack trace:
+[03-Feb-2017 09:21:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/graficos/pruebas2.php:0
+[03-Feb-2017 09:23:48 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 132382720 bytes) in /home/ubuntu/workspace/graficos/pruebas2.php on line 44
+[03-Feb-2017 09:23:48 UTC] PHP Stack trace:
+[03-Feb-2017 09:23:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/graficos/pruebas2.php:0
+[03-Feb-2017 09:23:48 UTC] PHP   2. print_r() /home/ubuntu/workspace/graficos/pruebas2.php:44
+[03-Feb-2017 09:24:51 UTC] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/ubuntu/workspace/graficos/pruebas2.php on line 43
+[03-Feb-2017 09:24:51 UTC] PHP Stack trace:
+[03-Feb-2017 09:24:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/graficos/pruebas2.php:0
+[03-Feb-2017 09:26:25 UTC] PHP Warning:  date_create() expects parameter 2 to be DateTimeZone, string given in /home/ubuntu/workspace/graficos/pruebas2.php on line 38
+[03-Feb-2017 09:26:25 UTC] PHP Stack trace:
+[03-Feb-2017 09:26:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/graficos/pruebas2.php:0
+[03-Feb-2017 09:26:25 UTC] PHP   2. date_create() /home/ubuntu/workspace/graficos/pruebas2.php:38
+[03-Feb-2017 09:26:25 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[03-Feb-2017 09:26:25 UTC] PHP Stack trace:
+[03-Feb-2017 09:26:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/graficos/pruebas2.php:0
+[03-Feb-2017 09:26:25 UTC] PHP   2. Doctrine\ORM\EntityRepository->findBy() /home/ubuntu/workspace/graficos/pruebas2.php:38
+[03-Feb-2017 09:26:25 UTC] PHP   3. Doctrine\ORM\Persisters\BasicEntityPersister->loadAll() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityRepository.php:181
+[03-Feb-2017 09:26:25 UTC] PHP   4. Doctrine\DBAL\Connection->executeQuery() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:930
+[03-Feb-2017 09:26:25 UTC] PHP   5. Doctrine\DBAL\Connection->_bindTypedValues() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php:846
+[03-Feb-2017 09:26:25 UTC] PHP   6. Doctrine\DBAL\Connection->getBindingInfo() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php:1488
+[03-Feb-2017 09:26:25 UTC] PHP   7. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php:1523
+[03-Feb-2017 09:36:55 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/graficos/pruebas2.php on line 42
+[03-Feb-2017 09:38:57 UTC] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Expr.php on line 633
+[03-Feb-2017 09:38:57 UTC] PHP Stack trace:
+[03-Feb-2017 09:38:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/graficos/pruebas2.php:0
+[03-Feb-2017 09:38:57 UTC] PHP   2. Doctrine\ORM\Query\Expr->between() /home/ubuntu/workspace/graficos/pruebas2.php:41
+[03-Feb-2017 09:41:55 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message 'SELECT a FROM Actividad a WHERE a.fecha BETWEEN 2018-01-01 00:00:00 AND 2019-01-01 00:00:00' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError('SELECT a FROM A...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(316): Doctrine\ORM\Query\Parser->syntaxError('Doctrine\ORM\Qu...')
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2955): Doctrine\ORM\Query\Parser->match(102)
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2474): Doctrine\ORM\Query\Parser->BetweenExpression()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2384): Doctrine\ORM\Query\Parser->SimpleConditionalExpression()
+#5 /home/ubunt in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[03-Feb-2017 09:42:33 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message 'SELECT a FROM Actividad a WHERE a.fecha BETWEEN 2018-01-01 00:00:00 AND 2019-01-01 00:00:00' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError('SELECT a FROM A...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(316): Doctrine\ORM\Query\Parser->syntaxError('Doctrine\ORM\Qu...')
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2955): Doctrine\ORM\Query\Parser->match(102)
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2474): Doctrine\ORM\Query\Parser->BetweenExpression()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2384): Doctrine\ORM\Query\Parser->SimpleConditionalExpression()
+#5 /home/ubunt in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[03-Feb-2017 09:43:09 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message 'SELECT a FROM Actividad a WHERE a.fecha BETWEEN 2018-01-01 00:00:00 AND 2019-01-01 00:00:00' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError('SELECT a FROM A...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(316): Doctrine\ORM\Query\Parser->syntaxError('Doctrine\ORM\Qu...')
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2955): Doctrine\ORM\Query\Parser->match(102)
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2474): Doctrine\ORM\Query\Parser->BetweenExpression()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2384): Doctrine\ORM\Query\Parser->SimpleConditionalExpression()
+#5 /home/ubunt in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[03-Feb-2017 09:43:11 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message 'SELECT a FROM Actividad a WHERE a.fecha BETWEEN 2018-01-01 00:00:00 AND 2019-01-01 00:00:00' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError('SELECT a FROM A...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(316): Doctrine\ORM\Query\Parser->syntaxError('Doctrine\ORM\Qu...')
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2955): Doctrine\ORM\Query\Parser->match(102)
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2474): Doctrine\ORM\Query\Parser->BetweenExpression()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2384): Doctrine\ORM\Query\Parser->SimpleConditionalExpression()
+#5 /home/ubunt in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[03-Feb-2017 10:07:03 UTC] PHP Fatal error:  Call to a member function createQuery() on a non-object in /home/ubuntu/workspace/graficos/pruebas2.php on line 43
+[03-Feb-2017 10:07:03 UTC] PHP Stack trace:
+[03-Feb-2017 10:07:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/graficos/pruebas2.php:0
+[03-Feb-2017 10:07:15 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message ' 
+        SELECT COUNT( id ) AS  'total'
+            FROM actividad
+            WHERE YEAR( fecha ) = 2018
+            AND MONTH( fecha ) = 1
+        ' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError(' ?        SELEC...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(316): Doctrine\ORM\Query\Parser->syntaxError('Doctrine\ORM\Qu...')
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1283): Doctrine\ORM\Query\Parser->match(122)
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(874): Doctrine\ORM\Query\Parser->FromClause()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(843): Doctrine\ORM\Query\Pa in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[03-Feb-2017 10:09:49 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message ' 
+        SELECT COUNT( id ) AS  'total'
+            FROM actividad
+            WHERE YEAR( fecha ) = 2018
+            AND MONTH( fecha ) = 1
+        ' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError(' ?        SELEC...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(316): Doctrine\ORM\Query\Parser->syntaxError('Doctrine\ORM\Qu...')
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1283): Doctrine\ORM\Query\Parser->match(122)
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(874): Doctrine\ORM\Query\Parser->FromClause()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(843): Doctrine\ORM\Query\Pa in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[03-Feb-2017 10:09:51 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message ' 
+        SELECT COUNT( id ) AS  'total'
+            FROM actividad
+            WHERE YEAR( fecha ) = 2018
+            AND MONTH( fecha ) = 1
+        ' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError(' ?        SELEC...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(316): Doctrine\ORM\Query\Parser->syntaxError('Doctrine\ORM\Qu...')
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1283): Doctrine\ORM\Query\Parser->match(122)
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(874): Doctrine\ORM\Query\Parser->FromClause()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(843): Doctrine\ORM\Query\Pa in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[03-Feb-2017 10:11:35 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message ' 
+        SELECT COUNT( a.id ) t
+            FROM actividad a
+            WHERE YEAR( a.fecha ) = 2018
+            AND MONTH( a.fecha ) = 1
+        ' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(483): Doctrine\ORM\Query\QueryException::dqlError(' ?        SELEC...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(971): Doctrine\ORM\Query\Parser->semanticalError('Class 'activida...', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1656): Doctrine\ORM\Query\Parser->AbstractSchemaName()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1546): Doctrine\ORM\Query\Parser->RangeVariableDeclaration()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Pars in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 63
+[03-Feb-2017 10:11:36 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message ' 
+        SELECT COUNT( a.id ) t
+            FROM actividad a
+            WHERE YEAR( a.fecha ) = 2018
+            AND MONTH( a.fecha ) = 1
+        ' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(483): Doctrine\ORM\Query\QueryException::dqlError(' ?        SELEC...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(971): Doctrine\ORM\Query\Parser->semanticalError('Class 'activida...', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1656): Doctrine\ORM\Query\Parser->AbstractSchemaName()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1546): Doctrine\ORM\Query\Parser->RangeVariableDeclaration()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Pars in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 63
+[03-Feb-2017 10:11:43 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message ' 
+        SELECT COUNT( a.id ) 
+            FROM actividad a
+            WHERE YEAR( a.fecha ) = 2018
+            AND MONTH( a.fecha ) = 1
+        ' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(483): Doctrine\ORM\Query\QueryException::dqlError(' ?        SELEC...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(971): Doctrine\ORM\Query\Parser->semanticalError('Class 'activida...', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1656): Doctrine\ORM\Query\Parser->AbstractSchemaName()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1546): Doctrine\ORM\Query\Parser->RangeVariableDeclaration()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parse in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 63
+[04-Feb-2017 14:27:52 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message 'select count(a.id) from actividad a where year(a.fecha) = 2018 and month(a.fecha) = 1' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(483): Doctrine\ORM\Query\QueryException::dqlError('select count(a....')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(971): Doctrine\ORM\Query\Parser->semanticalError('Class 'activida...', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1656): Doctrine\ORM\Query\Parser->AbstractSchemaName()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1546): Doctrine\ORM\Query\Parser->RangeVariableDeclaration()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1286): Doctrine\ORM\Query\Parser->IdentificationVariable in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 63
+[04-Feb-2017 14:29:29 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message 'select count(a.id) from actividad a' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(483): Doctrine\ORM\Query\QueryException::dqlError('select count(a....')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(971): Doctrine\ORM\Query\Parser->semanticalError('Class 'activida...', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1656): Doctrine\ORM\Query\Parser->AbstractSchemaName()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1546): Doctrine\ORM\Query\Parser->RangeVariableDeclaration()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1286): Doctrine\ORM\Query\Parser->IdentificationVariableDeclaration()
+#5 /home/ubuntu/workspace/clases/ven in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 63
+[04-Feb-2017 14:29:50 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message 'select count(a.id) from Actividad a where year(a.fecha) = 2018 and month(a.fecha) = 1' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError('select count(a....')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3287): Doctrine\ORM\Query\Parser->syntaxError('known function', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3259): Doctrine\ORM\Query\Parser->CustomFunctionDeclaration()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2747): Doctrine\ORM\Query\Parser->FunctionDeclaration()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2708): Doctrine\ORM\Query\Parser->ArithmeticPrimary()
+#5 /hom in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[04-Feb-2017 14:30:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/graficos/pruebas2.php on line 48
+[04-Feb-2017 14:30:33 UTC] PHP Stack trace:
+[04-Feb-2017 14:30:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/graficos/pruebas2.php:0
+[04-Feb-2017 14:32:12 UTC] PHP Warning:  date() expects parameter 2 to be long, string given in /home/ubuntu/workspace/graficos/pruebas2.php on line 42
+[04-Feb-2017 14:32:12 UTC] PHP Stack trace:
+[04-Feb-2017 14:32:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/graficos/pruebas2.php:0
+[04-Feb-2017 14:32:12 UTC] PHP   2. date() /home/ubuntu/workspace/graficos/pruebas2.php:42
+[04-Feb-2017 14:32:12 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message 'select count(a.id) from Actividad where  = 2018' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError('select count(a....')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(861): Doctrine\ORM\Query\Parser->syntaxError('end of string')
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(268): Doctrine\ORM\Query\Parser->QueryLanguage()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(351): Doctrine\ORM\Query\Parser->getAST()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query.php(255): Doctrine\ORM\Query\Parser->parse()
+#5 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query.php(267): Doctrine\ORM\Qu in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[04-Feb-2017 14:32:44 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message 'select count(a.id) from Actividad where 1970 = 2018' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError('select count(a....')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(861): Doctrine\ORM\Query\Parser->syntaxError('end of string')
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(268): Doctrine\ORM\Query\Parser->QueryLanguage()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(351): Doctrine\ORM\Query\Parser->getAST()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query.php(255): Doctrine\ORM\Query\Parser->parse()
+#5 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query.php(267): Doctrine\OR in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[04-Feb-2017 14:33:14 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message ' SELECT COUNT( a.id ) 
+            FROM actividad a
+            WHERE YEAR( a.fecha ) = 2018
+            AND MONTH( a.fecha ) = 1
+        ' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(483): Doctrine\ORM\Query\QueryException::dqlError(' SELECT COUNT( ...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(971): Doctrine\ORM\Query\Parser->semanticalError('Class 'activida...', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1656): Doctrine\ORM\Query\Parser->AbstractSchemaName()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1546): Doctrine\ORM\Query\Parser->RangeVariableDeclaration()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(128 in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 63
+[04-Feb-2017 16:46:15 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message ' SELECT COUNT( a.id ) 
+            FROM actividad a
+            WHERE YEAR( a.fecha ) = 2018
+            AND MONTH( a.fecha ) = 1
+        ' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(483): Doctrine\ORM\Query\QueryException::dqlError(' SELECT COUNT( ...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(971): Doctrine\ORM\Query\Parser->semanticalError('Class 'activida...', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1656): Doctrine\ORM\Query\Parser->AbstractSchemaName()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1546): Doctrine\ORM\Query\Parser->RangeVariableDeclaration()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(128 in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 63
+[04-Feb-2017 16:47:11 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message ' SELECT COUNT( a.id ) 
+            FROM actividad a
+            WHERE YEAR( a.fecha ) = 2018
+            AND MONTH( a.fecha ) = 1
+        ' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(483): Doctrine\ORM\Query\QueryException::dqlError(' SELECT COUNT( ...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(971): Doctrine\ORM\Query\Parser->semanticalError('Class 'activida...', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1656): Doctrine\ORM\Query\Parser->AbstractSchemaName()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1546): Doctrine\ORM\Query\Parser->RangeVariableDeclaration()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(128 in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 63
+[04-Feb-2017 16:47:31 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message ' SELECT COUNT( a.id ) 
+            FROM actividad a
+            WHERE YEAR( a.fecha ) = 2018
+            AND MONTH( a.fecha ) = 1
+        ' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError(' SELECT COUNT( ...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3287): Doctrine\ORM\Query\Parser->syntaxError('known function', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3259): Doctrine\ORM\Query\Parser->CustomFunctionDeclaration()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2747): Doctrine\ORM\Query\Parser->FunctionDeclaration()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2708): D in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[04-Feb-2017 16:48:01 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message ' SELEC a.* 
+            FROM actividad a
+        ' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError(' SELEC a.* ?   ...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(855): Doctrine\ORM\Query\Parser->syntaxError('SELECT, UPDATE ...')
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(268): Doctrine\ORM\Query\Parser->QueryLanguage()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(351): Doctrine\ORM\Query\Parser->getAST()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query.php(255): Doctrine\ORM\Query\Parser->parse()
+#5 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query.php(267): Doctrine in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[04-Feb-2017 16:48:18 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message ' SELECT a.* 
+            FROM actividad a
+        ' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(483): Doctrine\ORM\Query\QueryException::dqlError(' SELECT a.* ?  ...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(759): Doctrine\ORM\Query\Parser->semanticalError('Class Actividad...', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(279): Doctrine\ORM\Query\Parser->processDeferredPathExpressions(Object(Doctrine\ORM\Query\AST\SelectStatement))
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(351): Doctrine\ORM\Query\Parser->getAST()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query.php(255): Doctrine\ORM\Query\Parser->parse()
+#5 /home/ubuntu/wor in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 63
+[04-Feb-2017 16:48:50 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message ' SELECT * 
+            FROM actividad 
+        ' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError(' SELECT * ?    ...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2167): Doctrine\ORM\Query\Parser->syntaxError('IdentificationV...', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1158): Doctrine\ORM\Query\Parser->SelectExpression()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(874): Doctrine\ORM\Query\Parser->SelectClause()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(843): Doctrine\ORM\Query\Parser->SelectStatement()
+#5 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doct in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[04-Feb-2017 16:49:08 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message ' SELECT a.* 
+            FROM actividad a
+        ' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(483): Doctrine\ORM\Query\QueryException::dqlError(' SELECT a.* ?  ...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(759): Doctrine\ORM\Query\Parser->semanticalError('Class Actividad...', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(279): Doctrine\ORM\Query\Parser->processDeferredPathExpressions(Object(Doctrine\ORM\Query\AST\SelectStatement))
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(351): Doctrine\ORM\Query\Parser->getAST()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query.php(255): Doctrine\ORM\Query\Parser->parse()
+#5 /home/ubuntu/wor in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 63
+[04-Feb-2017 16:50:04 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message ' SELECT a.* 
+            FROM actividad a
+            
+        ' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(483): Doctrine\ORM\Query\QueryException::dqlError(' SELECT a.* ?  ...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(759): Doctrine\ORM\Query\Parser->semanticalError('Class Actividad...', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(279): Doctrine\ORM\Query\Parser->processDeferredPathExpressions(Object(Doctrine\ORM\Query\AST\SelectStatement))
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(351): Doctrine\ORM\Query\Parser->getAST()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query.php(255): Doctrine\ORM\Query\Parser->parse()
+#5 /ho in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 63
+[04-Feb-2017 16:50:47 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message ' SELECT a.* FROM actividad a' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(483): Doctrine\ORM\Query\QueryException::dqlError(' SELECT a.* FRO...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(759): Doctrine\ORM\Query\Parser->semanticalError('Class Actividad...', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(279): Doctrine\ORM\Query\Parser->processDeferredPathExpressions(Object(Doctrine\ORM\Query\AST\SelectStatement))
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(351): Doctrine\ORM\Query\Parser->getAST()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query.php(255): Doctrine\ORM\Query\Parser->parse()
+#5 /home/ubuntu/workspace/clases/vendor/d in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 63
+[04-Feb-2017 16:51:14 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message ' SELECT * FROM actividad a' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError(' SELECT * FROM ...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2167): Doctrine\ORM\Query\Parser->syntaxError('IdentificationV...', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1158): Doctrine\ORM\Query\Parser->SelectExpression()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(874): Doctrine\ORM\Query\Parser->SelectClause()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(843): Doctrine\ORM\Query\Parser->SelectStatement()
+#5 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[04-Feb-2017 16:51:25 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message ' SELECT * FROM actividad' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError(' SELECT * FROM ...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2167): Doctrine\ORM\Query\Parser->syntaxError('IdentificationV...', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1158): Doctrine\ORM\Query\Parser->SelectExpression()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(874): Doctrine\ORM\Query\Parser->SelectClause()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(843): Doctrine\ORM\Query\Parser->SelectStatement()
+#5 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.p in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[04-Feb-2017 16:51:31 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message ' SELECT * FROM actividad;' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError(' SELECT * FROM ...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2167): Doctrine\ORM\Query\Parser->syntaxError('IdentificationV...', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1158): Doctrine\ORM\Query\Parser->SelectExpression()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(874): Doctrine\ORM\Query\Parser->SelectClause()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(843): Doctrine\ORM\Query\Parser->SelectStatement()
+#5 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser. in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[04-Feb-2017 16:52:51 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 131858432 bytes) in /home/ubuntu/workspace/graficos/pruebas2.php on line 57
+[04-Feb-2017 16:52:51 UTC] PHP Stack trace:
+[04-Feb-2017 16:52:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/graficos/pruebas2.php:0
+[04-Feb-2017 16:52:51 UTC] PHP   2. print_r() /home/ubuntu/workspace/graficos/pruebas2.php:57
+[04-Feb-2017 16:53:25 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 131858432 bytes) in /home/ubuntu/workspace/graficos/pruebas2.php on line 57
+[04-Feb-2017 16:53:25 UTC] PHP Stack trace:
+[04-Feb-2017 16:53:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/graficos/pruebas2.php:0
+[04-Feb-2017 16:53:25 UTC] PHP   2. print_r() /home/ubuntu/workspace/graficos/pruebas2.php:57
+[04-Feb-2017 16:54:57 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message ' SELECT a.* FROM Actividad a' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(483): Doctrine\ORM\Query\QueryException::dqlError(' SELECT a.* FRO...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(759): Doctrine\ORM\Query\Parser->semanticalError('Class Actividad...', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(279): Doctrine\ORM\Query\Parser->processDeferredPathExpressions(Object(Doctrine\ORM\Query\AST\SelectStatement))
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(351): Doctrine\ORM\Query\Parser->getAST()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query.php(255): Doctrine\ORM\Query\Parser->parse()
+#5 /home/ubuntu/workspace/clases/vendor/d in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 63
+[04-Feb-2017 16:57:06 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message '
+        SELECT COUNT (a.id) 
+        FROM Actividad a
+        WHERE YEAR(a.fecha) = 2018
+            AND MONTH(a.fecha) = 1
+        ' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError('?        SELECT...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3287): Doctrine\ORM\Query\Parser->syntaxError('known function', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3259): Doctrine\ORM\Query\Parser->CustomFunctionDeclaration()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2747): Doctrine\ORM\Query\Parser->FunctionDeclaration()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2708): Doctri in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[04-Feb-2017 16:57:40 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message '
+        SELECT COUNT (a.id) 
+        FROM Actividad 
+        ' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(483): Doctrine\ORM\Query\QueryException::dqlError('?        SELECT...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(586): Doctrine\ORM\Query\Parser->semanticalError(''a' is not defi...', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(272): Doctrine\ORM\Query\Parser->processDeferredIdentificationVariables()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(351): Doctrine\ORM\Query\Parser->getAST()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query.php(255): Doctrine\ORM\Query\Parser->parse()
+#5 /home/ubuntu/workspace/clases/vendor/doctr in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 63
+[04-Feb-2017 16:58:02 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message '
+        SELECT a.*
+        FROM Actividad a
+        ' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(483): Doctrine\ORM\Query\QueryException::dqlError('?        SELECT...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(759): Doctrine\ORM\Query\Parser->semanticalError('Class Actividad...', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(279): Doctrine\ORM\Query\Parser->processDeferredPathExpressions(Object(Doctrine\ORM\Query\AST\SelectStatement))
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(351): Doctrine\ORM\Query\Parser->getAST()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query.php(255): Doctrine\ORM\Query\Parser->parse()
+#5 /home/ubuntu/ in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 63
+[04-Feb-2017 17:00:08 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message '
+        SELECT COUNT (a.id) 
+        FROM Actividad a
+        WHERE YEAR(a.fecha) = 2018
+            AND MONTH(a.fecha) = 1
+        ' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError('?        SELECT...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3287): Doctrine\ORM\Query\Parser->syntaxError('known function', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3259): Doctrine\ORM\Query\Parser->CustomFunctionDeclaration()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2747): Doctrine\ORM\Query\Parser->FunctionDeclaration()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2708): Doctri in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[04-Feb-2017 17:00:18 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message '
+        SELECT COUNT (a) 
+        FROM Actividad a
+        WHERE YEAR(a.fecha) = 2018
+            AND MONTH(a.fecha) = 1
+        ' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError('?        SELECT...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3287): Doctrine\ORM\Query\Parser->syntaxError('known function', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3259): Doctrine\ORM\Query\Parser->CustomFunctionDeclaration()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2747): Doctrine\ORM\Query\Parser->FunctionDeclaration()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2708): Doctrine\ in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[04-Feb-2017 17:01:32 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message '
+        SELECT a
+        FROM Actividad a
+        WHERE YEAR(a.fecha)=2017
+        ' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError('?        SELECT...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3287): Doctrine\ORM\Query\Parser->syntaxError('known function', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3259): Doctrine\ORM\Query\Parser->CustomFunctionDeclaration()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2747): Doctrine\ORM\Query\Parser->FunctionDeclaration()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2708): Doctrine\ORM\Query\Parser->ArithmeticPrimary()
+#5 /home in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[04-Feb-2017 17:03:02 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/graficos/pruebas2.php on line 57
+[04-Feb-2017 17:03:20 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message '
+        SELECT count(*)
+        FROM Actividad a
+        ' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(483): Doctrine\ORM\Query\QueryException::dqlError('?        SELECT...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(586): Doctrine\ORM\Query\Parser->semanticalError(''*' is not defi...', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(272): Doctrine\ORM\Query\Parser->processDeferredIdentificationVariables()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(351): Doctrine\ORM\Query\Parser->getAST()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query.php(255): Doctrine\ORM\Query\Parser->parse()
+#5 /home/ubuntu/workspace/clases/vendor/doctrine/ in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 63
+[04-Feb-2017 17:04:02 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message '
+        SELECT count(a)
+        FROM Actividad a
+        WHERE YEAR(fecha)=2017
+        ' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError('?        SELECT...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3287): Doctrine\ORM\Query\Parser->syntaxError('known function', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3259): Doctrine\ORM\Query\Parser->CustomFunctionDeclaration()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2747): Doctrine\ORM\Query\Parser->FunctionDeclaration()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2708): Doctrine\ORM\Query\Parser->ArithmeticPrimary()
+#5  in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[04-Feb-2017 17:04:26 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message '
+        SELECT count(a)
+        FROM Actividad a
+        WHERE YEAR(a.fecha)=2017
+        ' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError('?        SELECT...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3287): Doctrine\ORM\Query\Parser->syntaxError('known function', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3259): Doctrine\ORM\Query\Parser->CustomFunctionDeclaration()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2747): Doctrine\ORM\Query\Parser->FunctionDeclaration()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2708): Doctrine\ORM\Query\Parser->ArithmeticPrimary()
+# in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[04-Feb-2017 17:04:29 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message '
+        SELECT count(a)
+        FROM Actividad a
+        WHERE YEAR(a.fecha)=2017
+        ' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError('?        SELECT...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3287): Doctrine\ORM\Query\Parser->syntaxError('known function', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3259): Doctrine\ORM\Query\Parser->CustomFunctionDeclaration()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2747): Doctrine\ORM\Query\Parser->FunctionDeclaration()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2708): Doctrine\ORM\Query\Parser->ArithmeticPrimary()
+# in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[04-Feb-2017 17:10:10 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message '
+        SELECT COUNT( a.id ) 
+        FROM actividad a
+        WHERE YEAR( a.fecha ) =2017
+            AND MONTH( a.fecha ) =2
+        ' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError('?        SELECT...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3287): Doctrine\ORM\Query\Parser->syntaxError('known function', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3259): Doctrine\ORM\Query\Parser->CustomFunctionDeclaration()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2747): Doctrine\ORM\Query\Parser->FunctionDeclaration()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2708): Doc in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[04-Feb-2017 17:10:20 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message '
+        SELECT COUNT( a.id ) 
+        FROM Actividad a
+        WHERE YEAR( a.fecha ) =2017
+            AND MONTH( a.fecha ) =2
+        ' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError('?        SELECT...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3287): Doctrine\ORM\Query\Parser->syntaxError('known function', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3259): Doctrine\ORM\Query\Parser->CustomFunctionDeclaration()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2747): Doctrine\ORM\Query\Parser->FunctionDeclaration()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2708): Doc in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[04-Feb-2017 17:11:46 UTC] PHP Fatal error:  Call to a member function createQueryBuilder() on a non-object in /home/ubuntu/workspace/graficos/pruebas2.php on line 37
+[04-Feb-2017 17:11:46 UTC] PHP Stack trace:
+[04-Feb-2017 17:11:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/graficos/pruebas2.php:0
+[04-Feb-2017 17:12:56 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message 'SELECT count(a.id) FROM Actividad a WHERE YEAR(a.fecha) = 2017' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError('SELECT count(a....')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3287): Doctrine\ORM\Query\Parser->syntaxError('known function', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3259): Doctrine\ORM\Query\Parser->CustomFunctionDeclaration()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2747): Doctrine\ORM\Query\Parser->FunctionDeclaration()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2708): Doctrine\ORM\Query\Parser->ArithmeticPrimary()
+#5 /home/ubuntu/workspace/clas in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[04-Feb-2017 17:13:27 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message 'SELECT count(a.id) FROM Actividad a WHERE YEAR(a.fecha) = '2017'' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError('SELECT count(a....')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3287): Doctrine\ORM\Query\Parser->syntaxError('known function', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3259): Doctrine\ORM\Query\Parser->CustomFunctionDeclaration()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2747): Doctrine\ORM\Query\Parser->FunctionDeclaration()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2708): Doctrine\ORM\Query\Parser->ArithmeticPrimary()
+#5 /home/ubuntu/workspace/cl in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[04-Feb-2017 17:15:48 UTC] PHP Warning:  get_class() expects parameter 1 to be object, integer given in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Expr/Base.php on line 92
+[04-Feb-2017 17:15:48 UTC] PHP Stack trace:
+[04-Feb-2017 17:15:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/graficos/pruebas2.php:0
+[04-Feb-2017 17:15:48 UTC] PHP   2. Doctrine\ORM\QueryBuilder->where() /home/ubuntu/workspace/graficos/pruebas2.php:40
+[04-Feb-2017 17:15:48 UTC] PHP   3. Doctrine\ORM\Query\Expr\Base->__construct() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/QueryBuilder.php:871
+[04-Feb-2017 17:15:48 UTC] PHP   4. Doctrine\ORM\Query\Expr\Base->addMultiple() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Expr/Base.php:63
+[04-Feb-2017 17:15:48 UTC] PHP   5. Doctrine\ORM\Query\Expr\Base->add() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Expr/Base.php:74
+[04-Feb-2017 17:15:48 UTC] PHP   6. get_class() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Expr/Base.php:92
+[04-Feb-2017 17:15:48 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Expression of type '' not allowed in this context.' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Expr/Base.php:95
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Expr/Base.php(74): Doctrine\ORM\Query\Expr\Base->add(2017)
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Expr/Base.php(63): Doctrine\ORM\Query\Expr\Base->addMultiple(Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/QueryBuilder.php(871): Doctrine\ORM\Query\Expr\Base->__construct(Array)
+#3 /home/ubuntu/workspace/graficos/pruebas2.php(40): Doctrine\ORM\QueryBuilder->where('YEAR(a.fecha) =...', 2017)
+#4 {main}
+  thrown in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Expr/Base.php on line 95
+[04-Feb-2017 17:17:57 UTC] PHP Fatal error:  Call to undefined method Bootstrap::createQueryBuilder() in /home/ubuntu/workspace/graficos/pruebas2.php on line 39
+[04-Feb-2017 17:17:57 UTC] PHP Stack trace:
+[04-Feb-2017 17:17:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/graficos/pruebas2.php:0
+[04-Feb-2017 17:18:39 UTC] PHP Warning:  get_class() expects parameter 1 to be object, integer given in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Expr/Base.php on line 92
+[04-Feb-2017 17:18:39 UTC] PHP Stack trace:
+[04-Feb-2017 17:18:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/graficos/pruebas2.php:0
+[04-Feb-2017 17:18:39 UTC] PHP   2. Doctrine\ORM\QueryBuilder->where() /home/ubuntu/workspace/graficos/pruebas2.php:43
+[04-Feb-2017 17:18:39 UTC] PHP   3. Doctrine\ORM\Query\Expr\Base->__construct() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/QueryBuilder.php:871
+[04-Feb-2017 17:18:39 UTC] PHP   4. Doctrine\ORM\Query\Expr\Base->addMultiple() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Expr/Base.php:63
+[04-Feb-2017 17:18:39 UTC] PHP   5. Doctrine\ORM\Query\Expr\Base->add() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Expr/Base.php:74
+[04-Feb-2017 17:18:39 UTC] PHP   6. get_class() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Expr/Base.php:92
+[04-Feb-2017 17:18:39 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Expression of type '' not allowed in this context.' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Expr/Base.php:95
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Expr/Base.php(74): Doctrine\ORM\Query\Expr\Base->add(2017)
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Expr/Base.php(63): Doctrine\ORM\Query\Expr\Base->addMultiple(Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/QueryBuilder.php(871): Doctrine\ORM\Query\Expr\Base->__construct(Array)
+#3 /home/ubuntu/workspace/graficos/pruebas2.php(43): Doctrine\ORM\QueryBuilder->where('YEAR(a.fecha) =...', 2017)
+#4 {main}
+  thrown in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Expr/Base.php on line 95
+[04-Feb-2017 17:20:44 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message 'SELECT count(a.id) FROM Actividad a WHERE YEAR(a.fecha) = 2017' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError('SELECT count(a....')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3287): Doctrine\ORM\Query\Parser->syntaxError('known function', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3259): Doctrine\ORM\Query\Parser->CustomFunctionDeclaration()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2747): Doctrine\ORM\Query\Parser->FunctionDeclaration()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2708): Doctrine\ORM\Query\Parser->ArithmeticPrimary()
+#5 /home/ubuntu/workspace/clas in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[04-Feb-2017 17:21:02 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message 'SELECT count(a.id) FROM actividad a WHERE YEAR(a.fecha) = 2017' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(483): Doctrine\ORM\Query\QueryException::dqlError('SELECT count(a....')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(971): Doctrine\ORM\Query\Parser->semanticalError('Class 'activida...', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1656): Doctrine\ORM\Query\Parser->AbstractSchemaName()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1546): Doctrine\ORM\Query\Parser->RangeVariableDeclaration()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1286): Doctrine\ORM\Query\Parser->IdentificationVariableDeclaration()
+#5 /home/ in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 63
+[04-Feb-2017 17:21:20 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message 'SELECT count(a.id) FROM Actividad a WHERE YEAR(a.fecha) = 2017' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError('SELECT count(a....')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3287): Doctrine\ORM\Query\Parser->syntaxError('known function', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3259): Doctrine\ORM\Query\Parser->CustomFunctionDeclaration()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2747): Doctrine\ORM\Query\Parser->FunctionDeclaration()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2708): Doctrine\ORM\Query\Parser->ArithmeticPrimary()
+#5 /home/ubuntu/workspace/clas in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[04-Feb-2017 17:21:49 UTC] PHP Catchable fatal error:  Object of class Doctrine\ORM\Query could not be converted to string in /home/ubuntu/workspace/graficos/pruebas2.php on line 57
+[04-Feb-2017 17:21:49 UTC] PHP Stack trace:
+[04-Feb-2017 17:21:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/graficos/pruebas2.php:0
+[04-Feb-2017 17:23:34 UTC] PHP Fatal error:  Call to undefined method Doctrine\ORM\Query::getArray() in /home/ubuntu/workspace/graficos/pruebas2.php on line 58
+[04-Feb-2017 17:23:34 UTC] PHP Stack trace:
+[04-Feb-2017 17:23:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/graficos/pruebas2.php:0
+[04-Feb-2017 17:26:56 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message 'SELECT count(a.id) FROM Actividad a WHERE YEAR(a.fecha) = 2017' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError('SELECT count(a....')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3287): Doctrine\ORM\Query\Parser->syntaxError('known function', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3259): Doctrine\ORM\Query\Parser->CustomFunctionDeclaration()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2747): Doctrine\ORM\Query\Parser->FunctionDeclaration()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2708): Doctrine\ORM\Query\Parser->ArithmeticPrimary()
+#5 /home/ubuntu/workspace/clas in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[04-Feb-2017 17:27:17 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message 'SELECT count(a.id) FROM Actividad a WHERE YEAR(a.fecha) = 2017' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError('SELECT count(a....')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3287): Doctrine\ORM\Query\Parser->syntaxError('known function', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3259): Doctrine\ORM\Query\Parser->CustomFunctionDeclaration()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2747): Doctrine\ORM\Query\Parser->FunctionDeclaration()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2708): Doctrine\ORM\Query\Parser->ArithmeticPrimary()
+#5 /home/ubuntu/workspace/clas in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[04-Feb-2017 17:28:10 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message 'SELECT count(a.id) FROM Actividad a WHERE YEAR(a.fecha) = 2017' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError('SELECT count(a....')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3287): Doctrine\ORM\Query\Parser->syntaxError('known function', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(3259): Doctrine\ORM\Query\Parser->CustomFunctionDeclaration()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2747): Doctrine\ORM\Query\Parser->FunctionDeclaration()
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2708): Doctrine\ORM\Query\Parser->ArithmeticPrimary()
+#5 /home/ubuntu/workspace/clas in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[04-Feb-2017 17:29:37 UTC] PHP Catchable fatal error:  Object of class Doctrine\ORM\Query could not be converted to string in /home/ubuntu/workspace/graficos/pruebas2.php on line 57
+[04-Feb-2017 17:29:37 UTC] PHP Stack trace:
+[04-Feb-2017 17:29:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/graficos/pruebas2.php:0
+[04-Feb-2017 17:29:52 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, object given in /home/ubuntu/workspace/graficos/pruebas2.php on line 57
+[04-Feb-2017 17:29:52 UTC] PHP Stack trace:
+[04-Feb-2017 17:29:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/graficos/pruebas2.php:0
+[04-Feb-2017 17:29:52 UTC] PHP   2. json_decode() /home/ubuntu/workspace/graficos/pruebas2.php:57
+[04-Feb-2017 17:30:09 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/ubuntu/workspace/graficos/pruebas2.php on line 57
+[04-Feb-2017 17:30:09 UTC] PHP Stack trace:
+[04-Feb-2017 17:30:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/graficos/pruebas2.php:0
+[04-Feb-2017 17:33:45 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/graficos/pruebas2.php on line 50
+[04-Feb-2017 17:34:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'basedatos.Actividad' doesn't exist' in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php:91
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php(91): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php(168): Doctrine\DBAL\Driver\PDOStatement->execute(NULL)
+#2 /home/ubuntu/workspace/graficos/pruebas2.php(52): Doctrine\DBAL\Statement->execute()
+#3 {main}
+
+Next exception 'Doctrine\DBAL\Driver\PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'basedatos.Actividad' doesn't exist' in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php:93
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php(168): Doctrine\DBAL\Driver\PDOStatement->e in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 53
+[04-Feb-2017 17:34:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1630 FUNCTION basedatos.COUNT does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual' in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php:91
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php(91): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php(168): Doctrine\DBAL\Driver\PDOStatement->execute(NULL)
+#2 /home/ubuntu/workspace/graficos/pruebas2.php(52): Doctrine\DBAL\Statement->execute()
+#3 {main}
+
+Next exception 'Doctrine\DBAL\Driver\PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1630 FUNCTION basedatos.COUNT does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual' in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/ in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 115
+[04-Feb-2017 17:40:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/graficos/pruebas2.php on line 87
+[04-Feb-2017 17:40:51 UTC] PHP Stack trace:
+[04-Feb-2017 17:40:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/graficos/pruebas2.php:0
+[04-Feb-2017 17:53:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kjsgd' in 'where clause'' in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php:91
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php(91): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php(168): Doctrine\DBAL\Driver\PDOStatement->execute(NULL)
+#2 /home/ubuntu/workspace/graficos/pruebas2.php(77): Doctrine\DBAL\Statement->execute()
+#3 {main}
+
+Next exception 'Doctrine\DBAL\Driver\PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kjsgd' in 'where clause'' in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php:93
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php(168): Doctrine\DBAL\Driver\PDOStatement->execute(NULL)
+#1 /home/ubun in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 71
