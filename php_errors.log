@@ -2723,3 +2723,605 @@ Stack trace:
 [09-Feb-2017 11:50:27 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
 [09-Feb-2017 11:50:27 UTC] PHP   8. require_once() /home/ubuntu/workspace/wordpress/wp-includes/template.php:684
 [09-Feb-2017 11:50:27 UTC] PHP   9. _x() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/sidebar.php:42
+[10-Feb-2017 19:54:21 UTC] PHP Fatal error:  Call to undefined function get_template_parts() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php on line 3
+[10-Feb-2017 19:54:21 UTC] PHP Stack trace:
+[10-Feb-2017 19:54:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:54:21 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:54:21 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:54:21 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:54:22 UTC] PHP Fatal error:  Call to undefined function get_template_parts() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php on line 3
+[10-Feb-2017 19:54:22 UTC] PHP Stack trace:
+[10-Feb-2017 19:54:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:54:22 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:54:22 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:54:22 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:54:22 UTC] PHP Fatal error:  Call to undefined function get_template_parts() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php on line 3
+[10-Feb-2017 19:54:22 UTC] PHP Stack trace:
+[10-Feb-2017 19:54:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:54:22 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:54:22 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:54:22 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:54:22 UTC] PHP Fatal error:  Call to undefined function get_template_parts() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php on line 3
+[10-Feb-2017 19:54:22 UTC] PHP Stack trace:
+[10-Feb-2017 19:54:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:54:22 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:54:22 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:54:22 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:54:22 UTC] PHP Fatal error:  Call to undefined function get_template_parts() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php on line 3
+[10-Feb-2017 19:54:22 UTC] PHP Stack trace:
+[10-Feb-2017 19:54:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:54:22 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:54:22 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:54:22 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:54:22 UTC] PHP Fatal error:  Call to undefined function get_template_parts() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php on line 3
+[10-Feb-2017 19:54:22 UTC] PHP Stack trace:
+[10-Feb-2017 19:54:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:54:22 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:54:22 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:54:22 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:54:22 UTC] PHP Fatal error:  Call to undefined function get_template_parts() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php on line 3
+[10-Feb-2017 19:54:22 UTC] PHP Stack trace:
+[10-Feb-2017 19:54:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:54:22 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:54:22 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:54:22 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:54:33 UTC] PHP Fatal error:  Call to undefined function get_template_parts() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php on line 3
+[10-Feb-2017 19:54:33 UTC] PHP Stack trace:
+[10-Feb-2017 19:54:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:54:33 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:54:33 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:54:33 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:54:33 UTC] PHP Fatal error:  Call to undefined function get_template_parts() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php on line 3
+[10-Feb-2017 19:54:33 UTC] PHP Stack trace:
+[10-Feb-2017 19:54:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:54:33 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:54:33 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:54:33 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:54:34 UTC] PHP Fatal error:  Call to undefined function get_template_parts() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php on line 3
+[10-Feb-2017 19:54:34 UTC] PHP Stack trace:
+[10-Feb-2017 19:54:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:54:34 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:54:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:54:34 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:54:34 UTC] PHP Fatal error:  Call to undefined function get_template_parts() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php on line 3
+[10-Feb-2017 19:54:34 UTC] PHP Stack trace:
+[10-Feb-2017 19:54:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:54:34 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:54:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:54:34 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:54:34 UTC] PHP Fatal error:  Call to undefined function get_template_parts() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php on line 3
+[10-Feb-2017 19:54:34 UTC] PHP Stack trace:
+[10-Feb-2017 19:54:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:54:34 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:54:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:54:34 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:54:34 UTC] PHP Fatal error:  Call to undefined function get_template_parts() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php on line 3
+[10-Feb-2017 19:54:34 UTC] PHP Stack trace:
+[10-Feb-2017 19:54:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:54:34 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:54:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:54:34 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:54:34 UTC] PHP Fatal error:  Call to undefined function get_template_parts() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php on line 3
+[10-Feb-2017 19:54:34 UTC] PHP Stack trace:
+[10-Feb-2017 19:54:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:54:34 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:54:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:54:34 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:54:44 UTC] PHP Fatal error:  Call to undefined function get_template_parts() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php on line 3
+[10-Feb-2017 19:54:44 UTC] PHP Stack trace:
+[10-Feb-2017 19:54:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:54:44 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:54:44 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:54:44 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:54:44 UTC] PHP Fatal error:  Call to undefined function get_template_parts() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php on line 3
+[10-Feb-2017 19:54:44 UTC] PHP Stack trace:
+[10-Feb-2017 19:54:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:54:44 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:54:44 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:54:44 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:54:45 UTC] PHP Fatal error:  Call to undefined function get_template_parts() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php on line 3
+[10-Feb-2017 19:54:45 UTC] PHP Stack trace:
+[10-Feb-2017 19:54:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:54:45 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:54:45 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:54:45 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:54:45 UTC] PHP Fatal error:  Call to undefined function get_template_parts() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php on line 3
+[10-Feb-2017 19:54:45 UTC] PHP Stack trace:
+[10-Feb-2017 19:54:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:54:45 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:54:45 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:54:45 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:54:45 UTC] PHP Fatal error:  Call to undefined function get_template_parts() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php on line 3
+[10-Feb-2017 19:54:45 UTC] PHP Stack trace:
+[10-Feb-2017 19:54:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:54:45 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:54:45 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:54:45 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:54:45 UTC] PHP Fatal error:  Call to undefined function get_template_parts() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php on line 3
+[10-Feb-2017 19:54:45 UTC] PHP Stack trace:
+[10-Feb-2017 19:54:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:54:45 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:54:45 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:54:45 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:54:45 UTC] PHP Fatal error:  Call to undefined function get_template_parts() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php on line 3
+[10-Feb-2017 19:54:45 UTC] PHP Stack trace:
+[10-Feb-2017 19:54:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:54:45 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:54:45 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:54:45 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:55:07 UTC] PHP Fatal error:  Call to undefined function get_template_parts() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php on line 3
+[10-Feb-2017 19:55:07 UTC] PHP Stack trace:
+[10-Feb-2017 19:55:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:55:07 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:55:07 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:55:07 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:55:40 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:55:40 UTC] PHP Stack trace:
+[10-Feb-2017 19:55:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:55:40 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:55:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:55:40 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:55:40 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:55:40 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:55:40 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:55:40 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:55:41 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:55:41 UTC] PHP Stack trace:
+[10-Feb-2017 19:55:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:55:41 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:55:41 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:55:41 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:55:41 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:55:41 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:55:41 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:55:41 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:55:41 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:55:41 UTC] PHP Stack trace:
+[10-Feb-2017 19:55:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:55:41 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:55:41 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:55:41 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:55:41 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:55:41 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:55:41 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:55:41 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:55:41 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:55:41 UTC] PHP Stack trace:
+[10-Feb-2017 19:55:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:55:41 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:55:41 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:55:41 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:55:41 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:55:41 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:55:41 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:55:41 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:55:41 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:55:41 UTC] PHP Stack trace:
+[10-Feb-2017 19:55:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:55:41 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:55:41 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:55:41 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:55:41 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:55:41 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:55:41 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:55:41 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:55:41 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:55:41 UTC] PHP Stack trace:
+[10-Feb-2017 19:55:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:55:41 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:55:41 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:55:41 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:55:41 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:55:41 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:55:41 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:55:41 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:55:42 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:55:42 UTC] PHP Stack trace:
+[10-Feb-2017 19:55:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:55:42 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:55:42 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:55:42 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:55:42 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:55:42 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:55:42 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:55:42 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:55:43 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:55:43 UTC] PHP Stack trace:
+[10-Feb-2017 19:55:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:55:43 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:55:43 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:55:43 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:55:43 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:55:43 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:55:43 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:55:43 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:55:43 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:55:43 UTC] PHP Stack trace:
+[10-Feb-2017 19:55:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:55:43 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:55:43 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:55:43 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:55:43 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:55:43 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:55:43 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:55:43 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:57:53 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:57:53 UTC] PHP Stack trace:
+[10-Feb-2017 19:57:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:57:53 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:57:53 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:57:53 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:57:53 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:57:53 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:57:53 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:57:53 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:57:54 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:57:54 UTC] PHP Stack trace:
+[10-Feb-2017 19:57:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:57:54 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:57:54 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:57:54 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:57:54 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:57:54 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:57:54 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:57:54 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:57:54 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:57:54 UTC] PHP Stack trace:
+[10-Feb-2017 19:57:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:57:54 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:57:54 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:57:54 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:57:54 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:57:54 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:57:54 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:57:54 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:57:54 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:57:54 UTC] PHP Stack trace:
+[10-Feb-2017 19:57:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:57:54 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:57:54 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:57:54 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:57:54 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:57:54 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:57:54 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:57:54 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:57:54 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:57:54 UTC] PHP Stack trace:
+[10-Feb-2017 19:57:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:57:54 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:57:54 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:57:54 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:57:54 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:57:54 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:57:54 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:57:54 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:57:54 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:57:54 UTC] PHP Stack trace:
+[10-Feb-2017 19:57:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:57:54 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:57:54 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:57:54 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:57:54 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:57:54 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:57:54 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:57:54 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:57:55 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:57:55 UTC] PHP Stack trace:
+[10-Feb-2017 19:57:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:57:55 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:57:55 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:57:55 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:57:55 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:57:55 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:57:55 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:57:55 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:57:55 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:57:55 UTC] PHP Stack trace:
+[10-Feb-2017 19:57:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:57:55 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:57:55 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:57:55 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:57:55 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:57:55 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:57:55 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:57:55 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:57:56 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:57:56 UTC] PHP Stack trace:
+[10-Feb-2017 19:57:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:57:56 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:57:56 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:57:56 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:57:56 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:57:56 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:57:56 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:57:56 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:58:08 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:58:08 UTC] PHP Stack trace:
+[10-Feb-2017 19:58:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:58:08 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:58:08 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:58:08 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:58:08 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:58:08 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:58:08 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:58:08 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:58:09 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:58:09 UTC] PHP Stack trace:
+[10-Feb-2017 19:58:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:58:09 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:58:09 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:58:09 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:58:09 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:58:09 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:58:09 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:58:09 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:58:09 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:58:09 UTC] PHP Stack trace:
+[10-Feb-2017 19:58:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:58:09 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:58:09 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:58:09 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:58:09 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:58:09 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:58:09 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:58:09 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:58:09 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:58:09 UTC] PHP Stack trace:
+[10-Feb-2017 19:58:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:58:09 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:58:09 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:58:09 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:58:09 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:58:09 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:58:09 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:58:09 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:58:09 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:58:09 UTC] PHP Stack trace:
+[10-Feb-2017 19:58:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:58:09 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:58:09 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:58:09 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:58:09 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:58:09 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:58:09 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:58:09 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:58:09 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:58:09 UTC] PHP Stack trace:
+[10-Feb-2017 19:58:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:58:09 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:58:09 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:58:09 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:58:09 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:58:09 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:58:09 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:58:09 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:58:10 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:58:10 UTC] PHP Stack trace:
+[10-Feb-2017 19:58:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:58:10 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:58:10 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:58:10 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:58:10 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:58:10 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:58:10 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:58:10 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:58:10 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:58:10 UTC] PHP Stack trace:
+[10-Feb-2017 19:58:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:58:10 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:58:10 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:58:10 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:58:10 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:58:10 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:58:10 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:58:10 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:58:10 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:58:10 UTC] PHP Stack trace:
+[10-Feb-2017 19:58:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:58:10 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:58:10 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:58:10 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:58:10 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:58:10 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:58:10 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:58:10 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:58:23 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:58:23 UTC] PHP Stack trace:
+[10-Feb-2017 19:58:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:58:23 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:58:23 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:58:23 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:58:23 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:58:23 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:58:23 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:58:23 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:58:23 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:58:23 UTC] PHP Stack trace:
+[10-Feb-2017 19:58:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:58:23 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:58:23 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:58:23 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:58:23 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:58:23 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:58:23 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:58:23 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:58:24 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:58:24 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:58:24 UTC] PHP Stack trace:
+[10-Feb-2017 19:58:24 UTC] PHP Stack trace:
+[10-Feb-2017 19:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:58:24 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:58:24 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:58:24 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:58:24 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:58:24 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:58:24 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:58:24 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:58:24 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:58:24 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:58:24 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:58:24 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:58:24 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:58:24 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:58:24 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:58:24 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:58:24 UTC] PHP Stack trace:
+[10-Feb-2017 19:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:58:24 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:58:24 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:58:24 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:58:24 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:58:24 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:58:24 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:58:24 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:58:24 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:58:24 UTC] PHP Stack trace:
+[10-Feb-2017 19:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:58:24 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:58:24 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:58:24 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:58:24 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:58:24 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:58:24 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:58:24 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:58:24 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:58:24 UTC] PHP Stack trace:
+[10-Feb-2017 19:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:58:24 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:58:24 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:58:24 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:58:24 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:58:24 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:58:24 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:58:24 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:58:24 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:58:24 UTC] PHP Stack trace:
+[10-Feb-2017 19:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:58:24 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:58:24 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:58:24 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:58:24 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:58:24 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:58:24 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:58:24 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:58:28 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:58:28 UTC] PHP Stack trace:
+[10-Feb-2017 19:58:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:58:28 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:58:28 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:58:28 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:58:28 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:58:28 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:58:28 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:58:28 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:58:28 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:58:28 UTC] PHP Stack trace:
+[10-Feb-2017 19:58:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:58:28 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:58:28 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:58:28 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:58:28 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:58:28 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:58:28 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:58:28 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:58:28 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:58:28 UTC] PHP Stack trace:
+[10-Feb-2017 19:58:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:58:28 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:58:28 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:58:28 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:58:28 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:58:28 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:58:28 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:58:28 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:58:29 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:58:29 UTC] PHP Stack trace:
+[10-Feb-2017 19:58:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:58:29 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:58:29 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:58:29 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:58:29 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:58:29 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:58:29 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:58:29 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:58:29 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:58:29 UTC] PHP Stack trace:
+[10-Feb-2017 19:58:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:58:29 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:58:29 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:58:29 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:58:29 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:58:29 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:58:29 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:58:29 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:58:29 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:58:29 UTC] PHP Stack trace:
+[10-Feb-2017 19:58:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:58:29 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:58:29 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:58:29 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:58:29 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:58:29 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:58:29 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:58:29 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:58:29 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:58:29 UTC] PHP Stack trace:
+[10-Feb-2017 19:58:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:58:29 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:58:29 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:58:29 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:58:29 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:58:29 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:58:29 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:58:29 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:58:30 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:58:30 UTC] PHP Stack trace:
+[10-Feb-2017 19:58:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:58:30 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:58:30 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:58:30 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:58:30 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:58:30 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:58:30 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:58:30 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 19:59:50 UTC] PHP Fatal error:  Call to undefined function get_templatedirectory_uri() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index-1.php on line 1
+[10-Feb-2017 19:59:50 UTC] PHP Stack trace:
+[10-Feb-2017 19:59:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 19:59:50 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 19:59:50 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 19:59:50 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 19:59:50 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:3
+[10-Feb-2017 19:59:50 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 19:59:50 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 19:59:50 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 20:18:05 UTC] PHP Fatal error:  Call to undefined function get_template_directory_urio() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index_1-section_2.php on line 13
+[10-Feb-2017 20:18:05 UTC] PHP Stack trace:
+[10-Feb-2017 20:18:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 20:18:05 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 20:18:05 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 20:18:05 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 20:18:05 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:4
+[10-Feb-2017 20:18:05 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 20:18:05 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 20:18:05 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 20:18:07 UTC] PHP Fatal error:  Call to undefined function get_template_directory_urio() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index_1-section_2.php on line 13
+[10-Feb-2017 20:18:07 UTC] PHP Stack trace:
+[10-Feb-2017 20:18:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 20:18:07 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 20:18:07 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 20:18:07 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 20:18:07 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:4
+[10-Feb-2017 20:18:07 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 20:18:07 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 20:18:07 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[10-Feb-2017 20:18:07 UTC] PHP Fatal error:  Call to undefined function get_template_directory_urio() in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/template-parts/index_1-section_2.php on line 13
+[10-Feb-2017 20:18:07 UTC] PHP Stack trace:
+[10-Feb-2017 20:18:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[10-Feb-2017 20:18:07 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[10-Feb-2017 20:18:07 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[10-Feb-2017 20:18:07 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[10-Feb-2017 20:18:07 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/index.php:4
+[10-Feb-2017 20:18:07 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[10-Feb-2017 20:18:07 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[10-Feb-2017 20:18:07 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686

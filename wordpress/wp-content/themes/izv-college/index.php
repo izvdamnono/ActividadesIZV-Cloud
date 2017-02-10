@@ -1,0 +1,10 @@
+<?php
+get_header();
+get_template_part("template-parts/index_1","section_1");
+get_template_part("template-parts/index_1","section_2");
+get_template_part("template-parts/index_1","section_3");
+get_template_part("template-parts/index_1","section_4");
+get_template_part("template-parts/index_1","section_5");
+get_template_part("template-parts/index_1","section_6");
+get_footer();
+?>
