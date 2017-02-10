@@ -18,7 +18,7 @@ get_header(); ?>
 				</header><!-- .page-header -->
 
 				<div class="page-content">
-				<h2 class="error-title">404</h2>
+				<h2 class="error-title"><?php esc_html_e( 'Error 404', "education-hub" ); ?></h2>
           <p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'education-hub' ); ?></p>
 
 					<?php get_search_form(); ?>

@@ -113,7 +113,7 @@
                     },
                     title: {
                         display: true,
-                        text: 'Meses de actividades'
+                        text: 'Actividades del <?=$year?>'
                     }
                 }
             };

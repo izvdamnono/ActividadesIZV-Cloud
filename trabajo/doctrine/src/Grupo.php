@@ -46,11 +46,13 @@ class Grupo {
         return $this;
     }
 
-    public function addIdag($idag){
+    public function addIdag($idag) {
         $this->idag[] = $idag;
     }
     
-    //Metodo utilizado para obtener el valor JSON de un este objeto
+    /**
+     * Metodo utilizado para obtener el valor JSON de un este objeto
+     */
     function getJsonData(){
         $var = get_object_vars($this);
         foreach ($var as &$value) {
@@ -69,7 +71,7 @@ class Grupo {
     public function getArray() {
         return array(
             "id" => $this->id, 
-            "nombre" => $this->nombre, 
+            "nombreGrupo" => $this->nombre, 
             //"idag" => $this->idap, 
         );
     }
@@ -81,7 +83,7 @@ class Grupo {
     */
     public function jsonToObject($json){
         
-        $this->nombre = $json->nombre;
+        $this->nombre = $json->nombreGrupo;
         return $this;
     }
 }

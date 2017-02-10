@@ -41,19 +41,19 @@ class GestorProfesor {
             return '{"response":"error"}'; 
         }
     }
-    
 
     /**
      * ARC -> Content-Type: application/json --> POST
      * https://iosapplication-fernan13.c9users.io/api/profesor
-     * {"nombre": "Jesus","idap":3,"idpd":2}
+     * {"nombre": "Jesus","idpd":2}
      * {"response": "ok"} o {"response": "error"}
      */
     public function insertar($object) {
         try {
             $profesor = new Profesor();
-            $profesor = $profesor->jsonToObject($object);
-            $profesor = $this->gestor->getReference('Departamento', $object->idpd);
+            $profesor     = $profesor->jsonToObject($object);
+            $departamento = $this->gestor->getReference('Departamento', $object->idpd);
+            $profesor->setIdDepartamento($departamento);
             $this->gestor->persist($profesor);
             $this->gestor->flush();
 
@@ -76,9 +76,11 @@ class GestorProfesor {
             $profesor = new Profesor();
             $profesor  = $this->gestor->find('Profesor', $id);
             if ( is_null($profesor) ) throw new Exception('Profesor no encontrado');
+            $departamento = $this->gestor->getReference('Departamento', $object->idpd);
+            $profesor->setIdDepartamento($departamento);
             $profesor  = $profesor->jsonToObject($object);
             $this->gestor->flush();
-             
+            
             header("HTTP/1.1 200 Updated");
             return '{"response":"ok"}';
         } catch( Exception $e ) {
@@ -99,7 +101,7 @@ class GestorProfesor {
             $this->gestor->remove($profesor);
             $this->gestor->flush();
                 
-            header("HTTP/1.1 204 Delete");
+            //header("HTTP/1.1 204 Delete");
             return '{"response":"ok"}';
         } catch(Exception $e) {
             header("HTTP/1.1 400 Bad Request");

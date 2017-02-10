@@ -117,7 +117,7 @@ class GestorDepartamento {
             $this->gestor->remove($departamento);
             $this->gestor->flush();
                 
-            header("HTTP/1.1 204 Delete");
+            //header("HTTP/1.1 204 Delete");
             return '{"response":"ok"}';
         } catch(Exception $e) {
             header("HTTP/1.1 400 Bad Request");

@@ -2254,3 +2254,472 @@ Next exception 'Doctrine\DBAL\Driver\PDOException' with message 'SQLSTATE[42S22]
 Stack trace:
 #0 /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php(168): Doctrine\DBAL\Driver\PDOStatement->execute(NULL)
 #1 /home/ubun in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 71
+[06-Feb-2017 12:27:53 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[06-Feb-2017 12:27:53 UTC] PHP Stack trace:
+[06-Feb-2017 12:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[06-Feb-2017 12:27:53 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[06-Feb-2017 12:27:53 UTC] PHP   3. GestorActividad->insertar() /home/ubuntu/workspace/clases/rest/Api.php:72
+[06-Feb-2017 12:27:53 UTC] PHP   4. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/clases/rest/GestorActividad.php:106
+[06-Feb-2017 12:27:53 UTC] PHP   5. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:340
+[06-Feb-2017 12:27:53 UTC] PHP   6. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:335
+[06-Feb-2017 12:27:53 UTC] PHP   7. Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:966
+[06-Feb-2017 12:27:53 UTC] PHP   8. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:275
+[06-Feb-2017 12:27:53 UTC] PHP   9. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[06-Feb-2017 17:51:19 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/clases/rest/GestorActividad.php on line 114
+[06-Feb-2017 17:51:19 UTC] PHP Stack trace:
+[06-Feb-2017 17:51:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[06-Feb-2017 17:51:19 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[06-Feb-2017 17:51:19 UTC] PHP   3. class_exists() /home/ubuntu/workspace/clases/rest/Api.php:23
+[06-Feb-2017 17:51:19 UTC] PHP   4. spl_autoload_call() /home/ubuntu/workspace/clases/rest/Api.php:23
+[06-Feb-2017 17:51:19 UTC] PHP   5. AutoLoad::load() /home/ubuntu/workspace/clases/rest/Api.php:23
+[06-Feb-2017 17:52:14 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/clases/rest/GestorActividad.php on line 114
+[06-Feb-2017 17:52:14 UTC] PHP Stack trace:
+[06-Feb-2017 17:52:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[06-Feb-2017 17:52:14 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[06-Feb-2017 17:52:14 UTC] PHP   3. class_exists() /home/ubuntu/workspace/clases/rest/Api.php:23
+[06-Feb-2017 17:52:14 UTC] PHP   4. spl_autoload_call() /home/ubuntu/workspace/clases/rest/Api.php:23
+[06-Feb-2017 17:52:14 UTC] PHP   5. AutoLoad::load() /home/ubuntu/workspace/clases/rest/Api.php:23
+[06-Feb-2017 17:53:08 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/clases/rest/GestorActividad.php on line 114
+[06-Feb-2017 17:53:08 UTC] PHP Stack trace:
+[06-Feb-2017 17:53:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[06-Feb-2017 17:53:08 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[06-Feb-2017 17:53:08 UTC] PHP   3. class_exists() /home/ubuntu/workspace/clases/rest/Api.php:23
+[06-Feb-2017 17:53:08 UTC] PHP   4. spl_autoload_call() /home/ubuntu/workspace/clases/rest/Api.php:23
+[06-Feb-2017 17:53:08 UTC] PHP   5. AutoLoad::load() /home/ubuntu/workspace/clases/rest/Api.php:23
+[07-Feb-2017 17:59:32 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, object given in /home/ubuntu/workspace/clases/datos/Actividad.php on line 227
+[07-Feb-2017 17:59:32 UTC] PHP Stack trace:
+[07-Feb-2017 17:59:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[07-Feb-2017 17:59:32 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[07-Feb-2017 17:59:32 UTC] PHP   3. GestorActividad->actualizar() /home/ubuntu/workspace/clases/rest/Api.php:88
+[07-Feb-2017 17:59:32 UTC] PHP   4. Actividad->jsonToObject() /home/ubuntu/workspace/clases/rest/GestorActividad.php:141
+[07-Feb-2017 17:59:32 UTC] PHP   5. json_decode() /home/ubuntu/workspace/clases/datos/Actividad.php:227
+[07-Feb-2017 18:04:06 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/ubuntu/workspace/clases/datos/Actividad.php on line 210
+[07-Feb-2017 18:04:06 UTC] PHP Stack trace:
+[07-Feb-2017 18:04:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[07-Feb-2017 18:04:06 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[07-Feb-2017 18:04:06 UTC] PHP   3. GestorActividad->consultarTodos() /home/ubuntu/workspace/clases/rest/Api.php:39
+[07-Feb-2017 18:04:06 UTC] PHP   4. spl_autoload_call() /home/ubuntu/workspace/clases/rest/Api.php:15
+[07-Feb-2017 18:04:06 UTC] PHP   5. AutoLoad::load() /home/ubuntu/workspace/clases/rest/Api.php:15
+[07-Feb-2017 18:04:17 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/ubuntu/workspace/clases/datos/Actividad.php on line 210
+[07-Feb-2017 18:04:17 UTC] PHP Stack trace:
+[07-Feb-2017 18:04:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[07-Feb-2017 18:04:17 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[07-Feb-2017 18:04:17 UTC] PHP   3. GestorActividad->consultarTodos() /home/ubuntu/workspace/clases/rest/Api.php:39
+[07-Feb-2017 18:04:17 UTC] PHP   4. spl_autoload_call() /home/ubuntu/workspace/clases/rest/Api.php:15
+[07-Feb-2017 18:04:17 UTC] PHP   5. AutoLoad::load() /home/ubuntu/workspace/clases/rest/Api.php:15
+[07-Feb-2017 18:11:10 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, object given in /home/ubuntu/workspace/clases/datos/Actividad.php on line 228
+[07-Feb-2017 18:11:10 UTC] PHP Stack trace:
+[07-Feb-2017 18:11:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[07-Feb-2017 18:11:10 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[07-Feb-2017 18:11:10 UTC] PHP   3. GestorActividad->actualizar() /home/ubuntu/workspace/clases/rest/Api.php:88
+[07-Feb-2017 18:11:10 UTC] PHP   4. Actividad->jsonToObject() /home/ubuntu/workspace/clases/rest/GestorActividad.php:141
+[07-Feb-2017 18:11:10 UTC] PHP   5. json_decode() /home/ubuntu/workspace/clases/datos/Actividad.php:228
+[07-Feb-2017 18:14:12 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, object given in /home/ubuntu/workspace/clases/datos/Actividad.php on line 228
+[07-Feb-2017 18:14:12 UTC] PHP Stack trace:
+[07-Feb-2017 18:14:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[07-Feb-2017 18:14:12 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[07-Feb-2017 18:14:12 UTC] PHP   3. GestorActividad->insertar() /home/ubuntu/workspace/clases/rest/Api.php:72
+[07-Feb-2017 18:14:12 UTC] PHP   4. Actividad->jsonToObject() /home/ubuntu/workspace/clases/rest/GestorActividad.php:102
+[07-Feb-2017 18:14:12 UTC] PHP   5. json_decode() /home/ubuntu/workspace/clases/datos/Actividad.php:228
+[07-Feb-2017 18:16:19 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, object given in /home/ubuntu/workspace/clases/datos/Actividad.php on line 228
+[07-Feb-2017 18:16:19 UTC] PHP Stack trace:
+[07-Feb-2017 18:16:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[07-Feb-2017 18:16:19 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[07-Feb-2017 18:16:19 UTC] PHP   3. GestorActividad->insertar() /home/ubuntu/workspace/clases/rest/Api.php:72
+[07-Feb-2017 18:16:19 UTC] PHP   4. Actividad->jsonToObject() /home/ubuntu/workspace/clases/rest/GestorActividad.php:102
+[07-Feb-2017 18:16:19 UTC] PHP   5. json_decode() /home/ubuntu/workspace/clases/datos/Actividad.php:228
+[07-Feb-2017 18:17:35 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, object given in /home/ubuntu/workspace/clases/datos/Actividad.php on line 229
+[07-Feb-2017 18:17:35 UTC] PHP Stack trace:
+[07-Feb-2017 18:17:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[07-Feb-2017 18:17:35 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[07-Feb-2017 18:17:35 UTC] PHP   3. GestorActividad->insertar() /home/ubuntu/workspace/clases/rest/Api.php:72
+[07-Feb-2017 18:17:35 UTC] PHP   4. Actividad->jsonToObject() /home/ubuntu/workspace/clases/rest/GestorActividad.php:102
+[07-Feb-2017 18:17:35 UTC] PHP   5. json_decode() /home/ubuntu/workspace/clases/datos/Actividad.php:229
+[07-Feb-2017 18:21:29 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/clases/datos/Actividad.php on line 228
+[07-Feb-2017 18:21:29 UTC] PHP Stack trace:
+[07-Feb-2017 18:21:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[07-Feb-2017 18:21:29 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[07-Feb-2017 18:21:29 UTC] PHP   3. GestorActividad->insertar() /home/ubuntu/workspace/clases/rest/Api.php:72
+[07-Feb-2017 18:21:29 UTC] PHP   4. Actividad->jsonToObject() /home/ubuntu/workspace/clases/rest/GestorActividad.php:102
+[08-Feb-2017 08:40:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wp.actividad' doesn't exist' in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:104
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(104): PDO->query('SELECT t0.id AS...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(852): Doctrine\DBAL\Driver\PDOConnection->query('SELECT t0.id AS...')
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php(930): Doctrine\DBAL\Connection->executeQuery('SELECT t0.id AS...', Array, Array)
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityRepository.php(181): Doctrine\ORM\Persisters\BasicEntityPersister->loadAll(Array, NULL, NULL, NULL)
+#4 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityRepository.php(164): Doctrine\ORM\EntityRe in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 53
+[08-Feb-2017 09:24:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/clases/rest/GestorDepartamento.php:98) in /home/ubuntu/workspace/clases/rest/GestorDepartamento.php on line 101
+[08-Feb-2017 09:24:54 UTC] PHP Stack trace:
+[08-Feb-2017 09:24:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[08-Feb-2017 09:24:54 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[08-Feb-2017 09:24:54 UTC] PHP   3. GestorDepartamento->actualizar() /home/ubuntu/workspace/clases/rest/Api.php:91
+[08-Feb-2017 09:24:54 UTC] PHP   4. header() /home/ubuntu/workspace/clases/rest/GestorDepartamento.php:101
+[08-Feb-2017 09:25:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/clases/rest/GestorDepartamento.php:99) in /home/ubuntu/workspace/clases/rest/GestorDepartamento.php on line 102
+[08-Feb-2017 09:25:31 UTC] PHP Stack trace:
+[08-Feb-2017 09:25:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[08-Feb-2017 09:25:31 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[08-Feb-2017 09:25:31 UTC] PHP   3. GestorDepartamento->actualizar() /home/ubuntu/workspace/clases/rest/Api.php:91
+[08-Feb-2017 09:25:31 UTC] PHP   4. header() /home/ubuntu/workspace/clases/rest/GestorDepartamento.php:102
+[09-Feb-2017 09:12:49 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/functions/hooks.php on line 2
+[09-Feb-2017 09:12:49 UTC] PHP Stack trace:
+[09-Feb-2017 09:12:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 09:12:49 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 09:12:49 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:13
+[09-Feb-2017 09:12:49 UTC] PHP   4. require_once() /home/ubuntu/workspace/wordpress/wp-load.php:37
+[09-Feb-2017 09:12:49 UTC] PHP   5. require_once() /home/ubuntu/workspace/wordpress/wp-config.php:89
+[09-Feb-2017 09:12:49 UTC] PHP   6. include() /home/ubuntu/workspace/wordpress/wp-settings.php:425
+[09-Feb-2017 11:09:02 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/header.php on line 65
+[09-Feb-2017 11:09:02 UTC] PHP Stack trace:
+[09-Feb-2017 11:09:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:09:02 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:09:02 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:09:02 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:09:02 UTC] PHP   5. get_header() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/front-page.php:5
+[09-Feb-2017 11:09:02 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:45
+[09-Feb-2017 11:09:02 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:18:01 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/the_loop.php on line 2
+[09-Feb-2017 11:18:01 UTC] PHP Stack trace:
+[09-Feb-2017 11:18:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:18:01 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:18:01 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:18:01 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:18:01 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:21
+[09-Feb-2017 11:18:01 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[09-Feb-2017 11:18:01 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:18:01 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[09-Feb-2017 11:18:01 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/the_loop.php on line 2
+[09-Feb-2017 11:18:01 UTC] PHP Stack trace:
+[09-Feb-2017 11:18:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:18:01 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:18:01 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:18:01 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:18:01 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:21
+[09-Feb-2017 11:18:01 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[09-Feb-2017 11:18:01 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:18:01 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[09-Feb-2017 11:18:01 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/the_loop.php on line 2
+[09-Feb-2017 11:18:01 UTC] PHP Stack trace:
+[09-Feb-2017 11:18:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:18:01 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:18:01 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:18:01 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:18:01 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:21
+[09-Feb-2017 11:18:01 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[09-Feb-2017 11:18:01 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:18:01 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[09-Feb-2017 11:18:02 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/the_loop.php on line 2
+[09-Feb-2017 11:18:02 UTC] PHP Stack trace:
+[09-Feb-2017 11:18:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:18:02 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:18:02 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:18:02 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:18:02 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:21
+[09-Feb-2017 11:18:02 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[09-Feb-2017 11:18:02 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:18:02 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[09-Feb-2017 11:18:02 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/the_loop.php on line 2
+[09-Feb-2017 11:18:02 UTC] PHP Stack trace:
+[09-Feb-2017 11:18:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:18:02 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:18:02 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:18:02 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:18:02 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:21
+[09-Feb-2017 11:18:02 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[09-Feb-2017 11:18:02 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:18:02 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[09-Feb-2017 11:18:13 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/the_loop.php on line 2
+[09-Feb-2017 11:18:13 UTC] PHP Stack trace:
+[09-Feb-2017 11:18:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:18:13 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:18:13 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:18:13 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:18:13 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:21
+[09-Feb-2017 11:18:13 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[09-Feb-2017 11:18:13 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:18:13 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[09-Feb-2017 11:24:05 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/the_loop.php on line 2
+[09-Feb-2017 11:24:05 UTC] PHP Stack trace:
+[09-Feb-2017 11:24:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:24:05 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:24:05 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:24:05 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:24:05 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:21
+[09-Feb-2017 11:24:05 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[09-Feb-2017 11:24:05 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:24:05 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[09-Feb-2017 11:24:05 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/the_loop.php on line 2
+[09-Feb-2017 11:24:05 UTC] PHP Stack trace:
+[09-Feb-2017 11:24:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:24:05 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:24:05 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:24:05 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:24:05 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:21
+[09-Feb-2017 11:24:05 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[09-Feb-2017 11:24:05 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:24:05 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[09-Feb-2017 11:24:05 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/the_loop.php on line 2
+[09-Feb-2017 11:24:05 UTC] PHP Stack trace:
+[09-Feb-2017 11:24:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:24:05 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:24:05 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:24:05 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:24:05 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:21
+[09-Feb-2017 11:24:05 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[09-Feb-2017 11:24:05 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:24:05 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[09-Feb-2017 11:24:05 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/the_loop.php on line 2
+[09-Feb-2017 11:24:05 UTC] PHP Stack trace:
+[09-Feb-2017 11:24:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:24:05 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:24:05 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:24:05 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:24:05 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:21
+[09-Feb-2017 11:24:05 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[09-Feb-2017 11:24:05 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:24:05 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[09-Feb-2017 11:24:05 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/the_loop.php on line 2
+[09-Feb-2017 11:24:05 UTC] PHP Stack trace:
+[09-Feb-2017 11:24:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:24:05 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:24:05 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:24:05 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:24:05 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:21
+[09-Feb-2017 11:24:05 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[09-Feb-2017 11:24:05 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:24:05 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[09-Feb-2017 11:24:06 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/the_loop.php on line 2
+[09-Feb-2017 11:24:06 UTC] PHP Stack trace:
+[09-Feb-2017 11:24:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:24:06 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:24:06 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:24:06 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:24:06 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:21
+[09-Feb-2017 11:24:06 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[09-Feb-2017 11:24:06 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:24:06 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[09-Feb-2017 11:24:06 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/the_loop.php on line 2
+[09-Feb-2017 11:24:06 UTC] PHP Stack trace:
+[09-Feb-2017 11:24:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:24:06 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:24:06 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:24:06 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:24:06 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:21
+[09-Feb-2017 11:24:06 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[09-Feb-2017 11:24:06 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:24:06 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[09-Feb-2017 11:24:39 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/the_loop.php on line 2
+[09-Feb-2017 11:24:39 UTC] PHP Stack trace:
+[09-Feb-2017 11:24:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:24:39 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:24:39 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:24:39 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:24:39 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:21
+[09-Feb-2017 11:24:39 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[09-Feb-2017 11:24:39 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:24:39 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[09-Feb-2017 11:24:39 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/the_loop.php on line 2
+[09-Feb-2017 11:24:39 UTC] PHP Stack trace:
+[09-Feb-2017 11:24:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:24:39 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:24:39 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:24:39 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:24:39 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:21
+[09-Feb-2017 11:24:39 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[09-Feb-2017 11:24:39 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:24:39 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[09-Feb-2017 11:24:40 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/the_loop.php on line 2
+[09-Feb-2017 11:24:40 UTC] PHP Stack trace:
+[09-Feb-2017 11:24:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:24:40 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:24:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:24:40 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:24:40 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:21
+[09-Feb-2017 11:24:40 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[09-Feb-2017 11:24:40 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:24:40 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[09-Feb-2017 11:24:40 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/the_loop.php on line 2
+[09-Feb-2017 11:24:40 UTC] PHP Stack trace:
+[09-Feb-2017 11:24:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:24:40 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:24:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:24:40 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:24:40 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:21
+[09-Feb-2017 11:24:40 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[09-Feb-2017 11:24:40 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:24:40 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[09-Feb-2017 11:24:40 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/the_loop.php on line 2
+[09-Feb-2017 11:24:40 UTC] PHP Stack trace:
+[09-Feb-2017 11:24:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:24:40 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:24:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:24:40 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:24:40 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:21
+[09-Feb-2017 11:24:40 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[09-Feb-2017 11:24:40 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:24:40 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[09-Feb-2017 11:24:59 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/the_loop.php on line 2
+[09-Feb-2017 11:24:59 UTC] PHP Stack trace:
+[09-Feb-2017 11:24:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:24:59 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:24:59 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:24:59 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:24:59 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:21
+[09-Feb-2017 11:24:59 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[09-Feb-2017 11:24:59 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:24:59 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[09-Feb-2017 11:24:59 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/the_loop.php on line 2
+[09-Feb-2017 11:24:59 UTC] PHP Stack trace:
+[09-Feb-2017 11:24:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:24:59 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:24:59 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:24:59 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:24:59 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:21
+[09-Feb-2017 11:24:59 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[09-Feb-2017 11:24:59 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:24:59 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[09-Feb-2017 11:24:59 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/the_loop.php on line 2
+[09-Feb-2017 11:24:59 UTC] PHP Stack trace:
+[09-Feb-2017 11:24:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:24:59 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:24:59 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:24:59 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:24:59 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:21
+[09-Feb-2017 11:24:59 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[09-Feb-2017 11:24:59 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:24:59 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[09-Feb-2017 11:24:59 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/the_loop.php on line 2
+[09-Feb-2017 11:24:59 UTC] PHP Stack trace:
+[09-Feb-2017 11:24:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:24:59 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:24:59 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:24:59 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:24:59 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:21
+[09-Feb-2017 11:24:59 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[09-Feb-2017 11:24:59 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:24:59 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[09-Feb-2017 11:24:59 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/the_loop.php on line 2
+[09-Feb-2017 11:24:59 UTC] PHP Stack trace:
+[09-Feb-2017 11:24:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:24:59 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:24:59 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:24:59 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:24:59 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:21
+[09-Feb-2017 11:24:59 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[09-Feb-2017 11:24:59 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:24:59 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[09-Feb-2017 11:25:00 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/the_loop.php on line 2
+[09-Feb-2017 11:25:00 UTC] PHP Stack trace:
+[09-Feb-2017 11:25:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:25:00 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:25:00 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:25:00 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:25:00 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:21
+[09-Feb-2017 11:25:00 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[09-Feb-2017 11:25:00 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:25:00 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[09-Feb-2017 11:25:00 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/the_loop.php on line 2
+[09-Feb-2017 11:25:00 UTC] PHP Stack trace:
+[09-Feb-2017 11:25:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:25:00 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:25:00 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:25:00 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:25:00 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:21
+[09-Feb-2017 11:25:00 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[09-Feb-2017 11:25:00 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:25:00 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[09-Feb-2017 11:27:31 UTC] PHP Fatal error:  Call to undefined function get_post_format_spam() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/the_loop.php on line 20
+[09-Feb-2017 11:27:31 UTC] PHP Stack trace:
+[09-Feb-2017 11:27:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:27:31 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:27:31 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:27:31 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:27:31 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:21
+[09-Feb-2017 11:27:31 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[09-Feb-2017 11:27:31 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:27:31 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[09-Feb-2017 11:27:33 UTC] PHP Fatal error:  Call to undefined function get_post_format_spam() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/the_loop.php on line 20
+[09-Feb-2017 11:27:33 UTC] PHP Stack trace:
+[09-Feb-2017 11:27:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:27:33 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:27:33 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:27:33 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:27:33 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:21
+[09-Feb-2017 11:27:33 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[09-Feb-2017 11:27:33 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:27:33 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[09-Feb-2017 11:27:33 UTC] PHP Fatal error:  Call to undefined function get_post_format_spam() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/the_loop.php on line 20
+[09-Feb-2017 11:27:33 UTC] PHP Stack trace:
+[09-Feb-2017 11:27:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:27:33 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:27:33 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:27:33 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:27:33 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:21
+[09-Feb-2017 11:27:33 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[09-Feb-2017 11:27:33 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:27:33 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[09-Feb-2017 11:50:26 UTC] PHP Warning:  Missing argument 2 for _x(), called in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/sidebar.php on line 42 and defined in /home/ubuntu/workspace/wordpress/wp-includes/l10n.php on line 293
+[09-Feb-2017 11:50:26 UTC] PHP Stack trace:
+[09-Feb-2017 11:50:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:50:26 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:50:26 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:50:26 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:50:26 UTC] PHP   5. get_sidebar() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:27
+[09-Feb-2017 11:50:26 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:122
+[09-Feb-2017 11:50:26 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:50:26 UTC] PHP   8. require_once() /home/ubuntu/workspace/wordpress/wp-includes/template.php:684
+[09-Feb-2017 11:50:26 UTC] PHP   9. _x() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/sidebar.php:42
+[09-Feb-2017 11:50:26 UTC] PHP Warning:  Missing argument 2 for _x(), called in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/sidebar.php on line 42 and defined in /home/ubuntu/workspace/wordpress/wp-includes/l10n.php on line 293
+[09-Feb-2017 11:50:26 UTC] PHP Stack trace:
+[09-Feb-2017 11:50:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:50:26 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:50:26 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:50:26 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:50:26 UTC] PHP   5. get_sidebar() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:27
+[09-Feb-2017 11:50:26 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:122
+[09-Feb-2017 11:50:26 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:50:26 UTC] PHP   8. require_once() /home/ubuntu/workspace/wordpress/wp-includes/template.php:684
+[09-Feb-2017 11:50:26 UTC] PHP   9. _x() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/sidebar.php:42
+[09-Feb-2017 11:50:26 UTC] PHP Warning:  Missing argument 2 for _x(), called in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/sidebar.php on line 42 and defined in /home/ubuntu/workspace/wordpress/wp-includes/l10n.php on line 293
+[09-Feb-2017 11:50:26 UTC] PHP Stack trace:
+[09-Feb-2017 11:50:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:50:26 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:50:26 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:50:26 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:50:26 UTC] PHP   5. get_sidebar() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:27
+[09-Feb-2017 11:50:26 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:122
+[09-Feb-2017 11:50:26 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:50:26 UTC] PHP   8. require_once() /home/ubuntu/workspace/wordpress/wp-includes/template.php:684
+[09-Feb-2017 11:50:26 UTC] PHP   9. _x() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/sidebar.php:42
+[09-Feb-2017 11:50:27 UTC] PHP Warning:  Missing argument 2 for _x(), called in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/sidebar.php on line 42 and defined in /home/ubuntu/workspace/wordpress/wp-includes/l10n.php on line 293
+[09-Feb-2017 11:50:27 UTC] PHP Stack trace:
+[09-Feb-2017 11:50:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:50:27 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:50:27 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:50:27 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:50:27 UTC] PHP   5. get_sidebar() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:27
+[09-Feb-2017 11:50:27 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:122
+[09-Feb-2017 11:50:27 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:50:27 UTC] PHP   8. require_once() /home/ubuntu/workspace/wordpress/wp-includes/template.php:684
+[09-Feb-2017 11:50:27 UTC] PHP   9. _x() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/sidebar.php:42
+[09-Feb-2017 11:50:27 UTC] PHP Warning:  Missing argument 2 for _x(), called in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/sidebar.php on line 42 and defined in /home/ubuntu/workspace/wordpress/wp-includes/l10n.php on line 293
+[09-Feb-2017 11:50:27 UTC] PHP Stack trace:
+[09-Feb-2017 11:50:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:50:27 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:50:27 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:50:27 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:50:27 UTC] PHP   5. get_sidebar() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:27
+[09-Feb-2017 11:50:27 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:122
+[09-Feb-2017 11:50:27 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:50:27 UTC] PHP   8. require_once() /home/ubuntu/workspace/wordpress/wp-includes/template.php:684
+[09-Feb-2017 11:50:27 UTC] PHP   9. _x() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/sidebar.php:42
+[09-Feb-2017 11:50:27 UTC] PHP Warning:  Missing argument 2 for _x(), called in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/sidebar.php on line 42 and defined in /home/ubuntu/workspace/wordpress/wp-includes/l10n.php on line 293
+[09-Feb-2017 11:50:27 UTC] PHP Stack trace:
+[09-Feb-2017 11:50:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[09-Feb-2017 11:50:27 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[09-Feb-2017 11:50:27 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[09-Feb-2017 11:50:27 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[09-Feb-2017 11:50:27 UTC] PHP   5. get_sidebar() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:27
+[09-Feb-2017 11:50:27 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:122
+[09-Feb-2017 11:50:27 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[09-Feb-2017 11:50:27 UTC] PHP   8. require_once() /home/ubuntu/workspace/wordpress/wp-includes/template.php:684
+[09-Feb-2017 11:50:27 UTC] PHP   9. _x() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/sidebar.php:42

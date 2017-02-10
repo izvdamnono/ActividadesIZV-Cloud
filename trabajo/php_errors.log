@@ -1,0 +1,12 @@
+[07-Feb-2017 17:45:41 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';' in /home/ubuntu/workspace/trabajo/doctrine/src/Actividad.php on line 71
+[07-Feb-2017 17:45:41 UTC] PHP Stack trace:
+[07-Feb-2017 17:45:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/trabajo/doctrine/vendor/doctrine/orm/bin/doctrine:0
+[07-Feb-2017 17:45:41 UTC] PHP   2. include() /home/ubuntu/workspace/trabajo/doctrine/vendor/doctrine/orm/bin/doctrine:4
+[07-Feb-2017 17:45:41 UTC] PHP   3. Doctrine\ORM\Tools\Console\ConsoleRunner::run() /home/ubuntu/workspace/trabajo/doctrine/vendor/doctrine/orm/bin/doctrine.php:59
+[07-Feb-2017 17:45:41 UTC] PHP   4. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/ConsoleRunner.php:64
+[07-Feb-2017 17:45:41 UTC] PHP   5. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/clases/vendor/symfony/console/Application.php:122
+[07-Feb-2017 17:45:41 UTC] PHP   6. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/clases/vendor/symfony/console/Application.php:191
+[07-Feb-2017 17:45:41 UTC] PHP   7. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/clases/vendor/symfony/console/Application.php:846
+[07-Feb-2017 17:45:41 UTC] PHP   8. Doctrine\ORM\Tools\Console\Command\SchemaTool\AbstractCommand->execute() /home/ubuntu/workspace/clases/vendor/symfony/console/Command/Command.php:264
+[07-Feb-2017 17:45:41 UTC] PHP   9. Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->getAllMetadata() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/Command/SchemaTool/AbstractCommand.php:59
+[07-Feb-2017 17:45:41 UTC] PHP  10. Doctrine\Common\Persistence\Mapping\Driver\AnnotationDriver->getAllClassNames() /home/ubuntu/workspace/clases/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:114

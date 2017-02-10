@@ -82,8 +82,8 @@ class Profesor {
     public function getArray() {
         return array(
             "id" => $this->id, 
-            "nombre" => $this->nombre,
-            "idpd" => $this->idpd->getId()
+            "nombreProfesor" => $this->nombre,
+            "idpd" => $this->idpd->getArray()
             //"idap" => $this->idap, 
         );
     }
@@ -95,7 +95,7 @@ class Profesor {
     */
     public function jsonToObject($json){
         
-        $this->nombre = $json->nombre;
+        $this->nombre = $json->nombreProfesor;
         return $this;
     }
 }

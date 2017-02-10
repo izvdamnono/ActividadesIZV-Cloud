@@ -53,7 +53,7 @@ class GestorGrupo {
         try {
             $grupo = new Grupo();
             $grupo = $grupo->jsonToObject($object);
-            $grupo = $this->gestor->getReference('Grupo', $object->idpd);
+            //$grupo = $this->gestor->getReference('Grupo', $object->idpd);
             $this->gestor->persist($grupo);
             $this->gestor->flush();
 

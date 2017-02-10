@@ -63,6 +63,11 @@ class Actividad {
      */
     protected $imagen;
     
+    /**
+     * @Column(type="array", nullable = true)
+     */
+    protected $lugar;
+    
     public function getId() {
         return $this->id;
     }
@@ -101,6 +106,10 @@ class Actividad {
     
     public function getImagen(){
         return $this->imagen;
+    }
+    
+    public function getLugar(){
+        return $this->lugar;
     }
     
     public function setId($id) {
@@ -160,6 +169,11 @@ class Actividad {
         return $this;
     }
     
+    public function setLugar($lugar){
+        $this->lugar = $lugar;
+        return $this;
+    }
+    
     //Metodo utilizado para obtener el valor JSON de un este objeto
     function getJsonData(){
         $var = get_object_vars($this);
@@ -191,7 +205,9 @@ class Actividad {
             "fecha" => date_format($this->fecha, 'Y-m-d'), 
             "hini" => date_format($this->hini, 'H:i:s'),
             "hfin" => date_format($this->hfin,'H:i:s'),
-            "imagen" => $this->imagen
+            "imagen" => $this->imagen,
+            "lugar" => is_null($this->lugar) ? array("lat" => (double)0, "lon" => (double)0) : 
+                                               array("lat" => $this->lugar[0], "lon" => $this->lugar[1])
         );
     }
     
@@ -208,7 +224,9 @@ class Actividad {
         $this->fecha        = date_create($json->fecha);
         $this->hini         = date_create($json->hini);
         $this->hfin         = date_create($json->hfin);
-        $this->imagen       = "";    
+        $this->imagen       = "";
+        $this->lugar        = array( $json->lugar->lat, $json->lugar->lon);
+        
         //Comprobamos la imagen
         //La imagen ya viene codificada sin los valores data:image....
 

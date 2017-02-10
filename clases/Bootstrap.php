@@ -8,9 +8,9 @@ class Bootstrap {
     private $conn = array(
         'driver'   => 'pdo_mysql',
         'host'     => '127.0.0.1',
-        'dbname'   => 'basedatos',
-        'user'     => 'usuario',
-        'password' => 'clave'
+        'dbname'   => 'wp',
+        'user'     => 'uwp',
+        'password' => 'cwp'
     );
     private $entityManager;
     private $isDevMode = true;

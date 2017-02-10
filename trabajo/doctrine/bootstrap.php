@@ -11,9 +11,9 @@ $config = Setup::createAnnotationMetadataConfiguration(array(__DIR__ . '/src'), 
 $conn = array(
     'driver'   => 'pdo_mysql',
     'host'     => '127.0.0.1',
-    'dbname'   => 'basedatos',
-    'user'     => 'usuario',
-    'password' => 'clave'
+    'dbname'   => 'wp',
+    'user'     => 'uwp',
+    'password' => 'cwp'
 );
 
 $entityManager = EntityManager::create($conn, $config);

@@ -1,0 +1,15 @@
+[10-Feb-2017 18:20:21 UTC] PHP Fatal error:  Call to a member function getResults() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/actividad/pruebas.php on line 5
+[10-Feb-2017 18:20:21 UTC] PHP Stack trace:
+[10-Feb-2017 18:20:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/actividad/pruebas.php:0
+[10-Feb-2017 18:20:55 UTC] PHP Fatal error:  Call to a member function get_results() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/actividad/pruebas.php on line 4
+[10-Feb-2017 18:20:55 UTC] PHP Stack trace:
+[10-Feb-2017 18:20:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/actividad/pruebas.php:0
+[10-Feb-2017 18:21:11 UTC] PHP Fatal error:  Call to a member function get_results() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/actividad/pruebas.php on line 5
+[10-Feb-2017 18:21:11 UTC] PHP Stack trace:
+[10-Feb-2017 18:21:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/actividad/pruebas.php:0
+[10-Feb-2017 18:21:14 UTC] PHP Fatal error:  Call to a member function get_results() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/actividad/pruebas.php on line 5
+[10-Feb-2017 18:21:14 UTC] PHP Stack trace:
+[10-Feb-2017 18:21:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/actividad/pruebas.php:0
+[10-Feb-2017 18:22:10 UTC] PHP Fatal error:  Call to a member function get_results() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/actividad/pruebas.php on line 5
+[10-Feb-2017 18:22:10 UTC] PHP Stack trace:
+[10-Feb-2017 18:22:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-content/themes/izv-college/actividad/pruebas.php:0
