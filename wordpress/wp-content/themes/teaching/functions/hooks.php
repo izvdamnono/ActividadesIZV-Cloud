@@ -14,7 +14,7 @@ function textdomain_jquery_enqueue() {
     
     /* Añadimos todos los scripts personalizados de nuestra plantilla */
     wp_enqueue_script( 'script1', get_template_directory_uri() . '/assets/js/jquery.js', false, null);
-    wp_enqueue_script( 'script2', get_template_directory_uri() . '/assets/js/bootstrap.min.js', false, null);
+    wp_enqueue_script( 'script2', get_template_directory_uri() . '/assets/js/bootstrap.js', false, null);
     
     wp_enqueue_script( 'script3', get_template_directory_uri() . '/assets/js/move-top.js', false, null);
     wp_enqueue_script( 'script4', get_template_directory_uri() . '/assets/js/easing.js', false, null);
@@ -46,5 +46,5 @@ function textdomain_jquery_enqueue() {
 }
     
 if ( !is_admin() ) {
-    add_action( 'wp_enqueue_scripts', 'textdomain_jquery_enqueue', 11 );
+    //add_action( 'wp_enqueue_scripts', 'textdomain_jquery_enqueue', 11 );
 }

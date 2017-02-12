@@ -2,6 +2,7 @@
 /*
  * Template Name: blog teaching
  */
+
 get_header();
 
 get_template_part('template-parts/banner');
@@ -164,4 +165,7 @@ get_template_part('template-parts/banner');
 
 <?php 
 get_footer(); 
+
+//require_once "template-parts/portfolio.php";
+
 ?>

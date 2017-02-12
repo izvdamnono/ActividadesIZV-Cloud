@@ -1,21 +1,19 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 html, body{
     font-size: 100%;
-	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Raleway';
 	background:#ffffff;
 	margin: 0;
+	background-color: #fafafa;
 }
 p,ul li{
 	margin:0;
 	font-size:14px;
 }
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Capriola', sans-serif;
+	font-family: 'Open Sans';
 	margin:0;
 }
 ul,label{
@@ -34,15 +32,30 @@ input[type="submit"],input[type="reset"],.agileits_mail_grid_lft_grid1 ul li a,.
 }
 /*-- banner --*/
 .banner{
-	background:url(../images/banner.jpg) no-repeat 0px 0px;
-	background-size:cover;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	-ms-background-size:cover;
-	min-height:800px;
+	
+    width: 100%;
+    height: 350px;
+    background-size:cover; 
+    background-position: center center;    
+    overflow:hidden;
+	height:auto;
 	position:relative;
 }
+
+.banner.banner-img-1{
+	
+	background-image:url(../images/banner/banner1.jpg);
+}
+
+.banner.banner-img-2{
+	
+	background-image:url(../images/banner/banner2.jpg);
+}
+.banner.banner-img-3{
+	
+	background-image:url(../images/banner/banner3.jpg);
+}
+
 .banner1{
 	background:url(../images/banner.jpg) no-repeat 0px 0px;
 	background-size:cover;
@@ -80,7 +93,7 @@ input[type="submit"],input[type="reset"],.agileits_mail_grid_lft_grid1 ul li a,.
 }
 .navbar-brand span {
     padding: .46em .6em;
-    background:#FF0000;
+    background:#37456e;
     display: inline-block;
 }
 .navbar-nav {
@@ -154,11 +167,12 @@ input[type="submit"],input[type="reset"],.agileits_mail_grid_lft_grid1 ul li a,.
 	font-weight:bold;
 	color:#fff;
 	letter-spacing:2px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans';
 	font-size: 5em;
+    text-shadow: 1.5px 1.5px #262626;
 }
 .w3agile_banner_info a{
-	color:#FFD900;
+	color:#31b0d5;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
@@ -180,7 +194,7 @@ input[type="submit"],input[type="reset"],.agileits_mail_grid_lft_grid1 ul li a,.
   width: 9px;
   height: 9px;
   display: block;
-  background: #FF0000;
+  background: #37456e;
   border-radius: 100%;
   box-shadow: 0 17px 0 rgba(224, 70, 129, 0), 0 34px 0 rgba(224, 70, 129, 0);
   -webkit-animation: dotAnimation 1.8s ease-in-out infinite;
@@ -189,39 +203,39 @@ input[type="submit"],input[type="reset"],.agileits_mail_grid_lft_grid1 ul li a,.
 
 @-webkit-keyframes dotAnimation {
   99% {
-    background:#FF0000;
+    background:#37456e;
     box-shadow: 0 17px 0 rgba(224, 70, 129, 0), 0 34px 0 rgba(224, 70, 129, 0);
   }
   33% {
     background: rgba(224, 70, 129, 0);
-    box-shadow: 0 17px 0 #FF0000, 0 34px 0 rgba(224, 70, 129, 0);
+    box-shadow: 0 17px 0 #37456e, 0 34px 0 rgba(224, 70, 129, 0);
   }
   66% {
     background: rgba(224, 70, 129, 0);
-    box-shadow: 0 17px 0 rgba(224, 70, 129, 0), 0 34px 0 #FF0000;
+    box-shadow: 0 17px 0 rgba(224, 70, 129, 0), 0 34px 0 #37456e;
   }
 }
 
 @keyframes dotAnimation {
   99% {
-    background:#FF0000;
+    background:#37456e;
     box-shadow: 0 17px 0 rgba(224, 70, 129, 0), 0 34px 0 rgba(224, 70, 129, 0);
   }
   33% {
     background: rgba(224, 70, 129, 0);
-    box-shadow: 0 17px 0 #FF0000, 0 34px 0 rgba(224, 70, 129, 0);
+    box-shadow: 0 17px 0 #37456e, 0 34px 0 rgba(224, 70, 129, 0);
   }
   66% {
     background: rgba(224, 70, 129, 0);
-    box-shadow: 0 17px 0 rgba(224, 70, 129, 0), 0 34px 0 #FF0000;
+    box-shadow: 0 17px 0 rgba(224, 70, 129, 0), 0 34px 0 #37456e;
   }
 }
 .w3_scroll {
     text-align: center;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #212121;
-    background-color: #FFD900;
+    color: #fff;
+    background-color: #37456e !important;
 }
 /* Bounce To Bottom */
 .hvr-bounce-to-bottom {
@@ -247,7 +261,7 @@ input[type="submit"],input[type="reset"],.agileits_mail_grid_lft_grid1 ul li a,.
   left: 0;
   right: 0;
   bottom: 0;
-  background:#FFD900;
+  background:#37456e;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 0;
@@ -269,7 +283,7 @@ input[type="submit"],input[type="reset"],.agileits_mail_grid_lft_grid1 ul li a,.
   transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #212121;
+    color: #fff;
 }
 /*-- //banner --*/
 /*-- banner-bottom --*/
@@ -291,7 +305,7 @@ input[type="submit"],input[type="reset"],.agileits_mail_grid_lft_grid1 ul li a,.
     color: #212121;
     font-size: .2em;
     text-transform: capitalize;
-    font-family: 'Capriola', sans-serif;
+    
 }
 .head1 span{
     left: 38% !important;
@@ -301,7 +315,7 @@ input[type="submit"],input[type="reset"],.agileits_mail_grid_lft_grid1 ul li a,.
 }
 .head span i{
 	font-style: normal;
-    color: #FF0000;
+    color: #37456e;
 }
 .agileits_banner_bottom_grid_l h4{
 	text-transform:capitalize;
@@ -317,7 +331,7 @@ input[type="submit"],input[type="reset"],.agileits_mail_grid_lft_grid1 ul li a,.
 .agileits_banner_bottom_grid_l p i{
 	display:block;
 	margin-bottom:1em;
-	color:#FFD900;
+	color:#31b0d5;
 }
 .agileits_banner_bottom_grids{
 	margin:6em 0 0;
@@ -353,7 +367,7 @@ input[type="submit"],input[type="reset"],.agileits_mail_grid_lft_grid1 ul li a,.
 .agile_banner_bottom1_right h4{
 	text-transform:capitalize;
 	font-size:1.8em;
-	color:#FFD900;
+	color:#31b0d5;
 }
 .agile_banner_bottom1_right p{
 	margin:1em 0 3em;
@@ -367,7 +381,7 @@ input[type="submit"],input[type="reset"],.agileits_mail_grid_lft_grid1 ul li a,.
 	text-transform:uppercase;
 }
 .agile_banner_bottom1_right ul li span{
-	color:#FFD900;
+	color:#31b0d5;
 	padding-right:2em;
 }
 .agile_banner_bottom1_right ul li:last-child{
@@ -414,7 +428,7 @@ input[type="submit"],input[type="reset"],.agileits_mail_grid_lft_grid1 ul li a,.
 }
 .wthree_testimonials_grid1 h5{
 	font-size: 1em;
-    color: #FF0000;
+    color: #37456e;
     margin: 1.5em 0 1em;
 }
 .wthree_testimonials_grid1 p{
@@ -485,11 +499,11 @@ input[type="submit"],input[type="reset"],.agileits_mail_grid_lft_grid1 ul li a,.
 /*-- newsletter --*/
 .newsletter{
 	padding:2em 0;
-	background:#FF0000;
+	background:#37456e;
 }
 .w3ls_newsletter_left h3{
 	position: relative;
-    color: #CA0202;
+    color: #B4CEE4;
     font-size: 4em;
     font-weight: bold;
     text-transform: capitalize;
@@ -499,10 +513,10 @@ input[type="submit"],input[type="reset"],.agileits_mail_grid_lft_grid1 ul li a,.
     position: absolute;
     left: 5%;
     top: 30%;
-    color: #FFD900;
+    color: #31b0d5;
     font-size: .5em;
     text-transform: capitalize;
-    font-family: 'Capriola', sans-serif;
+    
 }
 .w3ls_newsletter_left p{
 	color:#fff;
@@ -545,30 +559,31 @@ input[type="submit"],input[type="reset"],.agileits_mail_grid_lft_grid1 ul li a,.
 .w3l_footer_grid h2 a span{
 	display: inline-block;
     padding: .3em .5em;
-    background: #FFD900;
-    color: #212121;
+    background: #37456e;
+    color: #fff;
 }
 .w3l_footer_grid p{
 	color:#fff;
 	line-height:2em;
 	margin: 2em 0 0;
 }
+
 .w3l_footer_grid h3{
 	font-size:1.7em;
-	color:#fff;
+	color:#37456e;
 	margin-bottom:2em;
 }
 .w3l_footer_grid ul  li{
     list-style-type: none;
     margin-bottom: 1.5em;
-    color: #999;
+    color: #fff;
 }
 .w3l_footer_grid ul  li:last-child{
     margin-bottom: 0em;
 }
 ul.w3_address li i {
-    color: #999;
-    border: 1px solid #999;
+    color: #fff;
+    border: 1px solid #fff;
     padding: .5em;
     margin-right: 1em;
 }
@@ -577,7 +592,7 @@ ul.w3_address li span {
     margin-left: 3em;
 }
 ul.w3_address li a, .agileinfo_footer_grid_nav li a {
-    color: #999;
+    color: #fff;
     text-decoration: none;
 }
 ul.w3_address li a:hover, .agileinfo_footer_grid_nav li a:hover {
@@ -585,7 +600,7 @@ ul.w3_address li a:hover, .agileinfo_footer_grid_nav li a:hover {
     text-decoration: none;
 }
 ul.agileinfo_footer_grid_nav li a span {
-    color: #FFD900;
+    color: #37456e;
     padding-right: 1.5em;
 }
 .w3agile_footer_copy {
@@ -600,11 +615,11 @@ ul.agileinfo_footer_grid_nav li a span {
     line-height: 1.8em;
 }
 .w3agile_footer_copy p a {
-    color:#FF0000;
+    color:#37456e;
     text-decoration: none;
 }
 .w3agile_footer_copy p a:hover {
-    color: #999;
+    color: #fff;
 }
 .agileinfo_social li{
 	margin:0 !important;
@@ -667,14 +682,14 @@ ul.agileinfo_footer_grid_nav li a span {
 .agileinfo_services_grid1:before {
     bottom: 0;
     right: 0;
-    border-bottom: 1px solid #FF0000;
-    border-right: 1px solid #FF0000;
+    border-bottom: 1px solid #37456e;
+    border-right: 1px solid #37456e;
 }
 .agileinfo_services_grid1:after {
     top: 0;
     left: 0;
-    border-top: 1px solid #FF0000;
-    border-left: 1px solid #FF0000;
+    border-top: 1px solid #37456e;
+    border-left: 1px solid #37456e;
 }
 .agileinfo_services_grid1:hover {
     cursor: default;
@@ -695,10 +710,10 @@ ul.agileinfo_footer_grid_nav li a span {
     font-size: 1.3em;
     line-height: 1.5em;
     margin: 1em 0;
-    color:#FF0000;
+    color:#37456e;
 }
 .agileinfo_services_grid1:hover h4{
-	color:#FFD900;
+	color:#31b0d5;
 }
 .agileinfo_services_grid1 p{
 	color:#999;
@@ -726,7 +741,7 @@ ul.agileinfo_footer_grid_nav li a span {
 .w3agile_services_bottom_grid h3{
 	font-size: 1.4em;
     line-height: 1.5em;
-    color:#FFD900;
+    color:#31b0d5;
     text-transform: capitalize;
 }
 .w3agile_services_bottom_grid p{
@@ -748,12 +763,12 @@ ul.agileinfo_footer_grid_nav li a span {
 /*-- //services --*/
 /*-- portfolio --*/
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    color: #FF0000;
+    color: #37456e;
     cursor: default;
     background: none;
     border: none;
     border-bottom-color: transparent;
-    border-bottom: 1px solid #FF0000;
+    border-bottom: 1px solid #37456e;
 }
 .nav-tabs > li > a {
     margin-right: 3px;
@@ -776,12 +791,12 @@ ul.agileinfo_footer_grid_nav li a span {
 }
 .nav-tabs > li > a:hover {
     border: none;
-	color:#FF0000;
+	color:#37456e;
     border-bottom: 1px solid;
 	background: none;
 }
 .nav > li > a:hover, .nav > li > a:focus {
-    color:#FF0000;
+    color:#37456e;
 }
 .nav-tabs > li:first-child {
     margin-left: 20em;
@@ -1060,13 +1075,13 @@ h2.typoh2{
 }
 .agileits_mail_grid_lft_grid ul li span{
 	padding-right:1em;
-	color:#FF0000;
+	color:#37456e;
 }
 .agileits_mail_grid_lft_grid1{
 	margin:3em 0 0;
 }
 .agileits_mail_grid_lft_grid1 h4 span{
-	color:#FF0000;
+	color:#37456e;
 }
 .agileits_mail_grid_lft_grid1 ul li{
 	list-style-type: none;
@@ -1119,7 +1134,7 @@ h2.typoh2{
 .agileits_mail_grid_right1 input[type="submit"]{
 	outline: none;
     width: 35%;
-    background: #FFD900;
+    background: #31b0d5;
     color: #212121;
     padding: 10px 0;
     font-size: 1em;
@@ -1127,7 +1142,7 @@ h2.typoh2{
 	margin:.5em 0 0 5.1em;
 }
 .agileits_mail_grid_right1 input[type="submit"]:hover{
-    background:#FF0000;
+    background:#37456e;
     color: #fff;
 }
 .agileits_mail_grids1 h4{
@@ -1180,9 +1195,6 @@ h2.typoh2{
 	}
 	.w3agile_banner_info a {
 		letter-spacing: 6px;
-	}
-	.banner {
-		background-position:-100px 0px;
 	}
 	.head {
 		font-size: 8em;
@@ -1379,7 +1391,6 @@ h2.typoh2{
 	}
 	.banner {
 		min-height: 570px;
-		background-position: -155px 0px;
 	}
 	.w3_banner_pos img {
 		margin: 0 auto;
