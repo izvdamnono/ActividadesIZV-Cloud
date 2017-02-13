@@ -1,10 +1,9 @@
-<!-- banner -->
-	<div class="banner banner-img-<?= rand(1,3); ?>">
-		<?php echo  get_template_part('template-parts/nav'); ?>
+<!-- banner banner-img-<?= rand(1,3); ?> -->
+	<div class="banner " style="background-image:url('<?php header_image(); ?>');">
 		<div class="w3agile_banner_info">
 			<div class="container">
-				<h3>teaching</h3>
-				<a href="http://w3layouts.com/">powered by w3layouts.com</a>
+				<h3><?=get_bloginfo('name')?></h3>
+				<a href="http://w3layouts.com/"><?=get_bloginfo('description')?></a>
 			</div>
 		</div>
 		<div class="w3_scroll">

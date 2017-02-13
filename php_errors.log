@@ -4173,3 +4173,948 @@ Stack trace:
 [12-Feb-2017 01:56:08 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
 [12-Feb-2017 01:56:08 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
 [12-Feb-2017 01:56:08 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 16:38:45 UTC] PHP Warning:  require_once(inc/hooks.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/functions.php on line 43
+[12-Feb-2017 16:38:45 UTC] PHP Stack trace:
+[12-Feb-2017 16:38:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 16:38:45 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 16:38:45 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:13
+[12-Feb-2017 16:38:45 UTC] PHP   4. require_once() /home/ubuntu/workspace/wordpress/wp-load.php:37
+[12-Feb-2017 16:38:45 UTC] PHP   5. require_once() /home/ubuntu/workspace/wordpress/wp-config.php:89
+[12-Feb-2017 16:38:45 UTC] PHP   6. include() /home/ubuntu/workspace/wordpress/wp-settings.php:425
+[12-Feb-2017 16:38:45 UTC] PHP Fatal error:  require_once(): Failed opening required 'inc/hooks.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/functions.php on line 43
+[12-Feb-2017 16:38:45 UTC] PHP Stack trace:
+[12-Feb-2017 16:38:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 16:38:45 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 16:38:45 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:13
+[12-Feb-2017 16:38:45 UTC] PHP   4. require_once() /home/ubuntu/workspace/wordpress/wp-load.php:37
+[12-Feb-2017 16:38:45 UTC] PHP   5. require_once() /home/ubuntu/workspace/wordpress/wp-config.php:89
+[12-Feb-2017 16:38:45 UTC] PHP   6. include() /home/ubuntu/workspace/wordpress/wp-settings.php:425
+[12-Feb-2017 19:21:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 160
+[12-Feb-2017 19:21:44 UTC] PHP Stack trace:
+[12-Feb-2017 19:21:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 19:21:44 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 19:21:44 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 19:21:44 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 19:21:44 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/front-page.php:8
+[12-Feb-2017 19:21:44 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 19:21:44 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 19:21:44 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 19:21:44 UTC] PHP   9. create_bootstrap_menu_teaching() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/banner.php:3
+[12-Feb-2017 19:21:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 160
+[12-Feb-2017 19:21:45 UTC] PHP Stack trace:
+[12-Feb-2017 19:21:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 19:21:45 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 19:21:45 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 19:21:45 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 19:21:45 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/front-page.php:8
+[12-Feb-2017 19:21:45 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 19:21:45 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 19:21:45 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 19:21:45 UTC] PHP   9. create_bootstrap_menu_teaching() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/banner.php:3
+[12-Feb-2017 19:21:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 160
+[12-Feb-2017 19:21:45 UTC] PHP Stack trace:
+[12-Feb-2017 19:21:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 19:21:45 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 19:21:45 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 19:21:45 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 19:21:45 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/front-page.php:8
+[12-Feb-2017 19:21:45 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 19:21:45 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 19:21:45 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 19:21:45 UTC] PHP   9. create_bootstrap_menu_teaching() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/banner.php:3
+[12-Feb-2017 19:22:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 160
+[12-Feb-2017 19:22:07 UTC] PHP Stack trace:
+[12-Feb-2017 19:22:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 19:22:07 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 19:22:07 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 19:22:07 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 19:22:07 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/front-page.php:8
+[12-Feb-2017 19:22:07 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 19:22:07 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 19:22:07 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 19:22:07 UTC] PHP   9. create_bootstrap_menu_teaching() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/banner.php:3
+[12-Feb-2017 19:22:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 160
+[12-Feb-2017 19:22:07 UTC] PHP Stack trace:
+[12-Feb-2017 19:22:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 19:22:07 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 19:22:07 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 19:22:07 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 19:22:07 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/front-page.php:8
+[12-Feb-2017 19:22:07 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 19:22:07 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 19:22:07 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 19:22:07 UTC] PHP   9. create_bootstrap_menu_teaching() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/banner.php:3
+[12-Feb-2017 19:22:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 160
+[12-Feb-2017 19:22:08 UTC] PHP Stack trace:
+[12-Feb-2017 19:22:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 19:22:08 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 19:22:08 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 19:22:08 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 19:22:08 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/front-page.php:8
+[12-Feb-2017 19:22:08 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 19:22:08 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 19:22:08 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 19:22:08 UTC] PHP   9. create_bootstrap_menu_teaching() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/banner.php:3
+[12-Feb-2017 19:26:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 160
+[12-Feb-2017 19:26:03 UTC] PHP Stack trace:
+[12-Feb-2017 19:26:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 19:26:03 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 19:26:03 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 19:26:03 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 19:26:03 UTC] PHP   5. create_bootstrap_menu_teaching() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/front-page.php:10
+[12-Feb-2017 19:26:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 160
+[12-Feb-2017 19:26:04 UTC] PHP Stack trace:
+[12-Feb-2017 19:26:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 19:26:04 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 19:26:04 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 19:26:04 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 19:26:04 UTC] PHP   5. create_bootstrap_menu_teaching() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/front-page.php:10
+[12-Feb-2017 19:26:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 160
+[12-Feb-2017 19:26:05 UTC] PHP Stack trace:
+[12-Feb-2017 19:26:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 19:26:05 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 19:26:05 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 19:26:05 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 19:26:05 UTC] PHP   5. create_bootstrap_menu_teaching() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/front-page.php:10
+[12-Feb-2017 19:26:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 160
+[12-Feb-2017 19:26:34 UTC] PHP Stack trace:
+[12-Feb-2017 19:26:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 19:26:34 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 19:26:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 19:26:34 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 19:26:34 UTC] PHP   5. create_bootstrap_menu_teaching() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/front-page.php:10
+[12-Feb-2017 19:26:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 160
+[12-Feb-2017 19:26:35 UTC] PHP Stack trace:
+[12-Feb-2017 19:26:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 19:26:35 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 19:26:35 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 19:26:35 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 19:26:35 UTC] PHP   5. create_bootstrap_menu_teaching() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/front-page.php:10
+[12-Feb-2017 19:26:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 160
+[12-Feb-2017 19:26:36 UTC] PHP Stack trace:
+[12-Feb-2017 19:26:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 19:26:36 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 19:26:36 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 19:26:36 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 19:26:36 UTC] PHP   5. create_bootstrap_menu_teaching() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/front-page.php:10
+[12-Feb-2017 19:28:06 UTC] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/front-page.php on line 12
+[12-Feb-2017 19:28:06 UTC] PHP Stack trace:
+[12-Feb-2017 19:28:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 19:28:06 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 19:28:06 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 19:29:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 160
+[12-Feb-2017 19:29:43 UTC] PHP Stack trace:
+[12-Feb-2017 19:29:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 19:29:43 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 19:29:43 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 19:29:43 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 19:29:43 UTC] PHP   5. create_bootstrap_menu_teaching() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/front-page.php:10
+[12-Feb-2017 19:29:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 160
+[12-Feb-2017 19:29:44 UTC] PHP Stack trace:
+[12-Feb-2017 19:29:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 19:29:44 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 19:29:44 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 19:29:44 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 19:29:44 UTC] PHP   5. create_bootstrap_menu_teaching() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/front-page.php:10
+[12-Feb-2017 19:29:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 160
+[12-Feb-2017 19:29:45 UTC] PHP Stack trace:
+[12-Feb-2017 19:29:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 19:29:45 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 19:29:45 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 19:29:45 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 19:29:45 UTC] PHP   5. create_bootstrap_menu_teaching() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/front-page.php:10
+[12-Feb-2017 19:33:52 UTC] PHP Fatal error:  Call to undefined function create_bootstrap_menu_teaching() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/front-page.php on line 10
+[12-Feb-2017 19:33:52 UTC] PHP Stack trace:
+[12-Feb-2017 19:33:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 19:33:52 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 19:33:52 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 19:33:52 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 19:33:53 UTC] PHP Fatal error:  Call to undefined function create_bootstrap_menu_teaching() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php on line 9
+[12-Feb-2017 19:33:53 UTC] PHP Stack trace:
+[12-Feb-2017 19:33:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 19:33:53 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 19:33:53 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 19:33:53 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 19:33:53 UTC] PHP Fatal error:  Call to undefined function create_bootstrap_menu_teaching() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/front-page.php on line 10
+[12-Feb-2017 19:33:53 UTC] PHP Stack trace:
+[12-Feb-2017 19:33:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 19:33:53 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 19:33:53 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 19:33:53 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 19:33:53 UTC] PHP Fatal error:  Call to undefined function create_bootstrap_menu_teaching() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/front-page.php on line 10
+[12-Feb-2017 19:33:53 UTC] PHP Stack trace:
+[12-Feb-2017 19:33:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 19:33:53 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 19:33:53 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 19:33:53 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:26:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 44
+[12-Feb-2017 22:26:39 UTC] PHP Stack trace:
+[12-Feb-2017 22:26:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:26:39 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:26:39 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:26:39 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:26:39 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:26:39 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:26:39 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:26:39 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:26:39 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:26:39 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:26:39 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:26:39 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:26:39 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:26:39 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:26:39 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:26:39 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:26:39 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:26:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 52
+[12-Feb-2017 22:26:39 UTC] PHP Stack trace:
+[12-Feb-2017 22:26:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:26:39 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:26:39 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:26:39 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:26:39 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:26:39 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:26:39 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:26:39 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:26:39 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:26:39 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:26:39 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:26:39 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:26:39 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:26:39 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:26:39 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:26:39 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:26:39 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:26:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 44
+[12-Feb-2017 22:26:40 UTC] PHP Stack trace:
+[12-Feb-2017 22:26:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:26:40 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:26:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:26:40 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:26:40 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:26:40 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:26:40 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:26:40 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:26:40 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:26:40 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:26:40 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:26:40 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:26:40 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:26:40 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:26:40 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:26:40 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:26:40 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:26:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 52
+[12-Feb-2017 22:26:40 UTC] PHP Stack trace:
+[12-Feb-2017 22:26:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:26:40 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:26:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:26:40 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:26:40 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:26:40 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:26:40 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:26:40 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:26:40 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:26:40 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:26:40 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:26:40 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:26:40 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:26:40 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:26:40 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:26:40 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:26:40 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:26:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 44
+[12-Feb-2017 22:26:40 UTC] PHP Stack trace:
+[12-Feb-2017 22:26:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:26:40 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:26:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:26:40 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:26:40 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:26:40 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:26:40 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:26:40 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:26:40 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:26:40 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:26:40 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:26:40 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:26:40 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:26:40 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:26:40 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:26:40 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:26:40 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:26:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 52
+[12-Feb-2017 22:26:40 UTC] PHP Stack trace:
+[12-Feb-2017 22:26:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:26:40 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:26:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:26:40 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:26:40 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:26:40 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:26:40 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:26:40 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:26:40 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:26:40 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:26:40 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:26:40 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:26:40 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:26:40 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:26:40 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:26:40 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:26:40 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:27:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 48
+[12-Feb-2017 22:27:31 UTC] PHP Stack trace:
+[12-Feb-2017 22:27:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:27:31 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:27:31 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:27:31 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:27:31 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:27:31 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:27:31 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:27:31 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:27:31 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:27:31 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:27:31 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:27:31 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:27:31 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:27:31 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:27:31 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:27:31 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:27:31 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:27:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 56
+[12-Feb-2017 22:27:31 UTC] PHP Stack trace:
+[12-Feb-2017 22:27:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:27:31 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:27:31 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:27:31 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:27:31 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:27:31 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:27:31 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:27:31 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:27:31 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:27:31 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:27:31 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:27:31 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:27:31 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:27:31 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:27:31 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:27:31 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:27:31 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:27:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 48
+[12-Feb-2017 22:27:32 UTC] PHP Stack trace:
+[12-Feb-2017 22:27:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:27:32 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:27:32 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:27:32 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:27:32 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:27:32 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:27:32 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:27:32 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:27:32 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:27:32 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:27:32 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:27:32 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:27:32 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:27:32 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:27:32 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:27:32 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:27:32 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:27:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 56
+[12-Feb-2017 22:27:32 UTC] PHP Stack trace:
+[12-Feb-2017 22:27:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:27:32 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:27:32 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:27:32 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:27:32 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:27:32 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:27:32 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:27:32 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:27:32 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:27:32 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:27:32 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:27:32 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:27:32 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:27:32 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:27:32 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:27:32 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:27:32 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:27:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 48
+[12-Feb-2017 22:27:33 UTC] PHP Stack trace:
+[12-Feb-2017 22:27:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:27:33 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:27:33 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:27:33 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:27:33 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:27:33 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:27:33 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:27:33 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:27:33 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:27:33 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:27:33 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:27:33 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:27:33 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:27:33 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:27:33 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:27:33 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:27:33 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:27:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 56
+[12-Feb-2017 22:27:33 UTC] PHP Stack trace:
+[12-Feb-2017 22:27:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:27:33 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:27:33 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:27:33 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:27:33 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:27:33 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:27:33 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:27:33 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:27:33 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:27:33 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:27:33 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:27:33 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:27:33 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:27:33 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:27:33 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:27:33 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:27:33 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:27:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 48
+[12-Feb-2017 22:27:41 UTC] PHP Stack trace:
+[12-Feb-2017 22:27:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:27:41 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:27:41 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:27:41 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:27:41 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:27:41 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:27:41 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:27:41 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:27:41 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:27:41 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:27:41 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:27:41 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:27:41 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:27:41 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:27:41 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:27:41 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:27:41 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:27:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 56
+[12-Feb-2017 22:27:41 UTC] PHP Stack trace:
+[12-Feb-2017 22:27:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:27:41 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:27:41 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:27:41 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:27:41 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:27:41 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:27:41 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:27:41 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:27:41 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:27:41 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:27:41 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:27:41 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:27:41 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:27:41 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:27:41 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:27:41 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:27:41 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:28:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 49
+[12-Feb-2017 22:28:37 UTC] PHP Stack trace:
+[12-Feb-2017 22:28:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:28:37 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:28:37 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:28:37 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:28:37 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:28:37 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:28:37 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:28:37 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:28:37 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:28:37 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:28:37 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:28:37 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:28:37 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:28:37 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:28:37 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:28:37 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:28:37 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:28:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 57
+[12-Feb-2017 22:28:37 UTC] PHP Stack trace:
+[12-Feb-2017 22:28:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:28:37 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:28:37 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:28:37 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:28:37 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:28:37 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:28:37 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:28:37 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:28:37 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:28:37 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:28:37 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:28:37 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:28:37 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:28:37 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:28:37 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:28:37 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:28:37 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:28:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 49
+[12-Feb-2017 22:28:39 UTC] PHP Stack trace:
+[12-Feb-2017 22:28:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:28:39 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:28:39 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:28:39 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:28:39 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:28:39 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:28:39 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:28:39 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:28:39 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:28:39 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:28:39 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:28:39 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:28:39 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:28:39 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:28:39 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:28:39 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:28:39 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:28:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 57
+[12-Feb-2017 22:28:39 UTC] PHP Stack trace:
+[12-Feb-2017 22:28:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:28:39 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:28:39 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:28:39 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:28:39 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:28:39 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:28:39 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:28:39 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:28:39 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:28:39 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:28:39 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:28:39 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:28:39 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:28:39 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:28:39 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:28:39 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:28:39 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:28:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 49
+[12-Feb-2017 22:28:39 UTC] PHP Stack trace:
+[12-Feb-2017 22:28:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:28:39 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:28:39 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:28:39 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:28:39 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:28:39 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:28:39 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:28:39 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:28:39 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:28:39 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:28:39 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:28:39 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:28:39 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:28:39 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:28:39 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:28:39 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:28:39 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:28:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 57
+[12-Feb-2017 22:28:39 UTC] PHP Stack trace:
+[12-Feb-2017 22:28:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:28:39 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:28:39 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:28:39 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:28:39 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:28:39 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:28:39 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:28:39 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:28:39 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:28:39 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:28:39 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:28:39 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:28:39 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:28:39 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:28:39 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:28:39 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:28:39 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:28:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 49
+[12-Feb-2017 22:28:39 UTC] PHP Stack trace:
+[12-Feb-2017 22:28:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:28:39 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:28:39 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:28:39 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:28:39 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:28:39 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:28:39 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:28:39 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:28:39 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:28:39 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:28:39 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:28:39 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:28:39 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:28:39 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:28:39 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:28:39 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:28:39 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:28:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 57
+[12-Feb-2017 22:28:39 UTC] PHP Stack trace:
+[12-Feb-2017 22:28:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:28:39 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:28:39 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:28:39 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:28:39 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:28:39 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:28:39 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:28:39 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:28:39 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:28:39 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:28:39 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:28:39 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:28:39 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:28:39 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:28:39 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:28:39 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:28:39 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:29:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 49
+[12-Feb-2017 22:29:14 UTC] PHP Stack trace:
+[12-Feb-2017 22:29:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:29:14 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:29:14 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:29:14 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:29:14 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:29:14 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:29:14 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:29:14 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:29:14 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:29:14 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:29:14 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:29:14 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:29:14 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:29:14 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:29:14 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:29:14 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:29:14 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:29:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 57
+[12-Feb-2017 22:29:14 UTC] PHP Stack trace:
+[12-Feb-2017 22:29:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:29:14 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:29:14 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:29:14 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:29:14 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:29:14 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:29:14 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:29:14 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:29:14 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:29:14 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:29:14 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:29:14 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:29:14 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:29:14 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:29:14 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:29:14 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:29:14 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:29:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 49
+[12-Feb-2017 22:29:15 UTC] PHP Stack trace:
+[12-Feb-2017 22:29:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:29:15 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:29:15 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:29:15 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:29:15 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:29:15 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:29:15 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:29:15 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:29:15 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:29:15 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:29:15 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:29:15 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:29:15 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:29:15 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:29:15 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:29:15 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:29:15 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:29:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 57
+[12-Feb-2017 22:29:15 UTC] PHP Stack trace:
+[12-Feb-2017 22:29:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:29:15 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:29:15 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:29:15 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:29:15 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:29:15 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:29:15 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:29:15 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:29:15 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:29:15 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:29:15 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:29:15 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:29:15 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:29:15 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:29:15 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:29:15 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:29:15 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:29:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 49
+[12-Feb-2017 22:29:16 UTC] PHP Stack trace:
+[12-Feb-2017 22:29:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:29:16 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:29:16 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:29:16 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:29:16 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:29:16 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:29:16 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:29:16 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:29:16 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:29:16 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:29:16 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:29:16 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:29:16 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:29:16 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:29:16 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:29:16 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:29:16 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:29:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 57
+[12-Feb-2017 22:29:16 UTC] PHP Stack trace:
+[12-Feb-2017 22:29:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:29:16 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:29:16 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:29:16 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:29:16 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:29:16 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:29:16 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:29:16 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:29:16 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:29:16 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:29:16 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:29:16 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:29:16 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:29:16 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:29:16 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:29:16 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:29:16 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:29:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 49
+[12-Feb-2017 22:29:16 UTC] PHP Stack trace:
+[12-Feb-2017 22:29:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:29:16 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:29:16 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:29:16 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:29:16 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:29:16 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:29:16 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:29:16 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:29:16 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:29:16 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:29:16 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:29:16 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:29:16 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:29:16 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:29:16 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:29:16 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:29:16 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:29:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 57
+[12-Feb-2017 22:29:16 UTC] PHP Stack trace:
+[12-Feb-2017 22:29:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[12-Feb-2017 22:29:16 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[12-Feb-2017 22:29:16 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[12-Feb-2017 22:29:16 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[12-Feb-2017 22:29:16 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:47
+[12-Feb-2017 22:29:16 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[12-Feb-2017 22:29:16 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[12-Feb-2017 22:29:16 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[12-Feb-2017 22:29:16 UTC] PHP   9. the_content() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/content-chartjs.php:26
+[12-Feb-2017 22:29:16 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/post-template.php:240
+[12-Feb-2017 22:29:16 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:203
+[12-Feb-2017 22:29:16 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:29:16 UTC] PHP  13. do_shortcode() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:29:16 UTC] PHP  14. preg_replace_callback() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:29:16 UTC] PHP  15. do_shortcode_tag() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:223
+[12-Feb-2017 22:29:16 UTC] PHP  16. call_user_func:{/home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345}() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[12-Feb-2017 22:29:16 UTC] PHP  17. chart_js_function() /home/ubuntu/workspace/wordpress/wp-includes/shortcodes.php:345
+[13-Feb-2017 00:06:55 UTC] PHP Warning:  Missing argument 1 for get_post_format_string(), called in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php on line 48 and defined in /home/ubuntu/workspace/wordpress/wp-includes/post-formats.php on line 124
+[13-Feb-2017 00:06:55 UTC] PHP Stack trace:
+[13-Feb-2017 00:06:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[13-Feb-2017 00:06:55 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[13-Feb-2017 00:06:55 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[13-Feb-2017 00:06:55 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[13-Feb-2017 00:06:55 UTC] PHP   5. get_post_format_string() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:48
+[13-Feb-2017 00:06:56 UTC] PHP Warning:  Missing argument 1 for get_post_format_string(), called in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php on line 48 and defined in /home/ubuntu/workspace/wordpress/wp-includes/post-formats.php on line 124
+[13-Feb-2017 00:06:56 UTC] PHP Stack trace:
+[13-Feb-2017 00:06:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[13-Feb-2017 00:06:56 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[13-Feb-2017 00:06:56 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[13-Feb-2017 00:06:56 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[13-Feb-2017 00:06:56 UTC] PHP   5. get_post_format_string() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:48
+[13-Feb-2017 00:06:57 UTC] PHP Warning:  Missing argument 1 for get_post_format_string(), called in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php on line 48 and defined in /home/ubuntu/workspace/wordpress/wp-includes/post-formats.php on line 124
+[13-Feb-2017 00:06:57 UTC] PHP Stack trace:
+[13-Feb-2017 00:06:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[13-Feb-2017 00:06:57 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[13-Feb-2017 00:06:57 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[13-Feb-2017 00:06:57 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[13-Feb-2017 00:06:57 UTC] PHP   5. get_post_format_string() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:48
+[13-Feb-2017 00:10:49 UTC] PHP Warning:  Missing argument 1 for get_post_type_object(), called in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php on line 50 and defined in /home/ubuntu/workspace/wordpress/wp-includes/post.php on line 933
+[13-Feb-2017 00:10:49 UTC] PHP Stack trace:
+[13-Feb-2017 00:10:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[13-Feb-2017 00:10:49 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[13-Feb-2017 00:10:49 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[13-Feb-2017 00:10:49 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[13-Feb-2017 00:10:49 UTC] PHP   5. get_post_type_object() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:50
+[13-Feb-2017 00:10:50 UTC] PHP Warning:  Missing argument 1 for get_post_type_object(), called in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php on line 50 and defined in /home/ubuntu/workspace/wordpress/wp-includes/post.php on line 933
+[13-Feb-2017 00:10:50 UTC] PHP Stack trace:
+[13-Feb-2017 00:10:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[13-Feb-2017 00:10:50 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[13-Feb-2017 00:10:50 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[13-Feb-2017 00:10:50 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[13-Feb-2017 00:10:50 UTC] PHP   5. get_post_type_object() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:50
+[13-Feb-2017 00:10:50 UTC] PHP Warning:  Missing argument 1 for get_post_type_object(), called in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php on line 50 and defined in /home/ubuntu/workspace/wordpress/wp-includes/post.php on line 933
+[13-Feb-2017 00:10:50 UTC] PHP Stack trace:
+[13-Feb-2017 00:10:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[13-Feb-2017 00:10:50 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[13-Feb-2017 00:10:50 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[13-Feb-2017 00:10:50 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[13-Feb-2017 00:10:50 UTC] PHP   5. get_post_type_object() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:50
+[13-Feb-2017 00:16:28 UTC] PHP Warning:  Missing argument 1 for get_post_type_archive_link(), called in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php on line 50 and defined in /home/ubuntu/workspace/wordpress/wp-includes/link-template.php on line 1134
+[13-Feb-2017 00:16:28 UTC] PHP Stack trace:
+[13-Feb-2017 00:16:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[13-Feb-2017 00:16:28 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[13-Feb-2017 00:16:28 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[13-Feb-2017 00:16:28 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[13-Feb-2017 00:16:28 UTC] PHP   5. get_post_type_archive_link() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:50
+[13-Feb-2017 00:16:29 UTC] PHP Warning:  Missing argument 1 for get_post_type_archive_link(), called in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php on line 50 and defined in /home/ubuntu/workspace/wordpress/wp-includes/link-template.php on line 1134
+[13-Feb-2017 00:16:29 UTC] PHP Stack trace:
+[13-Feb-2017 00:16:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[13-Feb-2017 00:16:29 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[13-Feb-2017 00:16:29 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[13-Feb-2017 00:16:29 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[13-Feb-2017 00:16:29 UTC] PHP   5. get_post_type_archive_link() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:50
+[13-Feb-2017 00:16:30 UTC] PHP Warning:  Missing argument 1 for get_post_type_archive_link(), called in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php on line 50 and defined in /home/ubuntu/workspace/wordpress/wp-includes/link-template.php on line 1134
+[13-Feb-2017 00:16:30 UTC] PHP Stack trace:
+[13-Feb-2017 00:16:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[13-Feb-2017 00:16:30 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[13-Feb-2017 00:16:30 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[13-Feb-2017 00:16:30 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[13-Feb-2017 00:16:30 UTC] PHP   5. get_post_type_archive_link() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:50
+[13-Feb-2017 12:06:36 UTC] PHP Fatal error:  Call to undefined function get_current_site() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/banner.php on line 6
+[13-Feb-2017 12:06:36 UTC] PHP Stack trace:
+[13-Feb-2017 12:06:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[13-Feb-2017 12:06:36 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[13-Feb-2017 12:06:36 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[13-Feb-2017 12:06:36 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[13-Feb-2017 12:06:36 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/front-page.php:8
+[13-Feb-2017 12:06:36 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[13-Feb-2017 12:06:36 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[13-Feb-2017 12:06:36 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[13-Feb-2017 12:06:37 UTC] PHP Fatal error:  Call to undefined function get_current_site() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/banner.php on line 6
+[13-Feb-2017 12:06:37 UTC] PHP Stack trace:
+[13-Feb-2017 12:06:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[13-Feb-2017 12:06:37 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[13-Feb-2017 12:06:37 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[13-Feb-2017 12:06:37 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[13-Feb-2017 12:06:37 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/front-page.php:8
+[13-Feb-2017 12:06:37 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[13-Feb-2017 12:06:37 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[13-Feb-2017 12:06:37 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[13-Feb-2017 12:06:37 UTC] PHP Fatal error:  Call to undefined function get_current_site() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/template-parts/banner.php on line 6
+[13-Feb-2017 12:06:37 UTC] PHP Stack trace:
+[13-Feb-2017 12:06:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[13-Feb-2017 12:06:37 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[13-Feb-2017 12:06:37 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[13-Feb-2017 12:06:37 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[13-Feb-2017 12:06:37 UTC] PHP   5. get_template_part() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/front-page.php:8
+[13-Feb-2017 12:06:37 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:167
+[13-Feb-2017 12:06:37 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[13-Feb-2017 12:06:37 UTC] PHP   8. require() /home/ubuntu/workspace/wordpress/wp-includes/template.php:686
+[13-Feb-2017 12:33:43 UTC] PHP Parse error:  syntax error, unexpected '$name_site_first_letter' (T_VARIABLE) in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 129
+[13-Feb-2017 12:33:43 UTC] PHP Stack trace:
+[13-Feb-2017 12:33:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[13-Feb-2017 12:33:43 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[13-Feb-2017 12:33:43 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:13
+[13-Feb-2017 12:33:43 UTC] PHP   4. require_once() /home/ubuntu/workspace/wordpress/wp-load.php:37
+[13-Feb-2017 12:33:43 UTC] PHP   5. require_once() /home/ubuntu/workspace/wordpress/wp-config.php:89
+[13-Feb-2017 12:33:43 UTC] PHP   6. include() /home/ubuntu/workspace/wordpress/wp-settings.php:425
+[13-Feb-2017 12:34:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 162
+[13-Feb-2017 12:34:06 UTC] PHP Stack trace:
+[13-Feb-2017 12:34:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[13-Feb-2017 12:34:06 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[13-Feb-2017 12:34:06 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[13-Feb-2017 12:34:06 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[13-Feb-2017 12:34:06 UTC] PHP   5. create_bootstrap_menu_teaching() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:10
+[13-Feb-2017 12:34:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 162
+[13-Feb-2017 12:34:07 UTC] PHP Stack trace:
+[13-Feb-2017 12:34:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[13-Feb-2017 12:34:07 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[13-Feb-2017 12:34:07 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[13-Feb-2017 12:34:07 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[13-Feb-2017 12:34:07 UTC] PHP   5. create_bootstrap_menu_teaching() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:10
+[13-Feb-2017 12:34:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 162
+[13-Feb-2017 12:34:08 UTC] PHP Stack trace:
+[13-Feb-2017 12:34:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[13-Feb-2017 12:34:08 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[13-Feb-2017 12:34:08 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[13-Feb-2017 12:34:08 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[13-Feb-2017 12:34:08 UTC] PHP   5. create_bootstrap_menu_teaching() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:10
+[13-Feb-2017 12:34:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 162
+[13-Feb-2017 12:34:28 UTC] PHP Stack trace:
+[13-Feb-2017 12:34:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[13-Feb-2017 12:34:28 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[13-Feb-2017 12:34:28 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[13-Feb-2017 12:34:28 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[13-Feb-2017 12:34:28 UTC] PHP   5. create_bootstrap_menu_teaching() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:10
+[13-Feb-2017 12:34:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 162
+[13-Feb-2017 12:34:29 UTC] PHP Stack trace:
+[13-Feb-2017 12:34:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[13-Feb-2017 12:34:29 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[13-Feb-2017 12:34:29 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[13-Feb-2017 12:34:29 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[13-Feb-2017 12:34:29 UTC] PHP   5. create_bootstrap_menu_teaching() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:10
+[13-Feb-2017 12:34:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 162
+[13-Feb-2017 12:34:30 UTC] PHP Stack trace:
+[13-Feb-2017 12:34:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[13-Feb-2017 12:34:30 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[13-Feb-2017 12:34:30 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[13-Feb-2017 12:34:30 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[13-Feb-2017 12:34:30 UTC] PHP   5. create_bootstrap_menu_teaching() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:10
+[13-Feb-2017 12:34:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 162
+[13-Feb-2017 12:34:50 UTC] PHP Stack trace:
+[13-Feb-2017 12:34:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[13-Feb-2017 12:34:50 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[13-Feb-2017 12:34:50 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[13-Feb-2017 12:34:50 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[13-Feb-2017 12:34:50 UTC] PHP   5. create_bootstrap_menu_teaching() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:10
+[13-Feb-2017 12:35:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 162
+[13-Feb-2017 12:35:42 UTC] PHP Stack trace:
+[13-Feb-2017 12:35:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[13-Feb-2017 12:35:42 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[13-Feb-2017 12:35:42 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[13-Feb-2017 12:35:42 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[13-Feb-2017 12:35:42 UTC] PHP   5. create_bootstrap_menu_teaching() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:10
+[13-Feb-2017 12:36:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 162
+[13-Feb-2017 12:36:08 UTC] PHP Stack trace:
+[13-Feb-2017 12:36:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[13-Feb-2017 12:36:08 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[13-Feb-2017 12:36:08 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[13-Feb-2017 12:36:08 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[13-Feb-2017 12:36:08 UTC] PHP   5. create_bootstrap_menu_teaching() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:10
+[13-Feb-2017 13:31:29 UTC] PHP Fatal error:  Call to a member function get_queried_object() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 171
+[13-Feb-2017 13:31:29 UTC] PHP Stack trace:
+[13-Feb-2017 13:31:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[13-Feb-2017 13:31:29 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[13-Feb-2017 13:31:29 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[13-Feb-2017 13:31:29 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[13-Feb-2017 13:31:29 UTC] PHP   5. create_bootstrap_menu_teaching() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:10
+[13-Feb-2017 13:31:30 UTC] PHP Fatal error:  Call to a member function get_queried_object() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 171
+[13-Feb-2017 13:31:30 UTC] PHP Stack trace:
+[13-Feb-2017 13:31:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[13-Feb-2017 13:31:30 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[13-Feb-2017 13:31:30 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[13-Feb-2017 13:31:30 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[13-Feb-2017 13:31:30 UTC] PHP   5. create_bootstrap_menu_teaching() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:10
+[13-Feb-2017 13:31:30 UTC] PHP Fatal error:  Call to a member function get_queried_object() on a non-object in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 171
+[13-Feb-2017 13:31:30 UTC] PHP Stack trace:
+[13-Feb-2017 13:31:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[13-Feb-2017 13:31:30 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[13-Feb-2017 13:31:30 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[13-Feb-2017 13:31:30 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[13-Feb-2017 13:31:30 UTC] PHP   5. create_bootstrap_menu_teaching() /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/index.php:10
+[13-Feb-2017 13:42:22 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 128
+[13-Feb-2017 13:42:22 UTC] PHP Stack trace:
+[13-Feb-2017 13:42:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[13-Feb-2017 13:42:22 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[13-Feb-2017 13:42:22 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:13
+[13-Feb-2017 13:42:22 UTC] PHP   4. require_once() /home/ubuntu/workspace/wordpress/wp-load.php:37
+[13-Feb-2017 13:42:22 UTC] PHP   5. require_once() /home/ubuntu/workspace/wordpress/wp-config.php:89
+[13-Feb-2017 13:42:22 UTC] PHP   6. include() /home/ubuntu/workspace/wordpress/wp-settings.php:425
+[13-Feb-2017 13:42:41 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 128
+[13-Feb-2017 13:42:41 UTC] PHP Stack trace:
+[13-Feb-2017 13:42:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[13-Feb-2017 13:42:41 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[13-Feb-2017 13:42:41 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:13
+[13-Feb-2017 13:42:41 UTC] PHP   4. require_once() /home/ubuntu/workspace/wordpress/wp-load.php:37
+[13-Feb-2017 13:42:41 UTC] PHP   5. require_once() /home/ubuntu/workspace/wordpress/wp-config.php:89
+[13-Feb-2017 13:42:41 UTC] PHP   6. include() /home/ubuntu/workspace/wordpress/wp-settings.php:425

@@ -1,1 +1,120 @@
 [18-Jan-2017 09:33:22 UTC] Error Unknown column 'wp_' in 'field list' de la base de datos de WordPress para la consulta SELECT wp_
+[12-Feb-2017 21:38:22 UTC] PHP Fatal error:  Cannot redeclare register_shortcode() (previously declared in /home/ubuntu/workspace/wordpress/wp-content/plugins/recent_posts_function.php:49) in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 49
+[12-Feb-2017 21:38:22 UTC] PHP Stack trace:
+[12-Feb-2017 21:38:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/plugins.php:0
+[12-Feb-2017 21:38:22 UTC] PHP   2. activate_plugin() /home/ubuntu/workspace/wordpress/wp-admin/plugins.php:42
+[12-Feb-2017 21:38:23 UTC] PHP Fatal error:  Cannot redeclare register_shortcode() (previously declared in /home/ubuntu/workspace/wordpress/wp-content/plugins/recent_posts_function.php:49) in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 49
+[12-Feb-2017 21:38:23 UTC] PHP Stack trace:
+[12-Feb-2017 21:38:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/plugins.php:0
+[12-Feb-2017 21:38:23 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wordpress/wp-admin/plugins.php:164
+[12-Feb-2017 21:38:24 UTC] PHP Fatal error:  Cannot redeclare register_shortcode() (previously declared in /home/ubuntu/workspace/wordpress/wp-content/plugins/recent_posts_function.php:49) in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 49
+[12-Feb-2017 21:38:24 UTC] PHP Stack trace:
+[12-Feb-2017 21:38:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/plugins.php:0
+[12-Feb-2017 21:38:24 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wordpress/wp-admin/plugins.php:164
+[12-Feb-2017 21:39:22 UTC] PHP Fatal error:  Cannot redeclare register_shortcode() (previously declared in /home/ubuntu/workspace/wordpress/wp-content/plugins/recent_posts_function.php:49) in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 49
+[12-Feb-2017 21:39:22 UTC] PHP Stack trace:
+[12-Feb-2017 21:39:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/plugins.php:0
+[12-Feb-2017 21:39:22 UTC] PHP   2. activate_plugin() /home/ubuntu/workspace/wordpress/wp-admin/plugins.php:42
+[12-Feb-2017 21:39:24 UTC] PHP Fatal error:  Cannot redeclare register_shortcode() (previously declared in /home/ubuntu/workspace/wordpress/wp-content/plugins/recent_posts_function.php:49) in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 49
+[12-Feb-2017 21:39:24 UTC] PHP Stack trace:
+[12-Feb-2017 21:39:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/plugins.php:0
+[12-Feb-2017 21:39:24 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wordpress/wp-admin/plugins.php:164
+[12-Feb-2017 21:39:24 UTC] PHP Fatal error:  Cannot redeclare register_shortcode() (previously declared in /home/ubuntu/workspace/wordpress/wp-content/plugins/recent_posts_function.php:49) in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 49
+[12-Feb-2017 21:39:24 UTC] PHP Stack trace:
+[12-Feb-2017 21:39:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/plugins.php:0
+[12-Feb-2017 21:39:24 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wordpress/wp-admin/plugins.php:164
+[12-Feb-2017 21:41:00 UTC] PHP Fatal error:  Cannot redeclare register_shortcode() (previously declared in /home/ubuntu/workspace/wordpress/wp-content/plugins/recent_posts_function.php:49) in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 49
+[12-Feb-2017 21:41:00 UTC] PHP Stack trace:
+[12-Feb-2017 21:41:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/plugins.php:0
+[12-Feb-2017 21:41:00 UTC] PHP   2. activate_plugin() /home/ubuntu/workspace/wordpress/wp-admin/plugins.php:42
+[12-Feb-2017 21:41:02 UTC] PHP Fatal error:  Cannot redeclare register_shortcode() (previously declared in /home/ubuntu/workspace/wordpress/wp-content/plugins/recent_posts_function.php:49) in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 49
+[12-Feb-2017 21:41:02 UTC] PHP Stack trace:
+[12-Feb-2017 21:41:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/plugins.php:0
+[12-Feb-2017 21:41:02 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wordpress/wp-admin/plugins.php:164
+[12-Feb-2017 21:41:02 UTC] PHP Fatal error:  Cannot redeclare register_shortcode() (previously declared in /home/ubuntu/workspace/wordpress/wp-content/plugins/recent_posts_function.php:49) in /home/ubuntu/workspace/wordpress/wp-content/plugins/chartjs_posts_function.php on line 49
+[12-Feb-2017 21:41:02 UTC] PHP Stack trace:
+[12-Feb-2017 21:41:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/plugins.php:0
+[12-Feb-2017 21:41:02 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wordpress/wp-admin/plugins.php:164
+[12-Feb-2017 22:48:42 UTC] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/ubuntu/workspace/wordpress/wp-includes/media.php on line 2813
+[12-Feb-2017 22:48:42 UTC] PHP Stack trace:
+[12-Feb-2017 22:48:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:0
+[12-Feb-2017 22:48:42 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:91
+[12-Feb-2017 22:48:42 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[12-Feb-2017 22:48:42 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[12-Feb-2017 22:48:42 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:48:42 UTC] PHP   6. Custom_Image_Header->ajax_header_crop() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:48:42 UTC] PHP   7. wp_crop_image() /home/ubuntu/workspace/wordpress/wp-admin/custom-header.php:1231
+[12-Feb-2017 22:48:42 UTC] PHP   8. WP_Image_Editor_GD->crop() /home/ubuntu/workspace/wordpress/wp-admin/includes/image.php:43
+[12-Feb-2017 22:48:42 UTC] PHP   9. wp_imagecreatetruecolor() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-image-editor-gd.php:286
+[12-Feb-2017 22:48:42 UTC] PHP  10. imagecreatetruecolor() /home/ubuntu/workspace/wordpress/wp-includes/media.php:2813
+[12-Feb-2017 22:48:42 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/wordpress/wp-includes/class-wp-image-editor-gd.php on line 296
+[12-Feb-2017 22:48:42 UTC] PHP Stack trace:
+[12-Feb-2017 22:48:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:0
+[12-Feb-2017 22:48:42 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:91
+[12-Feb-2017 22:48:42 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[12-Feb-2017 22:48:42 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[12-Feb-2017 22:48:42 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:48:42 UTC] PHP   6. Custom_Image_Header->ajax_header_crop() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:48:42 UTC] PHP   7. wp_crop_image() /home/ubuntu/workspace/wordpress/wp-admin/custom-header.php:1231
+[12-Feb-2017 22:48:42 UTC] PHP   8. WP_Image_Editor_GD->crop() /home/ubuntu/workspace/wordpress/wp-admin/includes/image.php:43
+[12-Feb-2017 22:48:42 UTC] PHP   9. imagecopyresampled() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-image-editor-gd.php:296
+[12-Feb-2017 22:51:27 UTC] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/ubuntu/workspace/wordpress/wp-includes/media.php on line 2813
+[12-Feb-2017 22:51:27 UTC] PHP Stack trace:
+[12-Feb-2017 22:51:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:0
+[12-Feb-2017 22:51:27 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:91
+[12-Feb-2017 22:51:27 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[12-Feb-2017 22:51:27 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[12-Feb-2017 22:51:27 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:51:27 UTC] PHP   6. Custom_Image_Header->ajax_header_crop() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:51:27 UTC] PHP   7. wp_crop_image() /home/ubuntu/workspace/wordpress/wp-admin/custom-header.php:1231
+[12-Feb-2017 22:51:27 UTC] PHP   8. WP_Image_Editor_GD->crop() /home/ubuntu/workspace/wordpress/wp-admin/includes/image.php:43
+[12-Feb-2017 22:51:27 UTC] PHP   9. wp_imagecreatetruecolor() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-image-editor-gd.php:286
+[12-Feb-2017 22:51:27 UTC] PHP  10. imagecreatetruecolor() /home/ubuntu/workspace/wordpress/wp-includes/media.php:2813
+[12-Feb-2017 22:51:27 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/wordpress/wp-includes/class-wp-image-editor-gd.php on line 296
+[12-Feb-2017 22:51:27 UTC] PHP Stack trace:
+[12-Feb-2017 22:51:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:0
+[12-Feb-2017 22:51:27 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:91
+[12-Feb-2017 22:51:27 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[12-Feb-2017 22:51:27 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[12-Feb-2017 22:51:27 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:51:27 UTC] PHP   6. Custom_Image_Header->ajax_header_crop() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 22:51:27 UTC] PHP   7. wp_crop_image() /home/ubuntu/workspace/wordpress/wp-admin/custom-header.php:1231
+[12-Feb-2017 22:51:27 UTC] PHP   8. WP_Image_Editor_GD->crop() /home/ubuntu/workspace/wordpress/wp-admin/includes/image.php:43
+[12-Feb-2017 22:51:27 UTC] PHP   9. imagecopyresampled() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-image-editor-gd.php:296
+[12-Feb-2017 23:01:27 UTC] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/ubuntu/workspace/wordpress/wp-includes/media.php on line 2813
+[12-Feb-2017 23:01:27 UTC] PHP Stack trace:
+[12-Feb-2017 23:01:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:0
+[12-Feb-2017 23:01:27 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:91
+[12-Feb-2017 23:01:27 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[12-Feb-2017 23:01:27 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[12-Feb-2017 23:01:27 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 23:01:27 UTC] PHP   6. Custom_Image_Header->ajax_header_crop() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 23:01:27 UTC] PHP   7. wp_crop_image() /home/ubuntu/workspace/wordpress/wp-admin/custom-header.php:1231
+[12-Feb-2017 23:01:27 UTC] PHP   8. WP_Image_Editor_GD->crop() /home/ubuntu/workspace/wordpress/wp-admin/includes/image.php:43
+[12-Feb-2017 23:01:27 UTC] PHP   9. wp_imagecreatetruecolor() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-image-editor-gd.php:286
+[12-Feb-2017 23:01:27 UTC] PHP  10. imagecreatetruecolor() /home/ubuntu/workspace/wordpress/wp-includes/media.php:2813
+[12-Feb-2017 23:01:27 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/wordpress/wp-includes/class-wp-image-editor-gd.php on line 296
+[12-Feb-2017 23:01:27 UTC] PHP Stack trace:
+[12-Feb-2017 23:01:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:0
+[12-Feb-2017 23:01:27 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:91
+[12-Feb-2017 23:01:27 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[12-Feb-2017 23:01:27 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[12-Feb-2017 23:01:27 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 23:01:27 UTC] PHP   6. Custom_Image_Header->ajax_header_crop() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[12-Feb-2017 23:01:27 UTC] PHP   7. wp_crop_image() /home/ubuntu/workspace/wordpress/wp-admin/custom-header.php:1231
+[12-Feb-2017 23:01:27 UTC] PHP   8. WP_Image_Editor_GD->crop() /home/ubuntu/workspace/wordpress/wp-admin/includes/image.php:43
+[12-Feb-2017 23:01:27 UTC] PHP   9. imagecopyresampled() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-image-editor-gd.php:296
+[13-Feb-2017 13:42:35 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 128
+[13-Feb-2017 13:42:35 UTC] PHP Stack trace:
+[13-Feb-2017 13:42:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:0
+[13-Feb-2017 13:42:35 UTC] PHP   2. require_once() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:22
+[13-Feb-2017 13:42:35 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-load.php:37
+[13-Feb-2017 13:42:35 UTC] PHP   4. require_once() /home/ubuntu/workspace/wordpress/wp-config.php:89
+[13-Feb-2017 13:42:35 UTC] PHP   5. include() /home/ubuntu/workspace/wordpress/wp-settings.php:425
+[13-Feb-2017 13:42:59 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/wordpress/wp-content/themes/teaching/inc/header-nav.php on line 128
+[13-Feb-2017 13:42:59 UTC] PHP Stack trace:
+[13-Feb-2017 13:42:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:0
+[13-Feb-2017 13:42:59 UTC] PHP   2. require_once() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:22
+[13-Feb-2017 13:42:59 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-load.php:37
+[13-Feb-2017 13:42:59 UTC] PHP   4. require_once() /home/ubuntu/workspace/wordpress/wp-config.php:89
+[13-Feb-2017 13:42:59 UTC] PHP   5. include() /home/ubuntu/workspace/wordpress/wp-settings.php:425

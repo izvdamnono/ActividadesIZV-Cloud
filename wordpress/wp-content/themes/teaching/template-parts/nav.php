@@ -29,7 +29,7 @@
 						    <a href="services.html" class="hvr-bounce-to-bottom">Services</a>
 						</li>
 						<li>
-						    <a href="portfolio.html" class="hvr-bounce-to-bottom">Portfolio</a>
+						    <a href="<?php echo get_page_link(get_page_by_title("Portfolio")->ID);?>" class="hvr-bounce-to-bottom">Portfolio</a>
 						</li>
 						<li>
 						    <a href="short-codes.html" class="hvr-bounce-to-bottom">Short Codes</a>

@@ -1,6 +1,10 @@
 <?php
+/*
+	Template Name: portfolio
+*/
 get_header();
-get_template_part('template-parts/nav');
+echo create_bootstrap_menu_teaching();
+get_template_part('template-parts/banner');
 
 ?>
 <div class="portfolio">

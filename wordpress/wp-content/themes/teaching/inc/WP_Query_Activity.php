@@ -8,7 +8,8 @@ class WP_Query_Activity {
         nuestras actividades
     */
     protected $args = array('fecha' => '',
-                            'college_filter' => array());
+                            'departamento' => '',
+                            'profesor' => '');
     private $activities;
     private $position;
     private $curactivity;
@@ -20,7 +21,7 @@ class WP_Query_Activity {
         if ( count($args) > 0 ) {
             
             $keysQ = array_keys($args);
-        
+           
             foreach ( $keysQ as $key ) {
                 
                 if ( array_key_exists($key, $this->args) ) {
@@ -53,61 +54,65 @@ class WP_Query_Activity {
                                     where DATE_FORMAT(fecha, '%Y-%m-%d') < DATE_FORMAT(now(), '%Y-%m-%d' ) 
                                     order by fecha desc) a2) actividad";
         
-        if ( is_array(($filter = $this->args['college_filter'])) ) {
+        //Comprobamos los distintos filtros habilitados
+        if ( !empty($dpt = $this->args['departamento']) && !empty($prf = $this->args['profesor']) ) {
             
-            switch (array_keys($filter)[0]) {
-                
-                case 'profesor': {
-                
-                    if ( !is_numeric($value = $filter['profesor'])) {
-                        
-                        $query .= " inner join ( select id from profesor where nombre = '$value') p
-                                    on actividad.idprofesor = p.id";
-                    }
-                    else 
-                    {
-                        $query  .= " where actividad.idprofesor = $value";     
-                    }
-                                
-                    break;
-                }
-                
-                case 'departamento': {
-                    
-                    //Si introducimos un id busca por id en su defecto busca por nombre
-                    if ( is_numeric( $value = $filter['departamento']) ) {
-                        
-                        $query .= " inner join ( select id from profesor where iddepartamento = $value ) 
-                                    p on actividad.idprofesor = p.id";
-                    }
-                    else 
-                    {
-                        /*
-                        
-                            Obtener los ids de los profesores de un departamento dado su nombre:
-                            
-                            select profesor.id from profesor inner join ( select departamento.id from departamento where nombre = 'informatica') d on profesor.iddepartamento = d.id
-                        */
-                        
-                        $query .= " inner join  (
-                                        select profesor.id from profesor 
-                                        inner join ( select departamento.id from departamento where nombre = '$value') d 
-                                        on profesor.iddepartamento = d.id) 
-                                    profesor on actividad.idprofesor = profesor.id";
-                    }
-                    
-                    break;
-                }
-            }    
-    
+            //Se realiza un filtrado por departamento y profesor
+            $subquery = "( select profesor.id from profesor 
+                           inner join departamento on 
+                           profesor.iddepartamento = departamento.id 
+                           where departamento.". (is_numeric($dpt) ? "id = $dpt" : "nombre = '$dpt'")." 
+                           and profesor.". (is_numeric($prf) ? "id = $prf" : "nombre = '$prf'"). ") profesor";
+                                      
+            $query .= " inner join " .$subquery. " on actividad.idprofesor = profesor.id";
         }
-        
+        else {
+            
+            if ( !empty($dpt = $this->args['departamento']) ) {
+                
+                //Si introducimos un id busca por id en su defecto busca por nombre
+                if ( is_numeric($dpt) ) {
+                        
+                    $query .= " inner join ( select id from profesor where iddepartamento = $dpt ) 
+                                p on actividad.idprofesor = p.id";
+                }
+                else 
+                {
+                    /*
+                    
+                        Obtener los ids de los profesores de un departamento dado su nombre:
+                        
+                        select profesor.id from profesor inner join ( select departamento.id from departamento where nombre = 'informatica') d on profesor.iddepartamento = d.id
+                    */
+                        
+                    $query .= " inner join  (
+                                    select profesor.id from profesor 
+                                    inner join ( select departamento.id from departamento where nombre = '$dpt') d 
+                                    on profesor.iddepartamento = d.id) 
+                                profesor on actividad.idprofesor = profesor.id";
+                }
+            }
+            elseif ( $prf = $this->args['profesor']) {
+                
+                if ( !is_numeric($prf) ) {
+                        
+                    $query .= " inner join ( select id from profesor where nombre = '$prf') p
+                                on actividad.idprofesor = p.id";
+                }
+                else 
+                {
+                    $query  .= " where actividad.idprofesor = $prf";     
+                }
+                            
+            }
+        }
         
         //Comprobamos el filtro para la fecha
         if ( $fecha = $this->args['fecha'] ) {
             
-            $query .= " where actividad.fecha = $fecha";
+            $query .= " where actividad.fecha = '".date_format(date_create($fecha), 'Y-m-d')."'";
         }
+        
         $this->activities = $wpdb->get_results($query);
         
     }
@@ -248,6 +253,20 @@ class WP_Query_Activity {
                                         !empty($format) ? $format : 'H:i:s');
     }
     
+    
+    /**
+     * Permalink
+     */ 
+    
+    function the_permalink() {
+        
+        return $this->get_permalink();
+    }
+    
+    function get_the_permalink() {
+        
+        
+    }
     
 }
 

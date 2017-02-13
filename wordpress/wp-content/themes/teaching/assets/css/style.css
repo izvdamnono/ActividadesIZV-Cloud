@@ -2,11 +2,15 @@
 
 html, body{
     font-size: 100%;
-	/*font-family: 'Open Sans', sans-serif;*/
-	font-family: 'Raleway';
-	background:#ffffff;
+	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Raleway';*/
+	background:#e0e0e0;
 	margin: 0;
-	background-color: #fafafa;
+	background-color: #bbbbbb;
+}
+
+article{
+	background:#ffffff;
 }
 p,ul li{
 	margin:0;
@@ -73,6 +77,10 @@ input[type="submit"],input[type="reset"],.agileits_mail_grid_lft_grid1 ul li a,.
 }
 .header {
     background: rgba(0, 0, 0, 0.63);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 .navbar {
     margin-bottom: 0;

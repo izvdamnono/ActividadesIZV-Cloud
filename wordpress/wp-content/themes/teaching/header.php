@@ -36,6 +36,8 @@
         ?>
     </title>
 
+<!-- JS -->
+        <!-- start-smoth-scrolling -->
     <script type="application/x-javascript">
         addEventListener("load", function () {
                 setTimeout(hideURLbar, 0);
@@ -44,17 +46,7 @@
             window.scrollTo(0, 1);
         } 
     </script>
-
-    <!-- CSS -->
-    <link href="<?= get_stylesheet_uri() ?>" rel="stylesheet">
-    <!-- CSS -->
-    <link href="https://fonts.googleapis.com/css?family=Capriola" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic" rel="stylesheet" type="text/css">
-    <!-- //CSS -->
-    
-    <!-- JS -->
-        <!-- start-smoth-scrolling -->
-        
+     
     <script type="text/javascript" src="<?= get_template_directory_uri() ?>/assets/js/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="<?= get_template_directory_uri() ?>/assets/js/wow.min.js"></script>
     
@@ -63,25 +55,47 @@
     
     <script type="text/javascript" src="<?= get_template_directory_uri() ?>/assets/js/move-top.js"></script>
     <script type="text/javascript" src="<?= get_template_directory_uri() ?>/assets/js/easing.js"></script>
+    
+    <script type="text/javascript" src="<?= get_template_directory_uri() ?>/assets/js/jquery.cm-overlay.js"></script>
+    <script type="text/javascript" src="<?= get_template_directory_uri() ?>/assets/js/jquery.mobile.custom.min.js"></script>
 
-    <script>
-    $(document).ready(function(){
-        $('.cm-overlay').cmOverlay();
-    });
-    </script>
-    <!-- //js -->
     
-    <script type="text/javascript">
-        jQuery(document).ready(function ($) {
-            $(".scroll").click(function (event) {
-                event.preventDefault();
-                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
-            });
-        });
-    </script>
+	    <!-- //js -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			
+			 $(".scroll").click(function (event) {
+	                event.preventDefault();
+	                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+	            });
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			$('.cm-overlay').cmOverlay();
+		});
+		new WOW().init();
+	
+	</script>
+
+
+   
+    <!-- CSS -->
+    <link href="<?= get_stylesheet_uri() ?>" rel="stylesheet">
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Capriola" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic" rel="stylesheet" type="text/css">
+    <!-- //CSS -->
     
-    <script>
-        new WOW().init();
-    </script>
+    <?php
+	get_template_part("template-parts/chartjs_load_header");
+	?>
 </head>
 <body>

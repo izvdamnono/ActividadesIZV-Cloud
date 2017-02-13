@@ -4,7 +4,7 @@
  */
 
 get_header();
-
+echo create_bootstrap_menu_teaching();
 get_template_part('template-parts/banner');
 ?>
 
