@@ -8,7 +8,7 @@ class Api {
     
     function __construct($metodo, $json, $parametros, $get){
         $this->metodo = $metodo;
-        $this->json = json_decode($json);
+        $this->json = $parametros[0] === 'usuario' ? $json : json_decode($json);
         $this->parametros = $parametros;
         $this->get = $get;
     }
@@ -79,6 +79,9 @@ class Api {
                     }
                     if ($rest_0 == "grupo") {
                         $return = $apiGrupo->insertar($this->json);
+                    }
+                    if ($rest_0 == "usuario") {
+                        $return = $apiUsuario->consultarPeticion($this->json);
                     }
                     break;
                

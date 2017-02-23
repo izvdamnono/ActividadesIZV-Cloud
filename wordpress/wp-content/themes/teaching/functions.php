@@ -4,6 +4,7 @@
 
 require_once ("inc/theme-support.php");
 require_once ("inc/custom-post.php");
+
 require_once ("inc/header-nav.php");
 require_once ("inc/hooks.php");
 require_once ("inc/WP_Query_Activity.php");

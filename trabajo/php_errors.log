@@ -10,3 +10,27 @@
 [07-Feb-2017 17:45:41 UTC] PHP   8. Doctrine\ORM\Tools\Console\Command\SchemaTool\AbstractCommand->execute() /home/ubuntu/workspace/clases/vendor/symfony/console/Command/Command.php:264
 [07-Feb-2017 17:45:41 UTC] PHP   9. Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->getAllMetadata() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/Command/SchemaTool/AbstractCommand.php:59
 [07-Feb-2017 17:45:41 UTC] PHP  10. Doctrine\Common\Persistence\Mapping\Driver\AnnotationDriver->getAllClassNames() /home/ubuntu/workspace/clases/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:114
+[21-Feb-2017 17:30:36 UTC] PHP Fatal error:  Cannot redeclare Profesor::$idpd in /home/ubuntu/workspace/trabajo/doctrine/src/Profesor.php on line 37
+[21-Feb-2017 17:30:36 UTC] PHP Stack trace:
+[21-Feb-2017 17:30:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/trabajo/doctrine/vendor/doctrine/orm/bin/doctrine:0
+[21-Feb-2017 17:30:36 UTC] PHP   2. include() /home/ubuntu/workspace/trabajo/doctrine/vendor/doctrine/orm/bin/doctrine:4
+[21-Feb-2017 17:30:36 UTC] PHP   3. Doctrine\ORM\Tools\Console\ConsoleRunner::run() /home/ubuntu/workspace/trabajo/doctrine/vendor/doctrine/orm/bin/doctrine.php:59
+[21-Feb-2017 17:30:36 UTC] PHP   4. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/ConsoleRunner.php:64
+[21-Feb-2017 17:30:36 UTC] PHP   5. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/clases/vendor/symfony/console/Application.php:122
+[21-Feb-2017 17:30:36 UTC] PHP   6. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/clases/vendor/symfony/console/Application.php:191
+[21-Feb-2017 17:30:36 UTC] PHP   7. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/clases/vendor/symfony/console/Application.php:846
+[21-Feb-2017 17:30:36 UTC] PHP   8. Doctrine\ORM\Tools\Console\Command\SchemaTool\AbstractCommand->execute() /home/ubuntu/workspace/clases/vendor/symfony/console/Command/Command.php:264
+[21-Feb-2017 17:30:36 UTC] PHP   9. Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->getAllMetadata() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/Command/SchemaTool/AbstractCommand.php:59
+[21-Feb-2017 17:30:36 UTC] PHP  10. Doctrine\Common\Persistence\Mapping\Driver\AnnotationDriver->getAllClassNames() /home/ubuntu/workspace/clases/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:114
+[21-Feb-2017 17:39:25 UTC] PHP Fatal error:  Cannot redeclare Usuario::setToken() in /home/ubuntu/workspace/trabajo/doctrine/src/Usuario.php on line 86
+[21-Feb-2017 17:39:25 UTC] PHP Stack trace:
+[21-Feb-2017 17:39:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/trabajo/doctrine/vendor/doctrine/orm/bin/doctrine:0
+[21-Feb-2017 17:39:25 UTC] PHP   2. include() /home/ubuntu/workspace/trabajo/doctrine/vendor/doctrine/orm/bin/doctrine:4
+[21-Feb-2017 17:39:25 UTC] PHP   3. Doctrine\ORM\Tools\Console\ConsoleRunner::run() /home/ubuntu/workspace/trabajo/doctrine/vendor/doctrine/orm/bin/doctrine.php:59
+[21-Feb-2017 17:39:25 UTC] PHP   4. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/ConsoleRunner.php:64
+[21-Feb-2017 17:39:25 UTC] PHP   5. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/clases/vendor/symfony/console/Application.php:122
+[21-Feb-2017 17:39:25 UTC] PHP   6. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/clases/vendor/symfony/console/Application.php:191
+[21-Feb-2017 17:39:25 UTC] PHP   7. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/clases/vendor/symfony/console/Application.php:846
+[21-Feb-2017 17:39:25 UTC] PHP   8. Doctrine\ORM\Tools\Console\Command\SchemaTool\AbstractCommand->execute() /home/ubuntu/workspace/clases/vendor/symfony/console/Command/Command.php:264
+[21-Feb-2017 17:39:25 UTC] PHP   9. Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->getAllMetadata() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/Command/SchemaTool/AbstractCommand.php:59
+[21-Feb-2017 17:39:25 UTC] PHP  10. Doctrine\Common\Persistence\Mapping\Driver\AnnotationDriver->getAllClassNames() /home/ubuntu/workspace/clases/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:114

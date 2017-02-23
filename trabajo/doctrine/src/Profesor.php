@@ -30,8 +30,14 @@ class Profesor {
      */
     protected $idpd = null;
     
+    /**
+     * @OneToMany(targetEntity="Usuario", mappedBy="profesor" )
+     */
+    protected $idup = null;
+    
     public function __construct() {
         $this->idpd = new ArrayCollection();
+        $this->idup = new ArrayCollection();
     }
     
     public function getId() {
@@ -41,7 +47,7 @@ class Profesor {
     public function getNombre() {
         return $this->nombre;
     }
-
+    
     public function setId($id) {
         $this->id = $id;
         return $this;
@@ -54,13 +60,23 @@ class Profesor {
         return $this;
     }
 
+    public function setIdUsuario($usuario) {
+        
+        $this->idup = $usuario;
+        return $this;
+    }
+
     public function setNombre($nombre) {
         $this->nombre = $nombre;
         return $this;
     }
-
+    
     public function addIdpd($idpd){
         $this->idpd[] = $idpd;
+    }
+    
+    public function addIdup($idup){
+        $this->idup[] = $idup;
     }
     
     //Metodo utilizado para obtener el valor JSON de un este objeto

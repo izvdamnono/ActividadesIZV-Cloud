@@ -1,0 +1,137 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2017-02-23 10:08+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-02-23 10:15+0100\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.11\n"
+"Last-Translator: \n"
+"Language: es_ES\n"
+
+msgid "404"
+msgstr "Houston tenemos un problema parece que me he perdido"
+
+msgid "Read more"
+msgstr "Leer más"
+
+msgid "Teacher"
+msgstr "Profesor"
+
+msgid "Date"
+msgstr "Fecha"
+
+msgid "Posts"
+msgstr "Entrada"
+
+msgid "Comments"
+msgstr "Comentarios"
+
+msgid "Last news"
+msgstr "Últimas noticas"
+
+msgid "Our teachers"
+msgstr "Nuestro profesorado"
+
+msgid "Result"
+msgstr "Resultado"
+
+msgid "Post found"
+msgstr "Entrada encontrada"
+
+msgid "No posts found"
+msgstr "Entrada no encontrada"
+
+msgid "Last post"
+msgstr "Última entrada"
+
+msgid "Recent post"
+msgstr "Entrada reciente"
+
+msgid "Social media"
+msgstr "Redes sociales"
+
+msgid "Teacher image"
+msgstr "Imagen del profesor"
+
+msgid "chartjs details"
+msgstr "Detalles del gráfico"
+
+msgid "by"
+msgstr "Por"
+
+msgid "Email"
+msgstr "Correo electrónico"
+
+msgid "Rol"
+msgstr "Cargo"
+
+msgid "chartjs"
+msgstr "Gráfico"
+
+msgid "Contact us"
+msgstr "Contacta con nosotros"
+
+msgid "Do you need information? Just ask"
+msgstr "¿Necesitas información? Contacta con nosotros"
+
+msgid "Direction"
+msgstr "Dirección"
+
+msgid "Message"
+msgstr "Mensaje"
+
+msgid "All rights reserved"
+msgstr "Todos los derechos reservados"
+
+msgid "Designed by"
+msgstr "Diseñado por"
+
+msgid "Alls posts"
+msgstr "Todas las entradas"
+
+msgid "Add new teacher"
+msgstr "Añadir nuevo profesor"
+
+msgid "New teacher"
+msgstr "Nuevo profesor"
+
+msgid "Edit teacher"
+msgstr "Editar profesor"
+
+msgid "See teacher"
+msgstr "Ver profesor"
+
+msgid "Alls our teacher"
+msgstr "Todo nuestro profesorado"
+
+msgid "Search teacher"
+msgstr "Buscar profesor"
+
+msgid "No teachers found"
+msgstr "Profesor no encontrado"
+
+msgid "Add new chartjs"
+msgstr "Añadir nuevo gráfico"
+
+msgid "New chartjs"
+msgstr "Nuevo gráfico"
+
+msgid "Edit chartjs"
+msgstr "Editar gráfico"
+
+msgid "See chartjs"
+msgstr "Ver gráfico"
+
+msgid "Alls our chartjs"
+msgstr "Todos los gráficos"
+
+msgid "Search chartjs"
+msgstr "Buscar gráficos"
+
+msgid "No chartjs found"
+msgstr "Gráficos no encontrado"

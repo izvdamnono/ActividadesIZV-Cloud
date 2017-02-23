@@ -118,3 +118,159 @@
 [13-Feb-2017 13:42:59 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-load.php:37
 [13-Feb-2017 13:42:59 UTC] PHP   4. require_once() /home/ubuntu/workspace/wordpress/wp-config.php:89
 [13-Feb-2017 13:42:59 UTC] PHP   5. include() /home/ubuntu/workspace/wordpress/wp-settings.php:425
+[14-Feb-2017 18:08:51 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/functions.php on line 18
+[14-Feb-2017 18:08:51 UTC] PHP Stack trace:
+[14-Feb-2017 18:08:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:0
+[14-Feb-2017 18:08:51 UTC] PHP   2. require_once() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:22
+[14-Feb-2017 18:08:51 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-load.php:37
+[14-Feb-2017 18:08:51 UTC] PHP   4. require_once() /home/ubuntu/workspace/wordpress/wp-config.php:89
+[14-Feb-2017 18:10:52 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/functions.php on line 18
+[14-Feb-2017 18:10:52 UTC] PHP Stack trace:
+[14-Feb-2017 18:10:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:0
+[14-Feb-2017 18:10:52 UTC] PHP   2. require_once() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:22
+[14-Feb-2017 18:10:52 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-load.php:37
+[14-Feb-2017 18:10:52 UTC] PHP   4. require_once() /home/ubuntu/workspace/wordpress/wp-config.php:89
+[14-Feb-2017 18:12:52 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/functions.php on line 18
+[14-Feb-2017 18:12:52 UTC] PHP Stack trace:
+[14-Feb-2017 18:12:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:0
+[14-Feb-2017 18:12:52 UTC] PHP   2. require_once() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:22
+[14-Feb-2017 18:12:52 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-load.php:37
+[14-Feb-2017 18:12:52 UTC] PHP   4. require_once() /home/ubuntu/workspace/wordpress/wp-config.php:89
+[14-Feb-2017 21:38:14 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/wordpress/wp-content/themes/web/functions.php on line 144
+[14-Feb-2017 21:38:14 UTC] PHP Stack trace:
+[14-Feb-2017 21:38:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:0
+[14-Feb-2017 21:38:14 UTC] PHP   2. require_once() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:22
+[14-Feb-2017 21:38:14 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-load.php:37
+[14-Feb-2017 21:38:14 UTC] PHP   4. require_once() /home/ubuntu/workspace/wordpress/wp-config.php:89
+[16-Feb-2017 18:09:00 UTC] Error Column 'nombre' in field list is ambiguous de la base de datos de WordPress para la consulta select nombre from profesor 
+										inner join departamento 
+										on departamento.id = profesor.iddepartamento 
+										where departamento.nombre = 'Humanidades' realizada por do_action('wp_ajax_nopriv_get_teachers'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, get_teachers
+[16-Feb-2017 18:10:20 UTC] Error Column 'nombre' in field list is ambiguous de la base de datos de WordPress para la consulta select nombre from profesor 
+										inner join departamento 
+										on departamento.id = profesor.iddepartamento 
+										where departamento.nombre = 'Humanidades' realizada por do_action('wp_ajax_nopriv_get_teachers'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, get_teachers
+[16-Feb-2017 18:10:20 UTC] PHP Fatal error:  Call to undefined function json_enconde() in /home/ubuntu/workspace/wordpress/wp-content/themes/web/functions.php on line 231
+[16-Feb-2017 18:10:20 UTC] PHP Stack trace:
+[16-Feb-2017 18:10:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:0
+[16-Feb-2017 18:10:20 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:101
+[16-Feb-2017 18:10:20 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[16-Feb-2017 18:10:20 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 18:10:20 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 18:10:20 UTC] PHP   6. get_teachers() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 18:10:31 UTC] Error Column 'nombre' in field list is ambiguous de la base de datos de WordPress para la consulta select nombre from profesor 
+										inner join departamento 
+										on departamento.id = profesor.iddepartamento 
+										where departamento.nombre = 'Informatica' realizada por do_action('wp_ajax_nopriv_get_teachers'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, get_teachers
+[16-Feb-2017 18:10:31 UTC] PHP Fatal error:  Call to undefined function json_enconde() in /home/ubuntu/workspace/wordpress/wp-content/themes/web/functions.php on line 231
+[16-Feb-2017 18:10:31 UTC] PHP Stack trace:
+[16-Feb-2017 18:10:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:0
+[16-Feb-2017 18:10:31 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:101
+[16-Feb-2017 18:10:31 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[16-Feb-2017 18:10:31 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 18:10:31 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 18:10:31 UTC] PHP   6. get_teachers() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 18:11:17 UTC] Error Column 'nombre' in field list is ambiguous de la base de datos de WordPress para la consulta select nombre from profesor 
+										inner join departamento 
+										on departamento.id = profesor.iddepartamento 
+										where departamento.nombre = 'Humanidades' realizada por do_action('wp_ajax_nopriv_get_teachers'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, get_teachers
+[16-Feb-2017 18:11:17 UTC] PHP Fatal error:  Call to undefined function json_enconde() in /home/ubuntu/workspace/wordpress/wp-content/themes/web/functions.php on line 231
+[16-Feb-2017 18:11:17 UTC] PHP Stack trace:
+[16-Feb-2017 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:0
+[16-Feb-2017 18:11:17 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:101
+[16-Feb-2017 18:11:17 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[16-Feb-2017 18:11:17 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 18:11:17 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 18:11:17 UTC] PHP   6. get_teachers() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 18:11:55 UTC] Error Column 'nombre' in field list is ambiguous de la base de datos de WordPress para la consulta select nombre from profesor 
+										inner join departamento 
+										on departamento.id = profesor.iddepartamento 
+										where departamento.nombre = 'Humanidades' realizada por do_action('wp_ajax_nopriv_get_teachers'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, get_teachers
+[16-Feb-2017 18:11:57 UTC] Error Column 'nombre' in field list is ambiguous de la base de datos de WordPress para la consulta select nombre from profesor 
+										inner join departamento 
+										on departamento.id = profesor.iddepartamento 
+										where departamento.nombre = 'Informatica' realizada por do_action('wp_ajax_nopriv_get_teachers'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, get_teachers
+[16-Feb-2017 18:12:23 UTC] Error Column 'nombre' in field list is ambiguous de la base de datos de WordPress para la consulta select nombre from profesor 
+										inner join departamento 
+										on departamento.id = profesor.iddepartamento 
+										where departamento.nombre = 'Humanidades' realizada por do_action('wp_ajax_nopriv_get_teachers'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, get_teachers
+[16-Feb-2017 18:13:50 UTC] Error Column 'nombre' in field list is ambiguous de la base de datos de WordPress para la consulta select nombre from profesor 
+										inner join departamento 
+										on departamento.id = profesor.iddepartamento 
+										where departamento.nombre = 'Humanidades' realizada por do_action('wp_ajax_nopriv_get_teachers'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, get_teachers
+[16-Feb-2017 18:13:55 UTC] Error Column 'nombre' in field list is ambiguous de la base de datos de WordPress para la consulta select nombre from profesor 
+										inner join departamento 
+										on departamento.id = profesor.iddepartamento 
+										where departamento.nombre = 'Informatica' realizada por do_action('wp_ajax_nopriv_get_teachers'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, get_teachers
+[16-Feb-2017 18:14:30 UTC] Error Column 'nombre' in field list is ambiguous de la base de datos de WordPress para la consulta select nombre from profesor 
+										inner join departamento 
+										on departamento.id = profesor.iddepartamento 
+										where departamento.nombre = 'Humanidades' realizada por do_action('wp_ajax_nopriv_get_teachers'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, get_teachers
+[16-Feb-2017 18:14:44 UTC] Error Column 'nombre' in field list is ambiguous de la base de datos de WordPress para la consulta select nombre from profesor 
+										inner join departamento 
+										on departamento.id = profesor.iddepartamento 
+										where departamento.nombre = 'Informatica' realizada por do_action('wp_ajax_nopriv_get_teachers'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, get_teachers
+[19-Feb-2017 09:37:45 UTC] PHP Parse error:  syntax error, unexpected 'Profesor' (T_STRING) in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/custom-post-teacher.php on line 127
+[19-Feb-2017 09:37:45 UTC] PHP Stack trace:
+[19-Feb-2017 09:37:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:0
+[19-Feb-2017 09:37:45 UTC] PHP   2. require_once() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:22
+[19-Feb-2017 09:37:45 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-load.php:37
+[19-Feb-2017 09:37:45 UTC] PHP   4. require_once() /home/ubuntu/workspace/wordpress/wp-config.php:89
+[19-Feb-2017 09:37:45 UTC] PHP   5. include() /home/ubuntu/workspace/wordpress/wp-settings.php:425
+[20-Feb-2017 09:17:03 UTC] PHP Fatal error:  Cannot redeclare custom_pagination() (previously declared in /home/ubuntu/workspace/wordpress/wp-content/themes/web/functions.php:13) in /home/ubuntu/workspace/wordpress/wp-content/themes/web/functions.php on line 211
+[20-Feb-2017 09:17:03 UTC] PHP Stack trace:
+[20-Feb-2017 09:17:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:0
+[20-Feb-2017 09:17:03 UTC] PHP   2. require_once() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:22
+[20-Feb-2017 09:17:03 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-load.php:37
+[20-Feb-2017 09:17:03 UTC] PHP   4. require_once() /home/ubuntu/workspace/wordpress/wp-config.php:89
+[22-Feb-2017 12:27:47 UTC] PHP Warning:  Missing argument 1 for get_theme(), called in /home/ubuntu/workspace/wordpress/wp-content/themes/web/functions.php on line 9 and defined in /home/ubuntu/workspace/wordpress/wp-includes/deprecated.php on line 2909
+[22-Feb-2017 12:27:47 UTC] PHP Stack trace:
+[22-Feb-2017 12:27:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:0
+[22-Feb-2017 12:27:47 UTC] PHP   2. require_once() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:22
+[22-Feb-2017 12:27:47 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-load.php:37
+[22-Feb-2017 12:27:47 UTC] PHP   4. require_once() /home/ubuntu/workspace/wordpress/wp-config.php:90
+[22-Feb-2017 12:27:47 UTC] PHP   5. do_action() /home/ubuntu/workspace/wordpress/wp-settings.php:433
+[22-Feb-2017 12:27:47 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[22-Feb-2017 12:27:47 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[22-Feb-2017 12:27:47 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[22-Feb-2017 12:27:47 UTC] PHP   9. my_theme_setup() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[22-Feb-2017 12:27:47 UTC] PHP  10. get_theme() /home/ubuntu/workspace/wordpress/wp-content/themes/web/functions.php:9
+[22-Feb-2017 12:27:47 UTC] PHP Warning:  Illegal offset type in isset or empty in /home/ubuntu/workspace/wordpress/wp-includes/l10n.php on line 588
+[22-Feb-2017 12:27:47 UTC] PHP Stack trace:
+[22-Feb-2017 12:27:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:0
+[22-Feb-2017 12:27:47 UTC] PHP   2. require_once() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:22
+[22-Feb-2017 12:27:47 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-load.php:37
+[22-Feb-2017 12:27:47 UTC] PHP   4. require_once() /home/ubuntu/workspace/wordpress/wp-config.php:90
+[22-Feb-2017 12:27:47 UTC] PHP   5. do_action() /home/ubuntu/workspace/wordpress/wp-settings.php:433
+[22-Feb-2017 12:27:47 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[22-Feb-2017 12:27:47 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[22-Feb-2017 12:27:47 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[22-Feb-2017 12:27:47 UTC] PHP   9. my_theme_setup() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[22-Feb-2017 12:27:47 UTC] PHP  10. load_theme_textdomain() /home/ubuntu/workspace/wordpress/wp-content/themes/web/functions.php:9
+[22-Feb-2017 12:27:47 UTC] PHP  11. load_textdomain() /home/ubuntu/workspace/wordpress/wp-includes/l10n.php:799
+[22-Feb-2017 12:27:47 UTC] PHP Warning:  Illegal offset type in unset in /home/ubuntu/workspace/wordpress/wp-includes/l10n.php on line 591
+[22-Feb-2017 12:27:47 UTC] PHP Stack trace:
+[22-Feb-2017 12:27:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:0
+[22-Feb-2017 12:27:47 UTC] PHP   2. require_once() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:22
+[22-Feb-2017 12:27:47 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-load.php:37
+[22-Feb-2017 12:27:47 UTC] PHP   4. require_once() /home/ubuntu/workspace/wordpress/wp-config.php:90
+[22-Feb-2017 12:27:47 UTC] PHP   5. do_action() /home/ubuntu/workspace/wordpress/wp-settings.php:433
+[22-Feb-2017 12:27:47 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[22-Feb-2017 12:27:47 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[22-Feb-2017 12:27:47 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[22-Feb-2017 12:27:47 UTC] PHP   9. my_theme_setup() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[22-Feb-2017 12:27:47 UTC] PHP  10. load_theme_textdomain() /home/ubuntu/workspace/wordpress/wp-content/themes/web/functions.php:9
+[22-Feb-2017 12:27:47 UTC] PHP  11. load_textdomain() /home/ubuntu/workspace/wordpress/wp-includes/l10n.php:799
+[22-Feb-2017 12:27:47 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/wordpress/wp-includes/l10n.php on line 593
+[22-Feb-2017 12:27:47 UTC] PHP Stack trace:
+[22-Feb-2017 12:27:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:0
+[22-Feb-2017 12:27:47 UTC] PHP   2. require_once() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:22
+[22-Feb-2017 12:27:47 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-load.php:37
+[22-Feb-2017 12:27:47 UTC] PHP   4. require_once() /home/ubuntu/workspace/wordpress/wp-config.php:90
+[22-Feb-2017 12:27:47 UTC] PHP   5. do_action() /home/ubuntu/workspace/wordpress/wp-settings.php:433
+[22-Feb-2017 12:27:47 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[22-Feb-2017 12:27:47 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[22-Feb-2017 12:27:47 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[22-Feb-2017 12:27:47 UTC] PHP   9. my_theme_setup() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[22-Feb-2017 12:27:47 UTC] PHP  10. load_theme_textdomain() /home/ubuntu/workspace/wordpress/wp-content/themes/web/functions.php:9
+[22-Feb-2017 12:27:47 UTC] PHP  11. load_textdomain() /home/ubuntu/workspace/wordpress/wp-includes/l10n.php:799

@@ -40,10 +40,8 @@
 		*/
 		
 		$return_string  = "<h3>$content</h3>";
-		$return_string .= '<ul>';
 		
 		extract(shortcode_atts(array('fecha' => '', 'profesor' => '', 'departamento' => ''), $atts));
-			
 		$query = new WP_Query_Activity( array(	'fecha' => $fecha, 
 												'profesor' => $profesor, 
 												'departamento' => $departamento));
@@ -52,7 +50,22 @@
 		    
 		    while( $query->have_activities() ) : $query->the_activity();
 		        
-		        $return_string .= '<p>'.$query->get_the_title().'</p>';
+		        $return_string .= '<div>
+		        	<div class="activity-image">
+		        		<img class="img-responsive" src="'.$query->get_thumbnail_activity().'">
+		        	</div>
+		        	<div class="activity-detail">
+		        		<h3>'.$query->get_the_title().'</h3>
+		        		<span>'.$query->get_the_excerpt().'</span>
+		        		<p>'.$query->get_the_content().'</p>
+		        		<ul>
+		        			<li class="profesor">'.__(ucfirst('profesor')).': '.$query->get_the_teacher()->teacher_name.'</li>
+		        			<li class="fecha">'. __(ucfirst('fecha')).': '.$query->get_the_date('').'</li>
+		        			<li class="hini">'. __('Hora Inicial').': '.$query->get_the_time(false,'').'</li>
+		        			<li class="hfin">'. __('Hora Final').': '.$query->get_the_time(true,'').'</li>
+		        		</ul>
+		        	</div>
+				</div>';
 		        
 		    endwhile;
 		    
@@ -60,7 +73,6 @@
 	
 	    $query->wp_reset_activitydata();
 		
-		$return_string .= '<ul>';
 		
 		return $return_string;
 	}

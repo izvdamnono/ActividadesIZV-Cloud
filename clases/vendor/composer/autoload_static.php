@@ -22,6 +22,10 @@ class ComposerStaticInit76ecc17f83991a06a8f5bffbbfef19af
         array (
             'Psr\\Log\\' => 8,
         ),
+        'F' => 
+        array (
+            'Firebase\\JWT\\' => 13,
+        ),
         'D' => 
         array (
             'Doctrine\\Common\\Cache\\' => 22,
@@ -49,6 +53,10 @@ class ComposerStaticInit76ecc17f83991a06a8f5bffbbfef19af
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'Firebase\\JWT\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
         ),
         'Doctrine\\Common\\Cache\\' => 
         array (

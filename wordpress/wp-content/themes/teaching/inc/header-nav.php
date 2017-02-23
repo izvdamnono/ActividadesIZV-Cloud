@@ -158,17 +158,20 @@ function create_bootstrap_menu_teaching($theme_location = "primary") {
                     </div>
                     <ul class="nav navbar-nav">';
 
-        $i=1;
+
         foreach ($menu_items as $menu_item) {
             if ($menu_item->menu_item_parent == 0) {
                 $parent = $menu_item->ID;
                 $bool = false;
                 $menu_array = array();
-                echo "<pre>";
-                           var_dump($menu);
-                           var_dump($menu_item);
-                echo "</pre>";
-                $active = ( $menu_item->ID == $page_id ) ? ' class="active" ' : '';
+                /**
+                 * Con wp 
+                 */ 
+                $current_url = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+
+                // $current_url = home_url(add_query_arg(array(),$wp->request))."/";   
+                
+                $active = ( $menu_item->url == $current_url) ? ' class="active" ' : '';
                         
                 foreach ($menu_items as $submenu) {
                     if ($submenu->menu_item_parent == $parent) {
@@ -199,7 +202,6 @@ function create_bootstrap_menu_teaching($theme_location = "primary") {
             }
 
             // end <li>
-            $i++;
         }
 
         $menu_list .= '

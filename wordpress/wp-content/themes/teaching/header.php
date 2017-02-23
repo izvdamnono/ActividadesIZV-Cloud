@@ -58,6 +58,7 @@
     
     <script type="text/javascript" src="<?= get_template_directory_uri() ?>/assets/js/jquery.cm-overlay.js"></script>
     <script type="text/javascript" src="<?= get_template_directory_uri() ?>/assets/js/jquery.mobile.custom.min.js"></script>
+    <script type="text/javascript" src="<?= get_template_directory_uri() ?>/assets/js/main.js"></script>
 
     
 	    <!-- //js -->

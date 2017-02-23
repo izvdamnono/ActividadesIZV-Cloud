@@ -47,15 +47,17 @@ get_template_part('template-parts/banner');
                     
         <?php
             $page = (get_query_var('paged')) ? get_query_var('paged') : 1;
-            $args = array('post_type' => array('post', 'chartjs'), 
-                          'posts_per_page' => 5,
-                          'paged' => $page);
+            $args = array(
+                'post_type' => array('post', 'chartjs'), 
+                'posts_per_page' => 5,
+                'paged' => $page
+            );
                           
             $loop = new WP_Query($args);
             if ( $loop->have_posts() ) {
             	while ( $loop->have_posts() ) {
             		$loop->the_post(); 
-            	    
+            	
                     get_template_part( 'template-parts/content', get_post_type() );
                 
             	} 
