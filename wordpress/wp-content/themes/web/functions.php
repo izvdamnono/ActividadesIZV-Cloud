@@ -8,14 +8,13 @@ function my_theme_setup(){
 	load_theme_textdomain("web", get_template_directory() . '/languages');
 	
 	$locale = get_locale();
-	echo $locale; 
 	$locale_file = get_template_directory() . "/languages/$locale.php";
 	if ( is_readable($locale_file) ) {
-		echo $locale_file; 
 		require_once($locale_file);
 	}
 	//echo "<p>hello world!</p> <p>".get_template_directory()."</p> <p>".get_locale()."</p>";
 }
+require_once ("inc/function-admin.php");
 require_once ("inc/theme-support.php");
 require_once ("inc/custom-post.php");
 require_once ("inc/header-nav.php");
@@ -291,6 +290,7 @@ function custom_enqueue_scripts() {
     /*Registramos el jquery de GOOGLE*/
     wp_register_script('jquery', "http". ($_SERVER['SERVER_PORT'] == 443 ? "s" : "").
     					"://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.js", false, null );
+	//wp_enqueue_script( 'main2', get_template_directory_uri().'/assets/js/bootstrap-select.min.js', false, null);
 	wp_enqueue_script( 'main', get_template_directory_uri().'/assets/js/main.js', array('jquery'), '1.0', true );
 	wp_enqueue_script( 'main1', get_template_directory_uri().'/assets/js/wow.min.js', array('jquery'), '1.0', true );
 
@@ -304,6 +304,8 @@ function custom_enqueue_scripts() {
 //Con estos hooks indicamos que funcion se agregará al archivo admin-ajax para poder ejecutarlo desde una llamada ajax
 add_action( 'wp_ajax_nopriv_get_teachers', 'get_teachers' );
 add_action( 'wp_ajax_get_teachers', 'get_teachers' );
+add_action( 'wp_ajax_nopriv_wpsx_redefine_locale', 'wpsx_redefine_locale' );
+add_action( 'wp_ajax_wpsx_redefine_locale', 'wpsx_redefine_locale' );
 
 /*
 	Action Hook que activa un area de widgets en nuestro header, sidebar y footer
@@ -436,17 +438,12 @@ function generaltheme_widgets_init() {
     	
     	global $post;
     	
-    	$more = is_front_page() ? '<div class="about-btn"><a href="'.get_permalink($post).'">'.__('Read More', "web").'</a></div>' : '';
+    	$more = is_front_page() ? '<div class="about-btn"><a href="'.get_permalink($post).'">'.__('Read more', "web").'</a></div>' : '';
     	
     	return $more;
     }
     
     add_filter('excerpt_more', 'custom_excerpt_more');
-    
-    //Como va la paginación? XD 
-    //Fatal xD pagina todo menos index
-    //Cuando me digas hago una subida a github
-    // Vale tio
     
     //Funcion para que el m... de WP reconozca bien el numero de paginas de nuestra p.. consulta :)
     function my_post_count_queries( $query ) {
@@ -457,3 +454,16 @@ function generaltheme_widgets_init() {
 	  }
 	}
 	add_action( 'pre_get_posts', 'my_post_count_queries' );
+	
+	
+	function wpsx_redefine_locale() {
+	    
+	    $locale = isset($_POST['locale']) ? $_POST['locale'] : $_GET['locale'];
+	    
+	    //$_GET['locale'] = $locale;
+	    $_GET['locale'] = 'en_EN';
+	}
+	
+	//add_action('init', 'wpsx_redefine_locale');
+	
+	

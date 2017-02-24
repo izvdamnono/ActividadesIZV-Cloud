@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="<?= isset($_GET['locale']) ? $_GET['locale'] : get_locale() ?>">
 <head>
     <title>
     <?php
@@ -38,6 +38,7 @@
     
     <script src="<?= get_template_directory_uri() ?>/assets/js/jquery.min.js"></script>
     <script src="<?= get_template_directory_uri() ?>/assets/js/bootstrap.js"></script>
+    <script src="<?= get_template_directory_uri() ?>/assets/js/bootstrap-select.min.js"></script>
     
     <!-- start-smoth-scrolling -->
     <script type="text/javascript" src="<?= get_template_directory_uri() ?>/assets/js/move-top.js"></script>

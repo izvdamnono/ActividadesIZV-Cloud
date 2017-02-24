@@ -206,7 +206,7 @@
 <div class="contact">
 	<div class="container">
 		<div class="contact-top heading wow fadeInUp">
-			<h3><?= ucfirst(__('Contact','web')) ?></h3>
+			<h3><?= ucfirst(__('Contact us','web')) ?></h3>
 		</div>
 		<div class="container">
 		
@@ -223,8 +223,8 @@
 							<div id="cd-zoom-in"></div>
 							<div id="cd-zoom-out"></div>
 						</div>
-						<!--<script type="text/javascript" src="<?= get_template_directory_uri()?>/assets/js/map.js"></script>
-						<script src="<?= $maps ?>" async defer></script>-->
+						<script type="text/javascript" src="<?= get_template_directory_uri()?>/assets/js/map.js"></script>
+						<script src="<?= $maps ?>" async defer></script>
 						
 						<div class="contact-text">
 							<div class="col-md-4 contact-left wow bounceInLeft">
@@ -240,12 +240,12 @@
 								</div>
 							</div>	
 							<div class="col-md-8 contact-right wow bounceInRight">
-								<input placeholder="<?= ucfirst(__('Name', "web")) ?>" type="text" required>
+								<input placeholder="<?= ucfirst(__('Name')) ?>" type="text" required>
 								<input placeholder="<?= ucfirst(__('Email', "web")) ?>" type="text" required>
 								<textarea placeholder="<?= ucfirst(__('Message', "web")) ?>" required></textarea>
 									<div class="submit-btn">
 										<form>
-											<input type="submit" value="<?= ucfirst(__('Submit', "web"))?>">
+											<input type="submit" value="<?= ucfirst(__('Submit','web'))?>">
 										</form>
 									</div>
 							</div>

@@ -62,7 +62,7 @@
 <div class="abt-2">
 	<h3><?=__("Entradas Recientes",'web')?></h3>
 	<?php
-    $recent_posts = wp_get_recent_posts();
+    $recent_posts = wp_get_recent_posts(array('numberposts' => 3));
     $recent_posts_count =  count($recent_posts);
     $i = 1;
 	foreach ( $recent_posts as $recent ) {
@@ -116,26 +116,26 @@
 	?>
 </div>
 <div class="abt-2">
-	<h3><?= __('Categories', 'web'); ?></h3>
-	<ul>
-		<?php wp_list_cats(); ?>
+	<h3><?= __('Categories'); ?></h3>
+	<ul class="categories">
+		<?php wp_list_categories(array('title_li' => '')); ?>
 	</ul>	
 </div>
 <div class="abt-2">
-	<h3><?= __("Archives", 'web') ?></h3>
-	<ul>
+	<h3><?= __("Archives") ?></h3>
+	<ul class="archives">
 	<?php wp_get_archives(); ?>
 	</ul>
 </div>
 <div class="abt-2">
-	<h3><?=__("Author", 'web')?></h3>
-	<ul>
+	<h3><?=__("Author")?></h3>
+	<ul class="author">
 		<?php wp_list_authors(); ?>
 	</ul>
 </div>
 <div class="abt-2">
-	<h3><?=__("Pages", 'web')?></h3>
-	<ul>
+	<h3><?=__("Pages")?></h3>
+	<ul class="pages">
 		<?php wp_list_pages(array('title_li' => '')); ?>
 	</ul>
 </div>

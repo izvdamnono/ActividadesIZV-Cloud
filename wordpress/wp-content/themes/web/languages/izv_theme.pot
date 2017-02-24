@@ -135,5 +135,23 @@ msgstr "Search graphics"
 msgid "No chartjs found"
 msgstr "No graphics found"
 
+msgid "Submit"
+msgstr "Submit"
+
+msgid "Page"
+msgstr "Page"
+
+msgid "Post"
+msgstr "Post"
+
+msgid "English"
+msgstr "English"
+
+msgid "Spanish"
+msgstr "Spanish"
+
+msgid "French"
+msgstr "French"
+
 
 

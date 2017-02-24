@@ -274,3 +274,19 @@
 [22-Feb-2017 12:27:47 UTC] PHP   9. my_theme_setup() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
 [22-Feb-2017 12:27:47 UTC] PHP  10. load_theme_textdomain() /home/ubuntu/workspace/wordpress/wp-content/themes/web/functions.php:9
 [22-Feb-2017 12:27:47 UTC] PHP  11. load_textdomain() /home/ubuntu/workspace/wordpress/wp-includes/l10n.php:799
+[24-Feb-2017 05:11:40 UTC] PHP Fatal error:  Call to undefined function generateInvoice() in /home/ubuntu/workspace/wordpress/wp-content/themes/web/functions.php on line 470
+[24-Feb-2017 05:11:40 UTC] PHP Stack trace:
+[24-Feb-2017 05:11:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:0
+[24-Feb-2017 05:11:40 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:91
+[24-Feb-2017 05:11:40 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[24-Feb-2017 05:11:40 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[24-Feb-2017 05:11:40 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[24-Feb-2017 05:11:40 UTC] PHP   6. wpsx_redefine_locale() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[24-Feb-2017 05:12:15 UTC] PHP Fatal error:  Call to undefined function generateInvoice() in /home/ubuntu/workspace/wordpress/wp-content/themes/web/functions.php on line 470
+[24-Feb-2017 05:12:15 UTC] PHP Stack trace:
+[24-Feb-2017 05:12:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:0
+[24-Feb-2017 05:12:15 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:91
+[24-Feb-2017 05:12:15 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[24-Feb-2017 05:12:15 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[24-Feb-2017 05:12:15 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[24-Feb-2017 05:12:15 UTC] PHP   6. wpsx_redefine_locale() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298

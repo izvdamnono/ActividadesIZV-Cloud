@@ -1,5 +1,7 @@
 @import url("assets/css/bootstrap.css");
 @import url("assets/css/bootstrap-social.css");
+@import url("assets/css/bootstrap-select.min.css");
+@import url("assets/flag-icon-css/css/flag-icon.min.css");
 @import url("assets/css/chocolat.css");
 @import url("assets/css/style.css");
 @import url("assets/css/font-awesome.css");
@@ -178,8 +180,8 @@ ul.page-numbers > li > span.current:focus {
         z-index: 2;
     color: rgb(255, 255, 255);
     cursor: default;
-    background-color: rgb(51, 122, 183);
-    border-color: rgb(51, 122, 183);
+    background-color: #248ac4;
+    border-color: #248ac4;
 }
 
 ul.page-numbers-lg > li > a, ul.page-numbers-lg > li > span {
@@ -192,7 +194,7 @@ ul.page-numbers > li > a, ul.page-numbers > li > span {
     float: left;
     margin-left: -1px;
     line-height: 1.42857;
-    color: rgb(51, 122, 183);
+    color: #248ac4;
     text-decoration: none;
     background-color: rgb(255, 255, 255);
     padding: 6px 12px;
@@ -262,7 +264,7 @@ ul.social-media li {
     
     -moz-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
     -o-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
-    -webkit-filter: grayscale(100%);
+    -webkit-filter: grayscale(70%);
     filter: gray;
     
 }
@@ -491,4 +493,259 @@ ul.contact-list li.correo::before{
 .activity-detail ul li.hfin::before{
     
     content: '\f017'; 
+}
+@media (min-width: 1024px){
+    .head-main a img{
+        height: 100px;
+        margin: 15px;
+    }
+}
+@media (max-width: 1024px){
+    .head-main a img {
+        margin: 10px;
+        width: 100% !important;
+    }
+    .text-logo{
+        font-size: 0.7em;
+    }
+}
+
+.heading h3 {
+    
+    background-color: #248ac4;
+    border: 1px solid #248ac4;
+}
+
+.about-btn a:hover, .a-btn a:hover {
+    background: #248ac4;
+    border: 1px solid #248ac4;
+}
+
+/*Elementos del sidebar*/
+
+.abt-2 ul li {
+    
+    list-style: none;
+}
+
+.abt-2 ul li a::before {
+    
+    font-family: FontAwesome;
+    margin-right: 10px;
+    color: #248ac4;
+    
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+}
+
+.abt-2 ul li:hover > a::before  {
+    
+    color:#999;
+    
+}
+
+.abt-2 ul.categories li a::before {
+    
+    content: "\f044";
+    
+}
+
+.abt-2 ul.archives li a::before {
+    
+    content: "\f272";
+    
+}
+
+.abt-2 ul.author li a::before {
+    
+    content: "\f2bd";
+}
+
+.abt-2 ul.pages li a::before {
+    
+    content: "\f015";
+}
+
+.submit-btn input[type=submit], .comment-bottom input[type="submit"] {
+    background-color: #248ac4;
+    color: #fff;
+}
+
+.submit-btn input[type=submit]:hover, .comment-bottom input[type="submit"]:hover {
+    background-color: #6FB3DC;  
+}
+
+.div-responsive.highlight-image {
+    
+    height: 300px;
+}
+
+.highlight-post {
+    
+    padding: 20px;
+    box-sizing: none;
+}
+
+.blogTitle {
+    font-size: 20px;
+    color: #222222;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    display: block;
+}
+
+.blogInfo {
+    margin-bottom: 25px;
+}
+.blogInfo li {    
+    font-size: 13px;
+    line-height: 1.8em;
+    font-family: 'Raleway-Regular';
+    
+}
+.blogInfo li i {
+    margin-right: 6px;
+}
+
+@media(min-width:992px){
+    
+    .about-btn.highlight-btn  {
+        
+        float: right;
+    }
+}
+
+@media(max-width:991px){
+    .highlight-post {
+        padding: 30px;
+    }
+}
+
+.firstPost {
+    
+    /*font-family: "CabinCondensed";*/
+    /*text-transform: capitalize;*/
+    /*padding: 17.5px;
+    box-sizing: border-box;*/
+    margin-bottom: 20px;
+}
+
+
+time.icon
+{
+  font-size: 1em; /* change icon size */
+  display: block;
+  position: relative;
+  width: 7em;
+  height: 7em;
+  background-color: #fff;
+  margin: 2em auto;
+  border-radius: 0.6em;
+  box-shadow: 0 1px 0 #bdbdbd, 0 2px 0 #fff, 0 3px 0 #bdbdbd, 0 4px 0 #fff, 0 5px 0 #bdbdbd, 0 0 0 1px #bdbdbd;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: rotate(0deg) skewY(0deg);
+  -webkit-transform-origin: 50% 10%;
+  transform-origin: 50% 10%;
+}
+
+time.icon *
+{
+  display: block;
+  width: 100%;
+  font-size: 1em;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+
+time.icon strong
+{
+  position: absolute;
+  top: 0;
+  padding: 0.4em 0;
+  color: #fff;
+  background-color: #31b0d5;
+  border-bottom: 1px dashed #248ac4;
+  box-shadow: 0 2px 0 #248ac4;
+}
+
+time.icon em
+{
+  position: absolute;
+  bottom: 0.2em;
+  color: #248ac4;
+}
+
+time.icon span
+{
+  width: 100%;
+  font-size: 2.8em;
+  letter-spacing: -0.05em;
+  padding-top: 0.65em;
+}
+
+.bootstrap-select {
+    
+    float:right!important;
+}
+
+
+/* Ordenador */
+.padre {
+    position: relative;
+}
+
+
+
+@media (max-width: 768px) { 
+    .lang-iosapplication {
+        position: absolute;
+        top: 0.6em;
+        right: 0;
+    }
+    .lang-iosapplication button,
+    .lang-iosapplication ul {
+        font-size: 0.6em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) { 
+    .lang-iosapplication {
+        position: absolute;
+        top: 1em;
+        right: 0;
+    }
+    .lang-iosapplication button,
+    .lang-iosapplication ul {
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) { 
+    .lang-iosapplication {
+        position: absolute;
+        top: 1.5em;
+        right: 0;
+    }
+    .lang-iosapplication button,
+    .lang-iosapplication ul {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .lang-iosapplication {
+        position: absolute;
+        top: 1.5em;
+        right: 0;
+    }
+    .lang-iosapplication button,
+    .lang-iosapplication ul {
+        font-size: 1em;
+    }
 }

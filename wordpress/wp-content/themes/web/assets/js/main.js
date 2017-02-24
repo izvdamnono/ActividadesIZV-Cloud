@@ -41,4 +41,35 @@ $(document).ready(function(){
     
     }
     
+    $('.selectpicker').selectpicker(); 
+    
+    $('.selectpicker').change(function(){
+        
+            var optionSelected = $("option:selected", this).text();
+            
+            var locale;
+                       
+            switch (optionSelected) {
+                
+                case "Español" : {
+                    locale = "en_EN"; 
+                    break;
+                }
+            }           
+                                                             
+            jQuery.ajax({
+        	    url : teachers.ajax_url,
+        	    type : 'post',
+        	    data : {
+        		    action : 'wpsx_redefine_locale',
+        		    locale : locale
+        	    },
+        	    success : function( response ) {
+                               
+                    console.log(response);              			                                   
+                    location.reload();                                                            
+                                                    
+                }
+            }); 
+        });
 });
