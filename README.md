@@ -225,3 +225,24 @@ json -> json_encode
         
  
 </pre>
+
+##Rutas
+En la carpeta raiz se encuentra la carpeta "clases" con el autoload y bootstrap de doctrine,
+las clases pojo orm que generan la base de datos y las funciones para el control de la api,
+en la carpeta "rest" se encuentra los gestores de la clases pojo y de la Api.
+Cada gestor se encarga de su tabla ORM. 
+
+En la carpeta de "graficos" se encuentra la libreria de chart.js y el generador de graficos segun 
+la base datos.
+-rw-r--r-- 1 ubuntu ubuntu    6159 Feb  2 13:25 README.md
+drwxr-xr-x 2 ubuntu ubuntu    4096 Jan 30 09:31 api/
+drwxr-xr-x 3 ubuntu ubuntu    4096 Feb 11 09:50 assets/
+drwxr-xr-x 5 ubuntu ubuntu    4096 Feb 21 17:23 clases/
+-rw-r--r-- 1 ubuntu ubuntu     226 Jan 27 08:52 gitsh.sh
+drwxr-xr-x 3 ubuntu ubuntu    4096 Feb 11 13:29 graficos/
+-rw-rw-r-- 1 ubuntu ubuntu     261 Nov  1 05:45 hello-world.php
+-rw-r--r-- 1 ubuntu ubuntu     213 Feb 21 12:31 index.html
+drwxr-xr-x 2 ubuntu ubuntu    4096 Feb 21 08:21 ios/
+-rw-rw-r-- 1 ubuntu ubuntu   69095 Feb 12 23:06 php.ini
+drwxr-xr-x 3 ubuntu ubuntu    4096 Feb  7 17:45 trabajo/
+drwxr-xr-x 5 ubuntu ubuntu    4096 Mar  7 01:16 wordpress/
