@@ -3,7 +3,7 @@
     <div role="tab" id="headingGeneros">
         <h3 class="panel-title">
             <a role="button" data-toggle="collapse" data-parent="#filtros" href="#collapseGeneros"
-               aria-expanded="true" aria-controls="collapseGeneros">Filtros</a>
+               aria-expanded="true" aria-controls="collapseGeneros"><?= __('Filters', 'web')?></a>
         </h3>
     </div>
         
@@ -11,7 +11,7 @@
          aria-labelledby="headingGeneros">
         <div class="panel-body">
             <fieldset>
-                <?php $generos = ["Profesor", "Departamento", "Fecha"]; ?>
+                <?php $generos = [__("Teacher",'web'), __("Department",'web'), __("Date",'web')]; ?>
                 <?php foreach ($generos as $genero_key => $genero_value): ?>
                         
                     <?php $genero_value = strtolower($genero_value); ?>    
@@ -25,16 +25,17 @@
                                 
                                 switch ($genero_value) { 
                                 
-                                    case "profesor" : {
+                                    case strtolower(__("Teacher", 'web')) : {
                                     
-                                        $teachers = get_teachers(get_departaments()[0]);
+                                        $depart   = isset($_POST['filter-departamento']) ? $_POST['filter-departamento'] : get_departaments()[0]; 
+                                        $teachers = get_teachers($depart);
                                         
                                         echo '<select class="form-control sel-prf" name="filter-profesor" >';
-                                        
+                                        echo "<option value=''>".__("Without Specifying", "web")."</option>";
                                         foreach ( $teachers as $teacher) {
                                             
-                                            $selected = isset($_POST['filter-profesor']) && $_POST['filter-profesor'] === $teacher ? selected : '';
-                                            echo "<option $selected>$teacher</option>";
+                                            $selected = isset($_POST['filter-profesor']) && $_POST['filter-profesor'] === $teacher ? "selected" : '';
+                                            echo "<option  value='$teacher' $selected>$teacher</option>";
                                         }
                                         
                                         echo '</select>';
@@ -43,23 +44,24 @@
                                         
                                     }
                                     
-                                    case "departamento": {
+                                    case strtolower(__("Department", 'web')): {
                                     
                                         $departaments = get_departaments();
                                         
                                         echo '<select class="form-control sel-dpt" name="filter-departamento">';
+                                        echo "<option class='wtsp' value=''>".__("Without Specifying", "web")."</option>";
                                         
                                         foreach ( $departaments as $departament) {
                                             
-                                            $selected = isset($_POST['filter-departamento']) && $_POST['filter-departamento'] === $teacher ? selected : '';
-                                            echo "<option $selected>$departament</option>";
+                                            $selected = isset($_POST['filter-departamento']) && $_POST['filter-departamento'] === $departament ? 'selected' : '';
+                                            echo "<option $selected value='$departament'>$departament</option>";
                                         }
                                         
                                         echo '</select>';
                                         break; 
                                         
                                     }
-                                    case "fecha": {
+                                    case strtolower(__("Date", 'web')): {
                                         
                                         ?>
                                         <input type="date" class="form-control" id="filterfecha"
@@ -81,7 +83,7 @@
                 <?php endforeach; ?>
             </fieldset>
             
-            <input type="submit" name="filter-activity" value="Buscar" >
+            <input type="submit" name="filter-activity" value="<?= __('Search', 'web')?>" >
         </div>
     </div>
 

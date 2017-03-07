@@ -19,7 +19,17 @@ get_template_part("template-parts/header","nav");
                 ?>
             
             <?php if ($query->have_activities() ) :  ?>
-            
+                
+                <div class="alert alert-info" role="alert">
+                    
+                    <strong>
+        				<?=  __("Result",'web').': ' ?>
+        			</strong>
+        			<?php $num = $query->activity_count(); ?>
+        		    <?= $num.' '.__("founded ".($num ===1 ? 'activity' : 'activities'), 'web') ?>
+                    
+                </div>
+                
             <?php   while( $query->have_activities() ) : ?>
             
             <?php       $query->the_activity(); ?>
@@ -34,10 +44,10 @@ get_template_part("template-parts/header","nav");
                         <img src="<?= $query->get_thumbnail_activity() ?>" alt="">
                     	
                     	    <span class="profesor">
-                    	         <?= __("Profesor", 'web') ?>: <?php echo $query->the_teacher(); ?>
+                    	         <?= __("Teacher", 'web') ?>: <?php echo $query->the_teacher(); ?>
                 	        </span><br>
                     	    <span class="fecha">
-                    	        <?= __("Fecha", 'web') ?>:  <?php echo $query->the_date(); ?>
+                    	        <?= __("Date", 'web') ?>:  <?php echo $query->the_date(); ?>
                     	    </span> 
                     	
                     	
@@ -45,13 +55,19 @@ get_template_part("template-parts/header","nav");
                     	
                     	
                     </div>
-                    <div class="about-btn">
-                		<a href="<?= $query->get_the_permalink() ?>"><?= __("Read More", 'web') ?></a>
-                	</div>
                </article>
                     
             <?php   endwhile; ?>
             
+            <?php else: ?>
+                
+                <div class="alert alert-danger" role="alert">
+                    
+                    <strong>
+                        <?= __("Not founded activities", 'web') ?>
+                    </strong>
+                    
+                </div>
             <?php endif; ?>
             
             <?php $query->wp_reset_activitydata();?>

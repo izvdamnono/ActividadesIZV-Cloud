@@ -12494,3 +12494,133 @@ Stack trace:
 [23-Feb-2017 08:06:38 UTC] PHP   7. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
 [23-Feb-2017 08:06:38 UTC] PHP   8. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
 [23-Feb-2017 08:06:38 UTC] PHP   9. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[24-Feb-2017 11:58:57 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/functions.php on line 463
+[24-Feb-2017 11:58:57 UTC] PHP Stack trace:
+[24-Feb-2017 11:58:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[24-Feb-2017 11:58:57 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[24-Feb-2017 11:58:57 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:13
+[24-Feb-2017 11:58:57 UTC] PHP   4. require_once() /home/ubuntu/workspace/wordpress/wp-load.php:37
+[24-Feb-2017 11:58:57 UTC] PHP   5. require_once() /home/ubuntu/workspace/wordpress/wp-config.php:90
+[24-Feb-2017 12:13:25 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/functions.php on line 472
+[24-Feb-2017 12:13:25 UTC] PHP Stack trace:
+[24-Feb-2017 12:13:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[24-Feb-2017 12:13:25 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[24-Feb-2017 12:13:25 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:13
+[24-Feb-2017 12:13:25 UTC] PHP   4. require_once() /home/ubuntu/workspace/wordpress/wp-load.php:37
+[24-Feb-2017 12:13:25 UTC] PHP   5. require_once() /home/ubuntu/workspace/wordpress/wp-config.php:90
+[24-Feb-2017 12:13:25 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/functions.php on line 472
+[24-Feb-2017 12:13:25 UTC] PHP Stack trace:
+[24-Feb-2017 12:13:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[24-Feb-2017 12:13:25 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[24-Feb-2017 12:13:25 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:13
+[24-Feb-2017 12:13:25 UTC] PHP   4. require_once() /home/ubuntu/workspace/wordpress/wp-load.php:37
+[24-Feb-2017 12:13:25 UTC] PHP   5. require_once() /home/ubuntu/workspace/wordpress/wp-config.php:90
+[24-Feb-2017 12:13:25 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/functions.php on line 472
+[24-Feb-2017 12:13:25 UTC] PHP Stack trace:
+[24-Feb-2017 12:13:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[24-Feb-2017 12:13:25 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[24-Feb-2017 12:13:25 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:13
+[24-Feb-2017 12:13:25 UTC] PHP   4. require_once() /home/ubuntu/workspace/wordpress/wp-load.php:37
+[24-Feb-2017 12:13:25 UTC] PHP   5. require_once() /home/ubuntu/workspace/wordpress/wp-config.php:90
+[24-Feb-2017 12:14:05 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/functions.php on line 472
+[24-Feb-2017 12:14:05 UTC] PHP Stack trace:
+[24-Feb-2017 12:14:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[24-Feb-2017 12:14:05 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[24-Feb-2017 12:14:05 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:13
+[24-Feb-2017 12:14:05 UTC] PHP   4. require_once() /home/ubuntu/workspace/wordpress/wp-load.php:37
+[24-Feb-2017 12:14:05 UTC] PHP   5. require_once() /home/ubuntu/workspace/wordpress/wp-config.php:90
+[27-Feb-2017 08:49:16 UTC] PHP Fatal error:  Call to undefined function translate_title_custom_footer() in /home/ubuntu/workspace/wordpress/wp-content/themes/web/footer-full.php on line 5
+[27-Feb-2017 08:49:16 UTC] PHP Stack trace:
+[27-Feb-2017 08:49:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[27-Feb-2017 08:49:16 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[27-Feb-2017 08:49:16 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[27-Feb-2017 08:49:16 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[27-Feb-2017 08:49:16 UTC] PHP   5. get_footer() /home/ubuntu/workspace/wordpress/wp-content/themes/web/front-page.php:264
+[27-Feb-2017 08:49:16 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:84
+[27-Feb-2017 08:49:16 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[27-Feb-2017 08:49:16 UTC] PHP   8. require_once() /home/ubuntu/workspace/wordpress/wp-includes/template.php:684
+[27-Feb-2017 08:49:17 UTC] PHP Fatal error:  Call to undefined function translate_title_custom_footer() in /home/ubuntu/workspace/wordpress/wp-content/themes/web/footer-full.php on line 5
+[27-Feb-2017 08:49:17 UTC] PHP Stack trace:
+[27-Feb-2017 08:49:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[27-Feb-2017 08:49:17 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[27-Feb-2017 08:49:17 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[27-Feb-2017 08:49:17 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[27-Feb-2017 08:49:17 UTC] PHP   5. get_footer() /home/ubuntu/workspace/wordpress/wp-content/themes/web/front-page.php:264
+[27-Feb-2017 08:49:17 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:84
+[27-Feb-2017 08:49:17 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[27-Feb-2017 08:49:17 UTC] PHP   8. require_once() /home/ubuntu/workspace/wordpress/wp-includes/template.php:684
+[27-Feb-2017 10:05:57 UTC] PHP Fatal error:  Call to undefined function translate_title_custom_footer() in /home/ubuntu/workspace/wordpress/wp-content/themes/web/footer-full.php on line 5
+[27-Feb-2017 10:05:57 UTC] PHP Stack trace:
+[27-Feb-2017 10:05:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[27-Feb-2017 10:05:57 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[27-Feb-2017 10:05:57 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[27-Feb-2017 10:05:57 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[27-Feb-2017 10:05:57 UTC] PHP   5. get_footer() /home/ubuntu/workspace/wordpress/wp-content/themes/web/front-page.php:264
+[27-Feb-2017 10:05:57 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:84
+[27-Feb-2017 10:05:57 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[27-Feb-2017 10:05:57 UTC] PHP   8. require_once() /home/ubuntu/workspace/wordpress/wp-includes/template.php:684
+[27-Feb-2017 19:00:13 UTC] PHP Fatal error:  Call to undefined function translate_title_custom_footer() in /home/ubuntu/workspace/wordpress/wp-content/themes/web/footer-full.php on line 5
+[27-Feb-2017 19:00:13 UTC] PHP Stack trace:
+[27-Feb-2017 19:00:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[27-Feb-2017 19:00:13 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[27-Feb-2017 19:00:13 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[27-Feb-2017 19:00:13 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[27-Feb-2017 19:00:13 UTC] PHP   5. get_footer() /home/ubuntu/workspace/wordpress/wp-content/themes/web/front-page.php:264
+[27-Feb-2017 19:00:13 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:84
+[27-Feb-2017 19:00:13 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[27-Feb-2017 19:00:13 UTC] PHP   8. require_once() /home/ubuntu/workspace/wordpress/wp-includes/template.php:684
+[27-Feb-2017 20:51:08 UTC] PHP Fatal error:  Call to undefined function translate_title_custom_footer() in /home/ubuntu/workspace/wordpress/wp-content/themes/web/footer-full.php on line 5
+[27-Feb-2017 20:51:08 UTC] PHP Stack trace:
+[27-Feb-2017 20:51:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/index.php:0
+[27-Feb-2017 20:51:08 UTC] PHP   2. require() /home/ubuntu/workspace/wordpress/index.php:17
+[27-Feb-2017 20:51:08 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-blog-header.php:19
+[27-Feb-2017 20:51:08 UTC] PHP   4. include() /home/ubuntu/workspace/wordpress/wp-includes/template-loader.php:74
+[27-Feb-2017 20:51:08 UTC] PHP   5. get_footer() /home/ubuntu/workspace/wordpress/wp-content/themes/web/front-page.php:264
+[27-Feb-2017 20:51:08 UTC] PHP   6. locate_template() /home/ubuntu/workspace/wordpress/wp-includes/general-template.php:84
+[27-Feb-2017 20:51:08 UTC] PHP   7. load_template() /home/ubuntu/workspace/wordpress/wp-includes/template.php:643
+[27-Feb-2017 20:51:08 UTC] PHP   8. require_once() /home/ubuntu/workspace/wordpress/wp-includes/template.php:684
+[28-Feb-2017 16:37:14 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message 'select * from actividad 
+                        order by if (fecha = date(now()), 1, 0) desc,
+                        if(datediff(fecha, date(now())) > 0, - datediff(fecha, date(now())),null) desc,
+                        datediff(fecha, date(now())) desc,
+                        hini' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError('select * from a...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(2167): Doctrine\ORM\Query\Parser->syntaxError('IdentificationV...', Array)
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(1158): Doctrine\ORM\Query\Parser->SelectExpression()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(874): Do in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[28-Feb-2017 16:39:50 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message 'select a.* from actividad a
+                        order by if (a.fecha = date(now()), 1, 0) desc,
+                        if(datediff(a.fecha, date(now())) > 0, - datediff(a.fecha, date(now())),null) desc,
+                        datediff(a.fecha, date(now())) desc,
+                        a.hini' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError('select a.* from...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(861): Doctrine\ORM\Query\Parser->syntaxError('end of string')
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(268): Doctrine\ORM\Query\Parser->QueryLanguage()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(351): Doctri in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[28-Feb-2017 16:40:18 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\ORM\Query\QueryException' with message 'select a.* from actividad a order by if (a.fecha = date(now()), 1, 0) desc,
+                        if(datediff(a.fecha, date(now())) > 0, - datediff(a.fecha, date(now())),null) desc,
+                        datediff(a.fecha, date(now())) desc,
+                        a.hini' in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(448): Doctrine\ORM\Query\QueryException::dqlError('select a.* from...')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(861): Doctrine\ORM\Query\Parser->syntaxError('end of string')
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(268): Doctrine\ORM\Query\Parser->QueryLanguage()
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(351): Doctrine\ORM\Query\Parser->get in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php on line 52
+[28-Feb-2017 16:41:20 UTC] PHP Catchable fatal error:  Argument 2 passed to Doctrine\ORM\EntityManager::createNativeQuery() must be an instance of Doctrine\ORM\Query\ResultSetMapping, none given, called in /home/ubuntu/workspace/clases/rest/GestorActividad.php on line 23 and defined in /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php on line 293
+[28-Feb-2017 16:41:20 UTC] PHP Stack trace:
+[28-Feb-2017 16:41:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[28-Feb-2017 16:41:20 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[28-Feb-2017 16:41:20 UTC] PHP   3. GestorActividad->consultarTodos() /home/ubuntu/workspace/clases/rest/Api.php:39
+[28-Feb-2017 16:41:20 UTC] PHP   4. Doctrine\ORM\EntityManager->createNativeQuery() /home/ubuntu/workspace/clases/rest/GestorActividad.php:23
+[28-Feb-2017 16:43:30 UTC] PHP Fatal error:  Call to a member function getArray() on a non-object in /home/ubuntu/workspace/clases/rest/GestorActividad.php on line 32
+[28-Feb-2017 16:43:30 UTC] PHP Stack trace:
+[28-Feb-2017 16:43:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[28-Feb-2017 16:43:30 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[28-Feb-2017 16:43:30 UTC] PHP   3. GestorActividad->consultarTodos() /home/ubuntu/workspace/clases/rest/Api.php:39
+[28-Feb-2017 16:43:59 UTC] PHP Fatal error:  Call to a member function getArray() on a non-object in /home/ubuntu/workspace/clases/rest/GestorActividad.php on line 32
+[28-Feb-2017 16:43:59 UTC] PHP Stack trace:
+[28-Feb-2017 16:43:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/ios/api.php:0
+[28-Feb-2017 16:43:59 UTC] PHP   2. Api->doJob() /home/ubuntu/workspace/ios/api.php:10
+[28-Feb-2017 16:43:59 UTC] PHP   3. GestorActividad->consultarTodos() /home/ubuntu/workspace/clases/rest/Api.php:39

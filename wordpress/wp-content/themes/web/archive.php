@@ -72,7 +72,7 @@ get_template_part("template-parts/header","nav");
 			                	<?php
 									//Variable que controla que cerremos la etiqueta contenedora
 									$cl = false;
-									$catid = wp_get_post_categories($post->ID, array('fields' => 'ids'));
+									$catid = wp_get_post_categories(null, array('fields' => 'ids'));
 									$thumb = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'full')[0];
 									if (!$thumb) {
 										$thumb = get_post_type() === 'izv_teachers' ? get_post_meta($post->ID, "teacher_image", true) : get_template_directory_uri()."/assets/images/front-default.jpg";

@@ -86,7 +86,7 @@ get_template_part("template-parts/header","nav");
                                 </li>
                                 <li>
                                     <i class="fa fa-comments" aria-hidden="true"></i>
-                                    <?php echo comments_number('Sin comentarios', '1 comentario', '% comentarios'); ?>
+                                    <?php comments_number('No '.__('comments', 'web'), '1 '.__('comment', 'web'), '% '.__('comments','web')); ?>
                                 </li>
 
                             </ul>

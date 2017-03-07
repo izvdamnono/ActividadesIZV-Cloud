@@ -35,7 +35,7 @@ class Api {
                             $return = $apiActividad->consultarProfesor($rest[2]);
                         } elseif (!is_null($rest[1]) and preg_match("/^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])$/", $rest[1])) {
                             $return = $apiActividad->consultarFecha($rest[1]);
-                        } elseif (!is_null($rest[1])) {
+                        } else {
                             $return = $apiActividad->consultarTodos();
                         }
                     }
@@ -45,7 +45,7 @@ class Api {
                             $return = $apiDepartamento->consultarProfesor($rest[1]);
                         } elseif (is_numeric($rest[1])) {
                             $return = $apiDepartamento->consultarId($rest[1]);
-                        } elseif(!is_null($rest[1])) {
+                        } else {
                             $return = $apiDepartamento->consultarTodos();
                         }
                     }
@@ -53,7 +53,7 @@ class Api {
                     if ($rest_0 == "profesor") {
                         if (is_numeric($rest[1])) {
                             $return = $apiProfesor->consultarId($rest[1]);
-                        } elseif(!is_null($rest[1])) {
+                        } else {
                             $return = $apiProfesor->consultarTodos();
                         }
                     }
@@ -61,7 +61,7 @@ class Api {
                     if ($rest_0 == "grupo") {
                         if (is_numeric($rest[1])) {
                             $return = $apiGrupo->consultarId($rest[1]);
-                        } elseif(!is_null($rest[1])) {
+                        } else {
                             $return = $apiGrupo->consultarTodos();
                         }
                     }
@@ -120,7 +120,8 @@ class Api {
                     }
                     break;
             }
-        $this->response = $return;
+            
+            $this->response = json_encode($return, JSON_UNESCAPED_UNICODE);
         } else {
             $this->response = "nada";
         }

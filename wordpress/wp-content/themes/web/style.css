@@ -700,7 +700,10 @@ time.icon span
     position: relative;
 }
 
-
+.lang-iosapplication {
+    
+    margin-right: 1em!important;
+}
 
 @media (max-width: 768px) { 
     .lang-iosapplication {
@@ -748,4 +751,19 @@ time.icon span
     .lang-iosapplication ul {
         font-size: 1em;
     }
+}
+
+.footer-web {
+    padding: 2em 0;
+    box-shadow: 0 -5px 5px 0px rgba(0, 0, 0, 0.11);
+    /* text-align: center; */
+    overflow: hidden;
+    position: relative;
+    bottom: -5px;
+    background: #FFF;
+}
+
+hr.invisible {
+    
+    border-color: transparent;
 }

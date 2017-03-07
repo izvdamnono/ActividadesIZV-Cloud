@@ -1,5 +1,5 @@
 <div class="abt-1">
-	<h3><?= __('Nube de Tags', 'web'); ?></h3>
+	<h3><?= __('Tag Cloud', 'web'); ?></h3>
 	<div>
 		<?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Sidebar Widgets')) { ?>
 			<div class="abt-one">
@@ -14,38 +14,45 @@
 		<?php get_template_part('template-parts/search-activity'); ?>
 	<?php endif;?>
 	
-	<h3><?= __("Ultimo post", 'web') ?></h3>
-	<?php
-	$features_post = wp_get_recent_posts(array(
-		'numberposts' => 1,
-	));
-	foreach ( $features_post as $feature_post ) {
-		$post = get_post($feature_post["ID"]);
-		$post_title = strip_tags( $post->post_title );
-		$get_the_post_thumbnail_url =  get_the_post_thumbnail_url($post->ID);
-		$get_permalink_of_post = get_permalink($post->ID);
-		$the_excerpt_of_feature_post = strip_tags( the_excerpt_max_charlength($post->post_content, 300, false ) );
-		$archive_year = get_the_time('Y', $post->ID); 
-		$archive_month = get_the_time('m', $post->ID); 
-		$archive_day = get_the_time('d', $post->ID);
-		$get_day_link = get_day_link( $archive_year, $archive_month, $archive_day);
-		$get_the_time = get_the_time("j. M Y", $post->ID);
-		$get_author_posts_url = get_author_posts_url(get_the_author_meta('ID', $post->post_author)); 
-		$get_author_name = get_the_author_meta("first_name", $post->post_author);
-		?>
-		<div class="abt-one">
-			<h4><?= $post_title ?></h3>
-			<?php  if ( $get_the_post_thumbnail_url != "" ) { ?>
-				<img src="<?= $get_the_post_thumbnail_url ?>" alt="<?= $post_title ?>" class="img-responsive" />
-			<?php } ?>
-			<p><?= $the_excerpt_of_feature_post ?></p>
-			<div class="a-btn">
-				<a href="<?= $get_permalink_of_post ?>"><?=__("Read more", 'web')?></a>
-			</div>
-		</div>
-		<?php
-	}	
+	<h3><?= __("Featured Post", 'web') ?></h3>
+	<?php 
+		$args = array('posts_per_page' => 1,
+					  'orderby' => 'comment_count');
+					  
+		$query = new WP_Query($args);			  
 	?>
+	<?php if ($query->have_posts()): ?>
+		<?php while($query->have_posts()): $query->the_post(); ?>
+		
+			<?php
+			
+				$post_title = strip_tags( $post->post_title );
+				$get_the_post_thumbnail_url =  get_the_post_thumbnail_url($post->ID);
+				$get_permalink_of_post = get_permalink($post->ID);
+				$the_excerpt_of_feature_post = strip_tags( the_excerpt_max_charlength($post->post_content, 300, false ) );
+				$archive_year = get_the_time('Y', $post->ID); 
+				$archive_month = get_the_time('m', $post->ID); 
+				$archive_day = get_the_time('d', $post->ID);
+				$get_day_link = get_day_link( $archive_year, $archive_month, $archive_day);
+				$get_the_time = get_the_time("j. M Y", $post->ID);
+				$get_author_posts_url = get_author_posts_url(get_the_author_meta('ID', $post->post_author)); 
+				$get_author_name = get_the_author_meta("first_name", $post->post_author);
+			?>
+			<div class="abt-one">
+				<h4><?= $post_title ?></h3>
+				<?php  if ( $get_the_post_thumbnail_url != "" ):?>
+					<img src="<?= $get_the_post_thumbnail_url ?>" alt="<?= $post_title ?>" class="img-responsive" />
+				<?php endif; ?>
+				<p><?= $the_excerpt_of_feature_post ?></p>
+				<div class="a-btn">
+					<a href="<?= $get_permalink_of_post ?>"><?=__("Read more", 'web')?></a>
+				</div>
+			</div>
+		<?php endwhile;?>
+		
+		<?php wp_reset_postdata(); ?>
+	<?php endif;?>
+	
 </div>
 <?php do_action('before_sidebar'); ?>
 <!--
@@ -60,7 +67,7 @@
 </div>
 -->
 <div class="abt-2">
-	<h3><?=__("Entradas Recientes",'web')?></h3>
+	<h3><?=__("Recent Posts",'web')?></h3>
 	<?php
     $recent_posts = wp_get_recent_posts(array('numberposts' => 3));
     $recent_posts_count =  count($recent_posts);
@@ -116,25 +123,25 @@
 	?>
 </div>
 <div class="abt-2">
-	<h3><?= __('Categories'); ?></h3>
+	<h3><?= __('Categories', 'web'); ?></h3>
 	<ul class="categories">
 		<?php wp_list_categories(array('title_li' => '')); ?>
 	</ul>	
 </div>
 <div class="abt-2">
-	<h3><?= __("Archives") ?></h3>
+	<h3><?= __("Archives", 'web') ?></h3>
 	<ul class="archives">
 	<?php wp_get_archives(); ?>
 	</ul>
 </div>
 <div class="abt-2">
-	<h3><?=__("Author")?></h3>
+	<h3><?=__("Author", 'web')?></h3>
 	<ul class="author">
 		<?php wp_list_authors(); ?>
 	</ul>
 </div>
 <div class="abt-2">
-	<h3><?=__("Pages")?></h3>
+	<h3><?=__("Pages", 'web')?></h3>
 	<ul class="pages">
 		<?php wp_list_pages(array('title_li' => '')); ?>
 	</ul>

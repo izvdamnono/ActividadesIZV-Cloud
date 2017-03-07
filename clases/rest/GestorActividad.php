@@ -21,7 +21,7 @@ class GestorActividad {
         }
         if ( !is_null($actividades) ) {
             header("HTTP/1.1 200 OK");
-            return (json_encode($data_to_json));      
+            return (($data_to_json));      
         } else {
             header("HTTP/1.1 404 Not found");
             return '{"response":"error"}'; 
@@ -37,7 +37,7 @@ class GestorActividad {
         $actividad = $query->findOneBy(array('id' => $id));
         if ( !is_null($actividad) ) {
             header("HTTP/1.1 200 OK");
-            return json_encode(array($actividad->getArray()));
+            return (array($actividad->getArray()));
         } else {
             header("HTTP/1.1 404 Not found");
             return '{"response":"error"}'; 
@@ -57,7 +57,7 @@ class GestorActividad {
                 $data_to_json[] = $item->getArray();
             }    
             header("HTTP/1.1 200 OK");
-            return (json_encode($data_to_json));
+            return (($data_to_json));
         } else {
             header("HTTP/1.1 404 Not found");
             return '{"response":"error"}'; 
@@ -77,7 +77,7 @@ class GestorActividad {
             }
             
             header("HTTP/1.1 200 OK");
-            return (json_encode($data_to_json));
+            return (($data_to_json));
         } else {
             header("HTTP/1.1 404 Not found");
             return '{"response":"error"}';
@@ -179,7 +179,7 @@ class GestorActividad {
      */ 
     public function borrarJson($object) {
         try {  
-            $objectArray = json_decode(json_encode($object), true);
+            $objectArray = json_decode(json_encode($object, JSON_UNESCAPED_UNICODE), true);
             foreach ($objectArray as $value) {
                 $actividad  = $this->gestor->find('Actividad', $value["id"]);
                 if(!is_null($actividad)) {

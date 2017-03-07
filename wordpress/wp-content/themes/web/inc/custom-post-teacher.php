@@ -25,13 +25,13 @@
             'name_admin_bar' => _x('Profesor', 'admin bar'),
             'add_new' =>        _x('Añadir Nueva', 'add new'),
             //Acciones
-            'add_new_item' =>   __('Add new teacher'),
-            'new_item' =>       __('New teacher'),
-            'edit_item' =>      __('Edit teacher'),
-            'view_item' =>      __('See teacher'),
-            'all_items' =>      __('Alls our teacher'),
-            'search_items' =>   __('Search teacher'),
-            'not_found' =>      __('No teachers found')
+            'add_new_item' =>   __('Add new teacher', 'web'),
+            'new_item' =>       __('New teacher', 'web'),
+            'edit_item' =>      __('Edit teacher', 'web'),
+            'view_item' =>      __('See teacher', 'web'),
+            'all_items' =>      __('Alls our teacher', 'web'),
+            'search_items' =>   __('Search teacher', 'web'),
+            'not_found' =>      __('No teachers found', 'web')
         );
         
         /*
@@ -112,19 +112,19 @@
 		echo '<table class="form-table">';
 		echo '<tr>';
 		echo '<td><label for="teacher_name">';
-		_e( 'Nombre', 'teacher_textdomain' );
+		_e( 'Name', 'web' );
 		echo '</label></td>';
 		echo '<td><input type="text" id="teacher_name" name="teacher_name" value="'.esc_attr($value1).'"/></td>';
 		
 		echo '<tr>';
 		echo '<td><label for="teacher_departament">';
-		_e( 'Departamento', 'teacher_textdomain' );
+		_e( 'Departmanent', 'web' );
 		echo '</label></td>';
 		echo '<td><input type="text" name="teacher_departament" name="excursteacher_departamention_from" value="'.esc_attr($value2).'" size="25"/></td>';
 		echo '</tr>';
 		
 		echo '<tr>';
-		echo '<td><label for="teacher_image">'.__("Teacher image").'</label></td>';
+		echo '<td><label for="teacher_image">'.__("Teacher image", 'web').'</label></td>';
 	    echo '<td><input type="text" name="teacher_image" id="teacher_image" class="meta-image regular-text" value="'.$value3.'">';
 	    echo '<input type="button" class="button image-upload" value="Browse"></td>';
 	    echo '</tr>';

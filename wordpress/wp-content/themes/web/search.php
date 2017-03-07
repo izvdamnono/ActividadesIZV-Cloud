@@ -19,13 +19,13 @@ get_template_part("template-parts/header","nav");
     				<div class="alert alert-<?= $res ? 'info' : 'danger'?>" role="alert">
     				    <?php if ($res) : ?>
         				    <strong>
-        				        <?=  __("Resultado",'web').': ' ?>
+        				        <?=  __("Result",'web').': ' ?>
         				    </strong> 
-        				    <?= $wp_the_query->found_posts.' '.__("post encontrados", 'web') ?>
+        				    <?= $wp_the_query->found_posts.' '.__("founded posts", 'web') ?>
         				<?php else : ?>
         				
                             <strong>
-                                <?= __("No se encontraron resultados", 'web') ?>
+                                <?= __("Not founded posts", 'web') ?>
                             </strong>
         				<?php endif; ?>
     				</div>
@@ -62,13 +62,13 @@ get_template_part("template-parts/header","nav");
     						        
     						        case "chartjs" : {
     						            
-    						            $title = "grafico";
+    						            $title = "graphics";
     						            break;
     						        }
     						        
     						        case "izv_teachers": {
     						            
-    						            $title = "profesor";
+    						            $title = "teacher";
     						            break;
     						        }
     						    }

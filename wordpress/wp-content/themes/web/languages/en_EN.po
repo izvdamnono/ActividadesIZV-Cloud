@@ -1,0 +1,227 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2017-02-28 11:52+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-02-28 11:58+0100\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.12\n"
+"Last-Translator: \n"
+"Language: en_EN\n"
+
+msgid "404"
+msgstr "Houston, we have a problem"
+
+msgid "Read more"
+msgstr "Read more"
+
+msgid "Teacher"
+msgstr "Teacher"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "All posts"
+msgstr "All posts"
+
+msgid "Posts"
+msgstr "Posts"
+
+msgid "Comments"
+msgstr "Comments"
+
+msgid "Last news"
+msgstr "Last news"
+
+msgid "Our teachers"
+msgstr "Our teachers"
+
+msgid "Result"
+msgstr "Result"
+
+msgid "founded posts"
+msgstr "founded posts"
+
+msgid "Not founded posts"
+msgstr "Not founded posts"
+
+msgid "Last post"
+msgstr "Last post"
+
+msgid "Recent post"
+msgstr "Recent post"
+
+msgid "Author"
+msgstr "Author"
+
+msgid "Social media"
+msgstr "Social media"
+
+msgid "Teacher image"
+msgstr "Teacher image"
+
+msgid "chartjs details"
+msgstr "Graphics Details"
+
+msgid "by"
+msgstr "by"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Rol"
+msgstr "Rol"
+
+msgid "chartjs"
+msgstr "Graphics"
+
+msgid "Contact us"
+msgstr "Contact us"
+
+msgid "Do you need information? Just ask"
+msgstr "Do you need information? Just ask"
+
+msgid "Direction"
+msgstr "Address"
+
+msgid "Message"
+msgstr "Message"
+
+msgid "All rights reserved"
+msgstr "All rights reserved"
+
+msgid "Designed by"
+msgstr "Designed by"
+
+msgid "Alls posts"
+msgstr "Alls posts"
+
+msgid "Add new teacher"
+msgstr "Add new teacher"
+
+msgid "New teacher"
+msgstr "New teacher"
+
+msgid "Edit teacher"
+msgstr "Edit teacher"
+
+msgid "See teacher"
+msgstr "See teacher"
+
+msgid "Alls our teacher"
+msgstr "Alls our teacher"
+
+msgid "Search teacher"
+msgstr "Search Teacher"
+
+msgid "No teachers found"
+msgstr "No teachers found"
+
+msgid "Add new chartjs"
+msgstr "Add new graphic"
+
+msgid "New chartjs"
+msgstr "New Graphic"
+
+msgid "Edit chartjs"
+msgstr "Edit Graphic"
+
+msgid "See chartjs"
+msgstr "See Graphics"
+
+msgid "Alls our chartjs"
+msgstr "All our graphics"
+
+msgid "Search chartjs"
+msgstr "Search graphics"
+
+msgid "No chartjs found"
+msgstr "No graphics found"
+
+msgid "Submit"
+msgstr "Submit"
+
+msgid "Page"
+msgstr "Page"
+
+msgid "Post"
+msgstr "Post"
+
+msgid "English"
+msgstr "English"
+
+msgid "Spanish"
+msgstr "Spanish"
+
+msgid "French"
+msgstr "French"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Department"
+msgstr "Department"
+
+msgid "Search"
+msgstr "Search"
+
+msgid "Graphics"
+msgstr "Graphics"
+
+msgid "Tag Cloud"
+msgstr "Tag Cloud"
+
+msgid "Featured Post"
+msgstr "Featured Post"
+
+msgid "Recent Posts"
+msgstr "Recent Posts"
+
+msgid "Categories"
+msgstr "Categories"
+
+msgid "Archives"
+msgstr "Archives"
+
+msgid "Pages"
+msgstr "Pages"
+
+msgid "Meta"
+msgstr "Meta"
+
+msgid "comments"
+msgstr "comments"
+
+msgid "comment"
+msgstr "comment"
+
+msgid "Tags"
+msgstr "Tags"
+
+msgid "Filters"
+msgstr "Filters"
+
+msgid "Teaching"
+msgstr "Teaching"
+
+msgid "Related Links"
+msgstr "Related Links"
+
+msgid "Institute"
+msgstr "High School"
+
+msgid "Without Specifying"
+msgstr "Without Specifying"
+
+msgid "founded activity"
+msgstr "founded activity"
+
+msgid "founded activities"
+msgstr "founded activities"
+
+msgid "Not founded activities"
+msgstr "Not founded activities"

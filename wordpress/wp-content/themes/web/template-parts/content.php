@@ -35,8 +35,8 @@
     <div class="about-two">
         <?php if ($get_the_post_thumbnail_url!="") { ?>
         	<a href="<?= $get_permalink_of_post ?>"><img src="<?= $get_the_post_thumbnail_url ?>" alt=""></a>
-        <?php } ?>
-    	<p><?= __("By") ?> <a href="<?= $get_author_posts_url ?>"><?=$get_author_name?></a> on <a href="<?= $get_the_time_link ?>"><?= $get_the_time ?></a> <a href="<?= $get_comments_link ?>"><?= __("comments", 'web') ?>(<?= $get_comments_number ?>)</a></p>
+        <?php } ?><?php /*<?= __("comments", 'web') ?>(<?= $get_comments_number ?>)*/?>
+    	<p><?= __("by", 'web') ?> <a href="<?= $get_author_posts_url ?>"><?=$get_author_name?></a> on <a href="<?= $get_the_time_link ?>"><?= $get_the_time ?></a> <a href="<?= $get_comments_link ?>"><?php comments_number('No '.__('comments', 'web'), '1 '.__('comment', 'web'), '% '.__('comments','web')); ?></a></p>
     	<p><?= $the_excerpt ?></p>
     	
     	

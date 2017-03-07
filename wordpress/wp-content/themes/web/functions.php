@@ -3,17 +3,6 @@
  * 
  * 
  */ 
-add_action( 'after_setup_theme', 'my_theme_setup' );
-function my_theme_setup(){
-	load_theme_textdomain("web", get_template_directory() . '/languages');
-	
-	$locale = get_locale();
-	$locale_file = get_template_directory() . "/languages/$locale.php";
-	if ( is_readable($locale_file) ) {
-		require_once($locale_file);
-	}
-	//echo "<p>hello world!</p> <p>".get_template_directory()."</p> <p>".get_locale()."</p>";
-}
 require_once ("inc/function-admin.php");
 require_once ("inc/theme-support.php");
 require_once ("inc/custom-post.php");
@@ -445,7 +434,6 @@ function generaltheme_widgets_init() {
     
     add_filter('excerpt_more', 'custom_excerpt_more');
     
-    //Funcion para que el m... de WP reconozca bien el numero de paginas de nuestra p.. consulta :)
     function my_post_count_queries( $query ) {
 	  if (!is_admin() && $query->is_main_query()){
 	    if(is_home()){
@@ -455,15 +443,105 @@ function generaltheme_widgets_init() {
 	}
 	add_action( 'pre_get_posts', 'my_post_count_queries' );
 	
+	/**
+	 * Traducción tema
+	 * 
+	 */ 
+	function my_theme_setup(){
+		session_start();
+		load_theme_textdomain("web", get_template_directory() . '/languages');
+		
+		$locale = get_locale();
+		$locale_file = get_template_directory() . "/languages/$locale.php";
+		
+		if ( is_readable($locale_file) ) {
+			echo 'kk';
+			require_once($locale_file);
+		}
+		
+	}
+
+	add_action( 'after_setup_theme', 'my_theme_setup' );
 	
-	function wpsx_redefine_locale() {
-	    
-	    $locale = isset($_POST['locale']) ? $_POST['locale'] : $_GET['locale'];
-	    
-	    //$_GET['locale'] = $locale;
-	    $_GET['locale'] = 'en_EN';
+	//Funcion que devuelve el idioma del sitio dependiendo siempre de la session
+	function my_locale($locale) {
+	
+		if (!is_admin()) {
+			
+			$my_locale = isset($_SESSION['WPLANG']) ? $_SESSION['WPLANG'] : ( isset($_GET['lang']) ? $_GET['lang'] : $locale);
+			return $my_locale;
+		}
+		
+		return $locale;
 	}
 	
-	//add_action('init', 'wpsx_redefine_locale');
+	add_action('locale', my_locale);
+	
+	//Funcion que se encarga de cambiar el valor de la session con el idioma elegido
+	function wpsx_redefine_locale() {
+	    
+	    $locale = $_POST['locale'];
+		
+		if (isset($_SESSION['WPLANG'])) {
+			$_SESSION['WPLANG'] = $locale;
+		}else if (isset($_GET['lang'])){
+			$_GET['lang'] = $locale;
+		}
+
+	}
+	
+	//Funcion que se encarga de establecer la session y de almacenar en ella el valor de la traduccion
+	function change_language(){
+		 //session_start();
+		 if ( isset( $_GET['lang'] ) ) {
+		    $_SESSION['WPLANG'] = $_GET['lang'];
+		    define ('WPLANG', $_SESSION[WPLANG]);
+		 } else {
+		    if(isset($_SESSION['WPLANG'])) {
+		        define ('WPLANG', $_SESSION['WPLANG']);
+		        $_GET['lang'] = $_SESSION['WPLANG'];
+		    } else {
+		        if ( get_locale() ) {
+		            
+		            $_SESSION['WPLANG'] = get_locale();
+		            $_GET['lang'] = $_SESSION['WPLANG'];
+		            define ('WPLANG', $_SESSION[WPLANG]);
+		        } else {
+		            define ('WPLANG', '');
+		        }
+		    }
+		 }
+		 
+	}
+	add_action('init', 'change_language');
+	
+	
+	/*
+		Función que nos permite traducir todos los nodos que posean la clase
+		translate
+	*/
+	function translate_custom_content($html){
+		
+		if (!$html) return;
+		
+		$content	= mb_convert_encoding($html, 'HTML-ENTITIES', 'UTF-8');
+		$document	= new DOMDocument();
+		
+		libxml_use_internal_errors(true);
+		
+		$document->loadHTML(utf8_decode($content));
+		
+		$finder 	= new DomXPath($document);
+		$classname	= "translate";
+		$titles 	= $finder->query("//*[contains(@class, '$classname')]");
+		
+		foreach ( $titles as $title ) {
+			
+			$title->nodeValue = __($title->nodeValue, 'web');
+		}
+		
+		
+		return $document->saveHTML();
+	}
 	
 	

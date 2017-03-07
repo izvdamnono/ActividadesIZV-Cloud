@@ -20,7 +20,7 @@ class GestorDepartamento {
         }
         if ( !is_null($grupos) ) {
             header("HTTP/1.1 200 OK");
-            return (json_encode($data_to_json));      
+            return (($data_to_json));      
         } else {
             header("HTTP/1.1 404 Not found");
             return '{"response":"error"}'; 
@@ -35,7 +35,7 @@ class GestorDepartamento {
         $grupo = $this->gestor->getRepository('Departamento')->findOneBy(array('id' => $id));
         if ( !is_null($grupo) ) {
             header("HTTP/1.1 200 OK");
-            return json_encode(array($grupo->getArray()));
+            return (array($grupo->getArray()));
         } else {
             header("HTTP/1.1 404 Not found");
             return '{"response":"error"}'; 
@@ -55,7 +55,7 @@ class GestorDepartamento {
                 $data_to_json[] = $item->getArray();
             }    
             header("HTTP/1.1 200 OK");
-            return (json_encode($data_to_json));
+            return (($data_to_json));
         } else {
             header("HTTP/1.1 404 Not found");
             return '{"response":"error"}'; 

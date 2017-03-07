@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="<?= isset($_GET['locale']) ? $_GET['locale'] : get_locale() ?>">
+<html>
 <head>
     <title>
     <?php
@@ -8,9 +8,9 @@
             echo '&quot; - ';
         } elseif (is_archive()) {
             wp_title('');
-            echo __('Archivo','web'),' - ';
+            echo __('Archive','web'),' - ';
         } elseif (is_search()) {
-            echo __('Search')." ".__("by", "web").": ".'&quot;' . wp_specialchars(!empty($s) ? $s : "") . '&quot; - ';
+            echo __('Search', 'web')." ".__("by", "web").": ".'&quot;' . wp_specialchars(!empty($s) ? $s : "") . '&quot; - ';
         } elseif (!(is_404()) && (is_single()) || (is_page())) {
         
         } elseif (is_404()) {

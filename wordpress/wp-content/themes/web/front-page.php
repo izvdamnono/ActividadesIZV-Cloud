@@ -261,4 +261,5 @@
 </div>
 <!--end-contact-->
 
+<?php get_footer("full"); ?>
 <?php get_footer(); ?>

@@ -16,7 +16,7 @@ $the_query = new WP_Query( array(
         <div class="col-lg-12">
             <br>
             <div class="btn-group btn-group-justified" id="filters">
-                <a class="btn btn-default" data-filter="*" ><?= __('Alls posts', 'web')?></a>
+                <a class="btn btn-default" data-filter="*" ><?= __('All posts', 'web')?></a>
                 <a class="btn btn-default" data-filter=".chartjs" ><?= __('chartjs', 'web')?></a>
                 <!--<a class="btn btn-default" data-filter=".izv_teachers" ><?= __('Teachers', 'web')?></a>-->
                 <a class="btn btn-default" data-filter=".post" ><?= __('Posts', 'web')?></a>
@@ -50,7 +50,7 @@ $the_query = new WP_Query( array(
                     ?>
                 </div>
                 <br>
-                <hr>
+                <hr class="invisible">
                 <?php
                 wp_reset_postdata();
             }

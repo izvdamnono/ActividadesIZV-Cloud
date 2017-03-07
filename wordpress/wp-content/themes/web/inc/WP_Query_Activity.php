@@ -43,7 +43,12 @@ class WP_Query_Activity {
         //Variable de WP que nos permite realizar consultar a su BBDD
         global $wpdb;
         
-        $query       = "select * from (
+        $query  = "select * from (select a.* from actividad a order by if (a.fecha = date(now()), 1, 0) desc,
+                        if(datediff(a.fecha, date(now())) > 0, - datediff(a.fecha, date(now())),null) desc,
+                        datediff(a.fecha, date(now())) desc,
+                        a.hini) actividad";
+                        
+        /*$query       = "select * from (
                             select * from ( 
                                 select * from actividad 
                                     where DATE_FORMAT(fecha, '%Y-%m-%d') >= DATE_FORMAT(now(), '%Y-%m-%d' ) 
@@ -52,7 +57,7 @@ class WP_Query_Activity {
                             select * from ( 
                                 select * from actividad 
                                     where DATE_FORMAT(fecha, '%Y-%m-%d') < DATE_FORMAT(now(), '%Y-%m-%d' ) 
-                                    order by fecha desc) a2) actividad";
+                                    order by fecha desc) a2) actividad";*/
         
         //Comprobamos los distintos filtros habilitados
         if ( !empty($dpt = $this->args['departamento']) && !empty($prf = $this->args['profesor']) ) {
@@ -112,7 +117,9 @@ class WP_Query_Activity {
             
             $query .= " where actividad.fecha = '".date_format(date_create($fecha), 'Y-m-d')."'";
         }
+        //Lo he solucionado, pero no se muestran ahora las tildes
         
+    
         $this->activities = $wpdb->get_results($query);
         
     }
@@ -137,6 +144,11 @@ class WP_Query_Activity {
         $this->activities   = null;
         $this->position     = 0;
         $this->curactivity  = null;
+    }
+    
+    function activity_count() {
+        
+        return count($this->activities);
     }
     
     /**

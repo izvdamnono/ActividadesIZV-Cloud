@@ -1,5 +1,6 @@
 <?php
 $nav_menu_array = nav_menu_array();
+$nav_menu_array = !empty($nav_menu_array)?$nav_menu_array:array();
 $current_url = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 ?>
 <!--start-header-->

@@ -20,7 +20,7 @@ class GestorProfesor {
         }
         if ( !is_null($profesores) ) {
             header("HTTP/1.1 200 OK");
-            return (json_encode($data_to_json));      
+            return (($data_to_json));      
         } else {
             header("HTTP/1.1 404 Not found");
             return '{"response":"error"}'; 
@@ -35,7 +35,7 @@ class GestorProfesor {
         $grupo = $this->gestor->find('Profesor',$id);
         if ( !is_null($grupo) ) {
             header("HTTP/1.1 200 OK");
-            return json_encode(array($grupo->getArray()));
+            return (array($grupo->getArray()));
         } else {
             header("HTTP/1.1 404 Not found");
             return '{"response":"error"}'; 

@@ -19,10 +19,23 @@ $image[0] = $image[0]?:"";
 					<?= $get_bloginfo_description ?>
 				</h4>
 			</div>
+			<?php
+				$locale = get_locale();
+				
+				$en		= '<span class="flag-icon flag-icon-gb"></span> '.__("English", "web");
+				$es		= '<span class="flag-icon flag-icon-es"></span> '.__("Spanish", "web");
+				$fr		= '<span class="flag-icon flag-icon-fr"></span> '.__("French", "web");
+			?>
 			<select class="selectpicker lang-iosapplication" data-width="fit">
-			    <option data-content='<span class="flag-icon flag-icon-gb"></span> <?=__("English", "web")?>' value="en"><?=__("English", "web")?></option>
-				<option data-content='<span class="flag-icon flag-icon-es"></span> <?=__("Spanish", "web")?>' value="es"><?=__("Spanish", "web")?></option>
-				<option data-content='<span class="flag-icon flag-icon-fr"></span> <?=__("French", "web")?>' value="fr"><?=__("French", "web")?></option>
+			    <option data-content='<?= $en ?>' value="en_US" <?= $locale =="en_EN" ? "selected" : ''?>>
+			    	<?=__("English", "web")?>
+			    </option>
+				<option data-content='<?= $es ?>' value="es_ES" <?= $locale =="es_ES" ? "selected" : ''?>>
+					<?=__("Spanish", "web")?>
+				</option>
+				<option data-content='<?= $fr ?>' value="fr_FR" <?= $locale =="fr_FR" ? "selected" : ''?>>
+					<?=__("French", "web")?>
+				</option>
 			</select>
 		</div>
 		
