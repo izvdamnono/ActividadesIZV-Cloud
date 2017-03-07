@@ -234,7 +234,8 @@ Cada gestor se encarga de su tabla ORM.
 
 En la carpeta de "graficos" se encuentra la libreria de chart.js y el generador de graficos segun 
 la base datos.
--rw-r--r-- 1 ubuntu ubuntu    6159 Feb  2 13:25 README.md
+```
+-rw-r--r-- 1 ubuntu ubuntu    6159 Feb  2 13:25 README.md
 drwxr-xr-x 2 ubuntu ubuntu    4096 Jan 30 09:31 api/
 drwxr-xr-x 3 ubuntu ubuntu    4096 Feb 11 09:50 assets/
 drwxr-xr-x 5 ubuntu ubuntu    4096 Feb 21 17:23 clases/
@@ -245,4 +246,5 @@ drwxr-xr-x 3 ubuntu ubuntu    4096 Feb 11 13:29 graficos/
 drwxr-xr-x 2 ubuntu ubuntu    4096 Feb 21 08:21 ios/
 -rw-rw-r-- 1 ubuntu ubuntu   69095 Feb 12 23:06 php.ini
 drwxr-xr-x 3 ubuntu ubuntu    4096 Feb  7 17:45 trabajo/
-drwxr-xr-x 5 ubuntu ubuntu    4096 Mar  7 01:16 wordpress/
+drwxr-xr-x 5 ubuntu ubuntu    4096 Mar  7 01:16 wordpress/
+```
