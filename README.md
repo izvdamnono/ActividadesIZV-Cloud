@@ -251,6 +251,15 @@ drwxr-xr-x 3 ubuntu ubuntu    4096 Feb  7 17:45 trabajo/
 drwxr-xr-x 5 ubuntu ubuntu    4096 Mar  7 11:49 wordpress/
 ```
 
-##Prototipado Justinmind
-![Prototipado 1](/Justinmind ios/p1.PNG "Prototipado")
+#Prototipado Justinmind
+###Inicio de sesión
+![Prototipado](/Justinmind ios/p2.PNG "Inicio de sesión")
+###Actividades
+![Prototipado](/Justinmind ios/p3.PNG "Actividades")
+###Nueva actividad
+![Prototipado](/Justinmind ios/p4.PNG "Nueva actividad")
+###Mapas
+![Prototipado](/Justinmind ios/p5.PNG "Mapas")
+###Gráficos
+![Prototipado](/Justinmind ios/p6.PNG "Gráficos")
 
