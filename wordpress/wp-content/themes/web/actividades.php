@@ -11,9 +11,14 @@ get_template_part("template-parts/header","nav");
 			    
     			<?php    
     			
-                    $args   = array('departamento'  => isset($_POST['filter-departamento']) ? $_POST['filter-departamento'] : '', 
-                                    'profesor'      => isset($_POST['filter-profesor']) ? $_POST['filter-profesor'] : '',
-                                    'fecha'         => isset($_POST['filter-fecha']) ? $_POST['filter-fecha'] : '');
+    			    $departamento = isset($_POST['filter-departamento']) ? $_POST['filter-departamento'] : '';
+    			    $profesor     = isset($_POST['filter-profesor']) ? $_POST['filter-profesor'] : '';
+    			    $fecha        = isset($_POST['filter-fecha']) ? $_POST['filter-fecha'] : '';
+    			    
+    			    
+                    $args   = array('departamento'  => $departamento ===  __("Without Specifying", "web") ? '' : $departamento, 
+                                    'profesor'      => $profesor === __("Without Specifying", "web") ? '' : $profesor,
+                                    'fecha'         => $fecha);
                     $query  = new WP_Query_Activity($args);
                             
                 ?>

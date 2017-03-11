@@ -401,3 +401,604 @@
 [25-Feb-2017 17:29:17 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:33
 [25-Feb-2017 17:29:17 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-footer.php:5
 [25-Feb-2017 17:29:17 UTC] PHP   9. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1297}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1297
+[08-Mar-2017 15:04:24 UTC] PHP Fatal error:  Cannot redeclare IZV_back_end_data_admin() (previously declared in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-footer.php:40) in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 10
+[08-Mar-2017 15:04:24 UTC] PHP Stack trace:
+[08-Mar-2017 15:04:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:0
+[08-Mar-2017 15:04:24 UTC] PHP   2. require_once() /home/ubuntu/workspace/wordpress/wp-admin/admin-ajax.php:22
+[08-Mar-2017 15:04:24 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-load.php:37
+[08-Mar-2017 15:04:24 UTC] PHP   4. require_once() /home/ubuntu/workspace/wordpress/wp-config.php:90
+[08-Mar-2017 15:04:24 UTC] PHP   5. include() /home/ubuntu/workspace/wordpress/wp-settings.php:425
+[08-Mar-2017 15:04:24 UTC] PHP   6. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/functions.php:6
+[08-Mar-2017 15:04:25 UTC] PHP Fatal error:  Cannot redeclare IZV_back_end_data_admin() (previously declared in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-footer.php:40) in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 10
+[08-Mar-2017 15:04:25 UTC] PHP Stack trace:
+[08-Mar-2017 15:04:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:04:25 UTC] PHP   2. require_once() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:31
+[08-Mar-2017 15:04:25 UTC] PHP   3. require_once() /home/ubuntu/workspace/wordpress/wp-load.php:37
+[08-Mar-2017 15:04:25 UTC] PHP   4. require_once() /home/ubuntu/workspace/wordpress/wp-config.php:90
+[08-Mar-2017 15:04:25 UTC] PHP   5. include() /home/ubuntu/workspace/wordpress/wp-settings.php:425
+[08-Mar-2017 15:04:25 UTC] PHP   6. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/functions.php:6
+[08-Mar-2017 15:08:55 UTC] PHP Warning:  Illegal string offset 'aside' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 15
+[08-Mar-2017 15:08:55 UTC] PHP Stack trace:
+[08-Mar-2017 15:08:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:08:55 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:08:55 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:08:55 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:08:55 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:08:55 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:08:55 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:08:55 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:08:55 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:08:55 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:08:55 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:08:55 UTC] PHP Warning:  Illegal string offset 'gallery' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 15
+[08-Mar-2017 15:08:55 UTC] PHP Stack trace:
+[08-Mar-2017 15:08:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:08:55 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:08:55 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:08:55 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:08:55 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:08:55 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:08:55 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:08:55 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:08:55 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:08:55 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:08:55 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:08:55 UTC] PHP Warning:  Illegal string offset 'link' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 15
+[08-Mar-2017 15:08:55 UTC] PHP Stack trace:
+[08-Mar-2017 15:08:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:08:55 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:08:55 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:08:55 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:08:55 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:08:55 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:08:55 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:08:55 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:08:55 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:08:55 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:08:55 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:08:55 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 15
+[08-Mar-2017 15:08:55 UTC] PHP Stack trace:
+[08-Mar-2017 15:08:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:08:55 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:08:55 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:08:55 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:08:55 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:08:55 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:08:55 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:08:55 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:08:55 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:08:55 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:08:55 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:08:55 UTC] PHP Warning:  Illegal string offset 'quote' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 15
+[08-Mar-2017 15:08:55 UTC] PHP Stack trace:
+[08-Mar-2017 15:08:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:08:55 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:08:55 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:08:55 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:08:55 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:08:55 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:08:55 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:08:55 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:08:55 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:08:55 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:08:55 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:08:55 UTC] PHP Warning:  Illegal string offset 'status' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 15
+[08-Mar-2017 15:08:55 UTC] PHP Stack trace:
+[08-Mar-2017 15:08:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:08:55 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:08:55 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:08:55 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:08:55 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:08:55 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:08:55 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:08:55 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:08:55 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:08:55 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:08:55 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:08:55 UTC] PHP Warning:  Illegal string offset 'video' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 15
+[08-Mar-2017 15:08:55 UTC] PHP Stack trace:
+[08-Mar-2017 15:08:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:08:55 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:08:55 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:08:55 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:08:55 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:08:55 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:08:55 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:08:55 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:08:55 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:08:55 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:08:55 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:08:55 UTC] PHP Warning:  Illegal string offset 'audio' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 15
+[08-Mar-2017 15:08:55 UTC] PHP Stack trace:
+[08-Mar-2017 15:08:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:08:55 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:08:55 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:08:55 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:08:55 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:08:55 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:08:55 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:08:55 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:08:55 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:08:55 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:08:55 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:08:55 UTC] PHP Warning:  Illegal string offset 'chat' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 15
+[08-Mar-2017 15:08:55 UTC] PHP Stack trace:
+[08-Mar-2017 15:08:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:08:55 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:08:55 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:08:55 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:08:55 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:08:55 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:08:55 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:08:55 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:08:55 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:08:55 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:08:55 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:10 UTC] PHP Warning:  Illegal string offset 'aside' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 15
+[08-Mar-2017 15:09:10 UTC] PHP Stack trace:
+[08-Mar-2017 15:09:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:09:10 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:09:10 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:09:10 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:09:10 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:10 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:10 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:09:10 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:09:10 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:09:10 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:10 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:10 UTC] PHP Warning:  Illegal string offset 'gallery' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 15
+[08-Mar-2017 15:09:10 UTC] PHP Stack trace:
+[08-Mar-2017 15:09:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:09:10 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:09:10 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:09:10 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:09:10 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:10 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:10 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:09:10 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:09:10 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:09:10 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:10 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:10 UTC] PHP Warning:  Illegal string offset 'link' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 15
+[08-Mar-2017 15:09:10 UTC] PHP Stack trace:
+[08-Mar-2017 15:09:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:09:10 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:09:10 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:09:10 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:09:10 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:10 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:10 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:09:10 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:09:10 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:09:10 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:10 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:10 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 15
+[08-Mar-2017 15:09:10 UTC] PHP Stack trace:
+[08-Mar-2017 15:09:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:09:10 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:09:10 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:09:10 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:09:10 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:10 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:10 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:09:10 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:09:10 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:09:10 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:10 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:10 UTC] PHP Warning:  Illegal string offset 'quote' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 15
+[08-Mar-2017 15:09:10 UTC] PHP Stack trace:
+[08-Mar-2017 15:09:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:09:10 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:09:10 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:09:10 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:09:10 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:10 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:10 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:09:10 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:09:10 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:09:10 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:10 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:10 UTC] PHP Warning:  Illegal string offset 'status' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 15
+[08-Mar-2017 15:09:10 UTC] PHP Stack trace:
+[08-Mar-2017 15:09:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:09:10 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:09:10 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:09:10 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:09:10 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:10 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:10 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:09:10 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:09:10 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:09:10 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:10 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:10 UTC] PHP Warning:  Illegal string offset 'video' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 15
+[08-Mar-2017 15:09:10 UTC] PHP Stack trace:
+[08-Mar-2017 15:09:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:09:10 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:09:10 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:09:10 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:09:10 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:10 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:10 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:09:10 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:09:10 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:09:10 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:10 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:10 UTC] PHP Warning:  Illegal string offset 'audio' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 15
+[08-Mar-2017 15:09:10 UTC] PHP Stack trace:
+[08-Mar-2017 15:09:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:09:10 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:09:10 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:09:10 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:09:10 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:10 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:10 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:09:10 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:09:10 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:09:10 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:10 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:10 UTC] PHP Warning:  Illegal string offset 'chat' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 15
+[08-Mar-2017 15:09:10 UTC] PHP Stack trace:
+[08-Mar-2017 15:09:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:09:10 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:09:10 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:09:10 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:09:10 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:10 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:10 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:09:10 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:09:10 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:09:10 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:10 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:11 UTC] PHP Warning:  Illegal string offset 'aside' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 15
+[08-Mar-2017 15:09:11 UTC] PHP Stack trace:
+[08-Mar-2017 15:09:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:09:11 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:09:11 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:09:11 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:09:11 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:11 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:11 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:09:11 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:09:11 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:09:11 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:11 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:11 UTC] PHP Warning:  Illegal string offset 'gallery' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 15
+[08-Mar-2017 15:09:11 UTC] PHP Stack trace:
+[08-Mar-2017 15:09:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:09:11 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:09:11 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:09:11 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:09:11 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:11 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:11 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:09:11 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:09:11 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:09:11 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:11 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:11 UTC] PHP Warning:  Illegal string offset 'link' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 15
+[08-Mar-2017 15:09:11 UTC] PHP Stack trace:
+[08-Mar-2017 15:09:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:09:11 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:09:11 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:09:11 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:09:11 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:11 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:11 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:09:11 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:09:11 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:09:11 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:11 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:11 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 15
+[08-Mar-2017 15:09:11 UTC] PHP Stack trace:
+[08-Mar-2017 15:09:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:09:11 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:09:11 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:09:11 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:09:11 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:11 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:11 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:09:11 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:09:11 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:09:11 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:11 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:11 UTC] PHP Warning:  Illegal string offset 'quote' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 15
+[08-Mar-2017 15:09:11 UTC] PHP Stack trace:
+[08-Mar-2017 15:09:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:09:11 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:09:11 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:09:11 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:09:11 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:11 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:11 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:09:11 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:09:11 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:09:11 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:11 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:11 UTC] PHP Warning:  Illegal string offset 'status' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 15
+[08-Mar-2017 15:09:11 UTC] PHP Stack trace:
+[08-Mar-2017 15:09:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:09:11 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:09:11 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:09:11 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:09:11 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:11 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:11 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:09:11 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:09:11 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:09:11 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:11 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:11 UTC] PHP Warning:  Illegal string offset 'video' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 15
+[08-Mar-2017 15:09:11 UTC] PHP Stack trace:
+[08-Mar-2017 15:09:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:09:11 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:09:11 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:09:11 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:09:11 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:11 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:11 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:09:11 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:09:11 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:09:11 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:11 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:11 UTC] PHP Warning:  Illegal string offset 'audio' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 15
+[08-Mar-2017 15:09:11 UTC] PHP Stack trace:
+[08-Mar-2017 15:09:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:09:11 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:09:11 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:09:11 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:09:11 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:11 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:11 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:09:11 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:09:11 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:09:11 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:11 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:11 UTC] PHP Warning:  Illegal string offset 'chat' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 15
+[08-Mar-2017 15:09:11 UTC] PHP Stack trace:
+[08-Mar-2017 15:09:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:09:11 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:09:11 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:09:11 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:09:11 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:11 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:09:11 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:09:11 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:09:11 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:09:11 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:09:11 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:22 UTC] PHP Warning:  Illegal string offset 'aside' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 16
+[08-Mar-2017 15:10:22 UTC] PHP Stack trace:
+[08-Mar-2017 15:10:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:10:22 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:10:22 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:10:22 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:10:22 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:22 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:22 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:10:22 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:10:22 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:10:22 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:22 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:22 UTC] PHP Warning:  Illegal string offset 'gallery' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 16
+[08-Mar-2017 15:10:22 UTC] PHP Stack trace:
+[08-Mar-2017 15:10:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:10:22 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:10:22 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:10:22 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:10:22 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:22 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:22 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:10:22 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:10:22 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:10:22 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:22 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:22 UTC] PHP Warning:  Illegal string offset 'link' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 16
+[08-Mar-2017 15:10:22 UTC] PHP Stack trace:
+[08-Mar-2017 15:10:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:10:22 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:10:22 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:10:22 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:10:22 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:22 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:22 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:10:22 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:10:22 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:10:22 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:22 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:22 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 16
+[08-Mar-2017 15:10:22 UTC] PHP Stack trace:
+[08-Mar-2017 15:10:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:10:22 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:10:22 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:10:22 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:10:22 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:22 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:22 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:10:22 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:10:22 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:10:22 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:22 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:22 UTC] PHP Warning:  Illegal string offset 'quote' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 16
+[08-Mar-2017 15:10:22 UTC] PHP Stack trace:
+[08-Mar-2017 15:10:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:10:22 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:10:22 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:10:22 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:10:22 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:22 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:22 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:10:22 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:10:22 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:10:22 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:22 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:22 UTC] PHP Warning:  Illegal string offset 'status' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 16
+[08-Mar-2017 15:10:22 UTC] PHP Stack trace:
+[08-Mar-2017 15:10:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:10:22 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:10:22 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:10:22 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:10:22 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:22 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:22 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:10:22 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:10:22 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:10:22 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:22 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:22 UTC] PHP Warning:  Illegal string offset 'video' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 16
+[08-Mar-2017 15:10:22 UTC] PHP Stack trace:
+[08-Mar-2017 15:10:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:10:22 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:10:22 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:10:22 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:10:22 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:22 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:22 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:10:22 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:10:22 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:10:22 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:22 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:22 UTC] PHP Warning:  Illegal string offset 'audio' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 16
+[08-Mar-2017 15:10:22 UTC] PHP Stack trace:
+[08-Mar-2017 15:10:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:10:22 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:10:22 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:10:22 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:10:22 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:22 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:22 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:10:22 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:10:22 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:10:22 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:22 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:22 UTC] PHP Warning:  Illegal string offset 'chat' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 16
+[08-Mar-2017 15:10:22 UTC] PHP Stack trace:
+[08-Mar-2017 15:10:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:10:22 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:10:22 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:10:22 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:10:22 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:22 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:22 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:10:22 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:10:22 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:10:22 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:22 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:31 UTC] PHP Warning:  Illegal string offset 'aside' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 16
+[08-Mar-2017 15:10:31 UTC] PHP Stack trace:
+[08-Mar-2017 15:10:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:10:31 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:10:31 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:10:31 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:10:31 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:31 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:31 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:10:31 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:10:31 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:10:31 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:31 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:31 UTC] PHP Warning:  Illegal string offset 'gallery' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 16
+[08-Mar-2017 15:10:31 UTC] PHP Stack trace:
+[08-Mar-2017 15:10:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:10:31 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:10:31 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:10:31 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:10:31 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:31 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:31 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:10:31 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:10:31 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:10:31 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:31 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:31 UTC] PHP Warning:  Illegal string offset 'link' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 16
+[08-Mar-2017 15:10:31 UTC] PHP Stack trace:
+[08-Mar-2017 15:10:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:10:31 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:10:31 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:10:31 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:10:31 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:31 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:31 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:10:31 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:10:31 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:10:31 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:31 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:31 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 16
+[08-Mar-2017 15:10:31 UTC] PHP Stack trace:
+[08-Mar-2017 15:10:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:10:31 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:10:31 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:10:31 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:10:31 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:31 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:31 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:10:31 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:10:31 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:10:31 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:31 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:31 UTC] PHP Warning:  Illegal string offset 'quote' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 16
+[08-Mar-2017 15:10:31 UTC] PHP Stack trace:
+[08-Mar-2017 15:10:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:10:31 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:10:31 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:10:31 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:10:31 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:31 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:31 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:10:31 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:10:31 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:10:31 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:31 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:31 UTC] PHP Warning:  Illegal string offset 'status' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 16
+[08-Mar-2017 15:10:31 UTC] PHP Stack trace:
+[08-Mar-2017 15:10:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:10:31 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:10:31 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:10:31 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:10:31 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:31 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:31 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:10:31 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:10:31 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:10:31 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:31 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:31 UTC] PHP Warning:  Illegal string offset 'video' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 16
+[08-Mar-2017 15:10:31 UTC] PHP Stack trace:
+[08-Mar-2017 15:10:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:10:31 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:10:31 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:10:31 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:10:31 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:31 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:31 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:10:31 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:10:31 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:10:31 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:31 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:31 UTC] PHP Warning:  Illegal string offset 'audio' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 16
+[08-Mar-2017 15:10:31 UTC] PHP Stack trace:
+[08-Mar-2017 15:10:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:10:31 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:10:31 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:10:31 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:10:31 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:31 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:31 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:10:31 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:10:31 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:10:31 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:31 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:31 UTC] PHP Warning:  Illegal string offset 'chat' in /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/functions/web-admin.php on line 16
+[08-Mar-2017 15:10:31 UTC] PHP Stack trace:
+[08-Mar-2017 15:10:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:0
+[08-Mar-2017 15:10:31 UTC] PHP   2. do_action() /home/ubuntu/workspace/wordpress/wp-admin/admin.php:222
+[08-Mar-2017 15:10:31 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wordpress/wp-includes/plugin.php:453
+[08-Mar-2017 15:10:31 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:10:31 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:31 UTC] PHP   6. izv_theme_create_page_admin() /home/ubuntu/workspace/wordpress/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:10:31 UTC] PHP   7. require_once() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/function-admin.php:45
+[08-Mar-2017 15:10:31 UTC] PHP   8. do_settings_sections() /home/ubuntu/workspace/wordpress/wp-content/themes/web/inc/templates/web-admin.php:5
+[08-Mar-2017 15:10:31 UTC] PHP   9. do_settings_fields() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1302
+[08-Mar-2017 15:10:31 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343}() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343
+[08-Mar-2017 15:10:31 UTC] PHP  11. IZV_back_end_data_admin() /home/ubuntu/workspace/wordpress/wp-admin/includes/template.php:1343

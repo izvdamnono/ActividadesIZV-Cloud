@@ -52,12 +52,14 @@
 				event.preventDefault();
 				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 			});
+			/*
 			$('.gallery a').Chocolat({
                 leftImg : '<?= get_template_directory_uri() ?>/assets/images/left.gif',	
                 rightImg : '<?= get_template_directory_uri() ?>/assets/images/right.gif',	
                 closeImg : '<?= get_template_directory_uri() ?>/assets/images/close.gif',		
                 loadingImg : '<?= get_template_directory_uri() ?>/assets/images/loading.gif',		
 			});
+			*/
 			$(' #da-thumbs > li ').each( function() { 
 				$(this).hoverdir(); 
 			});

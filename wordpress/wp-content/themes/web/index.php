@@ -45,6 +45,7 @@ get_template_part("template-parts/header","nav");
 						$thumb = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'full')[0];
 						if (!$thumb) $thumb = get_template_directory_uri()."/assets/images/front-default.jpg";
                         $idDestacado = $post->ID;
+                        $get_permalink_post = get_permalink($post->ID);
                    ?>
                    <div class="div-responsive highlight-image" style="background-image: url(<?= $thumb ?>)"></div>
                    
@@ -60,7 +61,9 @@ get_template_part("template-parts/header","nav");
                         <div class="col-md-10 col-xs-12 wow animated bounceInRight" data-wow-duration="1s">
 
                             <h3>
-                                <?php the_title(); ?>
+                                <a href="<?=$get_permalink_post?>">
+                                    <?php the_title(); ?>
+                                </a>
                             </h3>    
                             
                             <ul class="list-inline blogInfo">

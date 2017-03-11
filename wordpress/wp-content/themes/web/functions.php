@@ -455,7 +455,6 @@ function generaltheme_widgets_init() {
 		$locale_file = get_template_directory() . "/languages/$locale.php";
 		
 		if ( is_readable($locale_file) ) {
-			echo 'kk';
 			require_once($locale_file);
 		}
 		

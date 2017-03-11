@@ -4,8 +4,14 @@
  * formatos de post, la imagen del header y el fondo del sitio, 
  * la imagen destacada y el menu dinamico del Back-end
  */ 
+$get_options = get_option( 'data_admin_support_format' ) ? get_option( 'data_admin_support_format' ) : array();
 $formats = array( 'aside', 'gallery', 'link', 'image', 'quote', 'status', 'video', 'audio', 'chat' );
-add_theme_support( 'post-formats', $formats );
+$formats_check = array();
+foreach ( $formats as $format ){
+    $formats_check[] = $get_options[$format]==1 ? $format : "";
+}
+
+add_theme_support( 'post-formats', $formats_check );
 
 add_theme_support( 'custom-header' );
 

@@ -119,7 +119,6 @@ class WP_Query_Activity {
         }
         //Lo he solucionado, pero no se muestran ahora las tildes
         
-    
         $this->activities = $wpdb->get_results($query);
         
     }

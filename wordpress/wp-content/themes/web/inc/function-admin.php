@@ -15,6 +15,14 @@ function IZV_custom_settings() {
 	/**
 	 * Campos personalizados para la personalizacion general
 	 */ 
+	register_setting( 'IZV-admin-group', 'data_admin_support_format' );
+	add_settings_section( 'IZV-back_end-options-admin', 'Admin support', 'IZV_back_end_options_admin', 'nonodev96_fernan13_admin');
+	add_settings_field( 'back_end-data_admin', 'Admin Support', 'IZV_back_end_data_admin', 'nonodev96_fernan13_admin', 'IZV-back_end-options-admin');
+
+
+	/**
+	 * Footer
+	 */ 
 	register_setting( 'IZV-footer-group', 'footer_left' );
 	register_setting( 'IZV-footer-group', 'footer_center' );
 	register_setting( 'IZV-footer-group', 'footer_right' );
@@ -31,9 +39,10 @@ add_action( 'admin_init', 'IZV_custom_settings' );
  * Footer
  */ 
 require_once( get_template_directory() . '/inc/functions/web-footer.php' );
+require_once( get_template_directory() . '/inc/functions/web-admin.php' );
 
-function izv_theme_create_page_admin(){
-	
+function izv_theme_create_page_admin() {
+	require_once( get_template_directory() . '/inc/templates/web-admin.php' );
 }
 
 function izv_theme_create_page() {

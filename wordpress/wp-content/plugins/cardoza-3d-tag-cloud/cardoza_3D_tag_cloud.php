@@ -144,7 +144,7 @@ function widget_cardoza_3d_tagcloud($args){
 						if ($font_size < $option_value['min_font_size']) $font_size = $option_value['min_font_size'];
 						?>
 						<li>
-							<a href="<?php print get_tag_link($tag->term_id);?>" style="font-size:<?php print $font_size;?>px;"><?php print $tag->name;?></a>
+							<a href="<?php print get_tag_link($tag->term_id);?>" style="font-size:<?php print $font_size;?>em;"><?php print $tag->name;?></a>
 						</li>
 						<?php
 						$i++;
