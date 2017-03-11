@@ -251,5 +251,6 @@ drwxr-xr-x 3 ubuntu ubuntu    4096 Feb  7 17:45 trabajo/
 drwxr-xr-x 5 ubuntu ubuntu    4096 Mar  7 11:49 wordpress/
 ```
 
-##Prototipado
-{% responsive_image path: Justinmind ios/p1.jpg %}
+##Prototipado Justinmind
+![Prototipado 1](Justinmind ios/p1.jpg?raw=true "Prototipado")
+
