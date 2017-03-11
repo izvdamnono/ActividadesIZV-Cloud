@@ -252,5 +252,5 @@ drwxr-xr-x 5 ubuntu ubuntu    4096 Mar  7 11:49 wordpress/
 ```
 
 ##Prototipado Justinmind
-![Prototipado 1](/Justinmind ios/p1.png "Prototipado")
+![Prototipado 1](/Justinmind ios/p1.PNG "Prototipado")
 
