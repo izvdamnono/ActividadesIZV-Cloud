@@ -252,4 +252,4 @@ drwxr-xr-x 5 ubuntu ubuntu    4096 Mar  7 11:49 wordpress/
 ```
 
 ##Prototipado
-{% img prototipado  Justinmind ios/p1.png width height prototpad_1 prototpad_1 %}
+{% responsive_image path: Justinmind ios/p1.jpg %}
